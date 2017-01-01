@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Sun, 01 Jan 2017 17:45:45 +0100</pubDate>
-    <lastBuildDate>Sun, 01 Jan 2017 17:45:45 +0100</lastBuildDate>
+    <pubDate>Sun, 01 Jan 2017 18:43:17 +0100</pubDate>
+    <lastBuildDate>Sun, 01 Jan 2017 18:43:17 +0100</lastBuildDate>
     <managingEditor>
       impressum@schrimpf.ch (impressum)
     </managingEditor>
@@ -45,13 +45,139 @@
     
       
       <item>
+        <title>Correcting copywrongs</title>
+        <description>After years of debate, EU copyright law is finally being revisited. The Commission will present a proposal for reform within 4 months of 31c3. And it&#39;s high time: There has never been a bigger discrepancy between the technical feasibility to share information and knowledge across all physical borders and the legal restrictions to actually do so. This talk outlines the unique opportunity and the challenge to bring copyright into the 21st century that lies in front of us. Hackers ensured that people were heard during last winter&#39;s public consultation. Can they now also ensure a progressive outcome of the reform process?</description>
+        <link>https://events.ccc.de/congress/2014/Fahrplan/events/6350.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6350.html</guid>
+        <pubDate>Mon, 29 Dec 2014 14:00:00 +0100</pubDate>
+        <itunes:subtitle>Correcting copywrongs</itunes:subtitle>
+        <itunes:summary>After years of debate, EU copyright law is finally being revisited. The Commission will present a proposal for reform within 4 months of 31c3. And it&#39;s high time: There has never been a bigger discrepancy between the technical feasibility to share information and knowledge across all physical borders and the legal restrictions to actually do so. This talk outlines the unique opportunity and the challenge to bring copyright into the 21st century that lies in front of us. Hackers ensured that people were heard during last winter&#39;s public consultation. Can they now also ensure a progressive outcome of the reform process?</itunes:summary>
+        <itunes:author>Julia Reda</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6350-en-Correcting_copywrongs_hd.mp4"
+                   length="video/mp4"
+                   type="701497344"/>
+      </item>
+    
+      
+      <item>
+        <title>Preserving arcade games</title>
+        <description>Old-school arcade games were so protected that hacking is the only way to preserve them before all boards are dead, and the games are lost.</description>
+        <link>https://events.ccc.de/congress/2014/Fahrplan/events/5997.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/5997.html</guid>
+        <pubDate>Sun, 28 Dec 2014 20:30:00 +0100</pubDate>
+        <itunes:subtitle>Preserving arcade games</itunes:subtitle>
+        <itunes:summary>Old-school arcade games were so protected that hacking is the only way to preserve them before all boards are dead, and the games are lost.</itunes:summary>
+        <itunes:author>Ange Albertini</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-5997-en-Preserving_arcade_games_hd.mp4"
+                   length="video/mp4"
+                   type="640679936"/>
+      </item>
+    
+      
+      <item>
+        <title>Deine Rechte sind in diesen Freihandelsabkommen nicht verfügbar</title>
+        <description>Die Kritik am Freihandelsabkommen TTIP und CETA auf die Chlorhühnchen zu beschränken, greift viel zu kurz. Denn bei den beiden Abkommen zwischen der EU und den USA und der EU und Kanada steht noch viel mehr auf dem Spiel. Egal ob Datenschutz, Demokratie oder Urheberrecht – Abkommen, an denen Konzerne unter Ausschluss der Öffentlichkeit mitschreiben können, sind selten eine gute Idee. Sitzungsdokumente mit “unverbindlichen” Lobby-Vorschlägen und Leaks der Vertragstexte lassen wenig Gutes erwarten. Datenschutzstandards laufen Gefahr zu Handelshemmnissen erklärt zu werden. Konzerne pochen darauf, Staaten vor außerstaatlichen Schiedsgerichten auf Schadensersatz verklagen zu können. Was die Bürger wollen, wurde im ganzen Verhandlungsprozess der beiden Freihandelsabkommen nicht einmal gefragt. Doch “Klicktivismus” war gestern – neue Strategien und Tools halfen dabei, eine Welle des dezentralen Protests loszutreten. </description>
+        <link>https://events.ccc.de/congress/2014/Fahrplan/events/6342.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6342.html</guid>
+        <pubDate>Mon, 29 Dec 2014 16:00:00 +0100</pubDate>
+        <itunes:subtitle>Deine Rechte sind in diesen Freihandelsabkommen nicht verfügbar</itunes:subtitle>
+        <itunes:summary>Die Kritik am Freihandelsabkommen TTIP und CETA auf die Chlorhühnchen zu beschränken, greift viel zu kurz. Denn bei den beiden Abkommen zwischen der EU und den USA und der EU und Kanada steht noch viel mehr auf dem Spiel. Egal ob Datenschutz, Demokratie oder Urheberrecht – Abkommen, an denen Konzerne unter Ausschluss der Öffentlichkeit mitschreiben können, sind selten eine gute Idee. Sitzungsdokumente mit “unverbindlichen” Lobby-Vorschlägen und Leaks der Vertragstexte lassen wenig Gutes erwarten. Datenschutzstandards laufen Gefahr zu Handelshemmnissen erklärt zu werden. Konzerne pochen darauf, Staaten vor außerstaatlichen Schiedsgerichten auf Schadensersatz verklagen zu können. Was die Bürger wollen, wurde im ganzen Verhandlungsprozess der beiden Freihandelsabkommen nicht einmal gefragt. Doch “Klicktivismus” war gestern – neue Strategien und Tools halfen dabei, eine Welle des dezentralen Protests loszutreten. </itunes:summary>
+        <itunes:author>Katharina Nocun, Maritta Strasser</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6342-de-Deine_Rechte_sind_in_diesen_Freihandelsabkommen_nicht_verfuegbar_hd.mp4"
+                   length="video/mp4"
+                   type="653262848"/>
+      </item>
+    
+      
+      <item>
+        <title>3D Casting Aluminum</title>
+        <description>We use microwaves to cast aluminum from 3D printed objects. This gives us the ability to cast high quality 6040 aluminum pieces using a 3D printer and commercially available consumer microwaves. </description>
+        <link>https://events.ccc.de/congress/2014/Fahrplan/events/6417.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6417.html</guid>
+        <pubDate>Sat, 27 Dec 2014 12:45:00 +0100</pubDate>
+        <itunes:subtitle>3D Casting Aluminum</itunes:subtitle>
+        <itunes:summary>We use microwaves to cast aluminum from 3D printed objects. This gives us the ability to cast high quality 6040 aluminum pieces using a 3D printer and commercially available consumer microwaves. </itunes:summary>
+        <itunes:author>Julia Longtin</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6417-en-3D_Casting_Aluminum_hd.mp4"
+                   length="video/mp4"
+                   type="498073600"/>
+      </item>
+    
+      
+      <item>
+        <title>Tell no-one</title>
+        <description>For nearly one hundred years, the NSA and its predecessors have been engaging in secret, illegal deals with the American telecom industry, with both virtually immune from prosecution.</description>
+        <link>https://events.ccc.de/congress/2014/Fahrplan/events/6600.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6600.html</guid>
+        <pubDate>Sun, 28 Dec 2014 12:45:00 +0100</pubDate>
+        <itunes:subtitle>Tell no-one</itunes:subtitle>
+        <itunes:summary>For nearly one hundred years, the NSA and its predecessors have been engaging in secret, illegal deals with the American telecom industry, with both virtually immune from prosecution.</itunes:summary>
+        <itunes:author>James Bamford</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6600-en-de-Tell_no-one_hd.mp4"
+                   length="video/mp4"
+                   type="507510784"/>
+      </item>
+    
+      
+      <item>
+        <title>The Invisible Committee Returns with 'Fuck Off Google'</title>
+        <description>There will be people who resist adopting and using technology, people who want nothing to do with virtual profiles, online data systems or smart phones. Yet a government might suspect that people who opt out completely have something to hide and thus are more likely to break laws, and as a counterterrorism measure, that government will build the kind of ‘hidden people’ registry we described earlier. If you don’t have any registered social-networking profiles or mobile subscriptions, and on-line references to you are unusually hard to find, you might be considered a candidate for such a registry. You might also be subjected to a strict set of new regulations that includes rigorous airport screening or even travel restrictions.</description>
+        <link>https://events.ccc.de/congress/2014/Fahrplan/events/6459.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6459.html</guid>
+        <pubDate>Sun, 28 Dec 2014 19:00:00 +0100</pubDate>
+        <itunes:subtitle>The Invisible Committee Returns with 'Fuck Off Google'</itunes:subtitle>
+        <itunes:summary>There will be people who resist adopting and using technology, people who want nothing to do with virtual profiles, online data systems or smart phones. Yet a government might suspect that people who opt out completely have something to hide and thus are more likely to break laws, and as a counterterrorism measure, that government will build the kind of ‘hidden people’ registry we described earlier. If you don’t have any registered social-networking profiles or mobile subscriptions, and on-line references to you are unusually hard to find, you might be considered a candidate for such a registry. You might also be subjected to a strict set of new regulations that includes rigorous airport screening or even travel restrictions.</itunes:summary>
+        <itunes:author>Anonymous member of Tarnac Solidarity Committee, tarnac nine</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6459-en-de-The_Invisible_Committee_Returns_with_Fuck_Off_Google_hd.mp4"
+                   length="video/mp4"
+                   type="220200960"/>
+      </item>
+    
+      
+      <item>
+        <title>From Computation to Consciousness</title>
+        <description>How can the physical universe give rise to a mind? I suggest to replace this confusing question by another one: what kind of information processing system is the mind, and how is the mind computed? As we will see, even our ideas of the physical universe turn out to be computational. Let us explore some fascinating scenery of the philosophy underlying Artificial Intelligence.</description>
+        <link>https://events.ccc.de/congress/2014/Fahrplan/events/6573.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6573.html</guid>
+        <pubDate>Sun, 28 Dec 2014 11:30:00 +0100</pubDate>
+        <itunes:subtitle>From Computation to Consciousness</itunes:subtitle>
+        <itunes:summary>How can the physical universe give rise to a mind? I suggest to replace this confusing question by another one: what kind of information processing system is the mind, and how is the mind computed? As we will see, even our ideas of the physical universe turn out to be computational. Let us explore some fascinating scenery of the philosophy underlying Artificial Intelligence.</itunes:summary>
+        <itunes:author>Joscha</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6573-en-de-From_Computation_to_Consciousness_hd.mp4"
+                   length="video/mp4"
+                   type="552599552"/>
+      </item>
+    
+      
+      <item>
         <title>Computational Meta-Psychology</title>
-        <description>Computational theories of the mind seem to be ideally suited to explain rationality. But how can computations be subverted by meaning, emotion and love? about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7483.html tomaso: Nachdenken darüber wie wir auf den Ebenen unter der Psyche funktionieren, wie wir lernen. Empfohlen. </description>
+        <description>Computational theories of the mind seem to be ideally suited to explain rationality. But how can computations be subverted by meaning, emotion and love? tomaso: Nachdenken darüber wie wir auf den Ebenen unter der Psyche funktionieren, wie wir lernen. Empfohlen. </description>
         <link>https://events.ccc.de/congress/2015/Fahrplan/events/7483.html</link>
         <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7483.html</guid>
         <pubDate>Tue, 29 Dec 2015 12:45:00 +0100</pubDate>
         <itunes:subtitle>Computational Meta-Psychology</itunes:subtitle>
-        <itunes:summary>Computational theories of the mind seem to be ideally suited to explain rationality. But how can computations be subverted by meaning, emotion and love? about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7483.html tomaso: Nachdenken darüber wie wir auf den Ebenen unter der Psyche funktionieren, wie wir lernen. Empfohlen. </itunes:summary>
+        <itunes:summary>Computational theories of the mind seem to be ideally suited to explain rationality. But how can computations be subverted by meaning, emotion and love? tomaso: Nachdenken darüber wie wir auf den Ebenen unter der Psyche funktionieren, wie wir lernen. Empfohlen. </itunes:summary>
         <itunes:author>Joscha</itunes:author>
         <itunes:image href=""/>
         <itunes:explicit>Yes</itunes:explicit>
@@ -64,14 +190,12 @@
       
       <item>
         <title>A New Kid on the Block</title>
-        <description>The leading social networks are the powerful new gatekeepers of the digital age. Proprietary de facto standards of the dominant companies have lead to the emergence of virtual “information silos” that can barely communicate with one another. Has Diaspora really lost the war? Or is there still a chance to succeed? about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7403.html
- Tomaso: Wie und warum wachsen soziale Netzwerke? Wo ist und was macht Diaspora? Chancen. Sehr gut analysiert. Empfohlen. </description>
+        <description>The leading social networks are the powerful new gatekeepers of the digital age. Proprietary de facto standards of the dominant companies have lead to the emergence of virtual “information silos” that can barely communicate with one another. Has Diaspora really lost the war? Or is there still a chance to succeed? Tomaso: Wie und warum wachsen soziale Netzwerke? Wo ist und was macht Diaspora? Chancen. Sehr gut analysiert. Empfohlen. </description>
         <link>https://events.ccc.de/congress/2015/Fahrplan/events/7403.html</link>
         <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7403.html</guid>
         <pubDate>Wed, 30 Dec 2015 12:45:00 +0100</pubDate>
         <itunes:subtitle>A New Kid on the Block</itunes:subtitle>
-        <itunes:summary>The leading social networks are the powerful new gatekeepers of the digital age. Proprietary de facto standards of the dominant companies have lead to the emergence of virtual “information silos” that can barely communicate with one another. Has Diaspora really lost the war? Or is there still a chance to succeed? about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7403.html
- Tomaso: Wie und warum wachsen soziale Netzwerke? Wo ist und was macht Diaspora? Chancen. Sehr gut analysiert. Empfohlen. </itunes:summary>
+        <itunes:summary>The leading social networks are the powerful new gatekeepers of the digital age. Proprietary de facto standards of the dominant companies have lead to the emergence of virtual “information silos” that can barely communicate with one another. Has Diaspora really lost the war? Or is there still a chance to succeed? Tomaso: Wie und warum wachsen soziale Netzwerke? Wo ist und was macht Diaspora? Chancen. Sehr gut analysiert. Empfohlen. </itunes:summary>
         <itunes:author>Katharina Nocun</itunes:author>
         <itunes:image href=""/>
         <itunes:explicit>Yes</itunes:explicit>
@@ -84,12 +208,12 @@
       
       <item>
         <title>Profiling (In)justice</title>
-        <description>This talk will focus on the potential ability of data disaggregated by race and ethnicity to reduce discriminatory policing in Germany.  In the UK, data has been collected during police procedures, allowing for a monitoring and evaluation of discriminatory policing practices. Unfortunately, such an empirically driven policy approach is not currently possible in Germany. This talk will argue that, as a first step, a policy based off the UK approach towards data collection be implemented in Germany to incorporate, rather than ignore, Germany’s diverse identities, and to allow for empirically driven and more effective policing. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7264.html max: Wurde mir empfohlen - will ich mal noch sehen. </description>
+        <description>This talk will focus on the potential ability of data disaggregated by race and ethnicity to reduce discriminatory policing in Germany.  In the UK, data has been collected during police procedures, allowing for a monitoring and evaluation of discriminatory policing practices. Unfortunately, such an empirically driven policy approach is not currently possible in Germany. This talk will argue that, as a first step, a policy based off the UK approach towards data collection be implemented in Germany to incorporate, rather than ignore, Germany’s diverse identities, and to allow for empirically driven and more effective policing. max: Wurde mir empfohlen - will ich mal noch sehen. </description>
         <link>https://events.ccc.de/congress/2015/Fahrplan/events/7264.html</link>
         <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7264.html</guid>
         <pubDate>Mon, 28 Dec 2015 16:00:00 +0100</pubDate>
         <itunes:subtitle>Profiling (In)justice</itunes:subtitle>
-        <itunes:summary>This talk will focus on the potential ability of data disaggregated by race and ethnicity to reduce discriminatory policing in Germany.  In the UK, data has been collected during police procedures, allowing for a monitoring and evaluation of discriminatory policing practices. Unfortunately, such an empirically driven policy approach is not currently possible in Germany. This talk will argue that, as a first step, a policy based off the UK approach towards data collection be implemented in Germany to incorporate, rather than ignore, Germany’s diverse identities, and to allow for empirically driven and more effective policing. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7264.html max: Wurde mir empfohlen - will ich mal noch sehen. </itunes:summary>
+        <itunes:summary>This talk will focus on the potential ability of data disaggregated by race and ethnicity to reduce discriminatory policing in Germany.  In the UK, data has been collected during police procedures, allowing for a monitoring and evaluation of discriminatory policing practices. Unfortunately, such an empirically driven policy approach is not currently possible in Germany. This talk will argue that, as a first step, a policy based off the UK approach towards data collection be implemented in Germany to incorporate, rather than ignore, Germany’s diverse identities, and to allow for empirically driven and more effective policing. max: Wurde mir empfohlen - will ich mal noch sehen. </itunes:summary>
         <itunes:author>Jeff Deutch</itunes:author>
         <itunes:image href=""/>
         <itunes:explicit>Yes</itunes:explicit>
@@ -102,12 +226,12 @@
       
       <item>
         <title>Lifting the Fog on Red Star OS</title>
-        <description>Angae means &quot;Fog&quot; in Korean. The term is widely used in parts of custom code used by the Red Star OS. We will lift the fog on the internals of North Korea&#39;s operating system. Our talk will provide information about how privacy is invaded for all users of Red Star OS and how an operating system designed by a totalitarian dictatorship works. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7174.html max: Hat ein rechtes Medienecho erhalten. Klingt noch spannend... </description>
+        <description>Angae means &quot;Fog&quot; in Korean. The term is widely used in parts of custom code used by the Red Star OS. We will lift the fog on the internals of North Korea&#39;s operating system. Our talk will provide information about how privacy is invaded for all users of Red Star OS and how an operating system designed by a totalitarian dictatorship works. max: Hat ein rechtes Medienecho erhalten. Klingt noch spannend... </description>
         <link>https://events.ccc.de/congress/2015/Fahrplan/events/7174.html</link>
         <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7174.html</guid>
         <pubDate>Sun, 27 Dec 2015 16:00:00 +0100</pubDate>
         <itunes:subtitle>Lifting the Fog on Red Star OS</itunes:subtitle>
-        <itunes:summary>Angae means &quot;Fog&quot; in Korean. The term is widely used in parts of custom code used by the Red Star OS. We will lift the fog on the internals of North Korea&#39;s operating system. Our talk will provide information about how privacy is invaded for all users of Red Star OS and how an operating system designed by a totalitarian dictatorship works. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7174.html max: Hat ein rechtes Medienecho erhalten. Klingt noch spannend... </itunes:summary>
+        <itunes:summary>Angae means &quot;Fog&quot; in Korean. The term is widely used in parts of custom code used by the Red Star OS. We will lift the fog on the internals of North Korea&#39;s operating system. Our talk will provide information about how privacy is invaded for all users of Red Star OS and how an operating system designed by a totalitarian dictatorship works. max: Hat ein rechtes Medienecho erhalten. Klingt noch spannend... </itunes:summary>
         <itunes:author>Florian Grunow, Niklaus Schiess</itunes:author>
         <itunes:image href=""/>
         <itunes:explicit>Yes</itunes:explicit>
@@ -120,12 +244,12 @@
       
       <item>
         <title>Unpatchable</title>
-        <description>Gradually we are all becoming more and more dependent on machines, we will be able to live longer with an increased quality of life due to machines integrated into our body. However, our dependence on technology grows faster than our ability to secure it, and a security failure of a medical device can have fatal consequences. This talk is about Marie&#39;s personal experience with being the host of a vulnerable medical implant, and how this has forced her to become a human part of the &quot;Internet-of-Things&quot;.  about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7273.html max: Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen. </description>
+        <description>Gradually we are all becoming more and more dependent on machines, we will be able to live longer with an increased quality of life due to machines integrated into our body. However, our dependence on technology grows faster than our ability to secure it, and a security failure of a medical device can have fatal consequences. This talk is about Marie&#39;s personal experience with being the host of a vulnerable medical implant, and how this has forced her to become a human part of the &quot;Internet-of-Things&quot;.  max: Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen. </description>
         <link>https://events.ccc.de/congress/2015/Fahrplan/events/7273.html</link>
         <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7273.html</guid>
         <pubDate>Mon, 28 Dec 2015 23:00:00 +0100</pubDate>
         <itunes:subtitle>Unpatchable</itunes:subtitle>
-        <itunes:summary>Gradually we are all becoming more and more dependent on machines, we will be able to live longer with an increased quality of life due to machines integrated into our body. However, our dependence on technology grows faster than our ability to secure it, and a security failure of a medical device can have fatal consequences. This talk is about Marie&#39;s personal experience with being the host of a vulnerable medical implant, and how this has forced her to become a human part of the &quot;Internet-of-Things&quot;.  about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7273.html max: Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen. </itunes:summary>
+        <itunes:summary>Gradually we are all becoming more and more dependent on machines, we will be able to live longer with an increased quality of life due to machines integrated into our body. However, our dependence on technology grows faster than our ability to secure it, and a security failure of a medical device can have fatal consequences. This talk is about Marie&#39;s personal experience with being the host of a vulnerable medical implant, and how this has forced her to become a human part of the &quot;Internet-of-Things&quot;.  max: Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen. </itunes:summary>
         <itunes:author>Marie Moe, Eireann Leverett</itunes:author>
         <itunes:image href=""/>
         <itunes:explicit>Yes</itunes:explicit>
