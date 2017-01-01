@@ -185,6 +185,123 @@ feed:
       Wenn mal wieder der Zensor pinkeln war, wenn DAMIT ja wohl NIEMAND rechnen konnte, wenn es um demokratisch legitimiertes Baumanagement oder um Stahlbälle geht, dann ist es wieder an der Zeit für eine lockere Abendshow mit den High- und Lowlights des Jahres.
       max: Fnord ein Format das man liebt oder hasst. Besser als die vergangenen Jahre (auch aufgrund einiger lustiger Aktivonen abseits der Bühne.
 
+  - title: "Dissecting modern (3G/4G) cellular modems"
+    published: Thu, 29 Dec 2016 14:00:00 +0100
+    speakers: LaForge, holger
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8151-eng-Dissecting_modern_3G_4G_cellular_modems.mp4
+    media_type: 379584512
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8151.html 
+    description: >-
+      Let's have a detailed look at some modern 3G/4G cellular modems and see what we can find out about their internals using undocumented debug interfaces and software or hardware based hacking techniques.
+      max: Very detailed, technical talk on the topic. Noteworthy from a GPL perspective. I fell asleep to be honest...
+
+  - title: "Technologien für und wider Digitale Souveränität"
+    published: Thu, 29 Dec 2016 17:15:00 +0100
+    speakers: ruedi, vgrass, Prof. Stefan Lucks
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8097-deu-Technologien_fuer_und_wider_Digitale_Souveraenitaet.mp4
+    media_type: 633339904
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8097.html 
+    description: >-
+      Die weltweite Vernetzung ist die tiefgreifendste Veränderung seit der industriellen Revolution.  
+      In einer Zeit der maßlose Massenüberwachung scheint die Digitale Souveränität den Einsatz privatsphärenfreundlicher Technologien als ein unverzichtbarer Bestandteil von gesellschaftlichen Lösungsversuchen zwingend zu erfordern.  
+      In unserem Beitrag möchten wir hackerrelvante Teilaspekte und Verfahren aus einer Studie für das Bundesministerium für Justiz und Verbraucherschutz vorstellen. Unter anderem sind hier kryptographische Protokolle (z. B.  Blinde Signaturen, Zero-Knowlege Protokolle) und Methoden zur statistischen Auswertung von vertraulichen Daten  (z.B. K-Anonymität, Differentielle Vertraulichkeit) zu nennen.
+      max: Verschiedene Ansätze zum Umgang mit unseren heutzutage unweigerlich produzierten digitalen Spuren. Ich persönlich mag die Art von ruedi sehr und kann den Talk wie jedes Jahr nur empfehlen.
+
+  - title: "An Elevator to the Moon (and back)"
+    published: Thu, 29 Dec 2016 18:30:00 +0100
+    speakers: Markus Landgraf
+    subtitle: "Space Transportation and the Extraterrestrial Imperative"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8407-eng-An_Elevator_to_the_Moon_and_back.mp4
+    media_type: 627048448
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8407.html 
+    description: >-
+      Why is it so hard to go to the Moon? The curse of Newtonian Mechanics and Tsiolkovsky's Rocket Equation force us to build huge rockets to achieve any meaningful activity on the Moon. There are two strategies to hack the laws of celestial mechanics: making fuel on the Moon and using cables to climb out of the gravity well. Here we focus on the latter, which is the Moon version of the famous space elevator. The difference to an Earth elevator is - anelevator to the Moon's surface is realistic with today's materials. In the talk an introduction to the general problem is given and a starting point for a discussion is given that can easily lead to a sustainable access to the Moon if there is demand to do so.
+      max: You shall watch it if you have no clue about the idea of an space elevator yet. Gives a short introduction and overview on the topic from a very informed perspective. If youre really into this topic I can recommend Tim Pritloves corresponding podcast in "Raumzeit" (german).
+
+  - title: "The Moon and European Space Exploration"
+    published: Thu, 29 Dec 2016 20:30:00 +0100
+    speakers: Jan Wörner
+    subtitle: "Refocusing on the moon as a platform for future deep space missoins"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8406-eng-The_Moon_and_European_Space_Exploration.mp4
+    media_type: 296747008
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8406.html 
+    description: >-
+      Since the early successes of moon missions in the Sixtie, mankind has moved on to the earth orbit and other deep space missions. But interest in the moon as a target has intensified recently as the strategies for future missions are evolving.
+      max: My personal highlight of 33C3 so far. Besides all the problems on earth Jan Wörner, Director General of the European Space Agency, presents a vision for the proceeeding of mankind into space. Great presentation and motivating.
+
+  - title: "Interplanetary Colonization"
+    published: Thu, 29 Dec 2016 21:15:00 +0100
+    speakers: Liz George, Peter Buschkamp
+    subtitle: "the state at the beginning of the 21st Century"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7942-eng-Interplanetary_Colonization.mp4
+    media_type: 238026752
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7942.html 
+    description: >-
+      The long term survival of the human species requires that we become an interplanetary species. But we must answer two big questions: where are we going, and how do we get there? We explore what scientists know (and don’t know) about humanity’s potential future homes both inside and outside the solar system, and then we’ll dive into the technological challenges of (and potential solutions for) getting humans to and colonizing a new planet.
+      max: Well presented, enjoyable to listen to, not mind blowing. 
+
+  - title: "Lasers in the sky (with asteroids)"
+    published: Thu, 29 Dec 2016 22:00:00 +0100
+    speakers: Peter Buschkamp
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7927-eng-Lasers_in_the_sky_with_asteroids.mp4
+    media_type: 256901120
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7927.html 
+    description: >-
+      Today lasers are routinely flown on space and airborne platforms for scientific, military and telecommunication applications. While they make nice special effects in action and sci-fi movies, there are physical boundaries that guide the use of lasers in space and in surface to air/space scenarios. 'SDI' might not be straight forward, but intercepting airborne vehicles or laser based communication to submerged submarines is no longer science fiction. But can we use it for space travel? Lets see.    
+      max: Fun facts about lasers in space. Again Well presented and enjoyable to listen to but not not mind blowing. 
+
+  - title: "Eavesdropping on the Dark Cosmos"
+    published: Thu, 29 Dec 2016 22:45:00 +0100
+    speakers: Simon Barke
+    subtitle: "Dark Matter and Gravitational Waves"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8245-eng-Eavesdropping_on_the_Dark_Cosmos.mp4
+    media_type: 402653184
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8245.html 
+    description: >-
+      Imagine, there is this huge data center but your user privileges allow you to access only 5% of the data. That is the exact same situation physicists face when trying to study the cosmos. 95% of our universe is made out of something that cannot be seen or touched. We generally call this unknown substance "dark matter" / "dark energy". The recent discovery of gravitational waves gives us a handle on the dark cosmos. We can now listen to invisible events in our universe. But there may also be other methods to shed light on the dark side.
+      max: Again nice to see and not bad presented but not overwhelming as most of 33C3's space track, unfortunately.
+
+  - title: "The Universe Is, Like, Seriously Huge"
+    published: Thu, 29 Dec 2016 23:30:00 +0100
+    speakers: Michael Büker
+    subtitle: "Stuff in Space Is Far Away – but How Do We Know?"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7861-eng-The_Universe_Is_Like_Seriously_Huge.mp4
+    media_type: 238026752
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7861.html 
+    description: >-
+      On Earth, distances are commonly given in meters and kilometers, and can be measured comfortably with measuring sticks, odometers or optical instruments. But how does that work in space, where machines take years to arrive at other bodies, and distant stars are utterly out of reach?
+      From precise calculations to daring guesstimates, many different techniques and approaches are combined to form what's called the "cosmic distance ladder", giving more or less reasonable estimates of the distances between planets, stars and galaxies.
+      Climb the distance ladder and get to know our place in Space from kilometers to Astronomical Units and light years, all the way to gigaparsecs and the reaches of the known universe.   
+      max: Pretty pictures, gives the impression how tiny we are.
+      
+               about this event: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8020.html
+              
+  - title: "Methodisch inkorrekt!"
+    published: Fri, 30 Dec 2016 00:15:00 +0100
+    speakers: Nicolas Wöhrl, @ReinhardRemfort
+    subtitle: "Die Wissenschaftsgala vom 33C3"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8020-deu-Methodisch_inkorrekt.mp4
+    media_type: 2229272576
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8020.html 
+    description: >-
+      igentlich ein Podcast der alle 14 Tage erscheint. Nach dem großen Erfolg auf dem Congress im letzten Jahr wird diesmal eine noch größere Show abgezogen: Experimente, die mal interessant, mal fragwürdig sind. Wissenschaftler, die mal belehrend und mal unzurechnungsfähig sind. Wissenschaftliche Studien, die mal nobelpreisverdächtig und mal zweifelhaft sind. Wissenschaft auf der Showbühne. It works, bitches!   
+
+      Dazu sprechen sie über aktuelle wissenschaftliche Themen. Laaaangweilig! Wer will denn sowas sehen? Unstrukturiert, abschweifend, hoffnungslos subjektiv und immer garantiert methodisch inkorrekt.
+      Wer hat diese Jungs wieder reingelassen?! Nicolas Wöhrl und Reinhard Remfort sind eine Gefahr für Leib und Leben. Unter dem Deckmantel der Wissenschaftskommunikation machen sie auf der Bühne alles das, was sie an der Uni nie gewagt hätten.
+      max: Kurzweilig, extrem lustig mit dem ein oder anderen Bier in der Hand. Unstrukturiert, Chaos und inzeischen ein fester Bestandteil des Kongress.
+
 template: template_rss.xml.erb
 target: feed_33C3.xml
 
