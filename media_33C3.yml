@@ -347,7 +347,7 @@ feed:
     media_type: 675282944
     media_length: video/mp4
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8428.html 
-    description:
+    description: >-
       max: Very entertaining if you were there. Might not be of relevance if you were not.
 
 template: template_rss.xml.erb
