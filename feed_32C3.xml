@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Sun, 01 Jan 2017 17:40:05 +0100</pubDate>
-    <lastBuildDate>Sun, 01 Jan 2017 17:40:05 +0100</lastBuildDate>
+    <pubDate>Sun, 01 Jan 2017 17:45:45 +0100</pubDate>
+    <lastBuildDate>Sun, 01 Jan 2017 17:45:45 +0100</lastBuildDate>
     <managingEditor>
       impressum@schrimpf.ch (impressum)
     </managingEditor>
@@ -103,6 +103,24 @@ Phil: Best presentation of 32c3 so far!</itunes:summary>
         <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7426-en-de-Intelexit_sd.mp4"
                    length="video/mp4"
                    type="142606336"/>
+      </item>
+    
+      
+      <item>
+        <title>Ein Abgrund von Landesverrat</title>
+        <description>Im Sommer kam heraus, dass der Generalbundesanwalt Ermittlungen gegen zwei Journalisten von netzpolitik.org in Gang gesetzt hatte. Das geschah, weil sich das Bundesamt für Verfassungsschutz dadurch auf den Schlips getreten fühlte, dass Auszüge aus ihren Haushaltsplänen der allgemeinen Bevölkerung bei netzpolitik.org zugänglich gemacht wurden. max: Die Landesverat Ermitlungen gegen das Blog netzpolitik.org haben im Sommer 2015 für einige Aufregung in Deutschland gesorgt.  Der Talk ist eine humoristische Aufarbeitung der Erkenntnisse.  Eher ein post mortem da bspw. auf dem Camp 2015 das Thema schon gross debattiert wurde. </description>
+        <link>https://events.ccc.de/congress/2015/Fahrplan/events/7135.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7135.html</guid>
+        <pubDate>Mon, 28 Dec 2015 16:00:00 +0100</pubDate>
+        <itunes:subtitle>Ein Abgrund von Landesverrat</itunes:subtitle>
+        <itunes:summary>Im Sommer kam heraus, dass der Generalbundesanwalt Ermittlungen gegen zwei Journalisten von netzpolitik.org in Gang gesetzt hatte. Das geschah, weil sich das Bundesamt für Verfassungsschutz dadurch auf den Schlips getreten fühlte, dass Auszüge aus ihren Haushaltsplänen der allgemeinen Bevölkerung bei netzpolitik.org zugänglich gemacht wurden. max: Die Landesverat Ermitlungen gegen das Blog netzpolitik.org haben im Sommer 2015 für einige Aufregung in Deutschland gesorgt.  Der Talk ist eine humoristische Aufarbeitung der Erkenntnisse.  Eher ein post mortem da bspw. auf dem Camp 2015 das Thema schon gross debattiert wurde. </itunes:summary>
+        <itunes:author>Markus Beckedahl</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7135-de-Ein_Abgrund_von_Landesverrat.mp4"
+                   length="video/mp4"
+                   type="449839104"/>
       </item>
     
       
