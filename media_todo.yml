@@ -3,6 +3,83 @@ sources:
   - https://media.ccc.de/c/33c3
 
 feed:
+  - title: "Correcting copywrongs"
+    published: Mon, 29 Dec 2014 14:00:00 +0100
+    speakers: Julia Reda
+    subtitle: "European copyright reform is finally on the horizon"
+    media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6350-en-Correcting_copywrongs_hd.mp4
+    media_type: 701497344
+    media_length: video/mp4
+    web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6350.html 
+    description: >-
+       After years of debate, EU copyright law is finally being revisited. The Commission will present a proposal for reform within 4 months of 31c3. And it's high time: There has never been a bigger discrepancy between the technical feasibility to share information and knowledge across all physical borders and the legal restrictions to actually do so. This talk outlines the unique opportunity and the challenge to bring copyright into the 21st century that lies in front of us. Hackers ensured that people were heard during last winter's public consultation. Can they now also ensure a progressive outcome of the reform process?
+
+  - title: "Preserving arcade games"
+    published: Sun, 28 Dec 2014 20:30:00 +0100
+    speakers: Ange Albertini
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-5997-en-Preserving_arcade_games_hd.mp4
+    media_type: 640679936
+    media_length: video/mp4
+    web_url: https://events.ccc.de/congress/2014/Fahrplan/events/5997.html 
+    description: >-
+       Old-school arcade games were so protected that hacking is the only way to preserve them before all boards are dead, and the games are lost.
+
+  - title: "Deine Rechte sind in diesen Freihandelsabkommen nicht verfügbar"
+    published: Mon, 29 Dec 2014 16:00:00 +0100
+    speakers: Katharina Nocun, Maritta Strasser
+    subtitle: "Der Protest gegen TTIP und CETA"
+    media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6342-de-Deine_Rechte_sind_in_diesen_Freihandelsabkommen_nicht_verfuegbar_hd.mp4
+    media_type: 653262848
+    media_length: video/mp4
+    web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6342.html 
+    description: >-
+       Die Kritik am Freihandelsabkommen TTIP und CETA auf die Chlorhühnchen zu beschränken, greift viel zu kurz. Denn bei den beiden Abkommen zwischen der EU und den USA und der EU und Kanada steht noch viel mehr auf dem Spiel. Egal ob Datenschutz, Demokratie oder Urheberrecht – Abkommen, an denen Konzerne unter Ausschluss der Öffentlichkeit mitschreiben können, sind selten eine gute Idee. Sitzungsdokumente mit “unverbindlichen” Lobby-Vorschlägen und Leaks der Vertragstexte lassen wenig Gutes erwarten. Datenschutzstandards laufen Gefahr zu Handelshemmnissen erklärt zu werden. Konzerne pochen darauf, Staaten vor außerstaatlichen Schiedsgerichten auf Schadensersatz verklagen zu können. Was die Bürger wollen, wurde im ganzen Verhandlungsprozess der beiden Freihandelsabkommen nicht einmal gefragt. Doch “Klicktivismus” war gestern – neue Strategien und Tools halfen dabei, eine Welle des dezentralen Protests loszutreten. 
+
+  - title: "3D Casting Aluminum"
+    published: Sat, 27 Dec 2014 12:45:00 +0100
+    speakers: Julia Longtin
+    subtitle: "Too Much Fun with Microwaves"
+    media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6417-en-3D_Casting_Aluminum_hd.mp4
+    media_type: 498073600
+    media_length: video/mp4
+    web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6417.html 
+    description: >-
+       We use microwaves to cast aluminum from 3D printed objects. This gives us the ability to cast high quality 6040 aluminum pieces using a 3D printer and commercially available consumer microwaves. 
+
+  - title: "Tell no-one"
+    published: Sun, 28 Dec 2014 12:45:00 +0100
+    speakers: James Bamford
+    subtitle: "A century of secret deals between the NSA and the telecom industry"
+    media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6600-en-de-Tell_no-one_hd.mp4
+    media_type: 507510784
+    media_length: video/mp4
+    web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6600.html 
+    description: >-
+       For nearly one hundred years, the NSA and its predecessors have been engaging in secret, illegal deals with the American telecom industry, with both virtually immune from prosecution.
+
+  - title: "The Invisible Committee Returns with "Fuck Off Google""
+    published: Sun, 28 Dec 2014 19:00:00 +0100
+    speakers: Anonymous member of Tarnac Solidarity Committee, tarnac nine
+    subtitle: "Cybernetics, Anti-Terrorism, and the ongoing case against the Tarnac 10"
+    media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6459-en-de-The_Invisible_Committee_Returns_with_Fuck_Off_Google_hd.mp4
+    media_type: 220200960
+    media_length: video/mp4
+    web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6459.html 
+    description: >-
+        “There will be people who resist adopting and using technology, people who want nothing to do with virtual profiles, online data systems or smart phones. Yet a government might suspect that people who opt out completely have something to hide and thus are more likely to break laws, and as a counterterrorism measure, that government will build the kind of ‘hidden people’ registry we described earlier. If you don’t have any registered social-networking profiles or mobile subscriptions, and on-line references to you are unusually hard to find, you might be considered a candidate for such a registry. You might also be subjected to a strict set of new regulations that includes rigorous airport screening or even travel restrictions.”
+
+  - title: "From Computation to Consciousness"
+    published: Sun, 28 Dec 2014 11:30:00 +0100
+    speakers: Joscha
+    subtitle: "How computation helps to explain mind, universe and everything"
+    media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6573-en-de-From_Computation_to_Consciousness_hd.mp4
+    media_type: 552599552
+    media_length: video/mp4
+    web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6573.html 
+    description: >-
+       How can the physical universe give rise to a mind? I suggest to replace this confusing question by another one: what kind of information processing system is the mind, and how is the mind computed? As we will see, even our ideas of the physical universe turn out to be computational. Let us explore some fascinating scenery of the philosophy underlying Artificial Intelligence.
+
   - title: "Computational Meta-Psychology"
     published: Tue, 29 Dec 2015 12:45:00 +0100
     speakers: Joscha
@@ -13,7 +90,6 @@ feed:
     web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7483.html 
     description: >-
        Computational theories of the mind seem to be ideally suited to explain rationality. But how can computations be subverted by meaning, emotion and love?
-       about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7483.html
        tomaso: Nachdenken darüber wie wir auf den Ebenen unter der Psyche funktionieren, wie wir lernen. Empfohlen. 
 
   - title: "A New Kid on the Block"
@@ -26,8 +102,7 @@ feed:
     web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7403.html 
     description: >-
        The leading social networks are the powerful new gatekeepers of the digital age. Proprietary de facto standards of the dominant companies have lead to the emergence of virtual “information silos” that can barely communicate with one another. Has Diaspora really lost the war? Or is there still a chance to succeed?
-       about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7403.html
-        Tomaso: Wie und warum wachsen soziale Netzwerke? Wo ist und was macht Diaspora? Chancen. Sehr gut analysiert. Empfohlen. 
+       Tomaso: Wie und warum wachsen soziale Netzwerke? Wo ist und was macht Diaspora? Chancen. Sehr gut analysiert. Empfohlen. 
 
   - title: "Profiling (In)justice"
     published: Mon, 28 Dec 2015 16:00:00 +0100
@@ -39,7 +114,6 @@ feed:
     web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7264.html 
     description: >-
        This talk will focus on the potential ability of data disaggregated by race and ethnicity to reduce discriminatory policing in Germany.  In the UK, data has been collected during police procedures, allowing for a monitoring and evaluation of discriminatory policing practices. Unfortunately, such an empirically driven policy approach is not currently possible in Germany. This talk will argue that, as a first step, a policy based off the UK approach towards data collection be implemented in Germany to incorporate, rather than ignore, Germany’s diverse identities, and to allow for empirically driven and more effective policing.
-       about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7264.html
        max: Wurde mir empfohlen - will ich mal noch sehen. 
 
   - title: "Lifting the Fog on Red Star OS"
@@ -52,7 +126,6 @@ feed:
     web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7174.html 
     description: >-
        Angae means "Fog" in Korean. The term is widely used in parts of custom code used by the Red Star OS. We will lift the fog on the internals of North Korea's operating system. Our talk will provide information about how privacy is invaded for all users of Red Star OS and how an operating system designed by a totalitarian dictatorship works.
-       about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7174.html
        max: Hat ein rechtes Medienecho erhalten. Klingt noch spannend... 
 
   - title: "Unpatchable"
@@ -65,8 +138,8 @@ feed:
     web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7273.html 
     description: >-
        Gradually we are all becoming more and more dependent on machines, we will be able to live longer with an increased quality of life due to machines integrated into our body. However, our dependence on technology grows faster than our ability to secure it, and a security failure of a medical device can have fatal consequences. This talk is about Marie's personal experience with being the host of a vulnerable medical implant, and how this has forced her to become a human part of the "Internet-of-Things". 
-       about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7273.html
        max: Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen. 
+
   - title: What does Big Brother see, while he is watching?
     published: Sat, 09 Jan 2016 14:21:28 +0100>
     media_url: http://c3media.vsos.ethz.ch/congress/2015/h264-hd/32c3-7209-en-What_does_Big_Brother_see_while_he_is_watching_hd.mp4
