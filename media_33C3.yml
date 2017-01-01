@@ -285,8 +285,6 @@ feed:
       Climb the distance ladder and get to know our place in Space from kilometers to Astronomical Units and light years, all the way to gigaparsecs and the reaches of the known universe.   
       max: Pretty pictures, gives the impression how tiny we are.
       
-               about this event: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8020.html
-              
   - title: "Methodisch inkorrekt!"
     published: Fri, 30 Dec 2016 00:15:00 +0100
     speakers: Nicolas Wöhrl, @ReinhardRemfort
@@ -296,11 +294,61 @@ feed:
     media_length: video/mp4
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8020.html 
     description: >-
-      igentlich ein Podcast der alle 14 Tage erscheint. Nach dem großen Erfolg auf dem Congress im letzten Jahr wird diesmal eine noch größere Show abgezogen: Experimente, die mal interessant, mal fragwürdig sind. Wissenschaftler, die mal belehrend und mal unzurechnungsfähig sind. Wissenschaftliche Studien, die mal nobelpreisverdächtig und mal zweifelhaft sind. Wissenschaft auf der Showbühne. It works, bitches!   
+      Eigentlich ein Podcast der alle 14 Tage erscheint. Nach dem großen Erfolg auf dem Congress im letzten Jahr wird diesmal eine noch größere Show abgezogen: Experimente, die mal interessant, mal fragwürdig sind. Wissenschaftler, die mal belehrend und mal unzurechnungsfähig sind. Wissenschaftliche Studien, die mal nobelpreisverdächtig und mal zweifelhaft sind. Wissenschaft auf der Showbühne. It works, bitches!   
 
       Dazu sprechen sie über aktuelle wissenschaftliche Themen. Laaaangweilig! Wer will denn sowas sehen? Unstrukturiert, abschweifend, hoffnungslos subjektiv und immer garantiert methodisch inkorrekt.
       Wer hat diese Jungs wieder reingelassen?! Nicolas Wöhrl und Reinhard Remfort sind eine Gefahr für Leib und Leben. Unter dem Deckmantel der Wissenschaftskommunikation machen sie auf der Bühne alles das, was sie an der Uni nie gewagt hätten.
       max: Kurzweilig, extrem lustig mit dem ein oder anderen Bier in der Hand. Unstrukturiert, Chaos und inzeischen ein fester Bestandteil des Kongress.
+
+  - title: "Privatisierung der Rechtsdurchsetzung"
+    published: Fri, 30 Dec 2016 14:30:00 +0100
+    speakers: Markus Beckedahl
+    subtitle: "Was der Anti-Terror-Kampf von der Urheberrechtsdurchsetzung lernen kann"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8040-deu-Privatisierung_der_Rechtsdurchsetzung.mp4
+    media_type: 244318208
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8040.html 
+    description: >-
+      Im Forum Internet treffen sich seit einem Jahr EU-Vertreter mit Vertretern der großen US-Plattformen, um über freiwillige Kooperationen zu verhandeln. Damit soll der Rechtsstaat umgangen und die Terrorbekämpfung ohne notwendige demokratische Kontrolle teilweise privatisiert werden. 
+      Die Vorgehensweise ist dabei aus der Urheberrechtsdurchsetzung und gescheiterten Handelsabkommen wie ACTA bekannt. Und mit der Hate-Speech-Debatte haben Regierungsvertreter zugleich das richtige Erpressungswerkzeug, um die Plattformen zur Kooperation zu bewegen: Wenn sie nicht mitmachen, haften sie einfach.
+      Der Vortrag möchte über die aktuellen Entwicklungen aufklären und die Parallelen zwischen Anti-Terror-Kampf, Urheberrechtsdurchsetzung und Hate-Speech-Debatte berichten.
+      max: Spannende juristische Bewertung der Forderungen, dass die Plattformanbieter sich um den Inhalt in den Sozialen Medien. Kümmern sollen. Thematisch sehenswert, nicht schlecht vorgetragen.
+
+  - title: "The Ultimate Game Boy Talk"
+    published: Fri, 30 Dec 2016 16:00:00 +0100
+    speakers: Michael Steil
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8029-eng-The_Ultimate_Game_Boy_Talk.mp4
+    media_type: 400556032
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8029.html 
+    description: >-
+      The Nintendo Game Boy was an 8-bit handheld gaming console that competed with the SEGA Game Gear and the Atari Lynx. Compared to its competition, it had very little RAM (8 KB) and no color support (4 shades of gray at 160x144). It was succeeded by the Game Boy Color, which fixed this main shortcoming, but shared the same architecture. During the 14 year life span of the 8 bit Game Boy platform, game programmers kept understanding the hardware better and better, and continued finding new tricks for better graphics effects, such as sprite multiplexing, parallax and palette effects. This talk explains all the hardware details of the Game Boy: The programming model of the 8080/Z80-like LR35902 CPU, the system's sound, timer and I/O functionality, and programming details as well as common tricks involving the graphics processor ("PPU"), which was specifically designed for LCD output. The listener will get a good understanding of 8 bit programming and creative programming on extremely limited hardware, as well as common tricks that can be generalized to other systems. 
+      max: Extremely technical talk about every detail of the Game Boy classic. Interesting for enthusiasts.
+
+  - title: "Security Nightmares 0x11"
+    published: Fri, 30 Dec 2016 17:15:00 +0100
+    speakers: frank, Ron
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8413-deu-Security_Nightmares_0x11.mp4
+    media_type: 522190848
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8413.html 
+    description: >-
+      Wie immer wagen wir den IT-Security-Alptraum-Ausblick auf das Jahr 2017 und darüber hinaus. Denn was wir wirklich wissen wollen, ist ja schließlich: Was kriecht, krabbelt und fliegt in Zukunft auf uns zu und in unseren digitalen Implants herum?
+      Im Zuge von noch mehr Transparenz, Kritik & Selbstkritik und kontinuierlicher nachhaltiger Optimierung aller Prozesse werden wir außerdem frühere Voraussagen hinsichtlich des Eintreffens unserer Weissagungen prüfen.   
+      max: Format so gut oder schlecht wie immer. Entweder man mag es oder nicht. 
+
+  - title: "33C3 Closing Ceremony"
+    published: Fri, 30 Dec 2016 18:30:00 +0100
+    speakers: Nicolas Wöhrl, @ReinhardRemfort
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8428-deu-33C3_Closing_Ceremony.mp4
+    media_type: 675282944
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8428.html 
+    description:
+      max: Very entertaining if you were there. Might not be of relevance if you were not.
 
 template: template_rss.xml.erb
 target: feed_33C3.xml
