@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>To watch</title>
+    <description>Media feed for CCC talks I'd like to watch once up on a time
+</description>
+    <link>https://github.com/mxmo0rhuhn/media_feed</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en</language>
+    <generator>media feed build script</generator>
+    <pubDate>Sun, 01 Jan 2017 17:40:05 +0100</pubDate>
+    <lastBuildDate>Sun, 01 Jan 2017 17:40:05 +0100</lastBuildDate>
+    <managingEditor>
+      impressum@schrimpf.ch (impressum)
+    </managingEditor>
+    <webMaster>
+      impressum@schrimpf.ch (impressum)
+    </webMaster>
+    <itunes:owner>
+      <itunes:email>impressum@schrimpf.ch</itunes:email>
+      <itunes:name>impressum</itunes:name>
+    </itunes:owner>
+    <image>
+      <url></url>
+      <title>To watch</title>
+      <link>https://github.com/mxmo0rhuhn/media_feed</link>
+      <description>Media feed for CCC talks I'd like to watch once up on a time
+</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary>Media feed for CCC talks I'd like to watch once up on a time
+</itunes:summary>
+    <itunes:author>mxmo0rhuhn</itunes:author>
+    <itunes:image href=""/>
+    <itunes:explicit>Yes</itunes:explicit>
+    <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+    
+      <itunes:category text="Technology"/>
+    
+      <itunes:category text="Society"/>
+    
+      <itunes:category text="Educational Technology"/>
+    
+    
+      
+      <item>
+        <title>Computational Meta-Psychology</title>
+        <description>Computational theories of the mind seem to be ideally suited to explain rationality. But how can computations be subverted by meaning, emotion and love? about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7483.html tomaso: Nachdenken darüber wie wir auf den Ebenen unter der Psyche funktionieren, wie wir lernen. Empfohlen. </description>
+        <link>https://events.ccc.de/congress/2015/Fahrplan/events/7483.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7483.html</guid>
+        <pubDate>Tue, 29 Dec 2015 12:45:00 +0100</pubDate>
+        <itunes:subtitle>Computational Meta-Psychology</itunes:subtitle>
+        <itunes:summary>Computational theories of the mind seem to be ideally suited to explain rationality. But how can computations be subverted by meaning, emotion and love? about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7483.html tomaso: Nachdenken darüber wie wir auf den Ebenen unter der Psyche funktionieren, wie wir lernen. Empfohlen. </itunes:summary>
+        <itunes:author>Joscha</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7483-en-Computational_Meta-Psychology.mp4"
+                   length="video/mp4"
+                   type="515899392"/>
+      </item>
+    
+      
+      <item>
+        <title>A New Kid on the Block</title>
+        <description>The leading social networks are the powerful new gatekeepers of the digital age. Proprietary de facto standards of the dominant companies have lead to the emergence of virtual “information silos” that can barely communicate with one another. Has Diaspora really lost the war? Or is there still a chance to succeed? about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7403.html
+ Tomaso: Wie und warum wachsen soziale Netzwerke? Wo ist und was macht Diaspora? Chancen. Sehr gut analysiert. Empfohlen. </description>
+        <link>https://events.ccc.de/congress/2015/Fahrplan/events/7403.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7403.html</guid>
+        <pubDate>Wed, 30 Dec 2015 12:45:00 +0100</pubDate>
+        <itunes:subtitle>A New Kid on the Block</itunes:subtitle>
+        <itunes:summary>The leading social networks are the powerful new gatekeepers of the digital age. Proprietary de facto standards of the dominant companies have lead to the emergence of virtual “information silos” that can barely communicate with one another. Has Diaspora really lost the war? Or is there still a chance to succeed? about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7403.html
+ Tomaso: Wie und warum wachsen soziale Netzwerke? Wo ist und was macht Diaspora? Chancen. Sehr gut analysiert. Empfohlen. </itunes:summary>
+        <itunes:author>Katharina Nocun</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7403-en-A_New_Kid_on_the_Block.mp4"
+                   length="video/mp4"
+                   type="907018240"/>
+      </item>
+    
+      
+      <item>
+        <title>Profiling (In)justice</title>
+        <description>This talk will focus on the potential ability of data disaggregated by race and ethnicity to reduce discriminatory policing in Germany.  In the UK, data has been collected during police procedures, allowing for a monitoring and evaluation of discriminatory policing practices. Unfortunately, such an empirically driven policy approach is not currently possible in Germany. This talk will argue that, as a first step, a policy based off the UK approach towards data collection be implemented in Germany to incorporate, rather than ignore, Germany’s diverse identities, and to allow for empirically driven and more effective policing. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7264.html max: Wurde mir empfohlen - will ich mal noch sehen. </description>
+        <link>https://events.ccc.de/congress/2015/Fahrplan/events/7264.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7264.html</guid>
+        <pubDate>Mon, 28 Dec 2015 16:00:00 +0100</pubDate>
+        <itunes:subtitle>Profiling (In)justice</itunes:subtitle>
+        <itunes:summary>This talk will focus on the potential ability of data disaggregated by race and ethnicity to reduce discriminatory policing in Germany.  In the UK, data has been collected during police procedures, allowing for a monitoring and evaluation of discriminatory policing practices. Unfortunately, such an empirically driven policy approach is not currently possible in Germany. This talk will argue that, as a first step, a policy based off the UK approach towards data collection be implemented in Germany to incorporate, rather than ignore, Germany’s diverse identities, and to allow for empirically driven and more effective policing. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7264.html max: Wurde mir empfohlen - will ich mal noch sehen. </itunes:summary>
+        <itunes:author>Jeff Deutch</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7264-en-Profiling_In_justice.mp4"
+                   length="video/mp4"
+                   type="341835776"/>
+      </item>
+    
+      
+      <item>
+        <title>Lifting the Fog on Red Star OS</title>
+        <description>Angae means &quot;Fog&quot; in Korean. The term is widely used in parts of custom code used by the Red Star OS. We will lift the fog on the internals of North Korea&#39;s operating system. Our talk will provide information about how privacy is invaded for all users of Red Star OS and how an operating system designed by a totalitarian dictatorship works. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7174.html max: Hat ein rechtes Medienecho erhalten. Klingt noch spannend... </description>
+        <link>https://events.ccc.de/congress/2015/Fahrplan/events/7174.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7174.html</guid>
+        <pubDate>Sun, 27 Dec 2015 16:00:00 +0100</pubDate>
+        <itunes:subtitle>Lifting the Fog on Red Star OS</itunes:subtitle>
+        <itunes:summary>Angae means &quot;Fog&quot; in Korean. The term is widely used in parts of custom code used by the Red Star OS. We will lift the fog on the internals of North Korea&#39;s operating system. Our talk will provide information about how privacy is invaded for all users of Red Star OS and how an operating system designed by a totalitarian dictatorship works. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7174.html max: Hat ein rechtes Medienecho erhalten. Klingt noch spannend... </itunes:summary>
+        <itunes:author>Florian Grunow, Niklaus Schiess</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7174-en-de-Lifting_the_Fog_on_Red_Star_OS_sd.mp4"
+                   length="video/mp4"
+                   type="233832448"/>
+      </item>
+    
+      
+      <item>
+        <title>Unpatchable</title>
+        <description>Gradually we are all becoming more and more dependent on machines, we will be able to live longer with an increased quality of life due to machines integrated into our body. However, our dependence on technology grows faster than our ability to secure it, and a security failure of a medical device can have fatal consequences. This talk is about Marie&#39;s personal experience with being the host of a vulnerable medical implant, and how this has forced her to become a human part of the &quot;Internet-of-Things&quot;.  about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7273.html max: Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen. </description>
+        <link>https://events.ccc.de/congress/2015/Fahrplan/events/7273.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7273.html</guid>
+        <pubDate>Mon, 28 Dec 2015 23:00:00 +0100</pubDate>
+        <itunes:subtitle>Unpatchable</itunes:subtitle>
+        <itunes:summary>Gradually we are all becoming more and more dependent on machines, we will be able to live longer with an increased quality of life due to machines integrated into our body. However, our dependence on technology grows faster than our ability to secure it, and a security failure of a medical device can have fatal consequences. This talk is about Marie&#39;s personal experience with being the host of a vulnerable medical implant, and how this has forced her to become a human part of the &quot;Internet-of-Things&quot;.  about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7273.html max: Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen. </itunes:summary>
+        <itunes:author>Marie Moe, Eireann Leverett</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd/32c3-7273-en-Unpatchable_hd.mp4"
+                   length="video/mp4"
+                   type="824180736"/>
+      </item>
+    
+      
+      <item>
+        <title>What does Big Brother see, while he is watching?</title>
+        <description>Alain: Simon Menner shows a great collection of pictures from the best treasure trove that is accessible to us from surveillance states. He tells a good story on how absurd and dangerous surveillance is at the same time.
+It&#39;s also curious to hear that only footage from eastern countries is available, the BND only released 14 totally irrelevant pictures of all of the cold war (something like a cork screw...). So of course the easter states totally look illegal compared to just nothing.</description>
+        <link>https://events.ccc.de/congress/2015/Fahrplan/events/7209.html</link>
+        <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7209.html</guid>
+        <pubDate>Sat, 09 Jan 2016 14:21:28 +0100></pubDate>
+        <itunes:subtitle>What does Big Brother see, while he is watching?</itunes:subtitle>
+        <itunes:summary>Alain: Simon Menner shows a great collection of pictures from the best treasure trove that is accessible to us from surveillance states. He tells a good story on how absurd and dangerous surveillance is at the same time.
+It&#39;s also curious to hear that only footage from eastern countries is available, the BND only released 14 totally irrelevant pictures of all of the cold war (something like a cork screw...). So of course the easter states totally look illegal compared to just nothing.</itunes:summary>
+        <itunes:author></itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://c3media.vsos.ethz.ch/congress/2015/h264-hd/32c3-7209-en-What_does_Big_Brother_see_while_he_is_watching_hd.mp4"
+                   length="1009811974"
+                   type="video/mp4"/>
+      </item>
+    
+      
+      <item>
+        <title>Rowhammer.js: Root privileges for web apps?</title>
+        <description>&quot;Insanity: doing the same thing over and over again and expecting different results.&quot;  Albert Einstein - Who did not live long enough to see Rowhammer
+Recent studies have found that repeated accesses to DRAM rows can cause random bit flips, resulting in the so called Rowhammer vulnerability. We present Rowhammer.js, the first remote software-induced hardware-fault attack, from JavaScript. We also extend our presentation with an overview of cache side-channel attacks, that use the same technique to evict data from the cache.
+phil: Frightening bit flipping. Very in depth.</description>
+        <link>https://media.ccc.de/v/32c3-7197-rowhammer_js_root_privileges_for_web_apps</link>
+        <guid isPermaLink="true">https://media.ccc.de/v/32c3-7197-rowhammer_js_root_privileges_for_web_apps</guid>
+        <pubDate>08 Jan 2016 18:28 GMT</pubDate>
+        <itunes:subtitle>Rowhammer.js: Root privileges for web apps?</itunes:subtitle>
+        <itunes:summary>&quot;Insanity: doing the same thing over and over again and expecting different results.&quot;  Albert Einstein - Who did not live long enough to see Rowhammer
+Recent studies have found that repeated accesses to DRAM rows can cause random bit flips, resulting in the so called Rowhammer vulnerability. We present Rowhammer.js, the first remote software-induced hardware-fault attack, from JavaScript. We also extend our presentation with an overview of cache side-channel attacks, that use the same technique to evict data from the cache.
+phil: Frightening bit flipping. Very in depth.</itunes:summary>
+        <itunes:author></itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7197-en-Rowhammerjs_Root_privileges_for_web_apps.mp4"
+                   length="143094416"
+                   type="video/mp4"/>
+      </item>
+    
+  </channel>
+</rss>

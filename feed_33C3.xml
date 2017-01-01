@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>33C3 media feed</title>
+    <description>A feed for different talks of the 33C3 2016
+</description>
+    <link>https://github.com/mxmo0rhuhn/media_feed</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en</language>
+    <generator>media feed build script</generator>
+    <pubDate>Sun, 01 Jan 2017 17:40:05 +0100</pubDate>
+    <lastBuildDate>Sun, 01 Jan 2017 17:40:05 +0100</lastBuildDate>
+    <managingEditor>
+      impressum@schrimpf.ch (impressum)
+    </managingEditor>
+    <webMaster>
+      impressum@schrimpf.ch (impressum)
+    </webMaster>
+    <itunes:owner>
+      <itunes:email>impressum@schrimpf.ch</itunes:email>
+      <itunes:name>impressum</itunes:name>
+    </itunes:owner>
+    <image>
+      <url></url>
+      <title>33C3 media feed</title>
+      <link>https://github.com/mxmo0rhuhn/media_feed</link>
+      <description>A feed for different talks of the 33C3 2016
+</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary>A feed for different talks of the 33C3 2016
+</itunes:summary>
+    <itunes:author>mxmo0rhuhn</itunes:author>
+    <itunes:image href=""/>
+    <itunes:explicit>Yes</itunes:explicit>
+    <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+    
+      <itunes:category text="Technology"/>
+    
+      <itunes:category text="Society"/>
+    
+      <itunes:category text="Educational Technology"/>
+    
+    
+      
+      <item>
+        <title>33C3 Opening Ceremony</title>
+        <description>max: May be not very interesting for people that are not at the conference. Please wash your hands. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8429.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8429.html</guid>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>33C3 Opening Ceremony</itunes:subtitle>
+        <itunes:summary>max: May be not very interesting for people that are not at the conference. Please wash your hands. </itunes:summary>
+        <itunes:author>anna, elisa</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8429-eng-33C3_Opening_Ceremony.mp4"
+                   length="video/mp4"
+                   type="127926272"/>
+      </item>
+    
+      
+      <item>
+        <title>The Global Assassination Grid</title>
+        <description>As they say in the Air Force, ‚No comms no bombs‘,  – A technician’s insight into the invisible networks governing military drones and the quest for accountability max: Background talk about the power of drones and the system behind it. Presentation is not that strong - maybe mainly since the talk is that emotionally stressful for the presenter. The content is frightening. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8425.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8425.html</guid>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>The Global Assassination Grid</itunes:subtitle>
+        <itunes:summary>As they say in the Air Force, ‚No comms no bombs‘,  – A technician’s insight into the invisible networks governing military drones and the quest for accountability max: Background talk about the power of drones and the system behind it. Presentation is not that strong - maybe mainly since the talk is that emotionally stressful for the presenter. The content is frightening. </itunes:summary>
+        <itunes:author>Cian Westmoreland</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8425-eng-The_Global_Assassination_Grid.mp4"
+                   length="video/mp4"
+                   type="580911104"/>
+      </item>
+    
+      
+      <item>
+        <title>Bootstraping a slightly more secure laptop</title>
+        <description>Heads is an open source custom firmware and OS configuration for laptops and servers that aims to provide slightly better physical security and protection for data on the system. Unlike Tails, which aims to be a stateless OS that leaves no trace on the computer of its presence, Heads is intended for the case where you need to store data and state on the computer. It targets specific models of commodity hardware and takes advantage of lessons learned from several years of vulnerability research. This talk provides a high level overview of Heads, a demo of installing it on a Thinkpad and a tour of some of the attacks that it protects against. max: Detailed explanation of heads - a stateful secure linux. Very techical. May be of interest if you try to defend state sponsored actors are very into IT-Security. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8314.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8314.html</guid>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>Bootstraping a slightly more secure laptop</itunes:subtitle>
+        <itunes:summary>Heads is an open source custom firmware and OS configuration for laptops and servers that aims to provide slightly better physical security and protection for data on the system. Unlike Tails, which aims to be a stateless OS that leaves no trace on the computer of its presence, Heads is intended for the case where you need to store data and state on the computer. It targets specific models of commodity hardware and takes advantage of lessons learned from several years of vulnerability research. This talk provides a high level overview of Heads, a demo of installing it on a Thinkpad and a tour of some of the attacks that it protects against. max: Detailed explanation of heads - a stateful secure linux. Very techical. May be of interest if you try to defend state sponsored actors are very into IT-Security. </itunes:summary>
+        <itunes:author>Trammell Hudson</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8314-eng-Bootstraping_a_slightly_more_secure_laptop.mp4"
+                   length="video/mp4"
+                   type="264241152"/>
+      </item>
+    
+      
+      <item>
+        <title>Law Enforcement Are Hacking the Planet</title>
+        <description>In early 2015, the Federal Bureau of Investigation hacked computers in Austria, Denmark, Chile, Colombia, Greece, and likely the United Kingdom and Turkey too. In all, the agency used a Tor Browser exploit to target over 4000 computers spread across the world based on a single, arguably illegal warrant. max: Anecdotical stories how the FBI was involved into global hacking of suspects (and may run child porn servers therefore). Well presented but without any possible solution how international internet crime shall be handled. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8018.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8018.html</guid>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>Law Enforcement Are Hacking the Planet</itunes:subtitle>
+        <itunes:summary>In early 2015, the Federal Bureau of Investigation hacked computers in Austria, Denmark, Chile, Colombia, Greece, and likely the United Kingdom and Turkey too. In all, the agency used a Tor Browser exploit to target over 4000 computers spread across the world based on a single, arguably illegal warrant. max: Anecdotical stories how the FBI was involved into global hacking of suspects (and may run child porn servers therefore). Well presented but without any possible solution how international internet crime shall be handled. </itunes:summary>
+        <itunes:author>Joseph Cox</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8018-eng-Law_Enforcement_Are_Hacking_the_Planet.mp4"
+                   length="video/mp4"
+                   type="176160768"/>
+      </item>
+    
+      
+      <item>
+        <title>Pegasus internals</title>
+        <description>This talk will take an in-depth look at the technical capabilities and vulnerabilities used by Pegasus. We will focus on Pegasus’s features and the exploit chain Pegasus used called Trident. Attendees will learn about Pegasus’s use of 0-days, obfuscation, encryption, function hooking, and its ability to go unnoticed. We will present our detailed technical analysis that covers each payload stage of Pegasus including its exploit chain and the various 0-day vulnerabilities that the toolkit was using to jailbreak a device. After this talk attendees will have learned all of the technical details about Pegasus and Trident and how the vulnerabilities we found were patched. max: Extremly technical - I mean really deep into C source code. To be honest: I fell asleep. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7901.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7901.html</guid>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>Pegasus internals</itunes:subtitle>
+        <itunes:summary>This talk will take an in-depth look at the technical capabilities and vulnerabilities used by Pegasus. We will focus on Pegasus’s features and the exploit chain Pegasus used called Trident. Attendees will learn about Pegasus’s use of 0-days, obfuscation, encryption, function hooking, and its ability to go unnoticed. We will present our detailed technical analysis that covers each payload stage of Pegasus including its exploit chain and the various 0-day vulnerabilities that the toolkit was using to jailbreak a device. After this talk attendees will have learned all of the technical details about Pegasus and Trident and how the vulnerabilities we found were patched. max: Extremly technical - I mean really deep into C source code. To be honest: I fell asleep. </itunes:summary>
+        <itunes:author>Max Bazaliy</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7901-eng-Pegasus_internals.mp4"
+                   length="video/mp4"
+                   type="150994944"/>
+      </item>
+    
+      
+      <item>
+        <title>What's It Doing Now?</title>
+        <description>Legend has it that most airline pilots will at one time have uttered the sentence &quot;What&#39;s it Doing now?&quot;, whenever the autopilot or one of its related systems did something unexpected. I will be exploring some high-profile accidents in which wrong expectations of automation behaviour contributed to the outcome. max: Stuff you might not have thought about yet. No you can not turn it of and on again in the air. Impressive how defaults might kill people. Enriching if you have the time for it but no must see. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8033.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8033.html</guid>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>What's It Doing Now?</itunes:subtitle>
+        <itunes:summary>Legend has it that most airline pilots will at one time have uttered the sentence &quot;What&#39;s it Doing now?&quot;, whenever the autopilot or one of its related systems did something unexpected. I will be exploring some high-profile accidents in which wrong expectations of automation behaviour contributed to the outcome. max: Stuff you might not have thought about yet. No you can not turn it of and on again in the air. Impressive how defaults might kill people. Enriching if you have the time for it but no must see. </itunes:summary>
+        <itunes:author>Bernd Sieker</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8033-eng-Whats_It_Doing_Now.mp4"
+                   length="video/mp4"
+                   type="163577856"/>
+      </item>
+    
+      
+      <item>
+        <title>Lockpicking in the IoT</title>
+        <description>&quot;Smart&quot; devices using BTLE, a mobile phone and the Internet are becoming more and more popular. We will be using mechanical and electronic hardware attacks, TLS MitM, BTLE sniffing and App decompilation to show why those devices and their manufacturers aren&#39;t always that smart after all. And that even AES128 on top of the BTLE layer doesn&#39;t have to mean &quot;unbreakable&quot;. Our main target will be electronic locks, but the methods shown apply to many other smart devices as well... max: If you plan to pwn a device this talk might give you just the ideas you need to have in order to know where to start. Very well presented and entertaining. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8019.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8019.html</guid>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>Lockpicking in the IoT</itunes:subtitle>
+        <itunes:summary>&quot;Smart&quot; devices using BTLE, a mobile phone and the Internet are becoming more and more popular. We will be using mechanical and electronic hardware attacks, TLS MitM, BTLE sniffing and App decompilation to show why those devices and their manufacturers aren&#39;t always that smart after all. And that even AES128 on top of the BTLE layer doesn&#39;t have to mean &quot;unbreakable&quot;. Our main target will be electronic locks, but the methods shown apply to many other smart devices as well... max: If you plan to pwn a device this talk might give you just the ideas you need to have in order to know where to start. Very well presented and entertaining. </itunes:summary>
+        <itunes:author>Ray</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8019-eng-Lockpicking_in_the_IoT.mp4"
+                   length="video/mp4"
+                   type="336592896"/>
+      </item>
+    
+      
+      <item>
+        <title>Console Hacking 2016</title>
+        <description>Last year, we demonstrated Linux running on the PS4 in a lightning talk - presented on the PS4 itself. But how did we do it? In a departure from previous Console Hacking talks focusing on security, this year we&#39;re going to focus on the PS4 hardware, what makes it different from a PC, and how we reverse engineered it enough to get a full-blown Linux distro running on it, complete with 3D acceleration. max: Very impressive but also very technical talk about the long way to get linux running on something that is arguable not a PC. If you would like to get into Linux dev or advanced operating systems this might be of interest for you. Otherwise just for some LoLz. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7946.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7946.html</guid>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>Console Hacking 2016</itunes:subtitle>
+        <itunes:summary>Last year, we demonstrated Linux running on the PS4 in a lightning talk - presented on the PS4 itself. But how did we do it? In a departure from previous Console Hacking talks focusing on security, this year we&#39;re going to focus on the PS4 hardware, what makes it different from a PC, and how we reverse engineered it enough to get a full-blown Linux distro running on it, complete with 3D acceleration. max: Very impressive but also very technical talk about the long way to get linux running on something that is arguable not a PC. If you would like to get into Linux dev or advanced operating systems this might be of interest for you. Otherwise just for some LoLz. </itunes:summary>
+        <itunes:author>marcan</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7946-eng-Console_Hacking_2016.mp4"
+                   length="video/mp4"
+                   type="382730240"/>
+      </item>
+    
+      
+      <item>
+        <title>Nicht öffentlich.</title>
+        <description>Der NSA-Untersuchungsausschuss im Bundestag soll aufklären, was die NSA in Deutschland tut und wie deutsche Geheimdienste in diese Aktivitäten verwickelt sind. Fast wie in einer Gerichtsverhandlung – doch es gibt eine Besonderheit: Der Zeuge ist der BND, ein Geheimdienst. Und der tut alles dafür, nichts zu verraten.
+max: Grossartige Inszenierung einiger Szenen aus dem sog. NSA-Untersuchungsausschuss. Mit verschiedenen Ständigen Berichterstattern sehr hochkarätig besetzt. Ein Lehrstück der Demokratie und der Mühen im Umgang mit Geheimdiensten. Definitiv sehenswert auch für Personen aus dem deutschsprachigen Ausland. </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8116.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8116.html</guid>
+        <pubDate>Wed, 28 Dec 2016 00:00:00 +0100</pubDate>
+        <itunes:subtitle>Nicht öffentlich.</itunes:subtitle>
+        <itunes:summary>Der NSA-Untersuchungsausschuss im Bundestag soll aufklären, was die NSA in Deutschland tut und wie deutsche Geheimdienste in diese Aktivitäten verwickelt sind. Fast wie in einer Gerichtsverhandlung – doch es gibt eine Besonderheit: Der Zeuge ist der BND, ein Geheimdienst. Und der tut alles dafür, nichts zu verraten.
+max: Grossartige Inszenierung einiger Szenen aus dem sog. NSA-Untersuchungsausschuss. Mit verschiedenen Ständigen Berichterstattern sehr hochkarätig besetzt. Ein Lehrstück der Demokratie und der Mühen im Umgang mit Geheimdiensten. Definitiv sehenswert auch für Personen aus dem deutschsprachigen Ausland. </itunes:summary>
+        <itunes:author>anna, Kai Biermann, Felix Betzin, Elisabeth Pleß, Johannes Wolf, vieuxrenard</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8116-deu-Nicht_oeffentlich.mp4"
+                   length="video/mp4"
+                   type="563085312"/>
+      </item>
+    
+  </channel>
+</rss>

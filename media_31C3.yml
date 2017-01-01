@@ -1,0 +1,32 @@
+sources:
+  - https://media.ccc.de/c/31c3
+
+feed:
+
+
+
+template: template_rss.xml.erb
+target: feed_31C3.xml
+
+meta:
+  title: 31C3 media feed
+  description: |
+    A feed for different talks of the 31C3 2014
+  author: mxmo0rhuhn
+  link: https://github.com/mxmo0rhuhn/media_feed
+  language: en
+  contact:
+    email: impressum@schrimpf.ch
+    name: impressum
+    image_url: https://github.com/mxmo0rhuhn/media_feed/master/media_feed.png
+  keywords:
+    - it
+    - programming
+    - software
+    - hardware
+    - security
+    - society
+  categories:
+    - Technology
+    - Society
+    - Educational Technology

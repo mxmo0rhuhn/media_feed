@@ -1,108 +1,7 @@
 sources:
-  - https://media.ccc.de/c/32c3
   - https://media.ccc.de/c/33c3
 
 feed:
-  - title: libusb Maintainer fail - How I failed to run an open source project
-    published: Fri, 15 Jan 2016 10:48:28 +0000
-    media_url: http://ftp.fau.de/cdn.media.ccc.de/congress/2015/h264-sd/32c3-7547-en-de-libusb_Maintainer_fail_sd.mp4
-    media_length: 127743217
-    media_type: video/mp4
-    web_url: https://media.ccc.de/v/32c3-7547-libusb_maintainer_fail
-    description: >-
-      In 2010 I was asked by the second maintainer in a row to take over as new
-      maintainer of the libusb project. The first time I had declined. The
-      second time I accepted, and sadly failed. Eventually a hostile fork
-      emerged, with the explicit goal to take over the original project. I will
-      tell you my story, which mistakes I made and what I learned - about
-      independent and corporate contributors in open source projects, about
-      package maintainers in downstream OS distributions, about trolls on the
-      internet, about GitHub Inc. and about myself. The hostile fork? It wasn't
-      merged.
-
-      Tino: True lessons everyone involved in OSS will have to learn eventually.
-
-  - title: Beyond your cable modem - How not to do DOCSIS networks
-    published: Sat, 09 Jan 2016 14:54:41 +0100
-    media_url: http://c3media.vsos.ethz.ch/congress/2015/h264-sd/32c3-7133-en-de-Beyond_your_cable_modem_sd.mp4
-    media_length: 196247310
-    media_type: video/mp4
-    web_url: https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem
-    description: >-
-      Did you ever want to have access to a few hundred thousand
-      network end points? Or a few hundred thousand phone numbers? A
-      short look behind the curtains of how not to do network
-      security.
-
-      Alain: Very fun and at the same time horrific talk. Basically everyone
-      on a cable network can easily gain access to a root shell on everyone
-      elses cable modem. Not only that, you can also listen in to other
-      peoples VOIP calls or call from somebody eleses number.
-
-      Horrifying, because it's so simple and extremely powerful.
-
-      In the questions, it's also very interesting at 30:15 when he's being
-      asked an easy question and the guy gets very uneasy and says: "The
-      problem is the law. I cannot tell you about ....".
-
-      Phil: Best presentation of 32c3 so far!
-
-  - title: What does Big Brother see, while he is watching?
-    published: Sat, 09 Jan 2016 14:21:28 +0100>
-    media_url: http://c3media.vsos.ethz.ch/congress/2015/h264-hd/32c3-7209-en-What_does_Big_Brother_see_while_he_is_watching_hd.mp4
-    media_length: 1009811974
-    media_type: video/mp4
-    web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7209.html
-    description: >-
-      Alain: Simon Menner shows a great collection of pictures from the best
-      treasure trove that is accessible to us from surveillance
-      states. He tells a good story on how absurd and dangerous surveillance
-      is at the same time.
-
-      It's also curious to hear that only footage from eastern countries is
-      available, the BND only released 14 totally irrelevant pictures of all
-      of the cold war (something like a cork screw...). So of course the
-      easter states totally look illegal compared to just nothing.
-
-  - title: Intelexit
-    published: 08 Jan 2016 18:28 GMT
-    media_url: http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7426-en-de-Intelexit_sd.mp4
-    media_type: video/mp4
-    media_length: 143094416
-    web_url: https://media.ccc.de/v/32c3-7426-intelexit
-    description: >-
-      Giant billboard vans, drone-operated leaflet drops over an NSA
-      building and calls to secret service agents, Intelexit explores
-      all routes to reach out to secret service agents and convince
-      them to follow their conscience and quit their jobs. We will
-      take a look at the highlights of the campaign from 2015 and
-      what's around the corner for 2016.
-
-      phil: Performed by the same woman who did the Google Nest talk
-      on Republica 2014.
-
-  - title: 'Rowhammer.js: Root privileges for web apps?'
-    published: 08 Jan 2016 18:28 GMT
-    subtitle: A tale of fault attacks on DRAM and attacks on CPU caches
-    media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7197-en-Rowhammerjs_Root_privileges_for_web_apps.mp4
-    media_type: video/mp4
-    media_length: 143094416
-    web_url: https://media.ccc.de/v/32c3-7197-rowhammer_js_root_privileges_for_web_apps
-    description: >-
-      "Insanity: doing the same thing over and over again and
-      expecting different results."  Albert Einstein - Who did not live long
-      enough to see Rowhammer
-
-      Recent studies have found that repeated accesses to DRAM rows
-      can cause random bit flips, resulting in the so called Rowhammer
-      vulnerability. We present Rowhammer.js, the first remote
-      software-induced hardware-fault attack, from JavaScript. We also
-      extend our presentation with an overview of cache side-channel
-      attacks, that use the same technique to evict data from the
-      cache.
-
-      phil: Frightening bit flipping. Very in depth.
-
   - title: "33C3 Opening Ceremony"
     published: Tue, 27 Dec 2016 00:00:00 +0100
     speakers: anna, elisa
@@ -112,8 +11,6 @@ feed:
     media_length: video/mp4
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8429.html 
     description: >-
-       
-       about this event: https://c3voc.de
        max: May be not very interesting for people that are not at the conference. Please wash your hands. 
 
   - title: "The Global Assassination Grid"
@@ -126,7 +23,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8425.html 
     description: >-
        As they say in the Air Force, ‚No comms no bombs‘,  – A technician’s insight into the invisible networks governing military drones and the quest for accountability
-       about this event: https://c3voc.de
        max: Background talk about the power of drones and the system behind it. Presentation is not that strong - maybe mainly since the talk is that emotionally stressful for the presenter. The content is frightening. 
 
   - title: "Bootstraping a slightly more secure laptop"
@@ -139,7 +35,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8314.html 
     description: >-
        Heads is an open source custom firmware and OS configuration for laptops and servers that aims to provide slightly better physical security and protection for data on the system. Unlike Tails, which aims to be a stateless OS that leaves no trace on the computer of its presence, Heads is intended for the case where you need to store data and state on the computer. It targets specific models of commodity hardware and takes advantage of lessons learned from several years of vulnerability research. This talk provides a high level overview of Heads, a demo of installing it on a Thinkpad and a tour of some of the attacks that it protects against.
-       about this event: https://c3voc.de
        max: Detailed explanation of heads - a stateful secure linux. Very techical. May be of interest if you try to defend state sponsored actors are very into IT-Security. 
 
   - title: "Law Enforcement Are Hacking the Planet"
@@ -152,7 +47,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8018.html 
     description: >-
        In early 2015, the Federal Bureau of Investigation hacked computers in Austria, Denmark, Chile, Colombia, Greece, and likely the United Kingdom and Turkey too. In all, the agency used a Tor Browser exploit to target over 4000 computers spread across the world based on a single, arguably illegal warrant.
-       about this event: https://c3voc.de
        max: Anecdotical stories how the FBI was involved into global hacking of suspects (and may run child porn servers therefore). Well presented but without any possible solution how international internet crime shall be handled. 
 
   - title: "Pegasus internals"
@@ -165,7 +59,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7901.html 
     description: >-
        This talk will take an in-depth look at the technical capabilities and vulnerabilities used by Pegasus. We will focus on Pegasus’s features and the exploit chain Pegasus used called Trident. Attendees will learn about Pegasus’s use of 0-days, obfuscation, encryption, function hooking, and its ability to go unnoticed. We will present our detailed technical analysis that covers each payload stage of Pegasus including its exploit chain and the various 0-day vulnerabilities that the toolkit was using to jailbreak a device. After this talk attendees will have learned all of the technical details about Pegasus and Trident and how the vulnerabilities we found were patched.
-       about this event: https://c3voc.de
        max: Extremly technical - I mean really deep into C source code. To be honest: I fell asleep. 
 
   - title: "What's It Doing Now?"
@@ -178,7 +71,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8033.html 
     description: >-
        Legend has it that most airline pilots will at one time have uttered the sentence "What's it Doing now?", whenever the autopilot or one of its related systems did something unexpected. I will be exploring some high-profile accidents in which wrong expectations of automation behaviour contributed to the outcome.
-       about this event: https://c3voc.de
        max: Stuff you might not have thought about yet. No you can not turn it of and on again in the air. Impressive how defaults might kill people. Enriching if you have the time for it but no must see. 
 
   - title: "Lockpicking in the IoT"
@@ -191,7 +83,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8019.html 
     description: >-
        "Smart" devices using BTLE, a mobile phone and the Internet are becoming more and more popular. We will be using mechanical and electronic hardware attacks, TLS MitM, BTLE sniffing and App decompilation to show why those devices and their manufacturers aren't always that smart after all. And that even AES128 on top of the BTLE layer doesn't have to mean "unbreakable". Our main target will be electronic locks, but the methods shown apply to many other smart devices as well...
-       about this event: https://c3voc.de
        max: If you plan to pwn a device this talk might give you just the ideas you need to have in order to know where to start. Very well presented and entertaining. 
 
   - title: "Console Hacking 2016"
@@ -204,7 +95,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7946.html 
     description: >-
        Last year, we demonstrated Linux running on the PS4 in a lightning talk - presented on the PS4 itself. But how did we do it? In a departure from previous Console Hacking talks focusing on security, this year we're going to focus on the PS4 hardware, what makes it different from a PC, and how we reverse engineered it enough to get a full-blown Linux distro running on it, complete with 3D acceleration.
-       about this event: https://c3voc.de
        max: Very impressive but also very technical talk about the long way to get linux running on something that is arguable not a PC. If you would like to get into Linux dev or advanced operating systems this might be of interest for you. Otherwise just for some LoLz. 
 
   - title: "Nicht öffentlich."
@@ -218,24 +108,22 @@ feed:
     description: >-
        Der NSA-Untersuchungsausschuss im Bundestag soll aufklären, was die NSA in Deutschland tut und wie deutsche Geheimdienste in diese Aktivitäten verwickelt sind. Fast wie in einer Gerichtsverhandlung – doch es gibt eine Besonderheit: Der Zeuge ist der BND, ein Geheimdienst. Und der tut alles dafür, nichts zu verraten.
        
-       
-       about this event: https://c3voc.de
        max: Grossartige Inszenierung einiger Szenen aus dem sog. NSA-Untersuchungsausschuss. Mit verschiedenen Ständigen Berichterstattern sehr hochkarätig besetzt. Ein Lehrstück der Demokratie und der Mühen im Umgang mit Geheimdiensten. Definitiv sehenswert auch für Personen aus dem deutschsprachigen Ausland. 
 
 template: template_rss.xml.erb
-target: feed.xml
+target: feed_33C3.xml
 
 meta:
-  title: 200ok Media Feed
+  title: 33C3 media feed
   description: |
-    A media feed curated by the people at 200ok and friends.
-  author: The people at 200ok and friends
-  link: http://github.com/twohundredok/media_feed
+    A feed for different talks of the 33C3 2016
+  author: mxmo0rhuhn
+  link: https://github.com/mxmo0rhuhn/media_feed
   language: en
   contact:
-    email: info@200ok.ch
-    name: 200ok
-  image_url: https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png
+    email: impressum@schrimpf.ch
+    name: impressum
+    image_url: https://github.com/mxmo0rhuhn/media_feed/master/media_feed.png
   keywords:
     - it
     - programming

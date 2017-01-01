@@ -143,8 +143,8 @@ custom_comment = args.custom_comment
 
 # 33c3 specific:
 podcat_feed = "https://media.ccc.de/c/33c3/podcast/mp4.xml"
-fahrplan_location = "https://fahrplan.events.ccc.de/congress/2016/Fahrplan/schedule.xml"
-event_pattern_head = "https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/"
+fahrplan_location = "https://events.ccc.de/congress/2016/Fahrplan/schedule.xml"
+event_pattern_head = "https://events.ccc.de/congress/2016/Fahrplan/events/"
 event_pattern_tail = ".html"
 
 if year == "2015":

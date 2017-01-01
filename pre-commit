@@ -1,5 +1,11 @@
 #!/bin/sh
 
-./build
+./build media_todo.yml
+./build media_33C3.yml
+./build media_32C3.yml
+./build media_31C3.yml
 
-git add feed.xml
+git add feed_todo.xml
+git add feed_33C3.xml
+git add feed_32C3.xml
+git add feed_31C3.xml
