@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Sun, 01 Jan 2017 21:31:03 +0100</pubDate>
-    <lastBuildDate>Sun, 01 Jan 2017 21:31:03 +0100</lastBuildDate>
+    <pubDate>Sun, 01 Jan 2017 21:48:32 +0100</pubDate>
+    <lastBuildDate>Sun, 01 Jan 2017 21:48:32 +0100</lastBuildDate>
     <managingEditor>
       impressum@schrimpf.ch (impressum)
     </managingEditor>
@@ -299,6 +299,518 @@ phil: Frightening bit flipping. Very in depth.</itunes:summary>
         <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7197-en-Rowhammerjs_Root_privileges_for_web_apps.mp4"
                    length="143094416"
                    type="video/mp4"/>
+      </item>
+    
+      
+      <item>
+        <title>Where in the World Is Carmen Sandiego?</title>
+        <description>Travel booking systems are among the oldest global IT infrastructures, and have changed surprisingly little since the 80s. The personal information contained in these systems is hence not well secured by today&#39;s standards. This talk shows real-world hacking risks from tracking travelers to stealing flights.  max: Media, 0 day </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7964.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7964.html</guid>
+        <pubDate>Tue, 27 Dec 2016 21:45:00 +0100</pubDate>
+        <itunes:subtitle>Where in the World Is Carmen Sandiego?</itunes:subtitle>
+        <itunes:summary>Travel booking systems are among the oldest global IT infrastructures, and have changed surprisingly little since the 80s. The personal information contained in these systems is hence not well secured by today&#39;s standards. This talk shows real-world hacking risks from tracking travelers to stealing flights.  max: Media, 0 day </itunes:summary>
+        <itunes:author>Karsten Nohl, Nemanja Nikodijevic</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7964-eng-Where_in_the_World_Is_Carmen_Sandiego.mp4"
+                   length="video/mp4"
+                   type="395313152"/>
+      </item>
+    
+      
+      <item>
+        <title>Build your own NSA</title>
+        <description>When thinking about surveillance, everyone worries about government agencies like the NSA and big corporations like Google and Facebook. But actually there are hundreds of companies that have also discovered data collection as a revenue source.  We decided to do an experiment: Using simple social engineering techniques, we tried to get the most personal you may have in your procession. max: Media, friends </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8034.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8034.html</guid>
+        <pubDate>Wed, 28 Dec 2016 20:30:00 +0100</pubDate>
+        <itunes:subtitle>Build your own NSA</itunes:subtitle>
+        <itunes:summary>When thinking about surveillance, everyone worries about government agencies like the NSA and big corporations like Google and Facebook. But actually there are hundreds of companies that have also discovered data collection as a revenue source.  We decided to do an experiment: Using simple social engineering techniques, we tried to get the most personal you may have in your procession. max: Media, friends </itunes:summary>
+        <itunes:author>Andreas Dewes, @sveckert</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8034-deu-Build_your_own_NSA.mp4"
+                   length="video/mp4"
+                   type="632291328"/>
+      </item>
+    
+      
+      <item>
+        <title>Predicting and Abusing WPA2/802.11 Group Keys</title>
+        <description>We analyze the generation and management of WPA2 group keys. These keys protect broadcast and multicast Wi-Fi traffic. We discovered several issues and illustrate their importance by decrypting all group (and unicast) traffic of a typical Wi-Fi network. max: Friends </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8195.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8195.html</guid>
+        <pubDate>Tue, 27 Dec 2016 14:00:00 +0100</pubDate>
+        <itunes:subtitle>Predicting and Abusing WPA2/802.11 Group Keys</itunes:subtitle>
+        <itunes:summary>We analyze the generation and management of WPA2 group keys. These keys protect broadcast and multicast Wi-Fi traffic. We discovered several issues and illustrate their importance by decrypting all group (and unicast) traffic of a typical Wi-Fi network. max: Friends </itunes:summary>
+        <itunes:author>Mathy Vanhoef</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8195-eng-Predicting_and_Abusing_WPA2_80211_Group_Keys.mp4"
+                   length="video/mp4"
+                   type="241172480"/>
+      </item>
+    
+      
+      <item>
+        <title>3 Years After Snowden: Is Germany fighting State Surveillance?</title>
+        <description>Germany has a good reputation for strong data protection. It also features the only parliamentary inquiry committee investigating the Snowden revelations. But what are actual results of parliamentary, journalistic and public engagement? max: Snowden live at CCC </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8117.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8117.html</guid>
+        <pubDate>Wed, 28 Dec 2016 17:15:00 +0100</pubDate>
+        <itunes:subtitle>3 Years After Snowden: Is Germany fighting State Surveillance?</itunes:subtitle>
+        <itunes:summary>Germany has a good reputation for strong data protection. It also features the only parliamentary inquiry committee investigating the Snowden revelations. But what are actual results of parliamentary, journalistic and public engagement? max: Snowden live at CCC </itunes:summary>
+        <itunes:author>anna, Andre Meister</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8117-eng-3_Years_After_Snowden_Is_Germany_fighting_State_Surveillance.mp4"
+                   length="video/mp4"
+                   type="714080256"/>
+      </item>
+    
+      
+      <item>
+        <title>Es sind die kleinen Dinge im Leben</title>
+        <description>Jeder weiß ungefähr was ein Mikroskop ist und vielleicht hat man auch mal davon gehört das da immernoch dran geforscht wird – Stichwort Hochauflösungsmikroskopie (Nobelpreis 2014 in Chemie). Es gibt deutlich mehr Mikroskope in der professionellen Forschung als es Teleskope gibt, deutlich mehr – und da könnte man sich jetzt fragen: &quot;Warum sehe ich so viele Bilder von Sterne, aber kaum Mikroskopiebilder von öffentlichen Einrichtungen und Stellen?&quot;. Um diese Frage zu beantworten will ich kurz in die Welt der Hochauflösungsmikroskopie einführen und die Techniken erklären. Ein bisschen über die Community erzählen und versuchen klar zu machen, warum es hier mit der Offenheit noch etwas hapert. UND: Es soll auch mikroskopiert werden. max: Media, seems to have great pictures </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8237.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8237.html</guid>
+        <pubDate>Wed, 28 Dec 2016 11:30:00 +0100</pubDate>
+        <itunes:subtitle>Es sind die kleinen Dinge im Leben</itunes:subtitle>
+        <itunes:summary>Jeder weiß ungefähr was ein Mikroskop ist und vielleicht hat man auch mal davon gehört das da immernoch dran geforscht wird – Stichwort Hochauflösungsmikroskopie (Nobelpreis 2014 in Chemie). Es gibt deutlich mehr Mikroskope in der professionellen Forschung als es Teleskope gibt, deutlich mehr – und da könnte man sich jetzt fragen: &quot;Warum sehe ich so viele Bilder von Sterne, aber kaum Mikroskopiebilder von öffentlichen Einrichtungen und Stellen?&quot;. Um diese Frage zu beantworten will ich kurz in die Welt der Hochauflösungsmikroskopie einführen und die Techniken erklären. Ein bisschen über die Community erzählen und versuchen klar zu machen, warum es hier mit der Offenheit noch etwas hapert. UND: Es soll auch mikroskopiert werden. max: Media, seems to have great pictures </itunes:summary>
+        <itunes:author>André Lampe</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8237-deu-Es_sind_die_kleinen_Dinge_im_Leben.mp4"
+                   length="video/mp4"
+                   type="329252864"/>
+      </item>
+    
+      
+      <item>
+        <title>Visiting The Bear Den</title>
+        <description>Sednit, a.k.a Fancy Bear/APT28/Sofacy, is a group of attackers operating since at least 2004 and whose main objective is to steal confidential information from specific targets. Over the past two years, this group&#39;s activity increased significantly, in particular with numerous attacks against foreign affairs ministries and embassies all over the world. They are supposedly behind the DNC hack, and the WADA hack, which happened earlier this year. This talk presents the results of a two-year hunt after Sednit, during which we dug up and analyzed many of their software.  </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8094.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8094.html</guid>
+        <pubDate>Tue, 27 Dec 2016 23:00:00 +0100</pubDate>
+        <itunes:subtitle>Visiting The Bear Den</itunes:subtitle>
+        <itunes:summary>Sednit, a.k.a Fancy Bear/APT28/Sofacy, is a group of attackers operating since at least 2004 and whose main objective is to steal confidential information from specific targets. Over the past two years, this group&#39;s activity increased significantly, in particular with numerous attacks against foreign affairs ministries and embassies all over the world. They are supposedly behind the DNC hack, and the WADA hack, which happened earlier this year. This talk presents the results of a two-year hunt after Sednit, during which we dug up and analyzed many of their software.  </itunes:summary>
+        <itunes:author>Jessy Campos</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8094-eng-Visiting_The_Bear_Den.mp4"
+                   length="video/mp4"
+                   type="266338304"/>
+      </item>
+    
+      
+      <item>
+        <title>Kampf dem Abmahnunwesen</title>
+        <description>Im Spannungsfeld zwischen der Vorderfront der Computertechnik und einem Spezialbereich des Urheberrechts hat sich eine Industrie eine Nische geschaffen, in der sie durch Hochspezialisierung und Automatisierung ein einträgliches Geschäft aufgezogen haben. Dabei nehmen sie als Kollateralschaden in Kauf, dass Unschuldige durch die Drohkulisse zum Zahlen bewegt und zum Schließen ihres offenen Netzwerks gebracht werden. Wir beschreiben, was man dagegen tun kann und was wir dagegen schon getan haben. max: Media </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8388.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8388.html</guid>
+        <pubDate>Tue, 27 Dec 2016 16:45:00 +0100</pubDate>
+        <itunes:subtitle>Kampf dem Abmahnunwesen</itunes:subtitle>
+        <itunes:summary>Im Spannungsfeld zwischen der Vorderfront der Computertechnik und einem Spezialbereich des Urheberrechts hat sich eine Industrie eine Nische geschaffen, in der sie durch Hochspezialisierung und Automatisierung ein einträgliches Geschäft aufgezogen haben. Dabei nehmen sie als Kollateralschaden in Kauf, dass Unschuldige durch die Drohkulisse zum Zahlen bewegt und zum Schließen ihres offenen Netzwerks gebracht werden. Wir beschreiben, was man dagegen tun kann und was wir dagegen schon getan haben. max: Media </itunes:summary>
+        <itunes:author>Beata Hubrig, erdgeist</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8388-deu-Kampf_dem_Abmahnunwesen.mp4"
+                   length="video/mp4"
+                   type="501219328"/>
+      </item>
+    
+      
+      <item>
+        <title>Shut Up and Take My Money!</title>
+        <description>FinTechs increasingly cut the ground from under long-established banks’ feet. With a &quot;Mobile First&quot; strategy, many set their sights on bringing all financial tasks—checking the account balance, making transactions, arranging investments, and ordering an overdraft—on your smartphone. In a business area that was once entirely committed to security, Fintechs make a hip design and outstanding user experience their one and only priority. Even though this strategy is rewarded by rapidly increasing customer numbers, it also reveals a flawed understanding of security. With the example of the pan-European banking startup N26 (formerly Number26), we succeeded independently from the used device to leak customer data, manipulate transactions, and to entirely take over accounts to ultimately issue arbitrary transactions—even without credit. max: 0 day </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7969.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7969.html</guid>
+        <pubDate>Tue, 27 Dec 2016 16:45:00 +0100</pubDate>
+        <itunes:subtitle>Shut Up and Take My Money!</itunes:subtitle>
+        <itunes:summary>FinTechs increasingly cut the ground from under long-established banks’ feet. With a &quot;Mobile First&quot; strategy, many set their sights on bringing all financial tasks—checking the account balance, making transactions, arranging investments, and ordering an overdraft—on your smartphone. In a business area that was once entirely committed to security, Fintechs make a hip design and outstanding user experience their one and only priority. Even though this strategy is rewarded by rapidly increasing customer numbers, it also reveals a flawed understanding of security. With the example of the pan-European banking startup N26 (formerly Number26), we succeeded independently from the used device to leak customer data, manipulate transactions, and to entirely take over accounts to ultimately issue arbitrary transactions—even without credit. max: 0 day </itunes:summary>
+        <itunes:author>Vincent Haupert</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7969-eng-Shut_Up_and_Take_My_Money.mp4"
+                   length="video/mp4"
+                   type="163577856"/>
+      </item>
+    
+      
+      <item>
+        <title>Syrian Archive</title>
+        <description>Journalists and human rights groups need to find and use verified visual evidence in order to accurately report about what’s happening in conflict zones. In the case of Syria, there are more hours of online footage online than there have been hours of conflict. max: media coverage </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7909.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7909.html</guid>
+        <pubDate>Wed, 28 Dec 2016 12:15:00 +0100</pubDate>
+        <itunes:subtitle>Syrian Archive</itunes:subtitle>
+        <itunes:summary>Journalists and human rights groups need to find and use verified visual evidence in order to accurately report about what’s happening in conflict zones. In the case of Syria, there are more hours of online footage online than there have been hours of conflict. max: media coverage </itunes:summary>
+        <itunes:author>Jeff Deutch, Hadi Al-Khatib</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7909-eng-Syrian_Archive.mp4"
+                   length="video/mp4"
+                   type="244318208"/>
+      </item>
+    
+      
+      <item>
+        <title>Geolocation methods in mobile networks</title>
+        <description>This talk presents the results of the technical analysis for the German Parliamentary Committee investigating the NSA spying scandal on geolocation methods in mobile networks.
+        </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7966.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7966.html</guid>
+        <pubDate>Tue, 27 Dec 2016 17:30:00 +0100</pubDate>
+        <itunes:subtitle>Geolocation methods in mobile networks</itunes:subtitle>
+        <itunes:summary>This talk presents the results of the technical analysis for the German Parliamentary Committee investigating the NSA spying scandal on geolocation methods in mobile networks.
+        </itunes:summary>
+        <itunes:author>Erik</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7966-eng-Geolocation_methods_in_mobile_networks.mp4"
+                   length="video/mp4"
+                   type="257949696"/>
+      </item>
+    
+      
+      <item>
+        <title>Dieselgate – A year later</title>
+        <description>At 32C3 we gave an overview on the organizational and technical aspects of Dieselgate that had just broken public three months before. In the last year we have learned a lot and spoken to hundreds of people. Daniel gives an update on what is known and what is still to be revealed.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8131.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8131.html</guid>
+        <pubDate>Tue, 27 Dec 2016 19:00:00 +0100</pubDate>
+        <itunes:subtitle>Dieselgate – A year later</itunes:subtitle>
+        <itunes:summary>At 32C3 we gave an overview on the organizational and technical aspects of Dieselgate that had just broken public three months before. In the last year we have learned a lot and spoken to hundreds of people. Daniel gives an update on what is known and what is still to be revealed.</itunes:summary>
+        <itunes:author>Daniel Lange (DLange)</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8131-eng-Dieselgate_-_A_year_later.mp4"
+                   length="video/mp4"
+                   type="230686720"/>
+      </item>
+    
+      
+      <item>
+        <title>Software Defined Emissions</title>
+        <description>A technical talk on how to reverse-engineer electronic control units in order to document what was left apparently intentionally undocumented by the vendor – including how Volkswagen tweaked their cycle detection code while already being investigated by the EPA, how different the Volkswagen approach is really to the rest of the industry, and of course some trivia on how the „acoustic function“ got its name.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7904.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7904.html</guid>
+        <pubDate>Tue, 27 Dec 2016 20:30:00 +0100</pubDate>
+        <itunes:subtitle>Software Defined Emissions</itunes:subtitle>
+        <itunes:summary>A technical talk on how to reverse-engineer electronic control units in order to document what was left apparently intentionally undocumented by the vendor – including how Volkswagen tweaked their cycle detection code while already being investigated by the EPA, how different the Volkswagen approach is really to the rest of the industry, and of course some trivia on how the „acoustic function“ got its name.</itunes:summary>
+        <itunes:author>Felix „tmbinc“ Domke</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7904-eng-Software_Defined_Emissions.mp4"
+                   length="video/mp4"
+                   type="311427072"/>
+      </item>
+    
+      
+      <item>
+        <title>Hacking the World</title>
+        <description>In this lecture I wish to reflect on the maturation of the security and hacking communities and their role in larger societal and political participation. We&#39;ll reflect on the predominant role that technology has been growing into our lives, and the responsibilities we have in nurturing it. After having spent the last years in researching, exposing, and preventing the electronic targeting of dissidents and journalists, I hope to synthesize my experience and suggest how to reconsider our tactics, the successes, and the failures, and hopefully draw some inspiration for a brighter future.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8349.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8349.html</guid>
+        <pubDate>Wed, 28 Dec 2016 13:00:00 +0100</pubDate>
+        <itunes:subtitle>Hacking the World</itunes:subtitle>
+        <itunes:summary>In this lecture I wish to reflect on the maturation of the security and hacking communities and their role in larger societal and political participation. We&#39;ll reflect on the predominant role that technology has been growing into our lives, and the responsibilities we have in nurturing it. After having spent the last years in researching, exposing, and preventing the electronic targeting of dissidents and journalists, I hope to synthesize my experience and suggest how to reconsider our tactics, the successes, and the failures, and hopefully draw some inspiration for a brighter future.</itunes:summary>
+        <itunes:author>Claudio "nex" Guarnieri</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8349-eng-Hacking_the_World.mp4"
+                   length="video/mp4"
+                   type="235929600"/>
+      </item>
+    
+      
+      <item>
+        <title>Nintendo Hacking 2016</title>
+        <description>This talk will give a unique insight of what happens when consoles have been hacked already, but not all secrets are busted yet. This time we will not only focus on the Nintendo 3DS but also on the Wii U, talking about our experiences wrapping up the end of an era. We will show how we managed to exploit them in novel ways and discuss why we think that Nintendo has lost the game.
+        </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8344.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8344.html</guid>
+        <pubDate>Tue, 27 Dec 2016 20:30:00 +0100</pubDate>
+        <itunes:subtitle>Nintendo Hacking 2016</itunes:subtitle>
+        <itunes:summary>This talk will give a unique insight of what happens when consoles have been hacked already, but not all secrets are busted yet. This time we will not only focus on the Nintendo 3DS but also on the Wii U, talking about our experiences wrapping up the end of an era. We will show how we managed to exploit them in novel ways and discuss why we think that Nintendo has lost the game.
+        </itunes:summary>
+        <itunes:author>derrek, nedwill, naehrwert</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8344-eng-Nintendo_Hacking_2016.mp4"
+                   length="video/mp4"
+                   type="241172480"/>
+      </item>
+    
+      
+      <item>
+        <title>Copywrongs 2.0</title>
+        <description>EU copyright reform plans threaten freedom of expression: Commissioner Günther Oettinger wants to make sharing even the tiniest snippets of news content subject to costly licensing, and obligate internet platforms to monitor all user uploads. We can still stop these proposals – if you join the fight now.
+        </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8229.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8229.html</guid>
+        <pubDate>Wed, 28 Dec 2016 16:00:00 +0100</pubDate>
+        <itunes:subtitle>Copywrongs 2.0</itunes:subtitle>
+        <itunes:summary>EU copyright reform plans threaten freedom of expression: Commissioner Günther Oettinger wants to make sharing even the tiniest snippets of news content subject to costly licensing, and obligate internet platforms to monitor all user uploads. We can still stop these proposals – if you join the fight now.
+        </itunes:summary>
+        <itunes:author>Julia Reda</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8229-eng-Copywrongs_20.mp4"
+                   length="video/mp4"
+                   type="653262848"/>
+      </item>
+    
+      
+      <item>
+        <title>You can -j REJECT but you can not hide: Global scanning of the IPv6 Internet</title>
+        <description>In this talk we will explore and present various IPv6 scanning techniques that allow attackers to peek into IPv6 networks. With the already known difference between IPv4 and IPv6 firewalling (the latter is worse... ) we then demonstrate how these techniques can be combined and used to obtain a large-scale view on the state of IPv6 in infrastructures and data centers. To give the whole issue a somewhat more fun dimension, we will also look at some (security) sensitive applications of this technique. Complimentary code-snippets will be provided.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8061.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8061.html</guid>
+        <pubDate>Tue, 27 Dec 2016 23:00:00 +0100</pubDate>
+        <itunes:subtitle>You can -j REJECT but you can not hide: Global scanning of the IPv6 Internet</itunes:subtitle>
+        <itunes:summary>In this talk we will explore and present various IPv6 scanning techniques that allow attackers to peek into IPv6 networks. With the already known difference between IPv4 and IPv6 firewalling (the latter is worse... ) we then demonstrate how these techniques can be combined and used to obtain a large-scale view on the state of IPv6 in infrastructures and data centers. To give the whole issue a somewhat more fun dimension, we will also look at some (security) sensitive applications of this technique. Complimentary code-snippets will be provided.</itunes:summary>
+        <itunes:author>Tobias Fiebig</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8061-eng-You_can_-j_REJECT_but_you_can_not_hide_Global_scanning_of_the_IPv6_Internet.mp4"
+                   length="video/mp4"
+                   type="309329920"/>
+      </item>
+    
+      
+      <item>
+        <title>Zwischen Technikbegeisterung und kritischer Reflexion: Chaos macht Schule</title>
+        <description>Die Lebenswelt von Kindern und Jugendlichen sowie die der Schulen könnte in Bezug auf die Digitalisierung kaum gegensätzlicher sein: Schülerinnen und Schüler leben und entfalten sich begeistert in der digitalen Welt, aber die Schule ist kaum in der Lage, Schülern ihre drängenden Fragen rund um die komplexe digitale Welt zu beantworten. In unserem Talk möchten wir anhand unserer Erfahrungen aus dem Projekt &quot;Chaos macht Schule&quot; u.a. diskutieren, wie man die heranwachsende Generation u. a. für Themen wie Datenschutz und Überwachung sensibilisieren und gleichzeitig Technikbegeisterung bei jungen Menschen fördern kann.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8262.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8262.html</guid>
+        <pubDate>Tue, 27 Dec 2016 14:00:00 +0100</pubDate>
+        <itunes:subtitle>Zwischen Technikbegeisterung und kritischer Reflexion: Chaos macht Schule</itunes:subtitle>
+        <itunes:summary>Die Lebenswelt von Kindern und Jugendlichen sowie die der Schulen könnte in Bezug auf die Digitalisierung kaum gegensätzlicher sein: Schülerinnen und Schüler leben und entfalten sich begeistert in der digitalen Welt, aber die Schule ist kaum in der Lage, Schülern ihre drängenden Fragen rund um die komplexe digitale Welt zu beantworten. In unserem Talk möchten wir anhand unserer Erfahrungen aus dem Projekt &quot;Chaos macht Schule&quot; u.a. diskutieren, wie man die heranwachsende Generation u. a. für Themen wie Datenschutz und Überwachung sensibilisieren und gleichzeitig Technikbegeisterung bei jungen Menschen fördern kann.</itunes:summary>
+        <itunes:author>benni, Dorina</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8262-deu-Zwischen_Technikbegeisterung_und_kritischer_Reflexion_Chaos_macht_Schule.mp4"
+                   length="video/mp4"
+                   type="881852416"/>
+      </item>
+    
+      
+      <item>
+        <title>Bonsai Kitten waren mir lieber - Rechte Falschmeldungen in sozialen Netzwerken</title>
+        <description>Auf der Hoaxmap werden seit vergangenem Februar Gerüchte über Geflüchtete und deren Widerlegungen gesammelt, sortiert und in Kartenform präsentiert. Die Themen sind dabei so vielfältig wie die Erzählformen.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8288.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8288.html</guid>
+        <pubDate>Tue, 27 Dec 2016 19:00:00 +0100</pubDate>
+        <itunes:subtitle>Bonsai Kitten waren mir lieber - Rechte Falschmeldungen in sozialen Netzwerken</itunes:subtitle>
+        <itunes:summary>Auf der Hoaxmap werden seit vergangenem Februar Gerüchte über Geflüchtete und deren Widerlegungen gesammelt, sortiert und in Kartenform präsentiert. Die Themen sind dabei so vielfältig wie die Erzählformen.</itunes:summary>
+        <itunes:author>fraulutz, NoAverageRobot</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8288-deu-Bonsai_Kitten_waren_mir_lieber_-_Rechte_Falschmeldungen_in_sozialen_Netzwerken.mp4"
+                   length="video/mp4"
+                   type="328204288"/>
+      </item>
+    
+      
+      <item>
+        <title>The Fight for Encryption in 2016</title>
+        <description>Both strong end-to-end communications encryption and device encryption are legal in most jurisdictions today, and remain widely available. Yet software programmers and hardware producers are increasingly under pressure from law enforcement and policy makers around the world to include so-called backdoors in encryption products.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8295.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8295.html</guid>
+        <pubDate>Tue, 27 Dec 2016 12:45:00 +0100</pubDate>
+        <itunes:subtitle>The Fight for Encryption in 2016</itunes:subtitle>
+        <itunes:summary>Both strong end-to-end communications encryption and device encryption are legal in most jurisdictions today, and remain widely available. Yet software programmers and hardware producers are increasingly under pressure from law enforcement and policy makers around the world to include so-called backdoors in encryption products.</itunes:summary>
+        <itunes:author>Kurt Opsahl</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8295-eng-The_Fight_for_Encryption_in_2016.mp4"
+                   length="video/mp4"
+                   type="395313152"/>
+      </item>
+    
+      
+      <item>
+        <title>Retail Surveillance / Retail Countersurveillance</title>
+        <description>From geo-magnetic tracking for smartphones to facial recognition for email marketing, from physical shopping cart fingerprinting to computer vision algorithms that use your clothing as metadata, this talk will explore the emerging landscape of hyper-competitive retail surveillance. Instead of dramatizing these technologies which can lead to calcification and normalization, the aim of this talk is to energize discourse around building creative solutions to counter, adapt to, or rethink emerging surveillance technologies.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8238.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8238.html</guid>
+        <pubDate>Fri, 30 Dec 2016 13:00:00 +0100</pubDate>
+        <itunes:subtitle>Retail Surveillance / Retail Countersurveillance</itunes:subtitle>
+        <itunes:summary>From geo-magnetic tracking for smartphones to facial recognition for email marketing, from physical shopping cart fingerprinting to computer vision algorithms that use your clothing as metadata, this talk will explore the emerging landscape of hyper-competitive retail surveillance. Instead of dramatizing these technologies which can lead to calcification and normalization, the aim of this talk is to energize discourse around building creative solutions to counter, adapt to, or rethink emerging surveillance technologies.</itunes:summary>
+        <itunes:author>Adam Harvey</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8238-eng-Retail_Surveillance_Retail_Countersurveillance.mp4"
+                   length="video/mp4"
+                   type="192937984"/>
+      </item>
+    
+      
+      <item>
+        <title>The DROWN Attack</title>
+        <description>We present DROWN, a novel cross-protocol attack on TLS that uses a server supporting SSLv2 as an oracle to decrypt modern TLS connections. Using Internet-wide scans, we find that 33% of all HTTPS servers are vulnerable to this protocol-level attack. max: Have been told that its very technical
+        </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7821.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7821.html</guid>
+        <pubDate>Tue, 27 Dec 2016 14:00:00 +0100</pubDate>
+        <itunes:subtitle>The DROWN Attack</itunes:subtitle>
+        <itunes:summary>We present DROWN, a novel cross-protocol attack on TLS that uses a server supporting SSLv2 as an oracle to decrypt modern TLS connections. Using Internet-wide scans, we find that 33% of all HTTPS servers are vulnerable to this protocol-level attack. max: Have been told that its very technical
+        </itunes:summary>
+        <itunes:author>Sebastian Schinzel</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7821-eng-The_DROWN_Attack.mp4"
+                   length="video/mp4"
+                   type="310378496"/>
+      </item>
+    
+      
+      <item>
+        <title>A world without blockchain</title>
+        <description>Instant money transfer, globally without borders and 24/7. That’s one of the promises of Bitcoin. But how does national and international money transfer work in the world of banks? max: maybe </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8315.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8315.html</guid>
+        <pubDate>Wed, 28 Dec 2016 18:30:00 +0100</pubDate>
+        <itunes:subtitle>A world without blockchain</itunes:subtitle>
+        <itunes:summary>Instant money transfer, globally without borders and 24/7. That’s one of the promises of Bitcoin. But how does national and international money transfer work in the world of banks? max: maybe </itunes:summary>
+        <itunes:author>Mark van Cuijk</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8315-eng-A_world_without_blockchain.mp4"
+                   length="video/mp4"
+                   type="389021696"/>
+      </item>
+    
+      
+      <item>
+        <title>The Untold Story of Edward Snowden’s Escape from Hong Kong</title>
+        <description>On June 9, 2013, Edward Snowden revealed massive civil rights abuses by the NSA. On June 10, Snowden didn’t know where to hide. max: maybe </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8416.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8416.html</guid>
+        <pubDate>Wed, 28 Dec 2016 18:30:00 +0100</pubDate>
+        <itunes:subtitle>The Untold Story of Edward Snowden’s Escape from Hong Kong</itunes:subtitle>
+        <itunes:summary>On June 9, 2013, Edward Snowden revealed massive civil rights abuses by the NSA. On June 10, Snowden didn’t know where to hide. max: maybe </itunes:summary>
+        <itunes:author>Lena Rohrbach, Sönke Iwersen, Robert Tibbo</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8416-eng-The_Untold_Story_of_Edward_Snowdens_Escape_from_Hong_Kong.mp4"
+                   length="video/mp4"
+                   type="789577728"/>
+      </item>
+    
+      
+      <item>
+        <title>Stopping law enforcement hacking</title>
+        <description>We didn’t win the second crypto wars. Governments merely made a strategic retreat and they’ll be back. Although they will likely give up on trying to regulate or prohibit encryption, we should expect that malware and law enforcement hacking will play a starring role in the next battle in the crypto wars. max: maybe </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8136.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8136.html</guid>
+        <pubDate>Wed, 28 Dec 2016 18:30:00 +0100</pubDate>
+        <itunes:subtitle>Stopping law enforcement hacking</itunes:subtitle>
+        <itunes:summary>We didn’t win the second crypto wars. Governments merely made a strategic retreat and they’ll be back. Although they will likely give up on trying to regulate or prohibit encryption, we should expect that malware and law enforcement hacking will play a starring role in the next battle in the crypto wars. max: maybe </itunes:summary>
+        <itunes:author>Christopher Soghoian</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8136-eng-Stopping_law_enforcement_hacking_hd.mp4"
+                   length="video/mp4"
+                   type="452984832"/>
+      </item>
+    
+      
+      <item>
+        <title>The Clash of Digitalizations</title>
+        <description>This talk discusses the representation of Arab males in video games and the adverse effect it has on the collective political imagination. Anonymous military-aged Arab men become increasingly the exception to the laws of human rights, and become default targets for conventional and unmanned drone attacks. This devolution is seen through the lens of the changing nature of conflict through digitalization, the collapse of the nation state in Iraq and Syria, and the future of war.  max: maybe </description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8419.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8419.html</guid>
+        <pubDate>Wed, 28 Dec 2016 12:15:00 +0100</pubDate>
+        <itunes:subtitle>The Clash of Digitalizations</itunes:subtitle>
+        <itunes:summary>This talk discusses the representation of Arab males in video games and the adverse effect it has on the collective political imagination. Anonymous military-aged Arab men become increasingly the exception to the laws of human rights, and become default targets for conventional and unmanned drone attacks. This devolution is seen through the lens of the changing nature of conflict through digitalization, the collapse of the nation state in Iraq and Syria, and the future of war.  max: maybe </itunes:summary>
+        <itunes:author>Saud Al-Zaid</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8419-eng-The_Clash_of_Digitalizations.mp4"
+                   length="video/mp4"
+                   type="209715200"/>
+      </item>
+    
+      
+      <item>
+        <title>Netzpolitik in der Schweiz 2016</title>
+        <description>Ein Überblick zur netzpolitischen Situation in der Schweiz. Wir geben einen umfassenden Rückblick auf das ereignissreiche Jahr 2016, in dem die Schweizer Bevölkerung über gleich zwei Massenüberwachungsgesetze entschieden hat. Die netzpolitischen Gruppierungen haben mit viel Einsatz gegen die Gesetze gekämpft . Wir berichten darüber, wie wir das angengangen sind, wie es ausgegangen ist und was wir dabei gelernt haben. Zudem machen wir einen Ausblick auf kommende netzpolitische Herausforderungen. max: Hoffentlich besser als letztes Jahr</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8264.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8264.html</guid>
+        <pubDate>Tue, 27 Dec 2016 20:30:00 +0100</pubDate>
+        <itunes:subtitle>Netzpolitik in der Schweiz 2016</itunes:subtitle>
+        <itunes:summary>Ein Überblick zur netzpolitischen Situation in der Schweiz. Wir geben einen umfassenden Rückblick auf das ereignissreiche Jahr 2016, in dem die Schweizer Bevölkerung über gleich zwei Massenüberwachungsgesetze entschieden hat. Die netzpolitischen Gruppierungen haben mit viel Einsatz gegen die Gesetze gekämpft . Wir berichten darüber, wie wir das angengangen sind, wie es ausgegangen ist und was wir dabei gelernt haben. Zudem machen wir einen Ausblick auf kommende netzpolitische Herausforderungen. max: Hoffentlich besser als letztes Jahr</itunes:summary>
+        <itunes:author>Hakuna MaMate</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8264-deu-Netzpolitik_in_der_Schweiz_2016.mp4"
+                   length="video/mp4"
+                   type="846200832"/>
+      </item>
+    
+      
+      <item>
+        <title>Deploying TLS 1.3: the great, the good and the bad</title>
+        <description>Transport Layer Security (TLS) 1.3 is almost here. The protocol that protects most of the Internet secure connections is getting the biggest ever revamp, and is losing a round-trip. We will explore differences between TLS 1.3 and previous versions in detail, focusing on the security improvements of the new protocol as well as some of the challenges we face around securely implementing new features such as 0-RTT resumption. At Cloudflare we will be the first to deploy TLS 1.3 on a wide scale, and we’ll be able to discuss the insights we gained while implementing and deploying this protocol.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8348.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8348.html</guid>
+        <pubDate>Tue, 27 Dec 2016 21:45:00 +0100</pubDate>
+        <itunes:subtitle>Deploying TLS 1.3: the great, the good and the bad</itunes:subtitle>
+        <itunes:summary>Transport Layer Security (TLS) 1.3 is almost here. The protocol that protects most of the Internet secure connections is getting the biggest ever revamp, and is losing a round-trip. We will explore differences between TLS 1.3 and previous versions in detail, focusing on the security improvements of the new protocol as well as some of the challenges we face around securely implementing new features such as 0-RTT resumption. At Cloudflare we will be the first to deploy TLS 1.3 on a wide scale, and we’ll be able to discuss the insights we gained while implementing and deploying this protocol.</itunes:summary>
+        <itunes:author>Filippo Valsorda, Nick Sullivan</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8348-eng-Deploying_TLS_13_the_great_the_good_and_the_bad.mp4"
+                   length="video/mp4"
+                   type="562036736"/>
+      </item>
+    
+      
+      <item>
+        <title>The Economic Consequences of Internet Censorship</title>
+        <description>Internet censorship today is widespread, both by governments and by private entities. Much of the discussion so far has focused on political and social effects of this censorship. However, censorship also has a clear effect on the economic structure of society that has not been explored.</description>
+        <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8170.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8170.html</guid>
+        <pubDate>Fri, 30 Dec 2016 11:30:00 +0100</pubDate>
+        <itunes:subtitle>The Economic Consequences of Internet Censorship</itunes:subtitle>
+        <itunes:summary>Internet censorship today is widespread, both by governments and by private entities. Much of the discussion so far has focused on political and social effects of this censorship. However, censorship also has a clear effect on the economic structure of society that has not been explored.</itunes:summary>
+        <itunes:author>Toni</itunes:author>
+        <itunes:image href=""/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8170-eng-The_Economic_Consequences_of_Internet_Censorship.mp4"
+                   length="video/mp4"
+                   type="153092096"/>
       </item>
     
   </channel>
