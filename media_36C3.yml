@@ -1,3 +1,7 @@
+sources:
+  - https://media.ccc.de/c/31c3
+
+feed:
   - title: "Verkehrswende selber hacken"
     published: Mon, 30 Dec 2019 13:50:00 +0100
     speakers: robbi5, ubahnverleih
@@ -10,7 +14,7 @@
       Der Talk wird eine wilde Fahrt, vorbei an umfallenden Rollern, etwas Kunst mit Sharing-Daten, einer Shoppingtour aus Recherchegründen auf asiatischen Großhandelsplattformen, Sicherheitslücken in Fahrradschlössern, welche einen deutschen Bikesharer dazu bringen, seine 6000 Räder weltweit wieder einzusammeln, der Analyse von risikokapitalgetriebenen Sharingsystemen bis hin zum Gegenentwurf: Wie angewandte Lobbyarbeit für mehr offene Mobilitätsdaten aussieht. Und wie man es selbst in die Hand nehmen kann. Der Markt der Mobilitätsangebote ist in den letzten Jahren immer schneller immer größer geworden. Von einfachen Bikesharing-Rädern über E-Bikes, Lastenrädern hin zu Scootern bekommen wir in Großstädten immer mehr Möglichkeiten, ohne eigenes Gefährt trotzdem mobil zu sein. Aber warum nur in Großstädten? Wie nachhaltig ist das? Warum brauche ich immer noch 20 Apps für jede Stadt? Wie sehen diese Sharingsysteme eigentlich technisch aus? Was passiert mit den Daten und was lässt sich mit ihnen anfangen? Und warum sollten wir Mobilität eigentlich risikokapitalgetriebenen Technologieunternehmen überlassen? Daher bauen wir ein Open Source Bikesharingsystem: nicht profitorientiert und offen für alle, erprobt auf dem CCCamp19
       max: Empfehlung aus Logbuch Netzpolitik
 
-  - title: ""Hacker hin oder her": Die elektronische Patientenakte kommt!"
+  - title: "Hacker hin oder her: Die elektronische Patientenakte kommt!"
     published: Fri, 27 Dec 2019 16:10:00 +0100
     speakers: Martin Tschirsich, cbro - Dr. med. Christian Brodowski, Dr. André Zilch
     subtitle: ""
@@ -146,7 +150,7 @@
 
   - title: "Inside the Fake Like Factories"
     published: Fri, 27 Dec 2019 23:30:00 +0100
-    speakers: @sveckert, Dennis Tatang, pkreissel
+    speakers: "@sveckert, Dennis Tatang, pkreissel"
     subtitle: "How thousands of Facebook, You Tube and Instagram pages benefited from purchased likes and how we reverse engineered facebooks user IDs"
     media_url: https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10936-eng-deu-Inside_the_Fake_Like_Factories_hd.mp4
     media_type: 701497344
@@ -295,3 +299,47 @@
 
        Wie immer wagen wir den IT-Security-Alptraum-Ausblick auf das Jahr 2020 und darüber hinaus. Denn was wir wirklich wissen wollen, ist ja schließlich: Wer hat sich letztes Jahr mit seiner AI gestritten? Und wie entwickelt sich das Berufsbild des Blockchain-Exorzisten weiter? Gibt es bald IT-Sicherheits-Wettervorhersagen im Fernsehen?
        max: Security Nightmares halt - die übliche sehr lustige / zum Nachdenken anregende Art von frank und Ron
+
+  - title: "Hacking the Media: Geflüchtete schmuggeln, Nazis torten, Pässe fälschen"
+    published: Sun, 29 Dec 2019 14:10:00 +0100
+    speakers: Conny Runner, Ronny Sommer
+    subtitle: "Warum wir zivilen Ungehorsam und Subversion mehr brauchen denn je"
+    media_url: https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10541-deu-eng-rus-Hacking_the_Media_Gefluechtete_schmuggeln_Nazis_torten_Paesse_faelschen_hd.mp4
+    media_type: 1176502272
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10541.html
+    description: >-
+      Ein lustiger Rückblick über die Aktionen des Peng Kollektivs.
+
+       Cop Map zu Polizeigewalt, MaskID zum Überwachungsstaat und Gesichtserkennung, Adblocker zur Werbeindustrie, CFRO zum Finanzsystem, Deutschland geht klauen zu Lieferketten und der Aufbau der Bewegung Seebrücke zur Entkriminalisierung der Seenotrettung sind nur ein Bruchteil der Aktionen, die seit dem letzten Besuch 2015 hier noch nicht präsentiert wurden.
+
+       Eine Tour de Force durch Momente zivilen Ungehorsams und Subversion, wobei wir uns selbst nicht zu ernst nehmen und vor allem darauf abzielen, mit den sozialen Bewegungen zusammen zu arbeiten.
+
+       Eine Stunde geballte Kommunikationsguerilla, lustige Medienaktionen, aber auch ein Einblick in mögliche Denkweisen und Aktionsmöglichkeiten, die andere machen können. Was ist heutzutage möglich und was ist vor allem nötig?
+       max: Super spannende Reflektion über aktionen politischer Künstler
+
+template: template_rss.xml.erb
+target: feed_36C3.xml
+
+meta:
+  title: 36C3 media feed
+  description: |
+    A feed for different talks of the 36C3 2019
+  author: mxmo0rhuhn
+  link: https://github.com/mxmo0rhuhn/media_feed
+  language: en
+  contact:
+    email: impressum@schrimpf.ch
+    name: impressum
+    image_url: https://github.com/mxmo0rhuhn/media_feed/master/media_feed.png
+  keywords:
+    - it
+    - programming
+    - software
+    - hardware
+    - security
+    - society
+  categories:
+    - Technology
+    - Society
+    - Educational Technology
