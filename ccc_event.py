@@ -25,7 +25,7 @@ def get_file(url):
     # Download the file if it does not exist
     if not os.path.isfile(filename):
         if not quiet:
-            print("Downloading %s " % (url))
+            sys.stderr.write("Downloading %s \n" % (url))
         with http.request('GET', url, preload_content=False) as r, open(filename, 'wb') as out_file:
             shutil.copyfileobj(r, out_file)
 
@@ -39,7 +39,7 @@ def find_talk(fahrplan, media, query):
 
     for fahrplan_node in fahrplan_xml.getElementsByTagName("title"):
         if str.upper(query) in str.upper(fahrplan_node.childNodes[0].data):
-            print("Found: " + str.upper(fahrplan_node.childNodes[0].data))
+            sys.stderr.write("Found: %s \n" % str.upper(fahrplan_node.childNodes[0].data))
             title = fahrplan_node.childNodes[0].data
 
             #  Event
@@ -51,7 +51,7 @@ def find_talk(fahrplan, media, query):
             except:
                 sub = ""
                 if not quiet:
-                    print("Element has no subtitle")
+                    sys.stderr.write("Element has no subtitle \n")
 
             try:
                 speakers = ", ".join([speaker.childNodes[0].data for speaker in
@@ -60,14 +60,14 @@ def find_talk(fahrplan, media, query):
             except:
                 speakers = ""
                 if not quiet:
-                    print("Element has no speakers")
+                    sys.stderr.write("Element has no speakers \n")
 
             try:
                 desc = par.getElementsByTagName("description")[0].childNodes[0].data
             except:
                 desc = None
                 if not quiet:
-                    print("Element has no description")
+                    sys.stderr.write("Element has no description \n")
 
             for media_node in media_xml.getElementsByTagName("title"):
                 if str.upper(title) in str.upper(media_node.childNodes[0].data):
@@ -80,14 +80,14 @@ def find_talk(fahrplan, media, query):
                     except:
                         media_desc = ""
                         if not quiet:
-                            print("Element has no media description")
+                            sys.stderr.write("Element has no media description \n")
 
                     try:
                         pubDate = item.getElementsByTagName("pubDate")[0].childNodes[0].data
                     except:
                         pubDate = ""
                         if not quiet:
-                            print("Element has no publication date")
+                            sys.stderr.write("Element has no publication date \n")
 
                     try:
                         enclosure = item.getElementsByTagName("enclosure")[0]
@@ -95,7 +95,7 @@ def find_talk(fahrplan, media, query):
                         media_type = enclosure.getAttribute("length")
                         media_length = enclosure.getAttribute("type")
                     except:
-                        print("Could not get media information")
+                        sys.stderr.write("Could not get media information \n")
                         exit()
 
                     print('')
@@ -112,6 +112,9 @@ def find_talk(fahrplan, media, query):
                     else:
                         print_desc(media_desc + custom_comment)
                     return True
+            sys.stderr.write("No media found for talk '%s' - aborting \n" % title)
+            return False
+
     return False
 
 
@@ -134,8 +137,8 @@ parser.add_argument('query', metavar='<query string>', type=str, help='The searc
 parser.add_argument('-q', '--quiet', dest='quiet', action='store_true', help='Disable optional output')
 parser.add_argument('-l', '--long', dest='long_desc', action='store_true',
                     help='Print long description from Fahrplan instead of short descriptions from CCC media feed.')
-parser.add_argument('-y', '--year', metavar='year', dest='year', type=str, default="2016",
-                    help='Year to search (currently 2014, 2015 and 2016 are supported). Defaults to 2016.')
+parser.add_argument('-y', '--year', metavar='year', dest='year', type=str, default="2019",
+                    help='Year to search (currently 2019, 2014, 2015 and 2016 are supported). Defaults to 2019.')
 parser.add_argument('-c', '--comment', metavar='text', dest='custom_comment', type=str, default="",
                     help='Custom comment to add to the description.')
 
@@ -169,4 +172,4 @@ fahrplan = get_file(fahrplan_location)
 media = get_file(podcat_feed)
 
 if not find_talk(fahrplan, media, query):
-    print("no talk or media found for '%s'" % (query))
+    sys.stderr.write("no talk or media found for '%s'\n" % (query))
