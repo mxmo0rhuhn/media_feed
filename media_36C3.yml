@@ -1,5 +1,6 @@
 sources:
-  - https://media.ccc.de/c/31c3
+  - https://media.ccc.de/c/36c3
+  - https://fahrplan.events.ccc.de/congress/2019/Fahrplan
 
 feed:
   - title: "Verkehrswende selber hacken"
@@ -331,7 +332,7 @@ meta:
   contact:
     email: impressum@schrimpf.ch
     name: impressum
-    image_url: https://github.com/mxmo0rhuhn/media_feed/master/media_feed.png
+    image_url: https://static.media.ccc.de/media/congress/2019/logo.png
   keywords:
     - it
     - programming
