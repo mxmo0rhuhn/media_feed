@@ -1,6 +1,30 @@
+target: feed_36C3.xml
+template: template_rss.xml.erb
 sources:
   - https://media.ccc.de/c/36c3
   - https://fahrplan.events.ccc.de/congress/2019/Fahrplan
+meta:
+  title: 36C3 media feed
+  description: |
+    A feed for different talks of the 36C3 2019
+  author: mxmo0rhuhn
+  link: https://github.com/mxmo0rhuhn/media_feed
+  language: en
+  contact:
+    email: impressum@schrimpf.ch
+    name: impressum
+  image_url: https://static.media.ccc.de/media/congress/2019/logo.png
+  keywords:
+    - it
+    - programming
+    - software
+    - hardware
+    - security
+    - society
+  categories:
+    - Technology
+    - Society
+    - Educational Technology
 
 feed:
   - title: "Verkehrswende selber hacken"
@@ -319,28 +343,24 @@ feed:
        Eine Stunde geballte Kommunikationsguerilla, lustige Medienaktionen, aber auch ein Einblick in mögliche Denkweisen und Aktionsmöglichkeiten, die andere machen können. Was ist heutzutage möglich und was ist vor allem nötig?
        max: Super spannende Reflektion über aktionen politischer Künstler
 
-template: template_rss.xml.erb
-target: feed_36C3.xml
+  - title: "Katastrophe und Kommunikation am Beispiel Nord-Ost-Syrien"
+    published: Fri, 27 Dec 2019 12:50:00 +0100
+    speakers: Ruben Neugebauer, Sebastian Jünemann
+    subtitle: "Humanitäre Hilfe zwischen Propaganda, Information und Spendenwerbung"
+    media_url: https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10957-deu-eng-fra-Katastrophe_und_Kommunikation_am_Beispiel_Nord-Ost-Syrien_hd.mp4
+    media_type: 1140850688
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10957.html
+    description: >-
+      Katastrophen, Krisen & Kriege lassen sich heute live mitverfolgen. Wir erleben eine kaum überblickbare Quellendiversität in den sozialen Medien – jeder wird zur Quelle. Welchen Einfluss hat das darauf, wie ein Konflikt wahrgenommen wird, wie setzen Konfliktparteien aber auch Helfende die sozialen Medien ein und was bedeutet das für Diejenigen, die vor Ort humanitäre Hilfe leisten. Wir diskutieren dies anhand des türkischen Überfalls auf Nord-Ost-Syrien gemeinsam mit Fee Baumann von Heyva Sor A Kurd, live aus Nord-Ost-Syrien
 
-meta:
-  title: 36C3 media feed
-  description: |
-    A feed for different talks of the 36C3 2019
-  author: mxmo0rhuhn
-  link: https://github.com/mxmo0rhuhn/media_feed
-  language: en
-  contact:
-    email: impressum@schrimpf.ch
-    name: impressum
-    image_url: https://static.media.ccc.de/media/congress/2019/logo.png
-  keywords:
-    - it
-    - programming
-    - software
-    - hardware
-    - security
-    - society
-  categories:
-    - Technology
-    - Society
-    - Educational Technology
+       Katastrophen, Krisen & Kriege lassen sich heute live mitverfolgen. Wir erleben eine kaum überblickbare Quellendiversität in den sozialen Medien – jeder wird zur Quelle. Welchen Einfluss hat das darauf, wie ein Konflikt wahrgenommen wird, wie setzen Konfliktparteien aber auch Helfende die sozialen Medien ein und was bedeutet das für Diejenigen, die vor Ort humanitäre Hilfe leisten. Wir diskutieren dies anhand des türkischen Überfalls auf Nord-Ost-Syrien.
+
+       Fand Live-Berichterstattung aus Kriegsgebieten zu Zeiten des 2. Golfkrieges noch überwiegend durch ein paar wenige Journalist*innen, oft “embedded” statt, die für CNN&Co im grünlichen Nachtsicht-Look aus dem Panzer berichteten, kann in den sozialen Medien heute jede*r zur Quelle werden. Auf diese Weise gelangt die Öffentlichkeit an Informationen die vorher nur sehr schwer zu bekommen gewesen wären & schon gar nicht in Echtzeit.
+
+       Die Quellenvielfalt birgt große Chancen für die Bewertung einer Lage und auch zur Überprüfung von Informationen durch mehrere Quellen oder Image Reverse Suche. Gleichzeitig verbreiten sich Gerüchte und Falschinformationen ebenfalls sehr viel schneller. Zudem können soziale Medien auch gezielt, etwa von Kriegsparteien manipuliert werden. Die Türkei setzte neben Deutschen Panzern etwa auch Bot-Armeen ein, im Ergebnis: Zwar verurteilte ein großteil der Welt den türkischen Einmarsch in Nord-Ost-Syrien, aber Twitter-Hashtags zeichneten zeitweilig ein ganz anderes Bild. Gleichzeitig kann es schon auch mal passieren, dass Türkei nahe Djihadistische Gruppen ausversehen selbst Videos ihrer Kriegsverbrechen prahlerisch ins Netz stellen.
+
+       Was bedeutet all das für humanitäre Helfende vor Ort, die Twitter & co mittlerweile nicht nur zur Spendenwerbung sondern auch zur Lagebewertung nutzen: Wie kann man in der Praxis damit umgehen, dass sich auf Twitter gegebenenfalls ein ganz anderes Bild zeichnet als vor Ort und vor allem: Welches davon ist näher an der Realität?
+
+       Darum geht es in diesem Talk am Beispiel des Türkischen Überfalls auf Nord-Ost-Syrien, von Sebastian Jünemann und Ruben Neugebauer von der Hilfsorganisation Cadus, die vor Ort mit mehreren, im wesentlichen medizinischen Projekten aktiv war, sowie Fee Baumann von der Organisation Heyvasor a Kurd, dem kurdischen roten Halbmond. Außerdem werden wir klären wie man sich per Selfie bequem ins Jenseits befördern kann und was sonst noch so für die persönliche Sicherheit zu beachten ist, im Umgang mit modernen Medien in Kriegsgebieten.
+       max: noch nich gesehen - habe ihn mal in einem Podcast gehört und fand ihn klasse. Empfehlung aus LNP
