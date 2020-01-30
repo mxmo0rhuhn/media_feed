@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Mon, 27 Jan 2020 21:42:58 +0100</pubDate>
-    <lastBuildDate>Mon, 27 Jan 2020 21:42:58 +0100</lastBuildDate>
+    <pubDate>Thu, 30 Jan 2020 23:52:48 +0100</pubDate>
+    <lastBuildDate>Thu, 30 Jan 2020 23:52:48 +0100</lastBuildDate>
     <managingEditor>
       impressum@schrimpf.ch (impressum)
     </managingEditor>
@@ -90,7 +90,6 @@
 
  Woher stammen unsere Daten?
  Wir haben die Protokolle aller Sitzungen des Deutschen Bundestages analysiert: 4.217 Protokolle aus 19 Legislaturperioden, insgesamt rund 200 Millionen Wörter. Sie stammen aus dem Open Data Portal des Bundestages. Jede Sitzung wird dort von Stenografen genau dokumentiert und auf diesem Portal veröffentlicht. Unsere Auswertung beginnt mit der ersten Sitzung am 7. September 1949 und endet mit der letzten Sitzung vor der Sommerpause 2019 — der Sondersitzung zur Vereidigung von Annegret Kramp-Karrenbauer als Verteidigungsministerin am 24. Juli 2019.
- about this event: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10993.html
  max: Maha und Kai - klares must see</description>
         <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10993.html</link>
         <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10993.html</guid>
@@ -104,7 +103,6 @@
 
  Woher stammen unsere Daten?
  Wir haben die Protokolle aller Sitzungen des Deutschen Bundestages analysiert: 4.217 Protokolle aus 19 Legislaturperioden, insgesamt rund 200 Millionen Wörter. Sie stammen aus dem Open Data Portal des Bundestages. Jede Sitzung wird dort von Stenografen genau dokumentiert und auf diesem Portal veröffentlicht. Unsere Auswertung beginnt mit der ersten Sitzung am 7. September 1949 und endet mit der letzten Sitzung vor der Sommerpause 2019 — der Sondersitzung zur Vereidigung von Annegret Kramp-Karrenbauer als Verteidigungsministerin am 24. Juli 2019.
- about this event: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10993.html
  max: Maha und Kai - klares must see</itunes:summary>
         <itunes:author>maha, Kai Biermann</itunes:author>
         <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
@@ -637,29 +635,27 @@
       <item>
         <title>Digitalisierte Migrationskontrolle</title>
         <description>Die sogenannten digitalen Assistenzsysteme des BAMF, „intelligente Grenzen“ in der EU und immer größer werdende Datenbanken: Wer ins Land kommt und bleiben darf, wird immer mehr von IT-Systemen bestimmt. Davon profitiert die Überwachungsindustrie, während Menschen von automatisierten Entscheidungen abhängig werden.
- 
+
  Deutschland hat in den letzten Jahren massiv in Technik investiert, um Asylverfahren zu digitalisieren. Biometrische Bilder mit Datenbanken abgleichen, Handys ausgelesen und analysieren, Sprache durch automatische Erkennungssysteme schleifen. Ganz abgesehen von der Blockchain, die alles noch besser machen soll. Doch nicht nur in Deutschland werden zum Zweck der Migrationskontrollen immer mehr Daten genutzt. In Norwegen werden Facebook-Profile Geflüchteter ausgewertet, in Dänemark sogar USB-Armbänder. Die Grenzagentur Frontex soll für „intelligente Grenzen“ sorgen, Datenbanken werden EU-weit ausgebaut und zusammengelegt. Rechtschutzmechanismen versagen größtenteils. Worum es dabei geht? Schnellere Abschiebungen. Wer davon profitiert? Die Überwachungsindustrie.
- 
+
  In Vorbereitung von Klageverfahren bringt die Gesellschaft für Freiheitsrechte e.V. (GFF) gemeinsam mit der Journalistin Anna Biselli im Laufe des Dezembers eine Studie heraus, die sich diesem Thema genauer widmet. Die Ergebnisse der Studie wollen Lea Beckmann und Anna Biselli gemeinsam vorstellen und kontextualisieren.
- 
- Anna Biselli ist Informatikerin und Journalistin und arbeitet seit Jahren zu Fragen der Digitalisierung von Migrationskontrolle. 
- Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Gerichtsverfahren Grund- und Menschenrechte stärkt und zivilgesellschaftliche Partnerorganisationen rechtlich unterstützt. In vielen ihrer Verfahren setzt sich die GFF dabei für Datenschutz und einen verantwortungsvollen Einsatz von Technologie und gegen Diskriminierung ein. 
- about this event: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10766.html
- max: Noch nicht gesehen, Empfehlung der GFF </description>
+
+ Anna Biselli ist Informatikerin und Journalistin und arbeitet seit Jahren zu Fragen der Digitalisierung von Migrationskontrolle.
+ Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Gerichtsverfahren Grund- und Menschenrechte stärkt und zivilgesellschaftliche Partnerorganisationen rechtlich unterstützt. In vielen ihrer Verfahren setzt sich die GFF dabei für Datenschutz und einen verantwortungsvollen Einsatz von Technologie und gegen Diskriminierung ein.
+ max: Noch nicht gesehen, Empfehlung der GFF</description>
         <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10766.html</link>
         <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10766.html</guid>
         <pubDate>Fri, 27 Dec 2019 20:50:00 +0100</pubDate>
         <itunes:subtitle>Digitalisierte Migrationskontrolle</itunes:subtitle>
         <itunes:summary>Die sogenannten digitalen Assistenzsysteme des BAMF, „intelligente Grenzen“ in der EU und immer größer werdende Datenbanken: Wer ins Land kommt und bleiben darf, wird immer mehr von IT-Systemen bestimmt. Davon profitiert die Überwachungsindustrie, während Menschen von automatisierten Entscheidungen abhängig werden.
- 
+
  Deutschland hat in den letzten Jahren massiv in Technik investiert, um Asylverfahren zu digitalisieren. Biometrische Bilder mit Datenbanken abgleichen, Handys ausgelesen und analysieren, Sprache durch automatische Erkennungssysteme schleifen. Ganz abgesehen von der Blockchain, die alles noch besser machen soll. Doch nicht nur in Deutschland werden zum Zweck der Migrationskontrollen immer mehr Daten genutzt. In Norwegen werden Facebook-Profile Geflüchteter ausgewertet, in Dänemark sogar USB-Armbänder. Die Grenzagentur Frontex soll für „intelligente Grenzen“ sorgen, Datenbanken werden EU-weit ausgebaut und zusammengelegt. Rechtschutzmechanismen versagen größtenteils. Worum es dabei geht? Schnellere Abschiebungen. Wer davon profitiert? Die Überwachungsindustrie.
- 
+
  In Vorbereitung von Klageverfahren bringt die Gesellschaft für Freiheitsrechte e.V. (GFF) gemeinsam mit der Journalistin Anna Biselli im Laufe des Dezembers eine Studie heraus, die sich diesem Thema genauer widmet. Die Ergebnisse der Studie wollen Lea Beckmann und Anna Biselli gemeinsam vorstellen und kontextualisieren.
- 
- Anna Biselli ist Informatikerin und Journalistin und arbeitet seit Jahren zu Fragen der Digitalisierung von Migrationskontrolle. 
- Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Gerichtsverfahren Grund- und Menschenrechte stärkt und zivilgesellschaftliche Partnerorganisationen rechtlich unterstützt. In vielen ihrer Verfahren setzt sich die GFF dabei für Datenschutz und einen verantwortungsvollen Einsatz von Technologie und gegen Diskriminierung ein. 
- about this event: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10766.html
- max: Noch nicht gesehen, Empfehlung der GFF </itunes:summary>
+
+ Anna Biselli ist Informatikerin und Journalistin und arbeitet seit Jahren zu Fragen der Digitalisierung von Migrationskontrolle.
+ Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Gerichtsverfahren Grund- und Menschenrechte stärkt und zivilgesellschaftliche Partnerorganisationen rechtlich unterstützt. In vielen ihrer Verfahren setzt sich die GFF dabei für Datenschutz und einen verantwortungsvollen Einsatz von Technologie und gegen Diskriminierung ein.
+ max: Noch nicht gesehen, Empfehlung der GFF</itunes:summary>
         <itunes:author>Anna Biselli, Lea Beckmann</itunes:author>
         <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
         <itunes:explicit>Yes</itunes:explicit>
@@ -673,45 +669,43 @@
       <item>
         <title>Polizei-Datenbanken und Minderheiten: Staatliche Stigmatisierung und Diskriminierung von Sinti und Roma</title>
         <description>Für Sinti*zze und Roma*nja gehören Anfeindungen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht.
- 
- Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann und mit welchen Methoden tut sie es vielleicht trotz Verbots? 
- 
- Für Sinti*zze und Roma*nja gehören auch in Deutschland Anfeindungen in allen Lebenslagen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht. In Pressemitteilungen der Polizei tauchen immer wieder Hinweise auf die ethnische Herkunft auf, vor allem bei Tatverdächtigen, seltener bei Opfern oder Zeug*innen. Die Berliner Polizei hat in der Kriminalstatistik 2017 den Hinweis veröffentlicht, dass die Mehrheit der Tatverdächtigen von „Trickdiebstahl in Wohnungen“ Angehörige der Volksgruppe Sinti und Roma seien: Dass es rechtswidrig ist, wenn die Polizei die zugrunde liegenden Daten tatsächlich erhebt, ist unstreitig. 
- 
+
+ Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann und mit welchen Methoden tut sie es vielleicht trotz Verbots?
+
+ Für Sinti*zze und Roma*nja gehören auch in Deutschland Anfeindungen in allen Lebenslagen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht. In Pressemitteilungen der Polizei tauchen immer wieder Hinweise auf die ethnische Herkunft auf, vor allem bei Tatverdächtigen, seltener bei Opfern oder Zeug*innen. Die Berliner Polizei hat in der Kriminalstatistik 2017 den Hinweis veröffentlicht, dass die Mehrheit der Tatverdächtigen von „Trickdiebstahl in Wohnungen“ Angehörige der Volksgruppe Sinti und Roma seien: Dass es rechtswidrig ist, wenn die Polizei die zugrunde liegenden Daten tatsächlich erhebt, ist unstreitig.
+
  In Kooperation mit dem Zentralrat hat die Gesellschaft für Freiheitsrechte e.V. (GFF) im Fall der Berliner Polizeikriminalstatistik bei der Berliner Landesdatenschutzbeauftragten ein Beschwerdeverfahren wegen des Verdachts auf Diskriminierung von Sinti*zze und Roma*nja lanciert. Beide Organisationen prüfen gemeinsam weitere rechtliche Möglichkeiten.
- 
- Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann tut sie es vielleicht trotz Verbots? Und mit welchen Methoden erhebt die Polizei überhaupt die ethnische Herkunft? 
- 
- Die Gesellschaft für Freiheitsrechte e.V. (GFF) und der Zentralrat Deutscher Sinti und Roma wollen diese Fragen gemeinsam mit dem Publikum diskutieren. 
- 
+
+ Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann tut sie es vielleicht trotz Verbots? Und mit welchen Methoden erhebt die Polizei überhaupt die ethnische Herkunft?
+
+ Die Gesellschaft für Freiheitsrechte e.V. (GFF) und der Zentralrat Deutscher Sinti und Roma wollen diese Fragen gemeinsam mit dem Publikum diskutieren.
+
  Anja Reuss ist Politische Referentin des Zentralrats Deutscher Sinti und Roma, der politischen Interessenvertretung der deutschen Sinti und Roma mit Sitz in Heidelberg. Als Dachverband setzt sich der Zentralrat auf nationaler und internationaler Ebene für eine gleichberechtigte Teilhabe von Sinti und Roma in Politik und Gesellschaft sowie für die Auseinandersetzung mit und Bekämpfung von Antiziganismus ein.
- 
- Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Prozesse Grund- und Menschenrechte stärkt und zivilgesellschaftlichen Partnerorganisationen rechtlich unterstützt. In ihren Verfahren setzt sich die GFF dabei immer wieder kritisch mit polizeilichen Ermittlungsbefugnissen auseinander, sei dies im Zusammenhang mit dem Einsatz von Späh-Software oder bei der Datenerhebung. 
- 
- about this event: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10828.html
- max: Noch nicht gesehen, Empfehlung der GFF </description>
+
+ Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Prozesse Grund- und Menschenrechte stärkt und zivilgesellschaftlichen Partnerorganisationen rechtlich unterstützt. In ihren Verfahren setzt sich die GFF dabei immer wieder kritisch mit polizeilichen Ermittlungsbefugnissen auseinander, sei dies im Zusammenhang mit dem Einsatz von Späh-Software oder bei der Datenerhebung.
+
+ max: Noch nicht gesehen, Empfehlung der GFF</description>
         <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10828.html</link>
         <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10828.html</guid>
         <pubDate>Sat, 28 Dec 2019 16:10:00 +0100</pubDate>
         <itunes:subtitle>Polizei-Datenbanken und Minderheiten: Staatliche Stigmatisierung und Diskriminierung von Sinti und Roma</itunes:subtitle>
         <itunes:summary>Für Sinti*zze und Roma*nja gehören Anfeindungen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht.
- 
- Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann und mit welchen Methoden tut sie es vielleicht trotz Verbots? 
- 
- Für Sinti*zze und Roma*nja gehören auch in Deutschland Anfeindungen in allen Lebenslagen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht. In Pressemitteilungen der Polizei tauchen immer wieder Hinweise auf die ethnische Herkunft auf, vor allem bei Tatverdächtigen, seltener bei Opfern oder Zeug*innen. Die Berliner Polizei hat in der Kriminalstatistik 2017 den Hinweis veröffentlicht, dass die Mehrheit der Tatverdächtigen von „Trickdiebstahl in Wohnungen“ Angehörige der Volksgruppe Sinti und Roma seien: Dass es rechtswidrig ist, wenn die Polizei die zugrunde liegenden Daten tatsächlich erhebt, ist unstreitig. 
- 
+
+ Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann und mit welchen Methoden tut sie es vielleicht trotz Verbots?
+
+ Für Sinti*zze und Roma*nja gehören auch in Deutschland Anfeindungen in allen Lebenslagen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht. In Pressemitteilungen der Polizei tauchen immer wieder Hinweise auf die ethnische Herkunft auf, vor allem bei Tatverdächtigen, seltener bei Opfern oder Zeug*innen. Die Berliner Polizei hat in der Kriminalstatistik 2017 den Hinweis veröffentlicht, dass die Mehrheit der Tatverdächtigen von „Trickdiebstahl in Wohnungen“ Angehörige der Volksgruppe Sinti und Roma seien: Dass es rechtswidrig ist, wenn die Polizei die zugrunde liegenden Daten tatsächlich erhebt, ist unstreitig.
+
  In Kooperation mit dem Zentralrat hat die Gesellschaft für Freiheitsrechte e.V. (GFF) im Fall der Berliner Polizeikriminalstatistik bei der Berliner Landesdatenschutzbeauftragten ein Beschwerdeverfahren wegen des Verdachts auf Diskriminierung von Sinti*zze und Roma*nja lanciert. Beide Organisationen prüfen gemeinsam weitere rechtliche Möglichkeiten.
- 
- Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann tut sie es vielleicht trotz Verbots? Und mit welchen Methoden erhebt die Polizei überhaupt die ethnische Herkunft? 
- 
- Die Gesellschaft für Freiheitsrechte e.V. (GFF) und der Zentralrat Deutscher Sinti und Roma wollen diese Fragen gemeinsam mit dem Publikum diskutieren. 
- 
+
+ Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann tut sie es vielleicht trotz Verbots? Und mit welchen Methoden erhebt die Polizei überhaupt die ethnische Herkunft?
+
+ Die Gesellschaft für Freiheitsrechte e.V. (GFF) und der Zentralrat Deutscher Sinti und Roma wollen diese Fragen gemeinsam mit dem Publikum diskutieren.
+
  Anja Reuss ist Politische Referentin des Zentralrats Deutscher Sinti und Roma, der politischen Interessenvertretung der deutschen Sinti und Roma mit Sitz in Heidelberg. Als Dachverband setzt sich der Zentralrat auf nationaler und internationaler Ebene für eine gleichberechtigte Teilhabe von Sinti und Roma in Politik und Gesellschaft sowie für die Auseinandersetzung mit und Bekämpfung von Antiziganismus ein.
- 
- Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Prozesse Grund- und Menschenrechte stärkt und zivilgesellschaftlichen Partnerorganisationen rechtlich unterstützt. In ihren Verfahren setzt sich die GFF dabei immer wieder kritisch mit polizeilichen Ermittlungsbefugnissen auseinander, sei dies im Zusammenhang mit dem Einsatz von Späh-Software oder bei der Datenerhebung. 
- 
- about this event: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10828.html
- max: Noch nicht gesehen, Empfehlung der GFF </itunes:summary>
+
+ Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Prozesse Grund- und Menschenrechte stärkt und zivilgesellschaftlichen Partnerorganisationen rechtlich unterstützt. In ihren Verfahren setzt sich die GFF dabei immer wieder kritisch mit polizeilichen Ermittlungsbefugnissen auseinander, sei dies im Zusammenhang mit dem Einsatz von Späh-Software oder bei der Datenerhebung.
+
+ max: Noch nicht gesehen, Empfehlung der GFF</itunes:summary>
         <itunes:author>Lea Beckmann, Anja Reuss</itunes:author>
         <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
         <itunes:explicit>Yes</itunes:explicit>
@@ -724,32 +718,30 @@
       
       <item>
         <title>#NoPNR – Let’s kill the next Data Retention Law</title>
-        <description>The talk will address how passenger name records (PNR) of flight passengers are currently used by law enforcement throughout the European Union to track and identify suspects of a variety of crimes, how this is likely to be only a first step by the security state to surveil our every movement. Two NGOs have joined forces to stop this new form of indiscriminate mass surveillance in the courts and build safeguards against future infringements of our fundamental right to privacy. 
- 
- The PNR directive obliges all EU member states to process and save for five years all PNR data of passengers entering or exiting the European Union by plane. All member states have agreed to voluntarily extend this practice to all intra-EU flights as well. Subsequently, the data of hundreds of millions flight passengers are being checked against databases, generating vast amounts of false positives and futile infringements on passengers’ right to privacy. The data are also processed against “pre-determined criteria” which allows law enforcement to define “suspicious flight patterns”. The goal of this profiling of our travel movements is to find suspects among flight passengers that the authorities have never even heard of before. The system has no effective safeguards to prevent vast numbers of people from being falsely labeled as potential terrorists. 
- 
- Member states are already planning to extend this practice to international buses, trains and ferries – even though the effectiveness of processing flight passengers’ PNR data has yet to be proven. By this logic, the next step would be to track rental cars, then all cars, then mobile phones, and finally getting rid of the criterion “international”, enabling the state to surveil our every movement and to identify those of us who seemingly move around in suspicious patterns. 
- 
- But there is hope. The Court of Justice of the European Union (CJEU) has proven before to be critical of indiscriminate mass surveillance affecting people that are not even on the authorities’ radar yet. Therefore, the Gesellschaft für Freiheitsrechte, a German NGO focused on strategic litigation, and epicenter.works, an Austrian NGO focused on protecting human rights in the digital age, have started legal proceedings against the PNR directive, aiming to have German and/or Austrian courts ask the CJEU whether the PNR directive and national transposition laws violate the Charta of Fundamental Rights. 
- 
+        <description>The talk will address how passenger name records (PNR) of flight passengers are currently used by law enforcement throughout the European Union to track and identify suspects of a variety of crimes, how this is likely to be only a first step by the security state to surveil our every movement. Two NGOs have joined forces to stop this new form of indiscriminate mass surveillance in the courts and build safeguards against future infringements of our fundamental right to privacy.
+
+ The PNR directive obliges all EU member states to process and save for five years all PNR data of passengers entering or exiting the European Union by plane. All member states have agreed to voluntarily extend this practice to all intra-EU flights as well. Subsequently, the data of hundreds of millions flight passengers are being checked against databases, generating vast amounts of false positives and futile infringements on passengers’ right to privacy. The data are also processed against “pre-determined criteria” which allows law enforcement to define “suspicious flight patterns”. The goal of this profiling of our travel movements is to find suspects among flight passengers that the authorities have never even heard of before. The system has no effective safeguards to prevent vast numbers of people from being falsely labeled as potential terrorists.
+
+ Member states are already planning to extend this practice to international buses, trains and ferries – even though the effectiveness of processing flight passengers’ PNR data has yet to be proven. By this logic, the next step would be to track rental cars, then all cars, then mobile phones, and finally getting rid of the criterion “international”, enabling the state to surveil our every movement and to identify those of us who seemingly move around in suspicious patterns.
+
+ But there is hope. The Court of Justice of the European Union (CJEU) has proven before to be critical of indiscriminate mass surveillance affecting people that are not even on the authorities’ radar yet. Therefore, the Gesellschaft für Freiheitsrechte, a German NGO focused on strategic litigation, and epicenter.works, an Austrian NGO focused on protecting human rights in the digital age, have started legal proceedings against the PNR directive, aiming to have German and/or Austrian courts ask the CJEU whether the PNR directive and national transposition laws violate the Charta of Fundamental Rights.
+
  This talk will explain how law enforcement currently processes PNR data, how this violates fundamental rights, how these surveillance systems may soon extended to other means of transportation, and what strategy civil society is pursuing to stop this from happening.
- about this event: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10919.html
- max: Noch nicht gesehen, Empfehlung der GFF </description>
+ max: Noch nicht gesehen, Empfehlung der GFF</description>
         <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10919.html</link>
         <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10919.html</guid>
         <pubDate>Mon, 30 Dec 2019 12:30:00 +0100</pubDate>
         <itunes:subtitle>#NoPNR – Let’s kill the next Data Retention Law</itunes:subtitle>
-        <itunes:summary>The talk will address how passenger name records (PNR) of flight passengers are currently used by law enforcement throughout the European Union to track and identify suspects of a variety of crimes, how this is likely to be only a first step by the security state to surveil our every movement. Two NGOs have joined forces to stop this new form of indiscriminate mass surveillance in the courts and build safeguards against future infringements of our fundamental right to privacy. 
- 
- The PNR directive obliges all EU member states to process and save for five years all PNR data of passengers entering or exiting the European Union by plane. All member states have agreed to voluntarily extend this practice to all intra-EU flights as well. Subsequently, the data of hundreds of millions flight passengers are being checked against databases, generating vast amounts of false positives and futile infringements on passengers’ right to privacy. The data are also processed against “pre-determined criteria” which allows law enforcement to define “suspicious flight patterns”. The goal of this profiling of our travel movements is to find suspects among flight passengers that the authorities have never even heard of before. The system has no effective safeguards to prevent vast numbers of people from being falsely labeled as potential terrorists. 
- 
- Member states are already planning to extend this practice to international buses, trains and ferries – even though the effectiveness of processing flight passengers’ PNR data has yet to be proven. By this logic, the next step would be to track rental cars, then all cars, then mobile phones, and finally getting rid of the criterion “international”, enabling the state to surveil our every movement and to identify those of us who seemingly move around in suspicious patterns. 
- 
- But there is hope. The Court of Justice of the European Union (CJEU) has proven before to be critical of indiscriminate mass surveillance affecting people that are not even on the authorities’ radar yet. Therefore, the Gesellschaft für Freiheitsrechte, a German NGO focused on strategic litigation, and epicenter.works, an Austrian NGO focused on protecting human rights in the digital age, have started legal proceedings against the PNR directive, aiming to have German and/or Austrian courts ask the CJEU whether the PNR directive and national transposition laws violate the Charta of Fundamental Rights. 
- 
+        <itunes:summary>The talk will address how passenger name records (PNR) of flight passengers are currently used by law enforcement throughout the European Union to track and identify suspects of a variety of crimes, how this is likely to be only a first step by the security state to surveil our every movement. Two NGOs have joined forces to stop this new form of indiscriminate mass surveillance in the courts and build safeguards against future infringements of our fundamental right to privacy.
+
+ The PNR directive obliges all EU member states to process and save for five years all PNR data of passengers entering or exiting the European Union by plane. All member states have agreed to voluntarily extend this practice to all intra-EU flights as well. Subsequently, the data of hundreds of millions flight passengers are being checked against databases, generating vast amounts of false positives and futile infringements on passengers’ right to privacy. The data are also processed against “pre-determined criteria” which allows law enforcement to define “suspicious flight patterns”. The goal of this profiling of our travel movements is to find suspects among flight passengers that the authorities have never even heard of before. The system has no effective safeguards to prevent vast numbers of people from being falsely labeled as potential terrorists.
+
+ Member states are already planning to extend this practice to international buses, trains and ferries – even though the effectiveness of processing flight passengers’ PNR data has yet to be proven. By this logic, the next step would be to track rental cars, then all cars, then mobile phones, and finally getting rid of the criterion “international”, enabling the state to surveil our every movement and to identify those of us who seemingly move around in suspicious patterns.
+
+ But there is hope. The Court of Justice of the European Union (CJEU) has proven before to be critical of indiscriminate mass surveillance affecting people that are not even on the authorities’ radar yet. Therefore, the Gesellschaft für Freiheitsrechte, a German NGO focused on strategic litigation, and epicenter.works, an Austrian NGO focused on protecting human rights in the digital age, have started legal proceedings against the PNR directive, aiming to have German and/or Austrian courts ask the CJEU whether the PNR directive and national transposition laws violate the Charta of Fundamental Rights.
+
  This talk will explain how law enforcement currently processes PNR data, how this violates fundamental rights, how these surveillance systems may soon extended to other means of transportation, and what strategy civil society is pursuing to stop this from happening.
- about this event: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10919.html
- max: Noch nicht gesehen, Empfehlung der GFF </itunes:summary>
+ max: Noch nicht gesehen, Empfehlung der GFF</itunes:summary>
         <itunes:author>Walter Hötzendorfer, Bijan Moini</itunes:author>
         <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
         <itunes:explicit>Yes</itunes:explicit>
@@ -757,6 +749,44 @@
         <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10919-eng-deu-fra-NoPNR_-_Lets_kill_the_next_Data_Retention_Law_hd.mp4"
                    length="video/mp4"
                    type="498073600"/>
+      </item>
+    
+      
+      <item>
+        <title>Hirne Hacken</title>
+        <description>Die überwältigende Mehrheit der erfolgreichen Hacks in freier Wildbahn setzen auf menschliche Faktoren. Wie können wir Systeme und Interfaces gestalten, um diese Schwachstellen zu mindern?
+
+ Ob Ransomware oder Phishing, APT-Angriffe oder Stalking: Die am häufigsten ausgenutzte Schwachstelle ist der Mensch.
+
+ Ein Problem, das nur wenig Forschung tatsächlich angehen will. Stattdessen begnügen wir uns damit, den Usern Dummheit zu unterstellen und menschliche Faktoren der IT-Sicherheit &quot;out of scope&quot; zu sehen.
+
+ Zeit, anders über das Problem nachzudenken, denn es gibt einige Interessante Erkenntnisse zu entdecken.
+
+ Neumann, Linus (2017): „Menschliche Faktoren in der IT-Sicherheit“ in: Ferri Abolhassan (Hg.) „Security Einfach Machen: IT-Sicherheit als Sprungbrett für die Digitalisierung“, p. 85-98
+ Neumann, Linus (2019): „Wenn Hacker Menschen hacken“ in: Report Psychologie 11/12.2018, p. 462-464
+ max: Interessante Denkanstösse zu nicht technischen Aspekten der IT Security</description>
+        <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11175.html</link>
+        <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11175.html</guid>
+        <pubDate>Sun, 29 Dec 2019 21:50:00 +0100</pubDate>
+        <itunes:subtitle>Hirne Hacken</itunes:subtitle>
+        <itunes:summary>Die überwältigende Mehrheit der erfolgreichen Hacks in freier Wildbahn setzen auf menschliche Faktoren. Wie können wir Systeme und Interfaces gestalten, um diese Schwachstellen zu mindern?
+
+ Ob Ransomware oder Phishing, APT-Angriffe oder Stalking: Die am häufigsten ausgenutzte Schwachstelle ist der Mensch.
+
+ Ein Problem, das nur wenig Forschung tatsächlich angehen will. Stattdessen begnügen wir uns damit, den Usern Dummheit zu unterstellen und menschliche Faktoren der IT-Sicherheit &quot;out of scope&quot; zu sehen.
+
+ Zeit, anders über das Problem nachzudenken, denn es gibt einige Interessante Erkenntnisse zu entdecken.
+
+ Neumann, Linus (2017): „Menschliche Faktoren in der IT-Sicherheit“ in: Ferri Abolhassan (Hg.) „Security Einfach Machen: IT-Sicherheit als Sprungbrett für die Digitalisierung“, p. 85-98
+ Neumann, Linus (2019): „Wenn Hacker Menschen hacken“ in: Report Psychologie 11/12.2018, p. 462-464
+ max: Interessante Denkanstösse zu nicht technischen Aspekten der IT Security</itunes:summary>
+        <itunes:author>Linus Neumann</itunes:author>
+        <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+        <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11175-deu-eng-fra-Hirne_Hacken_hd.mp4"
+                   length="video/mp4"
+                   type="331350016"/>
       </item>
     
   </channel>
