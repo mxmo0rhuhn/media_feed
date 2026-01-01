@@ -35,12 +35,12 @@
     {% if item.published %}
     <item>
       <title>{{ item.title }}</title>
-      <description>{{ item.description|e }}</description>
+      <description>{{ format_item_description(item)|e }}</description>
       <link>{{ item.web_url }}</link>
       <guid isPermaLink="true">{{ item.web_url }}</guid>
       <pubDate>{{ item.published }}</pubDate>
       <itunes:subtitle>{{ item.title }}</itunes:subtitle>
-      <itunes:summary>{{ item.description|e }}</itunes:summary>
+      <itunes:summary>{{ format_item_description(item)|e }}</itunes:summary>
       <itunes:author>{{ item.speakers }}</itunes:author>
       <itunes:image href="{{ data.meta.image_url }}"/>
       <itunes:explicit>Yes</itunes:explicit>

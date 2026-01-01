@@ -13,12 +13,22 @@ import requests
 import yaml
 from jinja2 import Environment, FileSystemLoader
 
+from media_feed.feedback import format_feedback_section
+
 
 # --- Config Loading ---
 def load_config() -> dict[str, Any]:
     """Load config.yaml."""
     with open("config.yaml") as f:
         return yaml.safe_load(f)
+
+
+# --- Feedback Integration ---
+def format_item_description(item: dict[str, Any]) -> str:
+    """Format item description with feedback prepended."""
+    feedback_section = format_feedback_section(item.get("feedback"))
+    description = item.get("description", "")
+    return feedback_section + description
 
 
 # --- RSS Generation (replaces build script) ---
@@ -35,7 +45,12 @@ def build_feed(yaml_file: Path, output_dir: Path, config: dict[str, Any]) -> Pat
 
     # 3. Render with current timestamp
     now = formatdate(timeval=None, localtime=False, usegmt=True)
-    xml_content = template.render(data=data, now=now, generator="media-feed Python CLI")
+    xml_content = template.render(
+        data=data,
+        now=now,
+        generator="media-feed Python CLI",
+        format_item_description=format_item_description,
+    )
 
     # 4. Write output
     output_file = output_dir / yaml_file.name.replace("media_", "feed_").replace(".yml", ".xml")
@@ -318,6 +333,177 @@ def new_event(year: int, congress_number: Optional[int], validate: bool) -> None
     click.echo(f"{event_id}:")
     for key, value in event_config.items():
         click.echo(f"  {key}: {value}")
+
+
+@main.command()
+@click.argument("event_file", type=click.Path(exists=True))
+def rate(event_file: str) -> None:
+    """Interactively rate talks in an event YAML file."""
+    yaml_file = Path(event_file)
+
+    # Load YAML
+    with yaml_file.open() as f:
+        data = yaml.safe_load(f)
+
+    if "feed" not in data or not data["feed"]:
+        click.echo("No feed items found in the file.", err=True)
+        return
+
+    # Ask for username once at startup
+    click.echo("\n📝 Interactive Rating Mode")
+    click.echo("━" * 50)
+    username = click.prompt(
+        "Username (optional, press Enter to skip)", default="", show_default=False
+    ).strip()
+
+    if username:
+        click.echo(f"\nRating as: {username}\n")
+    else:
+        click.echo("\nRating anonymously\n")
+
+    total_talks = len(data["feed"])
+    rated_count = 0
+    skipped_count = 0
+
+    # Iterate through each talk
+    for idx, item in enumerate(data["feed"], start=1):
+        click.echo("━" * 50)
+        click.echo(f"\n🎬 {item.get('title', 'Untitled')} ({idx}/{total_talks})")
+
+        speakers = item.get("speakers", "")
+        if speakers:
+            click.echo(f"   Speakers: {speakers}")
+
+        # Get rating
+        rating_input = click.prompt(
+            "\nRate this talk (1-5, Enter to skip)",
+            default="",
+            show_default=False,
+        ).strip()
+
+        # Skip if empty
+        if not rating_input:
+            click.echo("⏭️  Skipped")
+            skipped_count += 1
+            continue
+
+        # Validate rating
+        try:
+            rating = int(rating_input)
+            if not 1 <= rating <= 5:
+                click.echo("⚠️  Invalid rating (must be 1-5). Skipping this talk.", err=True)
+                skipped_count += 1
+                continue
+        except ValueError:
+            click.echo("⚠️  Invalid input. Skipping this talk.", err=True)
+            skipped_count += 1
+            continue
+
+        # Get comment
+        comment = click.prompt(
+            "Comment (optional, Enter to skip)", default="", show_default=False
+        ).strip()
+
+        # Create feedback entry
+        feedback_entry = {"rating": rating}
+        if username:
+            feedback_entry["username"] = username
+        if comment:
+            feedback_entry["comment"] = comment
+
+        # Add to item
+        if "feedback" not in item:
+            item["feedback"] = []
+        item["feedback"].append(feedback_entry)
+
+        click.echo("✓ Saved")
+        rated_count += 1
+
+    # Write back to YAML
+    with yaml_file.open("w") as f:
+        yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+
+    # Summary
+    click.echo("\n" + "━" * 50)
+    click.echo(f"\n✅ Rating complete!")
+    click.echo(f"   Rated: {rated_count}")
+    click.echo(f"   Skipped: {skipped_count}")
+    click.echo(f"\n💾 Saved to: {yaml_file}\n")
+
+
+@main.command("list-by-rating")
+@click.option("--event", "-e", help="Filter by event file (e.g., media/media_36C3.yml)")
+@click.option("--min-rating", "-m", type=float, help="Minimum average rating")
+def list_by_rating(event: Optional[str], min_rating: Optional[float]) -> None:
+    """List talks sorted by rating."""
+    from media_feed.feedback import calculate_average_rating
+
+    # Determine files to process
+    if event:
+        files_to_process = [Path(event)]
+    else:
+        media_dir = Path("media")
+        files_to_process = list(media_dir.glob("media_*.yml"))
+
+    if not files_to_process:
+        click.echo("No files found.", err=True)
+        return
+
+    # Collect all talks with ratings
+    talks_with_ratings = []
+
+    for yaml_file in files_to_process:
+        if not yaml_file.exists():
+            continue
+
+        with yaml_file.open() as f:
+            data = yaml.safe_load(f)
+
+        event_name = yaml_file.stem.replace("media_", "").upper()
+
+        for item in data.get("feed", []):
+            feedback = item.get("feedback", [])
+            if not feedback:
+                continue
+
+            avg_rating = calculate_average_rating(feedback)
+            if avg_rating is None:
+                continue
+
+            # Apply min-rating filter
+            if min_rating is not None and avg_rating < min_rating:
+                continue
+
+            talks_with_ratings.append(
+                {
+                    "title": item.get("title", "Untitled"),
+                    "event": event_name,
+                    "avg_rating": avg_rating,
+                    "num_ratings": len([f for f in feedback if f.get("rating") is not None]),
+                }
+            )
+
+    # Sort by rating (descending)
+    talks_with_ratings.sort(key=lambda x: x["avg_rating"], reverse=True)
+
+    # Display
+    if not talks_with_ratings:
+        click.echo("\nNo rated talks found.\n")
+        return
+
+    click.echo("\n" + "━" * 80)
+    click.echo(f"{'Rating':<8} {'Title':<50} {'Event':<8} {'# Ratings':<10}")
+    click.echo("━" * 80)
+
+    for talk in talks_with_ratings:
+        rating_display = f"{talk['avg_rating']:.1f}/5"
+        title = talk["title"][:47] + "..." if len(talk["title"]) > 50 else talk["title"]
+        click.echo(
+            f"{rating_display:<8} {title:<50} {talk['event']:<8} {talk['num_ratings']:<10}"
+        )
+
+    click.echo("━" * 80)
+    click.echo(f"\nTotal: {len(talks_with_ratings)} rated talk(s)\n")
 
 
 if __name__ == "__main__":

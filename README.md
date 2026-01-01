@@ -18,6 +18,8 @@ It is a is an evolution of the great idea of the [200ok media feed](https://gith
 - **Python CLI** for easy feed generation and management
 - **CCC Event Search** - Search and add talks from Chaos Communication Congress events
 - **RSS Feed Generation** - Generate podcast-compatible RSS feeds from YAML data
+- **Collaborative Ratings** - Rate talks with 1-5 stars, add comments, and share feedback
+- **Rating Analytics** - List and sort talks by rating across all events
 
 ## Installation
 
@@ -29,7 +31,7 @@ pip install media-feed
 
 ## Usage
 
-The `media-feed` command provides three main functions:
+The `media-feed` command provides five main functions:
 
 ### 1. Search and Add CCC Talks
 
@@ -86,6 +88,14 @@ feed:
     web_url: "https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10652.html"
     description: >-
       Talk description here...
+    feedback:  # Optional collaborative feedback section
+      - rating: 5
+        username: max
+        comment: "Einer der besten Talks des Congress!"
+      - rating: 4
+        comment: "Good overview"  # Anonymous feedback
+      - rating: 5
+        username: anna  # Rating without comment
 ```
 
 ### 2. Build RSS Feeds
@@ -103,7 +113,90 @@ media-feed build media/media_36c3.yml
 media-feed build --all --output-dir custom_feeds/
 ```
 
-### 3. Create New Event Configuration
+### 3. Rate Talks Interactively
+
+Quickly rate talks in an event file using an interactive CLI. This is perfect for reviewing talks you've watched and sharing your feedback with others.
+
+```bash
+# Rate talks in an event file
+media-feed rate media/media_36c3.yml
+
+# The CLI will:
+# 1. Ask for your username once (optional)
+# 2. Show each talk with title and speakers
+# 3. Ask for rating (1-5) or Enter to skip ("didn't watch")
+# 4. Ask for optional comment
+# 5. Save all ratings to the YAML file
+```
+
+**Interactive example:**
+```
+📝 Interactive Rating Mode
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Username (optional, press Enter to skip): max
+
+Rating as: max
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎬 BahnMining - Pünktlichkeit ist eine Zier (1/15)
+   Speakers: David Kriesel
+
+Rate this talk (1-5, Enter to skip): 5
+Comment (optional): Einer der besten Talks!
+✓ Saved
+
+🎬 Security Nightmares (2/15)
+   Speakers: frank, Ron
+
+Rate this talk (1-5, Enter to skip): [Enter - skipped]
+⏭️  Skipped
+```
+
+Feedback is automatically added to the RSS feed description in a formatted section:
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.7/5 from 3 ratings)
+
+⭐⭐⭐⭐⭐ (5/5) - max: Einer der besten Talks!
+⭐⭐⭐⭐ (4/5) Good overview
+⭐⭐⭐⭐⭐ (5/5) - anna
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Original talk description...]
+```
+
+### 4. List Talks by Rating
+
+View all rated talks sorted by their average rating. Perfect for finding the best talks across all events.
+
+```bash
+# List all rated talks
+media-feed list-by-rating
+
+# Filter by specific event
+media-feed list-by-rating --event media/media_36c3.yml
+
+# Show only highly rated talks
+media-feed list-by-rating --min-rating 4.5
+```
+
+**Output example:**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Rating   Title                                              Event    # Ratings
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5.0/5    BahnMining - Pünktlichkeit ist eine Zier           36C3     2
+4.7/5    Let's play Infokrieg                               36C3     3
+4.5/5    Vom Ich zum Wir                                    36C3     2
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total: 3 rated talk(s)
+```
+
+### 5. Create New Event Configuration
 
 In order to enable talk searching for new CCC events, you need to generate a configuration for the event first. The tool tries to automatically fetch necessary URLs and patterns.
 
@@ -192,6 +285,7 @@ media_feed/
 │   └── ...
 ├── src/media_feed/           # Python package source
 │   ├── cli.py                # Main CLI logic
+│   ├── feedback.py           # Feedback formatting utilities
 │   └── rss_template.xml.j2   # Jinja2 RSS template
 ├── config.yaml               # Event configurations
 └── pyproject.toml            # Package configuration

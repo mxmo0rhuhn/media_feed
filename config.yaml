@@ -1,0 +1,8 @@
+events:
+  36c3:
+    year: 2019
+    congress_number: 36
+    fahrplan_url: "https://fahrplan.events.ccc.de/congress/2019/Fahrplan/schedule.xml"
+    media_feed_url: "https://media.ccc.de/c/36c3/podcast/mp4.xml"
+    event_pattern_head: "https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/"
+    event_pattern_tail: ".html"
