@@ -54,6 +54,22 @@ media-feed add "Hirne Hacken" --event 36c3 --long-desc
 media-feed add "Copywrongs" --event 33c3 --output media/media_33c3.yml
 ```
 
+After finding a talk, you'll be prompted to rate it immediately:
+```
+✓ Found talk:
+  Title: BahnMining - Pünktlichkeit ist eine Zier
+  Speakers: David Kriesel
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Would you like to rate this talk? [Y/n]: y
+Username (optional, press Enter to skip): max
+Rate this talk (1-5, Enter to skip): 5
+Comment (optional): Einer der besten Talks!
+✓ Rating saved
+
+✓ Added entry to media/media_36c3.yml
+```
+
 ### Media file format
 
 Media YAML files contain metadata and a list of feed items:
@@ -102,16 +118,26 @@ feed:
 
 When you have your media YAML files ready, you can generate the RSS feeds which can be used in podcast players.
 
+**Important:** By default, talks with an average rating of 2 or lower are excluded from the RSS feed. This helps curate high-quality content. Use `--all-ratings` to include all talks.
+
 ```bash
-# Build all feeds
+# Build all feeds (excludes talks rated ≤2)
 media-feed build --all
 
 # Build specific file
 media-feed build media/media_36c3.yml
 
+# Include all talks regardless of rating
+media-feed build --all --all-ratings
+
 # Specify output directory
 media-feed build --all --output-dir custom_feeds/
 ```
+
+**Rating Filter Behavior:**
+- Talks rated **3-5**: Always included ✓
+- Talks rated **1-2**: Excluded by default (use `--all-ratings` to include)
+- **Unrated talks**: Always included ✓
 
 ### 3. Rate Talks Interactively
 

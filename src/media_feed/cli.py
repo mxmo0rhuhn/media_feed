@@ -31,19 +31,85 @@ def format_item_description(item: dict[str, Any]) -> str:
     return feedback_section + description
 
 
+def prompt_for_feedback(username: Optional[str] = None) -> Optional[dict[str, Any]]:
+    """Prompt user for a single rating and comment.
+
+    Returns feedback dict or None if skipped.
+    """
+    # Get rating
+    rating_input = click.prompt(
+        "Rate this talk (1-5, Enter to skip)",
+        default="",
+        show_default=False,
+    ).strip()
+
+    # Skip if empty
+    if not rating_input:
+        return None
+
+    # Validate rating
+    try:
+        rating = int(rating_input)
+        if not 1 <= rating <= 5:
+            click.echo("⚠️  Invalid rating (must be 1-5). Skipping.", err=True)
+            return None
+    except ValueError:
+        click.echo("⚠️  Invalid input. Skipping.", err=True)
+        return None
+
+    # Get comment
+    comment = click.prompt(
+        "Comment (optional, Enter to skip)", default="", show_default=False
+    ).strip()
+
+    # Create feedback entry
+    feedback_entry = {"rating": rating}
+    if username:
+        feedback_entry["username"] = username
+    if comment:
+        feedback_entry["comment"] = comment
+
+    return feedback_entry
+
+
 # --- RSS Generation (replaces build script) ---
-def build_feed(yaml_file: Path, output_dir: Path, config: dict[str, Any]) -> Path:
-    """Build RSS feed from YAML file."""
+def build_feed(
+    yaml_file: Path, output_dir: Path, config: dict[str, Any], include_all_ratings: bool = False
+) -> Path:
+    """Build RSS feed from YAML file.
+
+    Args:
+        yaml_file: Path to input YAML file
+        output_dir: Directory for output RSS file
+        config: Configuration dict
+        include_all_ratings: If False, exclude talks with rating ≤2 (default: False)
+    """
+    from media_feed.feedback import calculate_average_rating
+
     # 1. Load YAML
     with yaml_file.open() as f:
         data = yaml.safe_load(f)
 
-    # 2. Load Jinja2 template
+    # 2. Filter feed items by rating if needed
+    if not include_all_ratings and "feed" in data:
+        filtered_feed = []
+        for item in data["feed"]:
+            feedback = item.get("feedback", [])
+            if feedback:
+                avg_rating = calculate_average_rating(feedback)
+                # Exclude if average rating is 2 or lower
+                if avg_rating is not None and avg_rating <= 2.0:
+                    continue
+            # Include items with no ratings or ratings > 2
+            filtered_feed.append(item)
+        data["feed"] = filtered_feed
+
+    # 3. Load Jinja2 template
     template_path = Path(__file__).parent
     env = Environment(loader=FileSystemLoader(str(template_path)))
     template = env.get_template("rss_template.xml.j2")
 
-    # 3. Render with current timestamp
+    # 4. Render with current timestamp
     now = formatdate(timeval=None, localtime=False, usegmt=True)
     xml_content = template.render(
         data=data,
@@ -52,7 +118,7 @@ def build_feed(yaml_file: Path, output_dir: Path, config: dict[str, Any]) -> Pat
         format_item_description=format_item_description,
     )
 
-    # 4. Write output
+    # 5. Write output
     output_file = output_dir / yaml_file.name.replace("media_", "feed_").replace(".yml", ".xml")
     output_file.parent.mkdir(parents=True, exist_ok=True)
     output_file.write_text(xml_content, encoding="utf-8")
@@ -206,8 +272,17 @@ def main() -> None:
 @click.argument("input_files", nargs=-1, type=click.Path(exists=True))
 @click.option("--all", "-a", is_flag=True, help="Build all media YAML files")
 @click.option("--output-dir", "-o", default="feeds", help="Output directory")
-def build(input_files: tuple[str, ...], all: bool, output_dir: str) -> None:
-    """Generate RSS feeds from YAML files."""
+@click.option(
+    "--all-ratings",
+    is_flag=True,
+    help="Include talks with all ratings (default: exclude talks rated ≤2)",
+)
+def build(input_files: tuple[str, ...], all: bool, output_dir: str, all_ratings: bool) -> None:
+    """Generate RSS feeds from YAML files.
+
+    By default, talks with an average rating of 2 or lower are excluded from the RSS feed.
+    Use --all-ratings to include all talks regardless of rating.
+    """
     config = load_config()
     output_path = Path(output_dir)
 
@@ -224,7 +299,7 @@ def build(input_files: tuple[str, ...], all: bool, output_dir: str) -> None:
 
     for yaml_file in files_to_process:
         try:
-            output = build_feed(yaml_file, output_path, config)
+            output = build_feed(yaml_file, output_path, config, include_all_ratings=all_ratings)
             click.echo(f"✓ Built: {output}")
         except Exception as e:
             click.echo(f"✗ Failed {yaml_file}: {e}", err=True)
@@ -268,6 +343,22 @@ def add(
         click.echo("✗ No matching talk found", err=True)
         return
 
+    click.echo(f"\n✓ Found talk:")
+    click.echo(f"  Title: {entry['title']}")
+    click.echo(f"  Speakers: {entry['speakers']}")
+
+    # Prompt for feedback
+    click.echo("\n" + "━" * 50)
+    if click.confirm("Would you like to rate this talk?", default=True):
+        username = click.prompt(
+            "Username (optional, press Enter to skip)", default="", show_default=False
+        ).strip()
+
+        feedback = prompt_for_feedback(username if username else None)
+        if feedback:
+            entry["feedback"] = [feedback]
+            click.echo("✓ Rating saved")
+
     # Determine output file
     output_file = Path(output) if output else Path(f"media/media_{event_key}.yml")
 
@@ -289,8 +380,6 @@ def add(
         yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
 
     click.echo(f"\n✓ Added entry to {output_file}")
-    click.echo(f"\nTitle: {entry['title']}")
-    click.echo(f"Speakers: {entry['speakers']}")
 
 
 @main.command("new-event")
@@ -374,50 +463,20 @@ def rate(event_file: str) -> None:
         if speakers:
             click.echo(f"   Speakers: {speakers}")
 
-        # Get rating
-        rating_input = click.prompt(
-            "\nRate this talk (1-5, Enter to skip)",
-            default="",
-            show_default=False,
-        ).strip()
+        # Prompt for feedback
+        click.echo()
+        feedback = prompt_for_feedback(username if username else None)
 
-        # Skip if empty
-        if not rating_input:
+        if feedback:
+            # Add to item
+            if "feedback" not in item:
+                item["feedback"] = []
+            item["feedback"].append(feedback)
+            click.echo("✓ Saved")
+            rated_count += 1
+        else:
             click.echo("⏭️  Skipped")
             skipped_count += 1
-            continue
-
-        # Validate rating
-        try:
-            rating = int(rating_input)
-            if not 1 <= rating <= 5:
-                click.echo("⚠️  Invalid rating (must be 1-5). Skipping this talk.", err=True)
-                skipped_count += 1
-                continue
-        except ValueError:
-            click.echo("⚠️  Invalid input. Skipping this talk.", err=True)
-            skipped_count += 1
-            continue
-
-        # Get comment
-        comment = click.prompt(
-            "Comment (optional, Enter to skip)", default="", show_default=False
-        ).strip()
-
-        # Create feedback entry
-        feedback_entry = {"rating": rating}
-        if username:
-            feedback_entry["username"] = username
-        if comment:
-            feedback_entry["comment"] = comment
-
-        # Add to item
-        if "feedback" not in item:
-            item["feedback"] = []
-        item["feedback"].append(feedback_entry)
-
-        click.echo("✓ Saved")
-        rated_count += 1
 
     # Write back to YAML
     with yaml_file.open("w") as f:
