@@ -1,0 +1,40 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.9
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        additional_dependencies:
+          - types-pyyaml
+          - types-requests
+        files: ^src/
+
+  - repo: local
+    hooks:
+      - id: build-feeds
+        name: Build RSS Feeds
+        entry: media-feed build --all
+        language: system
+        pass_filenames: false
+        files: ^media/.*\.yml$
+
+      - id: add-feeds
+        name: Add generated feeds
+        entry: bash -c 'git add feeds/*.xml'
+        language: system
+        pass_filenames: false
+        always_run: true
