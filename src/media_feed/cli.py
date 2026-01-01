@@ -38,9 +38,7 @@ def build_feed(yaml_file: Path, output_dir: Path, config: dict[str, Any]) -> Pat
     xml_content = template.render(data=data, now=now, generator="media-feed Python CLI")
 
     # 4. Write output
-    output_file = output_dir / yaml_file.name.replace("media_", "feed_").replace(
-        ".yml", ".xml"
-    )
+    output_file = output_dir / yaml_file.name.replace("media_", "feed_").replace(".yml", ".xml")
     output_file.parent.mkdir(parents=True, exist_ok=True)
     output_file.write_text(xml_content, encoding="utf-8")
 
@@ -115,9 +113,7 @@ def search_ccc_talk(
 
         desc_elems = event.getElementsByTagName("description")
         description = (
-            desc_elems[0].childNodes[0].data
-            if desc_elems and desc_elems[0].childNodes
-            else ""
+            desc_elems[0].childNodes[0].data if desc_elems and desc_elems[0].childNodes else ""
         )
 
         # Find in media feed
@@ -132,9 +128,7 @@ def search_ccc_talk(
 
             pub_elems = item.getElementsByTagName("pubDate")
             pub_date = (
-                pub_elems[0].childNodes[0].data
-                if pub_elems and pub_elems[0].childNodes
-                else ""
+                pub_elems[0].childNodes[0].data if pub_elems and pub_elems[0].childNodes else ""
             )
 
             media_desc_elems = item.getElementsByTagName("description")
@@ -226,9 +220,7 @@ def build(input_files: tuple[str, ...], all: bool, output_dir: str) -> None:
 @click.option("--event", "-e", help="Event name (e.g., 36c3)")
 @click.option("--year", "-y", type=int, help="Year of the event")
 @click.option("--output", "-o", help="Output YAML file")
-@click.option(
-    "--long-desc", "-l", is_flag=True, help="Use long description from Fahrplan"
-)
+@click.option("--long-desc", "-l", is_flag=True, help="Use long description from Fahrplan")
 def add(
     query: str, event: Optional[str], year: Optional[int], output: Optional[str], long_desc: bool
 ) -> None:
@@ -250,9 +242,7 @@ def add(
             return
     else:
         # Use latest event
-        event_key = max(
-            config["events"].keys(), key=lambda k: config["events"][k]["year"]
-        )
+        event_key = max(config["events"].keys(), key=lambda k: config["events"][k]["year"])
 
     event_config = config["events"][event_key]
 
@@ -324,7 +314,7 @@ def new_event(year: int, congress_number: Optional[int], validate: bool) -> None
             click.echo(f"{status} {key}: {msg}")
 
     # Generate YAML snippet
-    click.echo(f"\n--- Add to config.yaml ---")
+    click.echo("\n--- Add to config.yaml ---")
     click.echo(f"{event_id}:")
     for key, value in event_config.items():
         click.echo(f"  {key}: {value}")
