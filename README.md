@@ -149,6 +149,39 @@ media-feed build --all --output-dir custom_feeds/
 - Talks rated **1-2**: Excluded by default (use `--all-ratings` to include)
 - **Unrated talks**: Always included ✓
 
+### Apple Podcasts Compatibility
+
+The generated RSS feeds are fully compatible with Apple Podcasts and follow the official Apple Podcasts RSS specification.
+
+**iTunes Namespace Tags:**
+- `itunes:type` - Set to "episodic" for the podcast type
+- `itunes:explicit` - Marked as "yes"
+- `itunes:episodeType` - Set to "full" for complete episodes
+- `itunes:title`, `itunes:summary`, `itunes:author` - Episode metadata
+- `itunes:image` - Podcast and episode artwork
+- `itunes:owner` - Podcast owner information
+- `itunes:category` - Podcast categories
+
+**Artwork Handling:**
+
+The feed uses a smart image fallback system:
+1. **Event-specific image**: If a media YAML file specifies `meta.image_url`, that image is used (e.g., congress logo)
+2. **Global fallback**: If no event-specific image is provided, the global `media_feed.png` from config.yaml is used
+
+Both channel-level and episode-level artwork are supported via `itunes:image` tags. Images should meet Apple's requirements:
+- **Size**: 1400x1400 to 3000x3000 pixels
+- **Format**: JPG or PNG
+- **Color space**: RGB
+
+**Category Implementation:**
+
+Categories are implemented at the **channel level only**, per Apple Podcasts specification. When building a feed, the system:
+1. Collects all unique categories from individual talks in the feed
+2. Aggregates them at the channel level
+3. Limits to the top 3 categories for optimal podcast directory browsing
+
+Categories are auto-assigned from CCC tracks when adding talks (see the Categories section above for the mapping). While individual talks can have categories in the YAML files, these are aggregated to channel-level in the final RSS feed.
+
 ### 3. Rate Talks Interactively
 
 Quickly rate talks in an event file using an interactive CLI. This is perfect for reviewing talks you've watched and sharing your feedback with others.

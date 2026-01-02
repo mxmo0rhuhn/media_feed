@@ -26,6 +26,19 @@
     <itunes:summary>{{ data.meta.description }}</itunes:summary>
     <itunes:author>{{ global_config.author }}</itunes:author>
     <itunes:image href="{{ data.meta.image_url|default(global_config.image_url) }}"/>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    {% set all_categories = [] %}
+    {% for item in data.feed %}
+      {% for category in item.categories|default([]) %}
+        {% if category not in all_categories %}
+          {% set _ = all_categories.append(category) %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% for category in all_categories[:3] %}
+    <itunes:category text="{{ category }}"/>
+    {% endfor %}
     {% for item in data.feed %}
     {% if item.published %}
     <item>
@@ -34,14 +47,12 @@
       <link>{{ item.web_url }}</link>
       <guid isPermaLink="true">{{ item.web_url }}</guid>
       <pubDate>{{ item.published }}</pubDate>
-      <itunes:subtitle>{{ item.title }}</itunes:subtitle>
+      <itunes:title>{{ item.title }}</itunes:title>
       <itunes:summary>{{ format_item_description(item)|e }}</itunes:summary>
       <itunes:author>{{ item.speakers }}</itunes:author>
       <itunes:image href="{{ data.meta.image_url|default(global_config.image_url) }}"/>
-      <itunes:explicit>Yes</itunes:explicit>
-      {% for category in item.categories|default([]) %}
-      <itunes:category text="{{ category }}"/>
-      {% endfor %}
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="{{ item.media_url }}"
                  length="{{ item.media_length }}"
                  type="{{ item.media_type }}"/>
