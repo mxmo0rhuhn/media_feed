@@ -9,6 +9,7 @@ description = "RSS feed generator mainly for Chaos Communication Congresses."
 requires-python = ">=3.11"
 dependencies = [
     "click>=8.1.0",
+    "defusedxml>=0.7.1",
     "jinja2>=3.1.0",
     "pyyaml>=6.0",
     "requests>=2.31.0",

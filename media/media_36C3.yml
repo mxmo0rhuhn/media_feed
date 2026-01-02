@@ -668,7 +668,6 @@ feed:
   category: "Society & Culture"
   feedback:
   - rating: 3
-    username:
     comment: Noch nicht gesehen, Empfehlung der GFF
 - title: 'Polizei-Datenbanken und Minderheiten: Staatliche Stigmatisierung und Diskriminierung
     von Sinti und Roma'
@@ -719,7 +718,8 @@ feed:
     \ Ermittlungsbefugnissen auseinander, sei dies im Zusammenhang mit dem Einsatz\
     \ von Späh-Software oder bei der Datenerhebung."
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Noch nicht gesehen, Empfehlung der GFF
 - title: '#NoPNR – Let’s kill the next Data Retention Law'
   published: Mon, 30 Dec 2019 12:30:00 +0100
@@ -765,7 +765,8 @@ feed:
     \ to other means of transportation, and what strategy civil society is pursuing\
     \ to stop this from happening."
   feedback:
-  - username: GFF
+  - rating: 3
+    username: GFF
     comment: Empfehlung der GFF in ihrem Newsletter
 - title: Hirne Hacken
   published: Sun, 29 Dec 2019 21:50:00 +0100
