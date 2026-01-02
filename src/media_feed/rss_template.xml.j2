@@ -3,34 +3,29 @@
   <channel>
     <title>{{ data.meta.title }}</title>
     <description>{{ data.meta.description }}</description>
-    <link>{{ data.meta.link }}</link>
+    <link>{{ global_config.link }}</link>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <language>{{ data.meta.language }}</language>
+    <language>{{ global_config.language }}</language>
     <generator>{{ generator }}</generator>
     <pubDate>{{ now }}</pubDate>
     <lastBuildDate>{{ now }}</lastBuildDate>
-    <managingEditor>{{ data.meta.contact.email }} ({{ data.meta.contact.name }})</managingEditor>
-    <webMaster>{{ data.meta.contact.email }} ({{ data.meta.contact.name }})</webMaster>
+    <managingEditor>{{ global_config.contact.email }} ({{ global_config.contact.name }})</managingEditor>
+    <webMaster>{{ global_config.contact.email }} ({{ global_config.contact.name }})</webMaster>
     <itunes:owner>
-      <itunes:email>{{ data.meta.contact.email }}</itunes:email>
-      <itunes:name>{{ data.meta.contact.name }}</itunes:name>
+      <itunes:email>{{ global_config.contact.email }}</itunes:email>
+      <itunes:name>{{ global_config.contact.name }}</itunes:name>
     </itunes:owner>
     <image>
-      <url>{{ data.meta.image_url }}</url>
+      <url>{{ data.meta.image_url|default(global_config.image_url) }}</url>
       <title>{{ data.meta.title }}</title>
-      <link>{{ data.meta.link }}</link>
+      <link>{{ global_config.link }}</link>
       <description>{{ data.meta.description }}</description>
       <width>144</width>
       <height>144</height>
     </image>
     <itunes:summary>{{ data.meta.description }}</itunes:summary>
-    <itunes:author>{{ data.meta.author }}</itunes:author>
-    <itunes:image href="{{ data.meta.image_url }}"/>
-    <itunes:explicit>Yes</itunes:explicit>
-    <itunes:keywords>{{ data.meta.keywords|join(',') }}</itunes:keywords>
-    {% for category in data.meta.categories %}
-    <itunes:category text="{{ category }}"/>
-    {% endfor %}
+    <itunes:author>{{ global_config.author }}</itunes:author>
+    <itunes:image href="{{ data.meta.image_url|default(global_config.image_url) }}"/>
     {% for item in data.feed %}
     {% if item.published %}
     <item>
@@ -42,9 +37,11 @@
       <itunes:subtitle>{{ item.title }}</itunes:subtitle>
       <itunes:summary>{{ format_item_description(item)|e }}</itunes:summary>
       <itunes:author>{{ item.speakers }}</itunes:author>
-      <itunes:image href="{{ data.meta.image_url }}"/>
+      <itunes:image href="{{ data.meta.image_url|default(global_config.image_url) }}"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>{{ data.meta.keywords|join(',') }}</itunes:keywords>
+      {% for category in item.categories|default([]) %}
+      <itunes:category text="{{ category }}"/>
+      {% endfor %}
       <enclosure url="{{ item.media_url }}"
                  length="{{ item.media_length }}"
                  type="{{ item.media_type }}"/>

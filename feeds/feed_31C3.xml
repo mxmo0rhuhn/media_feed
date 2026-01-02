@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Tue, 30 Dec 2025 17:45:00 GMT</pubDate>
-    <lastBuildDate>Tue, 30 Dec 2025 17:45:00 GMT</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2026 11:33:54 GMT</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2026 11:33:54 GMT</lastBuildDate>
     <managingEditor>impressum@schrimpf.ch (impressum)</managingEditor>
     <webMaster>impressum@schrimpf.ch (impressum)</webMaster>
     <itunes:owner>
@@ -17,7 +17,7 @@
       <itunes:name>impressum</itunes:name>
     </itunes:owner>
     <image>
-      <url></url>
+      <url>https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png</url>
       <title>31C3 media feed</title>
       <link>https://github.com/mxmo0rhuhn/media_feed</link>
       <description>A feed for different talks of the 31C3 2014
@@ -28,68 +28,21 @@
     <itunes:summary>A feed for different talks of the 31C3 2014
 </itunes:summary>
     <itunes:author>mxmo0rhuhn</itunes:author>
-    <itunes:image href=""/>
-    <itunes:explicit>Yes</itunes:explicit>
-    <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
-    
-    <itunes:category text="Technology"/>
-    
-    <itunes:category text="Society"/>
-    
-    <itunes:category text="Educational Technology"/>
-    
-    
-    
-    <item>
-      <title>31C3 Keynote</title>
-      <description>The 31C3 Keynote max: nicht so gut diese Jahr</description>
-      <link>https://events.ccc.de/congress/2014/Fahrplan/events/6571.html</link>
-      <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6571.html</guid>
-      <pubDate>Sat, 27 Dec 2014 11:30:00 +0100</pubDate>
-      <itunes:subtitle>31C3 Keynote</itunes:subtitle>
-      <itunes:summary>The 31C3 Keynote max: nicht so gut diese Jahr</itunes:summary>
-      <itunes:author>alecempire</itunes:author>
-      <itunes:image href=""/>
-      <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
-      <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6571-en-31C3_Keynote_sd.mp4"
-                 length="video/mp4"
-                 type="327155712"/>
-    </item>
-    
-    
-    
-    <item>
-      <title>Reconstructing narratives</title>
-      <description>Structural processes and roles are designed to create specific outcomes for groups. Externally facing narratives are often only one of many and they seek to create specific outcomes by shaping discourse. We will cover a wide range of popular narratives surrounding the so-called Surveillance State. We intend to discuss specific historical contexts as well as revealing new information as part of a longer term research project.  max: Laura Poitras und Applebaum erklärt was die NSA leider alles kann </description>
-      <link>https://events.ccc.de/congress/2014/Fahrplan/events/6258.html</link>
-      <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6258.html</guid>
-      <pubDate>Sun, 28 Dec 2014 20:30:00 +0100</pubDate>
-      <itunes:subtitle>Reconstructing narratives</itunes:subtitle>
-      <itunes:summary>Structural processes and roles are designed to create specific outcomes for groups. Externally facing narratives are often only one of many and they seek to create specific outcomes by shaping discourse. We will cover a wide range of popular narratives surrounding the so-called Surveillance State. We intend to discuss specific historical contexts as well as revealing new information as part of a longer term research project.  max: Laura Poitras und Applebaum erklärt was die NSA leider alles kann </itunes:summary>
-      <itunes:author>Jacob, Laura Poitras</itunes:author>
-      <itunes:image href=""/>
-      <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
-      <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6258-en-Reconstructing_narratives_hd.mp4"
-                 length="video/mp4"
-                 type="622854144"/>
-    </item>
-    
+    <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
     
     
     <item>
       <title>The Matter of Heartbleed</title>
-      <description>The Heartbleed vulnerability took the Internet by surprise in April of this year. The vulnerability was one of the most consequential in the history of the Internet, since it allowed attackers to potentially steal login credentials, cryptographic keys, and other private data from up to half of all popular HTTPS sites.  In this talk, we take a detailed look at Heartbleed and its aftermath, based on comprehensive measurements and analysis that our research team performed over the past six months.  We began tracking Heartbleed&#39;s impact within hours of its disclosure using massive ZMap scans and large network telescopes.  This allowed us to track which sites remained vulnerable, observe certificate revocations, and monitor for large scale attacks in close to real time. Based on this data, we also conducted one of the largest ever mass vulnerability notifications, informing the network administrators for all devices still susceptible to Heartbleed across the entire IPv4 address space.  Finally, we investigated the question of whether attackers knew about and exploited Heartbleed prior to its public disclosure---and we will present new details about this question in the talk.  We hope that by learning from the Heartbleed security disaster, our community can prepare to respond more effectively to such events in the future.  max: post mortem zu einem krassen Problem  </description>
+      <description>The Heartbleed vulnerability took the Internet by surprise in April of this year. The vulnerability was one of the most consequential in the history of the Internet, since it allowed attackers to potentially steal login credentials, cryptographic keys, and other private data from up to half of all popular HTTPS sites.  In this talk, we take a detailed look at Heartbleed and its aftermath, based on comprehensive measurements and analysis that our research team performed over the past six months.  We began tracking Heartbleed&#39;s impact within hours of its disclosure using massive ZMap scans and large network telescopes.  This allowed us to track which sites remained vulnerable, observe certificate revocations, and monitor for large scale attacks in close to real time. Based on this data, we also conducted one of the largest ever mass vulnerability notifications, informing the network administrators for all devices still susceptible to Heartbleed across the entire IPv4 address space.  Finally, we investigated the question of whether attackers knew about and exploited Heartbleed prior to its public disclosure---and we will present new details about this question in the talk.  We hope that by learning from the Heartbleed security disaster, our community can prepare to respond more effectively to such events in the future. max: post mortem zu einem krassen Problem</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6321.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6321.html</guid>
       <pubDate>Sun, 28 Dec 2014 23:00:00 +0100</pubDate>
       <itunes:subtitle>The Matter of Heartbleed</itunes:subtitle>
-      <itunes:summary>The Heartbleed vulnerability took the Internet by surprise in April of this year. The vulnerability was one of the most consequential in the history of the Internet, since it allowed attackers to potentially steal login credentials, cryptographic keys, and other private data from up to half of all popular HTTPS sites.  In this talk, we take a detailed look at Heartbleed and its aftermath, based on comprehensive measurements and analysis that our research team performed over the past six months.  We began tracking Heartbleed&#39;s impact within hours of its disclosure using massive ZMap scans and large network telescopes.  This allowed us to track which sites remained vulnerable, observe certificate revocations, and monitor for large scale attacks in close to real time. Based on this data, we also conducted one of the largest ever mass vulnerability notifications, informing the network administrators for all devices still susceptible to Heartbleed across the entire IPv4 address space.  Finally, we investigated the question of whether attackers knew about and exploited Heartbleed prior to its public disclosure---and we will present new details about this question in the talk.  We hope that by learning from the Heartbleed security disaster, our community can prepare to respond more effectively to such events in the future.  max: post mortem zu einem krassen Problem  </itunes:summary>
+      <itunes:summary>The Heartbleed vulnerability took the Internet by surprise in April of this year. The vulnerability was one of the most consequential in the history of the Internet, since it allowed attackers to potentially steal login credentials, cryptographic keys, and other private data from up to half of all popular HTTPS sites.  In this talk, we take a detailed look at Heartbleed and its aftermath, based on comprehensive measurements and analysis that our research team performed over the past six months.  We began tracking Heartbleed&#39;s impact within hours of its disclosure using massive ZMap scans and large network telescopes.  This allowed us to track which sites remained vulnerable, observe certificate revocations, and monitor for large scale attacks in close to real time. Based on this data, we also conducted one of the largest ever mass vulnerability notifications, informing the network administrators for all devices still susceptible to Heartbleed across the entire IPv4 address space.  Finally, we investigated the question of whether attackers knew about and exploited Heartbleed prior to its public disclosure---and we will present new details about this question in the talk.  We hope that by learning from the Heartbleed security disaster, our community can prepare to respond more effectively to such events in the future. max: post mortem zu einem krassen Problem</itunes:summary>
       <itunes:author>Zakir Durumeric</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6321-en-de-The_Matter_of_Heartbleed_hd.mp4"
                  length="video/mp4"
                  type="437256192"/>
@@ -99,16 +52,16 @@
     
     <item>
       <title>Fnord News Show</title>
-      <description>Im Format einer lockeren Abendshow werden wir die Nachrichten-Highlights des Jahres präsentieren, die Meldungen zwischen den Meldungen, die subtilen Sensationen hinter den Schlagzeilen. max: schlechter als sonst </description>
+      <description>Im Format einer lockeren Abendshow werden wir die Nachrichten-Highlights des Jahres präsentieren, die Meldungen zwischen den Meldungen, die subtilen Sensationen hinter den Schlagzeilen. max: schlechter als sonst</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6109.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6109.html</guid>
       <pubDate>Mon, 29 Dec 2014 00:15:00 +0100</pubDate>
       <itunes:subtitle>Fnord News Show</itunes:subtitle>
-      <itunes:summary>Im Format einer lockeren Abendshow werden wir die Nachrichten-Highlights des Jahres präsentieren, die Meldungen zwischen den Meldungen, die subtilen Sensationen hinter den Schlagzeilen. max: schlechter als sonst </itunes:summary>
+      <itunes:summary>Im Format einer lockeren Abendshow werden wir die Nachrichten-Highlights des Jahres präsentieren, die Meldungen zwischen den Meldungen, die subtilen Sensationen hinter den Schlagzeilen. max: schlechter als sonst</itunes:summary>
       <itunes:author>frank, Fefe</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6109-de-en-Fnord_News_Show_hd.mp4"
                  length="video/mp4"
                  type="891289600"/>
@@ -125,9 +78,9 @@
       <itunes:subtitle>Cyber Necromancy</itunes:subtitle>
       <itunes:summary>Reverse engineering is not all binaries and byte-code. The black art also extends to networks and unobtainable game servers. In this talk we go into the gruesome details of how we dug through the graveyards of console binaries and mausoleums of forgotten network protocols in order to stitch together the pieces necessary to bring our favorite game Metal Gear Online back to life. We will be examining the process of reverse engineering the games custom network protocols in all angles from packet logs to low level disassembly of client code. max: naja</itunes:summary>
       <itunes:author>Joseph Tartaro, Matthew Halchyshak</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-5956-en-Cyber_Necromancy_hd.mp4"
                  length="video/mp4"
                  type="288358400"/>
@@ -144,9 +97,9 @@
       <itunes:subtitle>Krypto für die Zukunft</itunes:subtitle>
       <itunes:summary>(K)ein kleiner Rant über Elliptische Kurven, Quantencomputer, Bitcoins und die NSA et al. max: Gute Einführung wenn man sich mit Krypto nicht auskennt. Guter Speaker wie immer.</itunes:summary>
       <itunes:author>ruedi</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6295-de-en-Krypto_fuer_die_Zukunft_hd.mp4"
                  length="video/mp4"
                  type="459276288"/>
@@ -156,16 +109,16 @@
     
     <item>
       <title>Forging the USB armory</title>
-      <description>The presentation will cover the journey that we have taken to develop the USB armory board from scratch, explaining the lessons learned and its prospected applications. max: Sales talk über ein spannendes Flash drive mit lustiger Krypto. Nicht unbedingt sehenswert. </description>
+      <description>The presentation will cover the journey that we have taken to develop the USB armory board from scratch, explaining the lessons learned and its prospected applications. max: Sales talk über ein spannendes Flash drive mit lustiger Krypto. Nicht unbedingt sehenswert.</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6541.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6541.html</guid>
       <pubDate>Sun, 28 Dec 2014 17:30:00 +0100</pubDate>
       <itunes:subtitle>Forging the USB armory</itunes:subtitle>
-      <itunes:summary>The presentation will cover the journey that we have taken to develop the USB armory board from scratch, explaining the lessons learned and its prospected applications. max: Sales talk über ein spannendes Flash drive mit lustiger Krypto. Nicht unbedingt sehenswert. </itunes:summary>
+      <itunes:summary>The presentation will cover the journey that we have taken to develop the USB armory board from scratch, explaining the lessons learned and its prospected applications. max: Sales talk über ein spannendes Flash drive mit lustiger Krypto. Nicht unbedingt sehenswert.</itunes:summary>
       <itunes:author>Andrea Barisani</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6541-en-de-Forging_the_USB_armory_hd.mp4"
                  length="video/mp4"
                  type="298844160"/>
@@ -175,16 +128,16 @@
     
     <item>
       <title>Why is GPG 'damn near unusable'?</title>
-      <description>GPG has been correctly described as &#34;damn near unusable&#34;. Why is this so? What does research into usable security tell us? This talk covers the history, methods, and findings of the research field, as well as proposed solutions and open questions. max: Schlecht benannter talk über usability. Relativ enttäuschend </description>
+      <description>GPG has been correctly described as &#34;damn near unusable&#34;. Why is this so? What does research into usable security tell us? This talk covers the history, methods, and findings of the research field, as well as proposed solutions and open questions. max: Schlecht benannter talk über usability. Relativ enttäuschend</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6021.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6021.html</guid>
       <pubDate>Sun, 28 Dec 2014 11:30:00 +0100</pubDate>
       <itunes:subtitle>Why is GPG 'damn near unusable'?</itunes:subtitle>
-      <itunes:summary>GPG has been correctly described as &#34;damn near unusable&#34;. Why is this so? What does research into usable security tell us? This talk covers the history, methods, and findings of the research field, as well as proposed solutions and open questions. max: Schlecht benannter talk über usability. Relativ enttäuschend </itunes:summary>
+      <itunes:summary>GPG has been correctly described as &#34;damn near unusable&#34;. Why is this so? What does research into usable security tell us? This talk covers the history, methods, and findings of the research field, as well as proposed solutions and open questions. max: Schlecht benannter talk über usability. Relativ enttäuschend</itunes:summary>
       <itunes:author>Arne Padmos</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6021-en-de-Why_is_GPG_damn_near_unusable_hd.mp4"
                  length="video/mp4"
                  type="318767104"/>
@@ -194,16 +147,16 @@
     
     <item>
       <title>Crypto Tales from the Trenches</title>
-      <description>Julia Angwin, Jack Gillum, and Laura Poitras will tell us stories about how they use crypto and privacy-enhancing technologies as high-profile journalists, and rant in an entertaining way about how these tools have failed or are horribly inadequate for their needs. They will also talk about their rare crypto successes. max: wie verwenden Journalisten Krypto? </description>
+      <description>Julia Angwin, Jack Gillum, and Laura Poitras will tell us stories about how they use crypto and privacy-enhancing technologies as high-profile journalists, and rant in an entertaining way about how these tools have failed or are horribly inadequate for their needs. They will also talk about their rare crypto successes. max: wie verwenden Journalisten Krypto?</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6154.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6154.html</guid>
       <pubDate>Sat, 27 Dec 2014 23:00:00 +0100</pubDate>
       <itunes:subtitle>Crypto Tales from the Trenches</itunes:subtitle>
-      <itunes:summary>Julia Angwin, Jack Gillum, and Laura Poitras will tell us stories about how they use crypto and privacy-enhancing technologies as high-profile journalists, and rant in an entertaining way about how these tools have failed or are horribly inadequate for their needs. They will also talk about their rare crypto successes. max: wie verwenden Journalisten Krypto? </itunes:summary>
+      <itunes:summary>Julia Angwin, Jack Gillum, and Laura Poitras will tell us stories about how they use crypto and privacy-enhancing technologies as high-profile journalists, and rant in an entertaining way about how these tools have failed or are horribly inadequate for their needs. They will also talk about their rare crypto successes. max: wie verwenden Journalisten Krypto?</itunes:summary>
       <itunes:author>Nadia Heninger, Julia Angwin,  Laura Poitras, Jack Gillum</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6154-en-de-Crypto_Tales_from_the_Trenches_hd.mp4"
                  length="video/mp4"
                  type="808452096"/>
@@ -213,16 +166,16 @@
     
     <item>
       <title>Rocket science – how hard can it be?</title>
-      <description>Three years have elapsed since the call for a &#34;Hacker Space Program&#34; during the Chaos Communication Camp 2011. In this lecture we will review the basics of space flight, discuss common problems and pitfalls encountered by a practitioner on the way to orbit, and report on the state of our sounding rocket program. max: Spannend was man alles an Raketen machen kann ohne die ESA zu sein und ohne viel Geld </description>
+      <description>Three years have elapsed since the call for a &#34;Hacker Space Program&#34; during the Chaos Communication Camp 2011. In this lecture we will review the basics of space flight, discuss common problems and pitfalls encountered by a practitioner on the way to orbit, and report on the state of our sounding rocket program. max: Spannend was man alles an Raketen machen kann ohne die ESA zu sein und ohne viel Geld</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6180.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6180.html</guid>
       <pubDate>Sat, 27 Dec 2014 18:30:00 +0100</pubDate>
       <itunes:subtitle>Rocket science – how hard can it be?</itunes:subtitle>
-      <itunes:summary>Three years have elapsed since the call for a &#34;Hacker Space Program&#34; during the Chaos Communication Camp 2011. In this lecture we will review the basics of space flight, discuss common problems and pitfalls encountered by a practitioner on the way to orbit, and report on the state of our sounding rocket program. max: Spannend was man alles an Raketen machen kann ohne die ESA zu sein und ohne viel Geld </itunes:summary>
+      <itunes:summary>Three years have elapsed since the call for a &#34;Hacker Space Program&#34; during the Chaos Communication Camp 2011. In this lecture we will review the basics of space flight, discuss common problems and pitfalls encountered by a practitioner on the way to orbit, and report on the state of our sounding rocket program. max: Spannend was man alles an Raketen machen kann ohne die ESA zu sein und ohne viel Geld</itunes:summary>
       <itunes:author>David Madlener, Sean</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6180-en-de-Rocket_science_-_how_hard_can_it_be_sd.mp4"
                  length="video/mp4"
                  type="247463936"/>
@@ -232,16 +185,16 @@
     
     <item>
       <title>Mit Kunst die Gesellschaft hacken</title>
-      <description>Ein Mahnmal gegen die Vereinten Nationen, 25.000 Euro Kopfgeld auf eine deutsche Waffenhändlerfamilie, eine falsche Kampagne für das Familienministerium oder die Flucht der &#34;Mauerkreuze&#34; vom Reichstagsufer an die EU-Außengrenzen: wenn das Zentrum für Politische Schönheit (ZPS) das Kriegsbeil ausgräbt, ist eine kontroverse Debatte garantiert. max: Sehr, Sehr genialer Talk (inhaltlich und in der Präsentation) zu politischem Aktivismus  </description>
+      <description>Ein Mahnmal gegen die Vereinten Nationen, 25.000 Euro Kopfgeld auf eine deutsche Waffenhändlerfamilie, eine falsche Kampagne für das Familienministerium oder die Flucht der &#34;Mauerkreuze&#34; vom Reichstagsufer an die EU-Außengrenzen: wenn das Zentrum für Politische Schönheit (ZPS) das Kriegsbeil ausgräbt, ist eine kontroverse Debatte garantiert. max: Sehr, Sehr genialer Talk (inhaltlich und in der Präsentation) zu politischem Aktivismus</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6584.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6584.html</guid>
       <pubDate>Sat, 27 Dec 2014 14:00:00 +0100</pubDate>
       <itunes:subtitle>Mit Kunst die Gesellschaft hacken</itunes:subtitle>
-      <itunes:summary>Ein Mahnmal gegen die Vereinten Nationen, 25.000 Euro Kopfgeld auf eine deutsche Waffenhändlerfamilie, eine falsche Kampagne für das Familienministerium oder die Flucht der &#34;Mauerkreuze&#34; vom Reichstagsufer an die EU-Außengrenzen: wenn das Zentrum für Politische Schönheit (ZPS) das Kriegsbeil ausgräbt, ist eine kontroverse Debatte garantiert. max: Sehr, Sehr genialer Talk (inhaltlich und in der Präsentation) zu politischem Aktivismus  </itunes:summary>
+      <itunes:summary>Ein Mahnmal gegen die Vereinten Nationen, 25.000 Euro Kopfgeld auf eine deutsche Waffenhändlerfamilie, eine falsche Kampagne für das Familienministerium oder die Flucht der &#34;Mauerkreuze&#34; vom Reichstagsufer an die EU-Außengrenzen: wenn das Zentrum für Politische Schönheit (ZPS) das Kriegsbeil ausgräbt, ist eine kontroverse Debatte garantiert. max: Sehr, Sehr genialer Talk (inhaltlich und in der Präsentation) zu politischem Aktivismus</itunes:summary>
       <itunes:author>Stefan Pelzer, Philipp Ruch</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6584-de-en-Mit_Kunst_die_Gesellschaft_hacken_hd.mp4"
                  length="video/mp4"
                  type="1076887552"/>
@@ -251,16 +204,16 @@
     
     <item>
       <title>Vor Windows 8 wird gewarnt</title>
-      <description>Im Vortrag sollen technische und gesellschaftliche Konsequenzen der von Microsoft kontrollierten Windows-8-Secure-Boot-Architektur und mögliche Gegenmaßnahmen diskutiert werden. max: Super präsentiertes bashing von bekannteren Problemen + warum  </description>
+      <description>Im Vortrag sollen technische und gesellschaftliche Konsequenzen der von Microsoft kontrollierten Windows-8-Secure-Boot-Architektur und mögliche Gegenmaßnahmen diskutiert werden. max: Super präsentiertes bashing von bekannteren Problemen + warum</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6294.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6294.html</guid>
       <pubDate>Sun, 28 Dec 2014 18:15:00 +0100</pubDate>
       <itunes:subtitle>Vor Windows 8 wird gewarnt</itunes:subtitle>
-      <itunes:summary>Im Vortrag sollen technische und gesellschaftliche Konsequenzen der von Microsoft kontrollierten Windows-8-Secure-Boot-Architektur und mögliche Gegenmaßnahmen diskutiert werden. max: Super präsentiertes bashing von bekannteren Problemen + warum  </itunes:summary>
+      <itunes:summary>Im Vortrag sollen technische und gesellschaftliche Konsequenzen der von Microsoft kontrollierten Windows-8-Secure-Boot-Architektur und mögliche Gegenmaßnahmen diskutiert werden. max: Super präsentiertes bashing von bekannteren Problemen + warum</itunes:summary>
       <itunes:author>ruedi</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6294-de-en-Vor_Windows_8_wird_gewarnt_hd.mp4"
                  length="video/mp4"
                  type="329252864"/>
@@ -277,9 +230,9 @@
       <itunes:subtitle>Wir beteiligen uns aktiv an den Diskussionen</itunes:subtitle>
       <itunes:summary>Im Sommer 2014 wurde die sogenannte Digitale „Agenda“ vorgestellt, die als „netzpolitisches Regierungsprogramm“ bezeichnet wurde. Aus texttypologischer Sicht handelt es sich aber eher um einen PR-Text, der so aussieht, als sei er ein Auszug aus einer Wahlkampfbroschüre. Der Vortrag analysiert den Text zunächst inhaltlich, um zu zeigen, worum es im Einzelnen geht und wo Widersprüche auftauchen, dann aus textkritischer und aus linguistischer Perspektive. Insbesondere werden bestimmte Interessen der Bundesregierung und anderer Akteure deutlich, die weniger offen thematisiert werden, aber doch sprachlich zu Tage treten. max: Ein Sprache (und deren Verwendung in der deutschen Politik) analysiert. Wie jedes Jahr sehenswert.</itunes:summary>
       <itunes:author>Martin Haase/maha</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6264-de-en-Wir_beteiligen_uns_aktiv_an_den_Diskussionen_sd.mp4"
                  length="video/mp4"
                  type="288358400"/>
@@ -289,16 +242,16 @@
     
     <item>
       <title>Ich sehe, also bin ich ... Du</title>
-      <description>Bei der Passworteingabe über die Schultern schauen? Die Mateflasche klauen, um an Fingerabdrücke zu kommen? Alles Technik von gestern. Der Vortrag zeigt, wie man heutzutage an Daten kommt, um Authentifizierungsmethoden zu überwinden. max: Biometrie lustig geowned (man kann Fingerabdrücke fälschen basierend auf einem Photo). Sehr gut vorgetragen und sorgt für Lacher. </description>
+      <description>Bei der Passworteingabe über die Schultern schauen? Die Mateflasche klauen, um an Fingerabdrücke zu kommen? Alles Technik von gestern. Der Vortrag zeigt, wie man heutzutage an Daten kommt, um Authentifizierungsmethoden zu überwinden. max: Biometrie lustig geowned (man kann Fingerabdrücke fälschen basierend auf einem Photo). Sehr gut vorgetragen und sorgt für Lacher.</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6450.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6450.html</guid>
       <pubDate>Sat, 27 Dec 2014 20:30:00 +0100</pubDate>
       <itunes:subtitle>Ich sehe, also bin ich ... Du</itunes:subtitle>
-      <itunes:summary>Bei der Passworteingabe über die Schultern schauen? Die Mateflasche klauen, um an Fingerabdrücke zu kommen? Alles Technik von gestern. Der Vortrag zeigt, wie man heutzutage an Daten kommt, um Authentifizierungsmethoden zu überwinden. max: Biometrie lustig geowned (man kann Fingerabdrücke fälschen basierend auf einem Photo). Sehr gut vorgetragen und sorgt für Lacher. </itunes:summary>
+      <itunes:summary>Bei der Passworteingabe über die Schultern schauen? Die Mateflasche klauen, um an Fingerabdrücke zu kommen? Alles Technik von gestern. Der Vortrag zeigt, wie man heutzutage an Daten kommt, um Authentifizierungsmethoden zu überwinden. max: Biometrie lustig geowned (man kann Fingerabdrücke fälschen basierend auf einem Photo). Sehr gut vorgetragen und sorgt für Lacher.</itunes:summary>
       <itunes:author>starbug</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6450-de-en-Ich_sehe_also_bin_ich_Du_hd.mp4"
                  length="video/mp4"
                  type="544210944"/>
@@ -308,16 +261,16 @@
     
     <item>
       <title>NSA Points of Presence in AT</title>
-      <description>Station VIENNA in der US-Botschaft Wien VIENNA  ANNEX  beim UNO-Sitz in Wien  Legacy Standort „NSA-Villa“ Wien  Relaystation Exelberg,Breitbandnetz von NSA/SCS über Wien   Equipment und Funktion der FORNSAT-Station Königswarte. max: super talk mit kleinen technischen Problemen zu den Aussmassen der Spionage in Wien und AT </description>
+      <description>Station VIENNA in der US-Botschaft Wien VIENNA  ANNEX  beim UNO-Sitz in Wien Legacy Standort „NSA-Villa“ Wien Relaystation Exelberg,Breitbandnetz von NSA/SCS über Wien Equipment und Funktion der FORNSAT-Station Königswarte. max: super talk mit kleinen technischen Problemen zu den Aussmassen der Spionage in Wien und AT</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6430.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6430.html</guid>
       <pubDate>Mon, 29 Dec 2014 11:30:00 +0100</pubDate>
       <itunes:subtitle>NSA Points of Presence in AT</itunes:subtitle>
-      <itunes:summary>Station VIENNA in der US-Botschaft Wien VIENNA  ANNEX  beim UNO-Sitz in Wien  Legacy Standort „NSA-Villa“ Wien  Relaystation Exelberg,Breitbandnetz von NSA/SCS über Wien   Equipment und Funktion der FORNSAT-Station Königswarte. max: super talk mit kleinen technischen Problemen zu den Aussmassen der Spionage in Wien und AT </itunes:summary>
+      <itunes:summary>Station VIENNA in der US-Botschaft Wien VIENNA  ANNEX  beim UNO-Sitz in Wien Legacy Standort „NSA-Villa“ Wien Relaystation Exelberg,Breitbandnetz von NSA/SCS über Wien Equipment und Funktion der FORNSAT-Station Königswarte. max: super talk mit kleinen technischen Problemen zu den Aussmassen der Spionage in Wien und AT</itunes:summary>
       <itunes:author>Erich Moechel</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6430-de-en-NSA_Points_of_Presence_in_AT_hd.mp4"
                  length="video/mp4"
                  type="876609536"/>
@@ -327,16 +280,16 @@
     
     <item>
       <title>Jahresrückblick des CCC</title>
-      <description>Auch das Jahr 2014 geht irgendwann vorbei. Deshalb werfen wir einen Blick zurück auf die für uns besonders relevanten Themen und versuchen abzuschätzen, was im Jahr 2015 auf uns zukommen könnte. max: Spannend - aber vlt nur für (DE-)Netzpolitisch Interessierte </description>
+      <description>Auch das Jahr 2014 geht irgendwann vorbei. Deshalb werfen wir einen Blick zurück auf die für uns besonders relevanten Themen und versuchen abzuschätzen, was im Jahr 2015 auf uns zukommen könnte. max: Spannend - aber vlt nur für (DE-)Netzpolitisch Interessierte</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6583.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6583.html</guid>
       <pubDate>Mon, 29 Dec 2014 12:45:00 +0100</pubDate>
       <itunes:subtitle>Jahresrückblick des CCC</itunes:subtitle>
-      <itunes:summary>Auch das Jahr 2014 geht irgendwann vorbei. Deshalb werfen wir einen Blick zurück auf die für uns besonders relevanten Themen und versuchen abzuschätzen, was im Jahr 2015 auf uns zukommen könnte. max: Spannend - aber vlt nur für (DE-)Netzpolitisch Interessierte </itunes:summary>
+      <itunes:summary>Auch das Jahr 2014 geht irgendwann vorbei. Deshalb werfen wir einen Blick zurück auf die für uns besonders relevanten Themen und versuchen abzuschätzen, was im Jahr 2015 auf uns zukommen könnte. max: Spannend - aber vlt nur für (DE-)Netzpolitisch Interessierte</itunes:summary>
       <itunes:author>Frank Rieger, erdgeist, Linus Neumann, heckpiet, Constanze Kurz</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6583-de-en-Jahresrueckblick_des_CCC_hd.mp4"
                  length="video/mp4"
                  type="1412431872"/>
@@ -346,16 +299,16 @@
     
     <item>
       <title>What Ever Happened to Nuclear Weapons?</title>
-      <description>An overview of 70 years of nuclear weapons, focusing on some of the underlying physics, the international politics that surround the topic, modern technology for nuclear weapons detection and monitoring, and what everyone can do to help nuclear disarmament. max: Was wir alles für Probleme haben / haben werden mit den Tausenden Waffen die die Menschheit einfach auslöschen könnten </description>
+      <description>An overview of 70 years of nuclear weapons, focusing on some of the underlying physics, the international politics that surround the topic, modern technology for nuclear weapons detection and monitoring, and what everyone can do to help nuclear disarmament. max: Was wir alles für Probleme haben / haben werden mit den Tausenden Waffen die die Menschheit einfach auslöschen könnten</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6121.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6121.html</guid>
       <pubDate>Mon, 29 Dec 2014 17:15:00 +0100</pubDate>
       <itunes:subtitle>What Ever Happened to Nuclear Weapons?</itunes:subtitle>
-      <itunes:summary>An overview of 70 years of nuclear weapons, focusing on some of the underlying physics, the international politics that surround the topic, modern technology for nuclear weapons detection and monitoring, and what everyone can do to help nuclear disarmament. max: Was wir alles für Probleme haben / haben werden mit den Tausenden Waffen die die Menschheit einfach auslöschen könnten </itunes:summary>
+      <itunes:summary>An overview of 70 years of nuclear weapons, focusing on some of the underlying physics, the international politics that surround the topic, modern technology for nuclear weapons detection and monitoring, and what everyone can do to help nuclear disarmament. max: Was wir alles für Probleme haben / haben werden mit den Tausenden Waffen die die Menschheit einfach auslöschen könnten</itunes:summary>
       <itunes:author>Michael Büker</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6121-en-de-What_Ever_Happened_to_Nuclear_Weapons_hd.mp4"
                  length="video/mp4"
                  type="673185792"/>
@@ -365,16 +318,16 @@
     
     <item>
       <title>Funky File Formats</title>
-      <description>Binary tricks to evade identification, detection, to exploit encryption and hash collisions. max: Ein Pdf ist ein JPG ist ein Song usw ... sehr lustig was man mit Dateiformaten alles anrichten kann </description>
+      <description>Binary tricks to evade identification, detection, to exploit encryption and hash collisions. max: Ein Pdf ist ein JPG ist ein Song usw ... sehr lustig was man mit Dateiformaten alles anrichten kann</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/5930.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/5930.html</guid>
       <pubDate>Mon, 29 Dec 2014 14:00:00 +0100</pubDate>
       <itunes:subtitle>Funky File Formats</itunes:subtitle>
-      <itunes:summary>Binary tricks to evade identification, detection, to exploit encryption and hash collisions. max: Ein Pdf ist ein JPG ist ein Song usw ... sehr lustig was man mit Dateiformaten alles anrichten kann </itunes:summary>
+      <itunes:summary>Binary tricks to evade identification, detection, to exploit encryption and hash collisions. max: Ein Pdf ist ein JPG ist ein Song usw ... sehr lustig was man mit Dateiformaten alles anrichten kann</itunes:summary>
       <itunes:author>Ange Albertini</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-5930-en-de-Funky_File_Formats_hd.mp4"
                  length="video/mp4"
                  type="405798912"/>
@@ -384,16 +337,16 @@
     
     <item>
       <title>Living Drones</title>
-      <description>During World War I, homing pigeons were used to carry messages and take photographs over enemy territory. Today, experiments are being conducted to remote-control insects for similar purposes. This talk intends to give an overview of 100 years of living drones, speculate on future developments in the field, and question the ethical implications of the practice. max: Wie werden Brieftauben und andere nicht menschliche Lebewesen für militärische Zwecke missbraucht </description>
+      <description>During World War I, homing pigeons were used to carry messages and take photographs over enemy territory. Today, experiments are being conducted to remote-control insects for similar purposes. This talk intends to give an overview of 100 years of living drones, speculate on future developments in the field, and question the ethical implications of the practice. max: Wie werden Brieftauben und andere nicht menschliche Lebewesen für militärische Zwecke missbraucht</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6275.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6275.html</guid>
       <pubDate>Mon, 29 Dec 2014 20:30:00 +0100</pubDate>
       <itunes:subtitle>Living Drones</itunes:subtitle>
-      <itunes:summary>During World War I, homing pigeons were used to carry messages and take photographs over enemy territory. Today, experiments are being conducted to remote-control insects for similar purposes. This talk intends to give an overview of 100 years of living drones, speculate on future developments in the field, and question the ethical implications of the practice. max: Wie werden Brieftauben und andere nicht menschliche Lebewesen für militärische Zwecke missbraucht </itunes:summary>
+      <itunes:summary>During World War I, homing pigeons were used to carry messages and take photographs over enemy territory. Today, experiments are being conducted to remote-control insects for similar purposes. This talk intends to give an overview of 100 years of living drones, speculate on future developments in the field, and question the ethical implications of the practice. max: Wie werden Brieftauben und andere nicht menschliche Lebewesen für militärische Zwecke missbraucht</itunes:summary>
       <itunes:author>Anja Drephal</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6275-en-de-Living_Drones_hd.mp4"
                  length="video/mp4"
                  type="436207616"/>
@@ -403,16 +356,16 @@
     
     <item>
       <title>The Perl Jam: Exploiting a 20 Year-old Vulnerability</title>
-      <description>tl;dr EXPLOIT ALL THE PERL. We chained several of Perl’s ridiculous syntax quirks in order to create a surprisingly powerful attack, bringing down some of the most popular Perl-based projects in the world to their knees. Brace yourselves, RCE exploits are coming. max: Humorvoller WAT Talk zu idiotischem Verhalten in PERL. Viele Lacher, kurzweilig. </description>
+      <description>tl;dr EXPLOIT ALL THE PERL. We chained several of Perl’s ridiculous syntax quirks in order to create a surprisingly powerful attack, bringing down some of the most popular Perl-based projects in the world to their knees. Brace yourselves, RCE exploits are coming. max: Humorvoller WAT Talk zu idiotischem Verhalten in PERL. Viele Lacher, kurzweilig.</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6243.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6243.html</guid>
       <pubDate>Mon, 29 Dec 2014 22:00:00 +0100</pubDate>
       <itunes:subtitle>The Perl Jam: Exploiting a 20 Year-old Vulnerability</itunes:subtitle>
-      <itunes:summary>tl;dr EXPLOIT ALL THE PERL. We chained several of Perl’s ridiculous syntax quirks in order to create a surprisingly powerful attack, bringing down some of the most popular Perl-based projects in the world to their knees. Brace yourselves, RCE exploits are coming. max: Humorvoller WAT Talk zu idiotischem Verhalten in PERL. Viele Lacher, kurzweilig. </itunes:summary>
+      <itunes:summary>tl;dr EXPLOIT ALL THE PERL. We chained several of Perl’s ridiculous syntax quirks in order to create a surprisingly powerful attack, bringing down some of the most popular Perl-based projects in the world to their knees. Brace yourselves, RCE exploits are coming. max: Humorvoller WAT Talk zu idiotischem Verhalten in PERL. Viele Lacher, kurzweilig.</itunes:summary>
       <itunes:author>Netanel Rubin</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6243-en-de-The_Perl_Jam_Exploiting_a_20_Year-old_Vulnerability_hd.mp4"
                  length="video/mp4"
                  type="285212672"/>
@@ -421,36 +374,17 @@
     
     
     <item>
-      <title>State of the Onion</title>
-      <description>The current state of the Tor network and community, covering important updates, discussions of the ecosystem of software, and include a longer Q&amp;A than previous CCC talks! max: Applebaum und Kollegen über TOR. Ein grosses Fest für die Netzgemeinde </description>
-      <link>https://events.ccc.de/congress/2014/Fahrplan/events/6251.html</link>
-      <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6251.html</guid>
-      <pubDate>Tue, 30 Dec 2014 14:00:00 +0100</pubDate>
-      <itunes:subtitle>State of the Onion</itunes:subtitle>
-      <itunes:summary>The current state of the Tor network and community, covering important updates, discussions of the ecosystem of software, and include a longer Q&amp;A than previous CCC talks! max: Applebaum und Kollegen über TOR. Ein grosses Fest für die Netzgemeinde </itunes:summary>
-      <itunes:author>Jacob, arma</itunes:author>
-      <itunes:image href=""/>
-      <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
-      <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6251-en-de-State_of_the_Onion_hd.mp4"
-                 length="video/mp4"
-                 type="1020264448"/>
-    </item>
-    
-    
-    
-    <item>
       <title>31C3 Infrastructure Review</title>
-      <description>Sections &lt;ul&gt; &lt;li&gt;&lt;a href=&#34;#t=0:10&#34;&gt;0:10 Network (NOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=26:19&#34;&gt;26:19 Power&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=29:39&#34;&gt;29:39 Seidenstraße (SOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=37:21&#34;&gt;37:21 Video (VOC)&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; max: beeindruckende Fakten zum grössten Kongress Deutschlands </description>
+      <description>Sections &lt;ul&gt; &lt;li&gt;&lt;a href=&#34;#t=0:10&#34;&gt;0:10 Network (NOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=26:19&#34;&gt;26:19 Power&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=29:39&#34;&gt;29:39 Seidenstraße (SOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=37:21&#34;&gt;37:21 Video (VOC)&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; max: beeindruckende Fakten zum grössten Kongress Deutschlands</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6557.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6557.html</guid>
       <pubDate>Tue, 30 Dec 2014 16:00:00 +0100</pubDate>
       <itunes:subtitle>31C3 Infrastructure Review</itunes:subtitle>
-      <itunes:summary>Sections &lt;ul&gt; &lt;li&gt;&lt;a href=&#34;#t=0:10&#34;&gt;0:10 Network (NOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=26:19&#34;&gt;26:19 Power&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=29:39&#34;&gt;29:39 Seidenstraße (SOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=37:21&#34;&gt;37:21 Video (VOC)&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; max: beeindruckende Fakten zum grössten Kongress Deutschlands </itunes:summary>
+      <itunes:summary>Sections &lt;ul&gt; &lt;li&gt;&lt;a href=&#34;#t=0:10&#34;&gt;0:10 Network (NOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=26:19&#34;&gt;26:19 Power&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=29:39&#34;&gt;29:39 Seidenstraße (SOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=37:21&#34;&gt;37:21 Video (VOC)&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; max: beeindruckende Fakten zum grössten Kongress Deutschlands</itunes:summary>
       <itunes:author>Leon</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6557-en-de-31C3_Infrastructure_Review_hd.mp4"
                  length="video/mp4"
                  type="479199232"/>
@@ -460,16 +394,16 @@
     
     <item>
       <title>Security Nightmares</title>
-      <description>Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Welche neuen Entwicklungen haben sich ergeben? Welche neuen Buzzwords und Trends waren zu sehen? max: alles ist kaputt und wird kaputt sein. Lustig und aufrüttelnd wie jedes Jahr </description>
+      <description>Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Welche neuen Entwicklungen haben sich ergeben? Welche neuen Buzzwords und Trends waren zu sehen? max: alles ist kaputt und wird kaputt sein. Lustig und aufrüttelnd wie jedes Jahr</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6572.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6572.html</guid>
       <pubDate>Tue, 30 Dec 2014 17:15:00 +0100</pubDate>
       <itunes:subtitle>Security Nightmares</itunes:subtitle>
-      <itunes:summary>Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Welche neuen Entwicklungen haben sich ergeben? Welche neuen Buzzwords und Trends waren zu sehen? max: alles ist kaputt und wird kaputt sein. Lustig und aufrüttelnd wie jedes Jahr </itunes:summary>
+      <itunes:summary>Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Welche neuen Entwicklungen haben sich ergeben? Welche neuen Buzzwords und Trends waren zu sehen? max: alles ist kaputt und wird kaputt sein. Lustig und aufrüttelnd wie jedes Jahr</itunes:summary>
       <itunes:author>frank, Ron</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6572-de-en-Security_Nightmares_hd.mp4"
                  length="video/mp4"
                  type="1154482176"/>
@@ -479,16 +413,16 @@
     
     <item>
       <title>Inside Field Station Berlin Teufelsberg</title>
-      <description>Of all the NSA&#39;s Cold War listening posts, their intelligence facility on top of Berlin&#39;s Teufelsberg was their most secretive. max: Lustige Anekdoten von nem patriotischen Ami, der bei der NSA in Berlin war </description>
+      <description>Of all the NSA&#39;s Cold War listening posts, their intelligence facility on top of Berlin&#39;s Teufelsberg was their most secretive. max: Lustige Anekdoten von nem patriotischen Ami, der bei der NSA in Berlin war</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6585.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6585.html</guid>
       <pubDate>Sun, 28 Dec 2014 21:45:00 +0100</pubDate>
       <itunes:subtitle>Inside Field Station Berlin Teufelsberg</itunes:subtitle>
-      <itunes:summary>Of all the NSA&#39;s Cold War listening posts, their intelligence facility on top of Berlin&#39;s Teufelsberg was their most secretive. max: Lustige Anekdoten von nem patriotischen Ami, der bei der NSA in Berlin war </itunes:summary>
+      <itunes:summary>Of all the NSA&#39;s Cold War listening posts, their intelligence facility on top of Berlin&#39;s Teufelsberg was their most secretive. max: Lustige Anekdoten von nem patriotischen Ami, der bei der NSA in Berlin war</itunes:summary>
       <itunes:author>Bill Scannell</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6585-en-de-Inside_Field_Station_Berlin_Teufelsberg_hd.mp4"
                  length="video/mp4"
                  type="610271232"/>
@@ -498,16 +432,16 @@
     
     <item>
       <title>Traue keinem Scan, den du nicht selbst gefälscht hast</title>
-      <description>Kopierer, die spontan Zahlen im Dokument verändern: Im August 2013 kam heraus, dass so gut wie alle Xerox-Scankopierer beim Scannen Zahlen und Buchstaben einfach so durch andere ersetzen. Da man solche Fehler als Benutzer so gut wie nicht sehen kann, ist der Bug extrem gefährlich und blieb lange unentdeckt: Er existiert über acht Jahre in freier Wildbahn. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6558.html max: Einer der besten Talks des Jahres. (Industriell verwendete) Scanner scannen x-Jahre falsch ... was macht man wenn man sowas bemerkt? Genial! Sowohl in Präsentation, als auch im Inhalt. </description>
+      <description>Kopierer, die spontan Zahlen im Dokument verändern: Im August 2013 kam heraus, dass so gut wie alle Xerox-Scankopierer beim Scannen Zahlen und Buchstaben einfach so durch andere ersetzen. Da man solche Fehler als Benutzer so gut wie nicht sehen kann, ist der Bug extrem gefährlich und blieb lange unentdeckt: Er existiert über acht Jahre in freier Wildbahn. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6558.html max: Einer der besten Talks des Jahres. (Industriell verwendete) Scanner scannen x-Jahre falsch ... was macht man wenn man sowas bemerkt? Genial! Sowohl in Präsentation, als auch im Inhalt.</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6558.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6558.html</guid>
       <pubDate>Sun, 28 Dec 2014 23:00:00 +0100</pubDate>
       <itunes:subtitle>Traue keinem Scan, den du nicht selbst gefälscht hast</itunes:subtitle>
-      <itunes:summary>Kopierer, die spontan Zahlen im Dokument verändern: Im August 2013 kam heraus, dass so gut wie alle Xerox-Scankopierer beim Scannen Zahlen und Buchstaben einfach so durch andere ersetzen. Da man solche Fehler als Benutzer so gut wie nicht sehen kann, ist der Bug extrem gefährlich und blieb lange unentdeckt: Er existiert über acht Jahre in freier Wildbahn. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6558.html max: Einer der besten Talks des Jahres. (Industriell verwendete) Scanner scannen x-Jahre falsch ... was macht man wenn man sowas bemerkt? Genial! Sowohl in Präsentation, als auch im Inhalt. </itunes:summary>
+      <itunes:summary>Kopierer, die spontan Zahlen im Dokument verändern: Im August 2013 kam heraus, dass so gut wie alle Xerox-Scankopierer beim Scannen Zahlen und Buchstaben einfach so durch andere ersetzen. Da man solche Fehler als Benutzer so gut wie nicht sehen kann, ist der Bug extrem gefährlich und blieb lange unentdeckt: Er existiert über acht Jahre in freier Wildbahn. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6558.html max: Einer der besten Talks des Jahres. (Industriell verwendete) Scanner scannen x-Jahre falsch ... was macht man wenn man sowas bemerkt? Genial! Sowohl in Präsentation, als auch im Inhalt.</itunes:summary>
       <itunes:author>David Kriesel</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6558-de-en-Traue_keinem_Scan_den_du_nicht_selbst_gefaelscht_hast_hd.mp4"
                  length="video/mp4"
                  type="778043392"/>
@@ -517,16 +451,16 @@
     
     <item>
       <title>Mobile self-defense</title>
-      <description>We know that mobile networks can — and do — attack us on many fronts. As this talk will show, even 3G is attackable. It’s high time that we upgrade from complaining to self-defense. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6122.html max: Handynetze sind absolut kaputt - danach will man kein Handy mehr haben  </description>
+      <description>We know that mobile networks can — and do — attack us on many fronts. As this talk will show, even 3G is attackable. It’s high time that we upgrade from complaining to self-defense. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6122.html max: Handynetze sind absolut kaputt - danach will man kein Handy mehr haben</description>
       <link>https://events.ccc.de/congress/2014/Fahrplan/events/6122.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2014/Fahrplan/events/6122.html</guid>
       <pubDate>Sat, 27 Dec 2014 18:30:00 +0100</pubDate>
       <itunes:subtitle>Mobile self-defense</itunes:subtitle>
-      <itunes:summary>We know that mobile networks can — and do — attack us on many fronts. As this talk will show, even 3G is attackable. It’s high time that we upgrade from complaining to self-defense. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6122.html max: Handynetze sind absolut kaputt - danach will man kein Handy mehr haben  </itunes:summary>
+      <itunes:summary>We know that mobile networks can — and do — attack us on many fronts. As this talk will show, even 3G is attackable. It’s high time that we upgrade from complaining to self-defense. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6122.html max: Handynetze sind absolut kaputt - danach will man kein Handy mehr haben</itunes:summary>
       <itunes:author>Karsten Nohl</itunes:author>
-      <itunes:image href=""/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6122-en-de-Mobile_self-defense_sd.mp4"
                  length="video/mp4"
                  type="263192576"/>

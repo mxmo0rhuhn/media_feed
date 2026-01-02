@@ -1,3 +1,36 @@
+# Global configuration for all feeds
+global:
+  contact:
+    email: media-feed@spam.schrimpf.ch
+    name: Maintainer
+  image_url: https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png
+  author: mxmo0rhuhn
+  link: https://github.com/mxmo0rhuhn/media_feed
+  language: en
+
+  # Apple Podcast category mapping from CCC tracks
+  # See: https://podcasters.apple.com/support/1691-apple-podcasts-categories
+  # Format: Apple category -> list of CCC tracks
+  category_mapping:
+    Technology:
+      - Security
+      - Hardware & Making
+    Science:
+      - Science
+      - Resilience & Sustainability
+    "Society & Culture":
+      - Ethics, Society & Politics
+      - Art & Culture
+      - Resilience & Sustainability
+      - CCC
+    Arts:
+      - Art & Culture
+    Leisure:
+      - Entertainment
+    # Default categories for unknown tracks
+    _default:
+      - Technology
+
 events:
   36c3:
     year: 2019

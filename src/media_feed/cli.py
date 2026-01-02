@@ -2,7 +2,6 @@
 """Media Feed CLI - All-in-one implementation."""
 
 import base64
-import shutil
 from email.utils import formatdate
 from pathlib import Path
 from typing import Any, Optional
@@ -113,6 +112,7 @@ def build_feed(
     now = formatdate(timeval=None, localtime=False, usegmt=True)
     xml_content = template.render(
         data=data,
+        global_config=config.get("global", {}),
         now=now,
         generator="media-feed Python CLI",
         format_item_description=format_item_description,
@@ -133,16 +133,38 @@ def download_cached(url: str, cache_dir: Path) -> Path:
     cache_path = cache_dir / cache_name
 
     if not cache_path.exists():
-        resp = requests.get(url, stream=True, verify=True, timeout=30)
+        resp = requests.get(url, verify=True, timeout=30)
         resp.raise_for_status()
-        with cache_path.open("wb") as f:
-            shutil.copyfileobj(resp.raw, f)
+        cache_path.write_bytes(resp.content)
 
     return cache_path
 
 
+def map_track_to_categories(track: str, config: dict[str, Any]) -> list[str]:
+    """Map CCC track to Apple Podcast categories using global config mapping.
+
+    The config format is: Apple category -> list of CCC tracks
+    This function inverts it to find which Apple categories apply to a given CCC track.
+    """
+    category_mapping = config.get("global", {}).get("category_mapping", {})
+
+    # Invert the mapping: find all Apple categories that include this track
+    categories = []
+    for apple_category, ccc_tracks in category_mapping.items():
+        if apple_category == "_default":
+            continue
+        if track in ccc_tracks:
+            categories.append(apple_category)
+
+    # If no match found, use default
+    if not categories:
+        categories = category_mapping.get("_default", ["Technology"])
+
+    return categories
+
+
 def search_ccc_talk(
-    query: str, event_config: dict[str, Any], use_long_desc: bool = False
+    query: str, event_config: dict[str, Any], config: dict[str, Any], use_long_desc: bool = False
 ) -> Optional[dict[str, Any]]:
     """Search for CCC talk and return YAML entry dict."""
     cache_dir = Path("/tmp/media_feed_cache")
@@ -197,6 +219,12 @@ def search_ccc_talk(
             desc_elems[0].childNodes[0].data if desc_elems and desc_elems[0].childNodes else ""
         )
 
+        # Extract track for category mapping
+        track_elems = event.getElementsByTagName("track")
+        track = (
+            track_elems[0].childNodes[0].data if track_elems and track_elems[0].childNodes else ""
+        )
+
         # Find in media feed
         for media_node in media_dom.getElementsByTagName("title"):
             if not media_node.childNodes:
@@ -232,6 +260,9 @@ def search_ccc_talk(
 
             final_desc = description if use_long_desc else media_desc
 
+            # Map track to categories
+            categories = map_track_to_categories(track, config)
+
             return {
                 "title": title_text,
                 "published": pub_date,
@@ -242,6 +273,7 @@ def search_ccc_talk(
                 "media_length": media_length,
                 "web_url": web_url,
                 "description": final_desc,
+                "categories": categories,
             }
 
     return None
@@ -311,8 +343,18 @@ def build(input_files: tuple[str, ...], all: bool, output_dir: str, all_ratings:
 @click.option("--year", "-y", type=int, help="Year of the event")
 @click.option("--output", "-o", help="Output YAML file")
 @click.option("--long-desc", "-l", is_flag=True, help="Use long description from Fahrplan")
+@click.option(
+    "--categories",
+    "-c",
+    help="Override Apple Podcast categories (comma-separated, e.g., 'Technology,Science')",
+)
 def add(
-    query: str, event: Optional[str], year: Optional[int], output: Optional[str], long_desc: bool
+    query: str,
+    event: Optional[str],
+    year: Optional[int],
+    output: Optional[str],
+    long_desc: bool,
+    categories: Optional[str],
 ) -> None:
     """Search CCC events and add media items to YAML."""
     config = load_config()
@@ -337,15 +379,20 @@ def add(
     event_config = config["events"][event_key]
 
     # Search
-    entry = search_ccc_talk(query, event_config, long_desc)
+    entry = search_ccc_talk(query, event_config, config, long_desc)
 
     if not entry:
         click.echo("✗ No matching talk found", err=True)
         return
 
+    # Override categories if provided
+    if categories:
+        entry["categories"] = [cat.strip() for cat in categories.split(",")]
+
     click.echo(f"\n✓ Found talk:")
     click.echo(f"  Title: {entry['title']}")
     click.echo(f"  Speakers: {entry['speakers']}")
+    click.echo(f"  Categories: {', '.join(entry.get('categories', []))}")
 
     # Prompt for feedback
     click.echo("\n" + "━" * 50)

@@ -1,0 +1,41 @@
+{
+    "files.autoSave": "onFocusChange",
+    // can be discussed but helps with black and so
+    "editor.wordWrap": "on",
+    // this is just not helpful when using GitHub Copilot
+    "editor.autoClosingBrackets": "never",
+    "editor.wordWrapColumn": 100,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.autoIndent": "keep",
+    },
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    // Hide pycache folders from vscode
+    "files.exclude": {
+        "**/__pycache__": true,
+        ".pytest_cache": true,
+        ".mypy_cache": true,
+        ".ruff_cache": true
+    },
+    // Don't use the default python extension (Pylance) for type checking
+    "python.analysis.typeCheckingMode": "off",
+    // Testing
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests",
+        "--cache-clear"
+    ]
+}

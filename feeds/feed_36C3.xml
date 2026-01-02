@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Tue, 30 Dec 2025 17:45:01 GMT</pubDate>
-    <lastBuildDate>Tue, 30 Dec 2025 17:45:01 GMT</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2026 11:33:54 GMT</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2026 11:33:54 GMT</lastBuildDate>
     <managingEditor>impressum@schrimpf.ch (impressum)</managingEditor>
     <webMaster>impressum@schrimpf.ch (impressum)</webMaster>
     <itunes:owner>
@@ -29,15 +29,6 @@
 </itunes:summary>
     <itunes:author>mxmo0rhuhn</itunes:author>
     <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
-    <itunes:explicit>Yes</itunes:explicit>
-    <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
-    
-    <itunes:category text="Technology"/>
-    
-    <itunes:category text="Society"/>
-    
-    <itunes:category text="Educational Technology"/>
-    
     
     
     <item>
@@ -51,7 +42,7 @@
       <itunes:author>robbi5, ubahnverleih</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10881-deu-eng-Verkehrswende_selber_hacken_hd.mp4"
                  length="video/mp4"
                  type="673185792"/>
@@ -70,7 +61,7 @@
       <itunes:author>Martin Tschirsich, cbro - Dr. med. Christian Brodowski, Dr. André Zilch</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10595-deu-eng-Hacker_hin_oder_her_Die_elektronische_Patientenakte_kommt_hd.mp4"
                  length="video/mp4"
                  type="625999872"/>
@@ -105,7 +96,7 @@
       <itunes:author>maha, Kai Biermann</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10993-deu-eng-fra-Vom_Ich_zum_Wir_hd.mp4"
                  length="video/mp4"
                  type="470810624"/>
@@ -142,7 +133,7 @@
       <itunes:author>Constanze Kurz</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11141-deu-eng-spa-Geheimdienstliche_Massenueberwachung_vs_Menschenrechte_hd.mp4"
                  length="video/mp4"
                  type="953155584"/>
@@ -175,7 +166,7 @@
       <itunes:author>Arne Vogelgesang</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10639-deu-eng-Lets_play_Infokrieg_hd.mp4"
                  length="video/mp4"
                  type="1149239296"/>
@@ -202,7 +193,7 @@
       <itunes:author>Fefe</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10608-deu-eng-fra-Das_nuetzlich-unbedenklich_Spektrum_hd.mp4"
                  length="video/mp4"
                  type="436207616"/>
@@ -247,7 +238,7 @@
       <itunes:author>David Kriesel</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10652-deu-eng-BahnMining_-_Puenktlichkeit_ist_eine_Zier_hd.mp4"
                  length="video/mp4"
                  type="476053504"/>
@@ -284,7 +275,7 @@
       <itunes:author>Robert Tibbo, Edward Snowden</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10574-eng-deu-fra-Human_Rights_at_a_Global_Crossroads_hd.mp4"
                  length="video/mp4"
                  type="1253048320"/>
@@ -313,7 +304,7 @@
       <itunes:author>@sveckert, Dennis Tatang, pkreissel</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10936-eng-deu-Inside_the_Fake_Like_Factories_hd.mp4"
                  length="video/mp4"
                  type="701497344"/>
@@ -350,7 +341,7 @@
       <itunes:author>Bernd Sieker</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10961-eng-deu-fra-Boeing_737MAX_Automated_Crashes_hd.mp4"
                  length="video/mp4"
                  type="514850816"/>
@@ -407,7 +398,7 @@
       <itunes:author>Sebastian Erb, Daniel Schulz</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11114-deu-eng-fra-Die_Affaere_Hannibal_hd.mp4"
                  length="video/mp4"
                  type="659554304"/>
@@ -442,7 +433,7 @@
       <itunes:author>josch</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10935-deu-eng-Aus_dem_Schimpfwoerterbuch_der_neuen_Rechten_hd.mp4"
                  length="video/mp4"
                  type="806354944"/>
@@ -483,7 +474,7 @@
       <itunes:author>Christoph Saatjohann</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10895-deu-eng-15_Jahre_deutsche_Telematikinfrastruktur_TI_hd.mp4"
                  length="video/mp4"
                  type="381681664"/>
@@ -514,7 +505,7 @@
       <itunes:author>Ulrich Kelber</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11218-deu-eng-Weichenstellung_hd.mp4"
                  length="video/mp4"
                  type="708837376"/>
@@ -539,7 +530,7 @@
       <itunes:author>Arne Semsrott</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10496-deu-eng-spa-Das_Mauern_muss_weg_hd.mp4"
                  length="video/mp4"
                  type="374341632"/>
@@ -564,7 +555,7 @@
       <itunes:author>frank, Ron</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11164-deu-eng-Security_Nightmares_0x14_hd.mp4"
                  length="video/mp4"
                  type="612368384"/>
@@ -597,7 +588,7 @@
       <itunes:author>Conny Runner, Ronny Sommer</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10541-deu-eng-rus-Hacking_the_Media_Gefluechtete_schmuggeln_Nazis_torten_Paesse_faelschen_hd.mp4"
                  length="video/mp4"
                  type="1176502272"/>
@@ -638,7 +629,7 @@
       <itunes:author>Ruben Neugebauer, Sebastian Jünemann</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10957-deu-eng-fra-Katastrophe_und_Kommunikation_am_Beispiel_Nord-Ost-Syrien_hd.mp4"
                  length="video/mp4"
                  type="1140850688"/>
@@ -673,7 +664,7 @@
       <itunes:author>Anna Biselli, Lea Beckmann</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10766-deu-eng-spa-Digitalisierte_Migrationskontrolle_hd.mp4"
                  length="video/mp4"
                  type="704643072"/>
@@ -724,7 +715,7 @@
       <itunes:author>Lea Beckmann, Anja Reuss</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10828-deu-eng-spa-Polizei-Datenbanken_und_Minderheiten_Staatliche_Stigmatisierung_und_Diskriminierung_von_Sinti_und_Roma_hd.mp4"
                  length="video/mp4"
                  type="404750336"/>
@@ -761,7 +752,7 @@
       <itunes:author>Walter Hötzendorfer, Bijan Moini</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10919-eng-deu-fra-NoPNR_-_Lets_kill_the_next_Data_Retention_Law_hd.mp4"
                  length="video/mp4"
                  type="498073600"/>
@@ -800,7 +791,7 @@
       <itunes:author>Linus Neumann</itunes:author>
       <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>it,programming,software,hardware,security,society</itunes:keywords>
+      
       <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11175-deu-eng-fra-Hirne_Hacken_hd.mp4"
                  length="video/mp4"
                  type="331350016"/>

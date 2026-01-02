@@ -72,26 +72,13 @@ Comment (optional): Einer der besten Talks!
 
 ### Media file format
 
-Media YAML files contain metadata and a list of feed items:
+Media YAML files contain metadata and a list of feed items. Common fields like author, contact, and language are now centralized in `config.yaml` under the `global` section.
 
 ```yaml
 meta:
   title: "36C3 media feed"
   description: "A feed for different talks of the 36C3 2019"
-  author: "mxmo0rhuhn"
-  link: "https://github.com/mxmo0rhuhn/media_feed"
-  language: "en"
-  contact:
-    email: "impressum@schrimpf.ch"
-    name: "impressum"
-  image_url: "https://static.media.ccc.de/media/congress/2019/logo.png"
-  keywords:
-    - it
-    - programming
-    - security
-  categories:
-    - Technology
-    - Society
+  image_url: "https://static.media.ccc.de/media/congress/2019/logo.png"  # Optional event-specific image
 
 feed:
   - title: "BahnMining - Pünktlichkeit ist eine Zier"
@@ -104,6 +91,9 @@ feed:
     web_url: "https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10652.html"
     description: >-
       Talk description here...
+    categories:  # Apple Podcast categories (auto-generated from CCC track or manually specified)
+      - Technology
+      - Science
     feedback:  # Optional collaborative feedback section
       - rating: 5
         username: max
@@ -112,6 +102,26 @@ feed:
         comment: "Good overview"  # Anonymous feedback
       - rating: 5
         username: anna  # Rating without comment
+```
+
+#### Categories
+
+Categories are automatically assigned based on the CCC track when adding talks via `media-feed add`. The mapping from CCC tracks to Apple Podcast categories is configured in `config.yaml`:
+
+- **Security**, **Hardware & Making**, **CCC** → Technology
+- **Science**, **Resilience & Sustainability** → Science
+- **Ethics, Society & Politics** → Society & Culture, News
+- **Art & Culture** → Society & Culture, Arts
+- **Entertainment** → Leisure, Arts
+
+You can override categories when adding a talk:
+
+```bash
+# Override with custom categories
+media-feed add "BahnMining" --categories "Technology,Science"
+
+# Single category
+media-feed add "Security Nightmares" --categories "Technology"
 ```
 
 ### 2. Build RSS Feeds
@@ -237,10 +247,19 @@ media-feed new-event 2025 --congress-number 39
 media-feed new-event 2025 --no-validate
 ```
 
-#### Event configuration format
+#### Configuration format
 
-Event configurations are stored in `config.yaml`. Each event requires:
+The `config.yaml` file contains both global settings and event-specific configurations.
 
+**Global settings** (applied to all feeds):
+- `contact`: Feed contact information (email, name)
+- `author`: Feed author
+- `link`: Project link
+- `language`: Feed language
+- `image_url`: Default feed image URL
+- `category_mapping`: CCC track to Apple Podcast category mapping
+
+**Event configurations** (per CCC event):
 - `year`: Event year
 - `congress_number`: Congress number (e.g., 36 for 36C3)
 - `fahrplan_url`: URL to the Fahrplan schedule XML
@@ -248,15 +267,33 @@ Event configurations are stored in `config.yaml`. Each event requires:
 - `event_pattern_head`: URL pattern prefix for talk links
 - `event_pattern_tail`: URL pattern suffix for talk links
 
-Example:
+Example `config.yaml`:
 
 ```yaml
+global:
+  contact:
+    email: impressum@schrimpf.ch
+    name: impressum
+  image_url: https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png
+  author: mxmo0rhuhn
+  link: https://github.com/mxmo0rhuhn/media_feed
+  language: en
+  category_mapping:
+    Technology:
+      - Security
+      - Hardware & Making
+      - CCC
+    Science:
+      - Science
+      - Resilience & Sustainability
+    # ... more mappings
+
 events:
   36c3:
     year: 2019
     congress_number: 36
     fahrplan_url: "https://fahrplan.events.ccc.de/congress/2019/Fahrplan/schedule.xml"
-    media_feed_url: "https://media.ccc.de/podcast-hq.xml"
+    media_feed_url: "https://media.ccc.de/c/36c3/podcast/mp4.xml"
     event_pattern_head: "https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/"
     event_pattern_tail: ".html"
 ```
@@ -345,6 +382,11 @@ Pre-commit hooks automatically run on git commit:
 - Ruff linting and formatting
 - mypy type checking
 - Automatic feed generation (when YAML files change)
+
+#### Roadmap
+
+Planned features and improvements:
+
 
 ## License
 
