@@ -17,11 +17,14 @@ feed:
     in open source projects, about package maintainers in downstream OS distributions,
     about trolls on the internet, about GitHub Inc. and about myself. The hostile
     fork? It wasn't merged.
+  category: Technology
   feedback:
-  - username: tino
-    comment: 'True lessons everyone involved in OSS will have to learn eventually.
-      max: Very humble talk about how to not run a OSS project nice to have it seen
-      once.'
+  - rating: 3
+    username: tino
+    comment: True lessons everyone involved in OSS will have to learn eventually.
+  - rating: 3
+    username: max
+    comment: Very humble talk about how to not run a OSS project nice to have it seen once.
 - title: Beyond your cable modem
   published: Sun, 27 Dec 2015 18:30:00 +0100
   speakers: Alexander Graf
@@ -49,8 +52,10 @@ feed:
     In the questions, it''s also very interesting at 30:15 when he''s being asked
     an easy question and the guy gets very uneasy and says: "The problem is the law.
     I cannot tell you about ....".'
+  category: Technology
   feedback:
-  - username: phil
+  - rating: 5
+    username: phil
     comment: Best presentation of 32c3 so far!
 - title: Intelexit
   published: Tue, 29 Dec 2015 21:15:00 +0100
@@ -72,11 +77,14 @@ feed:
     to draw attention to the women and men working in the shadows, and to reach out
     to them. Intelexit was an experiment at first but it turned out to be very popular
     and needed, so it will continue into 2016 and it needs your help!
+  category: "Arts"
   feedback:
-  - username: phil
-    comment: 'Performed by the same woman who did the Google Nest talk on Republica
-      2014. max: A interesting artistic approach aiming at the people behind mass
-      survailance.'
+  - rating: 3
+    username: phil
+    comment: Performed by the same woman who did the Google Nest talk on Republica 2014.
+  - rating: 3
+    username: max
+    comment: Interesting artistic approach aiming at the people behind mass survailance.
 - title: Ein Abgrund von Landesverrat
   published: Mon, 28 Dec 2015 16:00:00 +0100
   speakers: Markus Beckedahl
@@ -90,8 +98,10 @@ feed:
     sich das Bundesamt für Verfassungsschutz dadurch auf den Schlips getreten fühlte,
     dass Auszüge aus ihren Haushaltsplänen der allgemeinen Bevölkerung bei netzpolitik.org
     zugänglich gemacht wurden.
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Die Landesverat Ermitlungen gegen das Blog netzpolitik.org haben im Sommer
       2015 für einige Aufregung in Deutschland gesorgt.  Der Talk ist eine humoristische
       Aufarbeitung der Erkenntnisse.  Eher ein post mortem da bspw. auf dem Camp 2015
@@ -108,14 +118,19 @@ feed:
     denn die Parlamente entscheiden sowohl die Revision des BÜPF (<b>B</b>undesgesetz
     betreffend die <b>Ü</b>berwachung des <b>P</b>ost- und <b>F</b>ernmeldeverkehrs)
     als auch das NDG (<b>N</b>achrichten<b>d</b>ienst<b>g</b>esetz).
+  category: "Society & Culture"
   feedback:
-  - username: alain
+  - rating: 2
+    username: alain
     comment: 'Sehr langweilig vorgetragen. Die Sprecher nutzen gerne Wörter und Akronyme
       rechtlicher Natur ohne sie einzuführen oder zu erklären. Primär eine Erklärung
       des aktuellen Stands und den neuen Gesetzen, die alsbald kommen können. Dahingehend
-      inhaltlich durchaus interessant.  max: Gibt einen guten Überblick über die Möglichkeiten
-      zur politischen Partizipation in der Schweiz und versch. Überwachungsgesetze.  Ist
-      zum teil anstrengend zu folgen, das die Vortragenden den guten Stoff nicht besonders
+      inhaltlich durchaus interessant.'
+  - rating: 3
+    username: max
+    comment: 'Gibt einen guten Überblick über die Möglichkeiten
+      zur politischen Partizipation in der Schweiz und versch. Überwachungsgesetze. Ist
+      zum Teil anstrengend zu folgen, das die Vortragenden den guten Stoff nicht besonders
       aufarbeiten.'
 - title: 'NSA-Untersuchungsausschuss: Zwischen Aufklärungswillen und Mauern aus Schweigen'
   published: Sun, 27 Dec 2015 12:45:00 +0100
@@ -125,6 +140,7 @@ feed:
   media_type: video/mp4
   media_length: 235929600
   web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7228.html
+  category: "Society & Culture"
   description: '<p>Im M&auml;rz 2014 wurde der NSA-Untersuchungsausschuss im Bundestag
     eingesetzt, der die Verwicklungen um die deutschen Geheimdienste aufkl&auml;ren
     soll. Ein R&uuml;ck- und Ausblick: Was wissen wir heute, was erwartet uns noch?</p>
@@ -142,8 +158,10 @@ feed:
     sent you a sound track. The government is recording everything, and this year
     announced that alternative music is a gateway drug to terrorism (see <a href="http://www.theguardian.com/australia-news/2015/sep/25/radicalisation-kit-links-activism-and-alternative-music-scene-to-extremism">http://www.theguardian.com/australia-news/2015/sep/25/radicalisation-kit-links-activism-and-alternative-music-scene-to-extremism</a>).
     Fortunately, Karen encrypted the email.</p>
+  category: Technology
   feedback:
-  - username: max
+  - rating: 4
+    username: max
     comment: Super spannender Vortrag von zwei Koryphäen auf dem Bereich. Es braucht
       zwei etwa zwei Stunden Konzentration sollte aber mit einem grundlegenden Interesse
       an der Materie gut verständlich sein.
@@ -158,8 +176,10 @@ feed:
   description: Payment systems are old and have – unlike card protocols – seen little
     scrutiny so far. This talk enumerates design and implementation flaws in payment
     processing systems, which can defraud consumers and merchants.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Deutsche EC-Karten (Maestro Äquivalent) Terminals sind auf mehreren Leveln
       vollkommen kaputt.  Der Talk zeigt (grösstenteils) super Aufbereitet wie man
       die verwendeten Sicherheitslücken zum Schaden von Kunden und Händlern ausnutzen
@@ -174,8 +194,10 @@ feed:
   web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7412.html
   description: Seven years after presenting „running your own GSM network“, we are
     back presenting about how to do the same for 3G (UMTS/HSPA) networks.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 2
+    username: max
     comment: Trocken. Sehr sehr Trocken. Sicher spannend für Experten und der Typ
       kennt sich aus ... nix für Leute, die mit der Materie nicht vertraut sind.
 - title: How the Great Firewall discovers hidden circumvention servers
@@ -191,8 +213,10 @@ feed:
     packet inspection. The system is now used to block protocols such as Tor, SoftEther,
     and SSH. In this talk, we will give an overview of how this system works, and
     how it can be circumvented.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Spannende Einblicke in die Funktionsweise der great Firewall, die Auswirkungen
       und was dies Allgemein für Zensur bedeuten kann.
 - title: Das Zahnrad aus Fleisch
@@ -209,8 +233,10 @@ feed:
     gegen den “Hass im Netz”, “Putintrolle” und Wutnetzbürger. Twitter, Mark Zuckerberg,
     Politiker, alle sollen mehr tun - aber was denn eigentlich, mehr Zensur und Moderation,
     andere Ausgestaltungen von Kommentarsystemen?
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 2
+    username: max
     comment: Gutes Thema, einige Highlights (originale Kommentare etc.) leider von
       vielen Allgemeinplätzen umgeben und deshalb nicht wirklich sehenswert.
 - title: goto fail;
@@ -230,8 +256,10 @@ feed:
     a diverse set of problems. In this talk we’ll discuss the pitfalls in designing
     and implementing a cryptographic protocol and lessons learned from TLS up to version
     1.2.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 5
+    username: max
     comment: Bester Talk über SSL/TLS den ich bisher gehört habe.  Guter Überblick
       über Funktionsweise und über diverse Angriffe.
 - title: „Nach bestem Wissen und Gewissen“ – Floskeln in der Politik
@@ -251,8 +279,10 @@ feed:
     besitzen. Es wird erläutert, was mit ihnen erreicht werden soll. Es wird außerdem
     der Frage nachgegangen, wie Floskeln sich durch häufigen Gebrauch in ihrer Bedeutung
     verändern bzw. verselbständigen und gegen den Sprecher wenden können.
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Ganz nette Aufsführungen zu Sprache und mit ihr verbundem oder eben auch
       nicht verbundenem Informationsgehalt.  An einigen stellen gefühlt eher esoterisch
       und wichtige Aspekte der politischen Rede vernachlässigend.  Ein grobes Wissen
@@ -273,23 +303,6 @@ feed:
     \ Ausführungen wie ein bisschen Graphentheorie zum Abschuss von Hellfire-Raketen\
     \ und Co. führt und wie wir auch sonst alle nur Knoten mit mehr oder weniger Kanten\
     \ sind. Stimmt eher nachdenklich - gelinde gesagt. "
-- title: State of the Onion
-  published: Tue, 29 Dec 2015 14:00:00 +0100
-  speakers: Roger, Jacob, Mike Perry, Shari Steele, Alison Macrina
-  subtitle: ''
-  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7307-en-State_of_the_Onion.mp4
-  media_type: video/mp4
-  media_length: 847249408
-  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7307.html
-  description: <p>Major changes are underway in the Tor Project, the Tor Network,
-    and the Tor community. We want to tell you details and introduce the growing Tor
-    community to the larger world.</p>
-  feedback:
-  - username: max
-    comment: 'Alle Jahre wieder. Das Tor Team schwört eine Begeisterte Menge von >
-      2000 Nerds auf Freiheit und Anonymisierung ein. Indoktrinierung für die verschiedenen
-      Werte. Besonders spannend: eine radikale, militante Bibliothekarin erzählt mitreissend
-      über den Einstieg von US-Amerikanischen Bibliothekaren in die Anonymisierungsszene.'
 - title: Check your privileges!
   published: Tue, 29 Dec 2015 16:00:00 +0100
   speakers: Fefe
@@ -302,8 +315,10 @@ feed:
     the least privilege principle is our strongest weapon against exploitation. Much
     of the focus has been on how the admin can sandbox processes away. about this
     event: https://events.ccc.de/congress/2015/Fahrplan/events/7284.html'
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Sehr technischer, fundierter Talk wie man auf system programming level
       Applikationen möglichst sicher machen kann.  Hinreichende Kentnisse in C werden
       implizit vorausgesetzt. Folien lesen lohnt sich ;).
@@ -321,15 +336,15 @@ feed:
     with many people, but unfortunately many predictions have come true meanwhile.
     This talk will try to address what comes next, as well as what the hacker community
     can do to make things better. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7501.html'
+  category: Technology
   feedback:
-  - username: max
+  - rating: 4
+    username: max
     comment: Wir haben den Krieg verloren, die Revolution wird kommen - warum und
       was können wir machen um unsere individuellen Leben dennoch angenhm zu gestalten?  In
       Teilen sehr dystopisch aber eventuell motivierend sich auf die Mitmenschen und
       das was wirklich zählt zu besinnen? Stimmt sehr nachdenklich - keine gute Idee
       für einsame Abende.
-template: template_rss.xml.erb
-target: feed_32C3.xml
 meta:
   title: 32C3 media feed
   description: 'A feed for different talks of the 32C3 2015

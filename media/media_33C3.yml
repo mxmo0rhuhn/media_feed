@@ -1,16 +1,6 @@
 sources:
 - https://media.ccc.de/c/33c3
 feed:
-- title: 33C3 Opening Ceremony
-  published: Tue, 27 Dec 2016 00:00:00 +0100
-  speakers: anna, elisa
-  subtitle: ''
-  media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8429-eng-33C3_Opening_Ceremony.mp4
-  media_type: video/mp4
-  media_length: 127926272
-  web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8429.html
-  description: 'max: May be not very interesting for people that are not at the conference.
-    Please wash your hands. '
 - title: The Global Assassination Grid
   published: Tue, 27 Dec 2016 00:00:00 +0100
   speakers: Cian Westmoreland
@@ -22,8 +12,10 @@ feed:
   description: As they say in the Air Force, ‚No comms no bombs‘,  – A technician’s
     insight into the invisible networks governing military drones and the quest for
     accountability
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Background talk about the power of drones and the system behind it. Presentation
       is not that strong - maybe mainly since the talk is that emotionally stressful
       for the presenter. The content is frightening.
@@ -44,8 +36,10 @@ feed:
     vulnerability research. This talk provides a high level overview of Heads, a demo
     of installing it on a Thinkpad and a tour of some of the attacks that it protects
     against.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Detailed explanation of heads - a stateful secure linux. Very techical.
       May be of interest if you try to defend state sponsored actors are very into
       IT-Security.
@@ -61,8 +55,10 @@ feed:
     in Austria, Denmark, Chile, Colombia, Greece, and likely the United Kingdom and
     Turkey too. In all, the agency used a Tor Browser exploit to target over 4000
     computers spread across the world based on a single, arguably illegal warrant.
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Anecdotical stories how the FBI was involved into global hacking of suspects
       (and may run child porn servers therefore). Well presented but without any possible
       solution how international internet crime shall be handled.
@@ -83,8 +79,10 @@ feed:
     that the toolkit was using to jailbreak a device. After this talk attendees will
     have learned all of the technical details about Pegasus and Trident and how the
     vulnerabilities we found were patched.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 2
+    username: max
     comment: 'Extremly technical - I mean really deep into C source code. To be honest:
       I fell asleep.'
 - title: What's It Doing Now?
@@ -99,8 +97,10 @@ feed:
     the sentence "What's it Doing now?", whenever the autopilot or one of its related
     systems did something unexpected. I will be exploring some high-profile accidents
     in which wrong expectations of automation behaviour contributed to the outcome.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Stuff you might not have thought about yet. No you can not turn it of
       and on again in the air. Impressive how defaults might kill people. Enriching
       if you have the time for it but no must see.
@@ -118,8 +118,10 @@ feed:
     manufacturers aren''t always that smart after all. And that even AES128 on top
     of the BTLE layer doesn''t have to mean "unbreakable". Our main target will be
     electronic locks, but the methods shown apply to many other smart devices as well...'
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: If you plan to pwn a device this talk might give you just the ideas you
       need to have in order to know where to start. Very well presented and entertaining.
 - title: Console Hacking 2016
@@ -136,8 +138,10 @@ feed:
     focus on the PS4 hardware, what makes it different from a PC, and how we reverse
     engineered it enough to get a full-blown Linux distro running on it, complete
     with 3D acceleration.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Very impressive but also very technical talk about the long way to get
       linux running on something that is arguable not a PC. If you would like to get
       into Linux dev or advanced operating systems this might be of interest for you.
@@ -154,8 +158,10 @@ feed:
     NSA in Deutschland tut und wie deutsche Geheimdienste in diese Aktivitäten verwickelt
     sind. Fast wie in einer Gerichtsverhandlung – doch es gibt eine Besonderheit:
     Der Zeuge ist der BND, ein Geheimdienst. Und der tut alles dafür, nichts zu verraten.'
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 4
+    username: max
     comment: Grossartige Inszenierung einiger Szenen aus dem sog. NSA-Untersuchungsausschuss.
       Mit verschiedenen Ständigen Berichterstattern sehr hochkarätig besetzt. Ein
       Lehrstück der Demokratie und der Mühen im Umgang mit Geheimdiensten. Definitiv
@@ -176,8 +182,10 @@ feed:
     talk, we will explain how the recounts took place, what we learned about the integrity
     of the election, and what needs to change to ensure that future U.S. elections
     are secure.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Very well presented entertaining overview why election computers are
       no good idea in general. No particular interesting facts for people that followed
       the debate.
@@ -197,8 +205,10 @@ feed:
     jedoch immer mehr Menschen auf den Leim gehen. Dieser Vortrag soll zeigen, welche
     Tricks das sind und wie Populisten demaskiert werden können. Dabei wird deutlich
     werden, dass nicht nur eine Partei für populistische Parolen anfällig ist.
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 4
+    username: max
     comment: Sehenswert wie immer. Der alljährliche Talk über die deutsche Sprache.
       Lustiger aufgrund von praktischen Beispielen. Relativ klar Richtung Deutschland
       orientiert, da Rechtspopulisten wie die AFD detailiert betrachtet werden.
@@ -213,8 +223,10 @@ feed:
   web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7912.html
   description: Seit Mitte 2014 hat David fast 100.000 Artikel von Spiegel-Online systematisch
     gespeichert. Diese Datenmasse wird er in einem bunten Vortrag vorstellen und erforschen.
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 5
+    username: max
     comment: Eine der klaren Empfehlungen dieses Congress. David Kriesel (der Mann
       der vor zwei Jahren aufzeigte warum wir von unseren Scannern belogen werden)
       stellt mit seiner sehr angenehmen Art einen sehr speziellen Datenreichtum vor.
@@ -272,10 +284,12 @@ feed:
     wenn es um demokratisch legitimiertes Baumanagement oder um Stahlbälle geht, dann
     ist es wieder an der Zeit für eine lockere Abendshow mit den High- und Lowlights
     des Jahres.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Fnord ein Format das man liebt oder hasst. Besser als die vergangenen
-      Jahre (auch aufgrund einiger lustiger Aktivonen abseits der Bühne.
+      Jahre (auch aufgrund einiger lustiger Aktionen abseits der Bühne.
 - title: Dissecting modern (3G/4G) cellular modems
   published: Thu, 29 Dec 2016 14:00:00 +0100
   speakers: LaForge, holger
@@ -287,8 +301,10 @@ feed:
   description: Let's have a detailed look at some modern 3G/4G cellular modems and
     see what we can find out about their internals using undocumented debug interfaces
     and software or hardware based hacking techniques.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 2
+    username: max
     comment: Very detailed, technical talk on the topic. Noteworthy from a GPL perspective.
       I fell asleep to be honest...
 - title: Technologien für und wider Digitale Souveränität
@@ -309,8 +325,10 @@ feed:
     Signaturen, Zero-Knowlege Protokolle) und Methoden zur statistischen Auswertung
     von vertraulichen Daten  (z.B. K-Anonymität, Differentielle Vertraulichkeit) zu
     nennen.
+  category: Technology
   feedback:
-  - username: max
+  - rating: 4
+    username: max
     comment: Verschiedene Ansätze zum Umgang mit unseren heutzutage unweigerlich produzierten
       digitalen Spuren. Ich persönlich mag die Art von ruedi sehr und kann den Talk
       wie jedes Jahr nur empfehlen.
@@ -347,8 +365,10 @@ feed:
     moved on to the earth orbit and other deep space missions. But interest in the
     moon as a target has intensified recently as the strategies for future missions
     are evolving.
+  category: Science
   feedback:
-  - username: max
+  - rating: 5
+    username: max
     comment: My personal highlight of 33C3 so far. Besides all the problems on earth
       Jan Wörner, Director General of the European Space Agency, presents a vision
       for the proceeeding of mankind into space. Great presentation and motivating.
@@ -382,8 +402,10 @@ feed:
     might not be straight forward, but intercepting airborne vehicles or laser based
     communication to submerged submarines is no longer science fiction. But can we
     use it for space travel? Lets see.
+  category: Science
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Fun facts about lasers in space. Again Well presented and enjoyable to
       listen to but not not mind blowing.
 - title: Eavesdropping on the Dark Cosmos
@@ -401,8 +423,10 @@ feed:
     matter" / "dark energy". The recent discovery of gravitational waves gives us
     a handle on the dark cosmos. We can now listen to invisible events in our universe.
     But there may also be other methods to shed light on the dark side.
+  category: Science
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Again nice to see and not bad presented but not overwhelming as most
       of 33C3's space track, unfortunately.
 - title: The Universe Is, Like, Seriously Huge
@@ -422,8 +446,10 @@ feed:
     estimates of the distances between planets, stars and galaxies. Climb the distance
     ladder and get to know our place in Space from kilometers to Astronomical Units
     and light years, all the way to gigaparsecs and the reaches of the known universe.
+  category: Science
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Pretty pictures, gives the impression how tiny we are.
 - title: Methodisch inkorrekt!
   published: Fri, 30 Dec 2016 00:15:00 +0100
@@ -503,21 +529,11 @@ feed:
     Implants herum? Im Zuge von noch mehr Transparenz, Kritik & Selbstkritik und kontinuierlicher
     nachhaltiger Optimierung aller Prozesse werden wir außerdem frühere Voraussagen
     hinsichtlich des Eintreffens unserer Weissagungen prüfen.'
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Format so gut oder schlecht wie immer. Entweder man mag es oder nicht.
-- title: 33C3 Closing Ceremony
-  published: Fri, 30 Dec 2016 18:30:00 +0100
-  speakers: Nicolas Wöhrl, @ReinhardRemfort
-  subtitle: ''
-  media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8428-deu-33C3_Closing_Ceremony.mp4
-  media_type: video/mp4
-  media_length: 675282944
-  web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8428.html
-  description: 'max: Very entertaining if you were there. Might not be of relevance
-    if you were not.'
-template: template_rss.xml.erb
-target: feed_33C3.xml
 meta:
   title: 33C3 media feed
   description: 'A feed for different talks of the 33C3 2016

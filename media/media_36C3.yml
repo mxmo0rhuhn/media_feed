@@ -1,14 +1,3 @@
-target: feed_36C3.xml
-template: template_rss.xml.erb
-sources:
-- https://media.ccc.de/c/36c3
-- https://fahrplan.events.ccc.de/congress/2019/Fahrplan
-meta:
-  title: 36C3 media feed
-  description: 'A feed for different talks of the 36C3 2019
-
-    '
-  image_url: https://static.media.ccc.de/media/congress/2019/logo.png
 feed:
 - title: Verkehrswende selber hacken
   published: Mon, 30 Dec 2019 13:50:00 +0100
@@ -18,6 +7,7 @@ feed:
   media_type: video/mp4
   media_length: 673185792
   web_url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10881.html
+  category: "Society & Culture"
   description: 'Der Talk wird eine wilde Fahrt, vorbei an umfallenden Rollern, etwas
     Kunst mit Sharing-Daten, einer Shoppingtour aus Recherchegründen auf asiatischen
     Großhandelsplattformen, Sicherheitslücken in Fahrradschlössern, welche einen deutschen
@@ -41,6 +31,7 @@ feed:
   media_url: https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10595-deu-eng-Hacker_hin_oder_her_Die_elektronische_Patientenakte_kommt_hd.mp4
   media_type: video/mp4
   media_length: 625999872
+  category: "Society & Culture"
   web_url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10595.html
   description: 'Herzstück der digitalen Gesundheitsversorgung für 73 Millionen Versicherte
     ist die hochsichere, kritische Telematik-Infrastruktur mit bereits 115.000 angeschlossenen
@@ -99,8 +90,10 @@ feed:
     \ mit der ersten Sitzung am 7. September 1949 und endet mit der letzten Sitzung\
     \ vor der Sommerpause 2019 — der Sondersitzung zur Vereidigung von Annegret Kramp-Karrenbauer\
     \ als Verteidigungsministerin am 24. Juli 2019."
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 5
+    username: max
     comment: Maha und Kai - klares must see
 - title: Geheimdienstliche Massenüberwachung vs. Menschenrechte
   published: Fri, 27 Dec 2019 18:50:00 +0100
@@ -125,8 +118,10 @@ feed:
     \ beschäftigen. Der CCC hat eine Stellungnahme zur Ausland-Ausland-Fernmeldeaufklärung\
     \ abgegeben, deren Inhalt kurz zusammengefasst wird.\n\n Offenlegung: Ich bin\
     \ eine der Beschwerdeführerinnen in dem britischen Fall."
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Interessante Zusammenfassung wie sowas läuft
 - title: Let’s play Infokrieg
   published: Fri, 27 Dec 2019 23:30:00 +0100
@@ -162,8 +157,10 @@ feed:
     \ Trollkultur auf, vom genreprägenden “Drachengame” bis zu explizit politischen\
     \ Initiativen wie “Reconquista Germanica”... und dem live gestreamten Terror einer\
     \ neuen faschistischen Subkultur."
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 5
+    username: max
     comment: Unglaublich beeindruckender und bedrückender talk talk mit vielen Insights.
       Persönliches must see für mich.
 - title: Das nützlich-unbedenklich Spektrum
@@ -189,8 +186,10 @@ feed:
     \ vertrauenswürdige Software überhaupt erkennen können.<p>Diese Metrik wäre dann\
     \ auch hilfreich, um zu erkennen, ob unsere Einsperr-Methode überhaupt vertrauenswürdig\
     \ war."
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Gute Inputs zum Thema Softwarequalität
 - title: BahnMining - Pünktlichkeit ist eine Zier
   published: Sat, 28 Dec 2019 22:10:00 +0100
@@ -231,8 +230,10 @@ feed:
     \ Analyse wichtiger als Kreischerei finden. Und darum beschreibt davod auch, wie\
     \ man so ein durchaus aufwändiges Hobbyprojekt technisch angeht, Anfängerfehler\
     \ vermeidet, und verantwortungsvoll handelt."
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 5
+    username: max
     comment: 'Wie immer von Dacid Kriesel: Einer der besten Talks des Congress. Sehr
       informativ, wie man da ran geht und schöne Daten.'
 - title: Human Rights at a Global Crossroads
@@ -261,8 +262,10 @@ feed:
     \ loss of international protection for whistleblowers and those who protect whistleblowers.\
     \ It will be discussed how this has impacted upon the cases of Mr Snowden and\
     \ The Snowden Refugees."
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Snowden zieht natürlich. Schöner Aufruf von ihm aber leider sonst sehr
       Chaos und kein guter roter Faden
 - title: Inside the Fake Like Factories
@@ -298,8 +301,9 @@ feed:
     \ method to calculate the alleged total number of Facebok User IDs, with surprising\
     \ results."
   feedback:
-  - username: max
-    comment: Empfehlung aus Logbuch Netzpolitik - noch nicht gesehen
+  - rating: 3
+    username: Logbuch Netzpolitik
+    comment: Empfehlung aus der Post CCC Podcastfolge
 - title: 'Boeing 737MAX: Automated Crashes'
   published: Sun, 29 Dec 2019 18:50:00 +0100
   speakers: Bernd Sieker
@@ -342,8 +346,10 @@ feed:
     \ EASA has announced that it may not follow the FAA (re-) certification, but will\
     \ require additional analyses and evidence. China, which was the first country\
     \ to ground the \"MAX\", will also not simply adopt the FAA paperwork."
+  category: Science
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Für Laien ganz interessant - die insider meinten es hätte einige Fehler
       gehabt
 - title: Die Affäre Hannibal
@@ -381,8 +387,10 @@ feed:
     \ Warum etwa wird nicht wegen Bildung einer terroristischen Vereinigung ermittelt?\n\
     \n Vortrag von:\n Sebastian Erb, Redakteur der taz am Wochenende\n Daniel Schulz,\
     \ Leiter des Ressorts Reportage & Recherche der taz"
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: noch nicht gesehen - wurde als spannende Recherche empfohlen
 - title: Aus dem Schimpfwörterbuch der neuen Rechten
   published: Sun, 29 Dec 2019 23:50:00 +0100
@@ -423,8 +431,10 @@ feed:
     \ geprägt ist. Auch wird sich zeigen, dass die neuen Rechten sich als eine Schmähgemeinschaft\
     \ konstituieren und das Land, in dem sie leben, seine Bürger_innen und seine Institutionen\
     \ nachhaltig verachten."
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Hartes Thema aber spannender Einblick in die sprachliche Welt dieser
       Subkultur
 - title: 15 Jahre deutsche Telematikinfrastruktur (TI)
@@ -475,8 +485,10 @@ feed:
     \ Target mit regelmäßigen Updates der Spezifikationen. Diese werden entweder durch\
     \ Änderungen der Stand der Technik, oder durch Wünsche von Seiten der Politik,\
     \ meist durch Gesetzte, in das Projekt hereingetragen."
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Interessant als Deutscher für einen Überblich über ein solches Grossprojekt
       aber kein kracher
 - title: Weichenstellung
@@ -495,8 +507,10 @@ feed:
     \ und -Profiling und der Weiterentwicklung des europäischen Datenschutzrechts\
     \ auseinander.\n\n Besonders beschäftigen mich dabei auch die Debatten um digitale\
     \ Überwachung und massiv ausgeweitete Befugnisse der Sicherheitsbehörden."
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 4
+    username: max
     comment: Einsteigerfreundlicher Überblick über das Spannungsfeld Datenschutz.
       Die gleichen Argumente, die man seit Jahren kennt aber grossartig, dass sie
       vom Bundesdatenschutzbeauftragten kommen
@@ -515,8 +529,10 @@ feed:
     \ nicht verloren ist, wie wir gegen den BND vor Gericht gewonnen haben und wann\
     \ das Zensurheberrecht endlich abgeschafft wird. Plus: Das Beste aus 100.000 Anfragen\
     \ über FragDenStaat in diesem Jahr.\n\n Error 451"
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 4
+    username: max
     comment: Lustig wie meistens, wenn Arne Semsrott von FragDenStaat berichtet -
       Popcorn
 - title: Security Nightmares 0x14
@@ -535,8 +551,10 @@ feed:
     \ hat sich letztes Jahr mit seiner AI gestritten? Und wie entwickelt sich das\
     \ Berufsbild des Blockchain-Exorzisten weiter? Gibt es bald IT-Sicherheits-Wettervorhersagen\
     \ im Fernsehen?"
+  category: Technology
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Security Nightmares halt - die übliche sehr lustige / zum Nachdenken
       anregende Art von frank und Ron
 - title: 'Hacking the Media: Geflüchtete schmuggeln, Nazis torten, Pässe fälschen'
@@ -558,8 +576,10 @@ feed:
     \ arbeiten.\n\n Eine Stunde geballte Kommunikationsguerilla, lustige Medienaktionen,\
     \ aber auch ein Einblick in mögliche Denkweisen und Aktionsmöglichkeiten, die\
     \ andere machen können. Was ist heutzutage möglich und was ist vor allem nötig?"
+  category: Arts
   feedback:
-  - username: max
+  - rating: 3
+    username: max
     comment: Super spannende Reflektion über aktionen politischer Künstler
 - title: Katastrophe und Kommunikation am Beispiel Nord-Ost-Syrien
   published: Fri, 27 Dec 2019 12:50:00 +0100
@@ -607,10 +627,11 @@ feed:
     \ Halbmond. Außerdem werden wir klären wie man sich per Selfie bequem ins Jenseits\
     \ befördern kann und was sonst noch so für die persönliche Sicherheit zu beachten\
     \ ist, im Umgang mit modernen Medien in Kriegsgebieten."
+  category: Technology
   feedback:
-  - username: max
-    comment: noch nich gesehen - habe ihn mal in einem Podcast gehört und fand ihn
-      klasse. Empfehlung aus LNP
+  - rating: 3
+    username: Logbuch Netzpolitik
+    comment: Empfehlung aus LNP
 - title: Digitalisierte Migrationskontrolle
   published: Fri, 27 Dec 2019 20:50:00 +0100
   speakers: Anna Biselli, Lea Beckmann
@@ -644,8 +665,10 @@ feed:
     \ Partnerorganisationen rechtlich unterstützt. In vielen ihrer Verfahren setzt\
     \ sich die GFF dabei für Datenschutz und einen verantwortungsvollen Einsatz von\
     \ Technologie und gegen Diskriminierung ein."
+  category: "Society & Culture"
   feedback:
-  - username: max
+  - rating: 3
+    username:
     comment: Noch nicht gesehen, Empfehlung der GFF
 - title: 'Polizei-Datenbanken und Minderheiten: Staatliche Stigmatisierung und Diskriminierung
     von Sinti und Roma'
@@ -742,8 +765,8 @@ feed:
     \ to other means of transportation, and what strategy civil society is pursuing\
     \ to stop this from happening."
   feedback:
-  - username: max
-    comment: Noch nicht gesehen, Empfehlung der GFF
+  - username: GFF
+    comment: Empfehlung der GFF in ihrem Newsletter
 - title: Hirne Hacken
   published: Sun, 29 Dec 2019 21:50:00 +0100
   speakers: Linus Neumann
@@ -764,6 +787,13 @@ feed:
     \ Abolhassan (Hg.) „Security Einfach Machen: IT-Sicherheit als Sprungbrett für\
     \ die Digitalisierung“, p. 85-98\n Neumann, Linus (2019): „Wenn Hacker Menschen\
     \ hacken“ in: Report Psychologie 11/12.2018, p. 462-464"
+  category: Technology
   feedback:
-  - username: max
+  - rating: 4
+    username: max
     comment: Interessante Denkanstösse zu nicht technischen Aspekten der IT Security
+
+meta:
+  title: 36C3 media feed
+  description: 'A feed for different talks of the 36C3 2019
+  image_url: https://static.media.ccc.de/media/congress/2019/logo.png
