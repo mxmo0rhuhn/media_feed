@@ -82,14 +82,37 @@ def build_feed(
         output_dir: Directory for output RSS file
         config: Configuration dict
         include_all_ratings: If False, exclude talks with rating ≤2 (default: False)
+
+    Returns:
+        Path to generated RSS file
+
+    Raises:
+        ValueError: If validation errors are found
     """
     from media_feed.feedback import calculate_average_rating
+    from media_feed.validation import validate_yaml_data
 
     # 1. Load YAML
     with yaml_file.open() as f:
         data = yaml.safe_load(f)
 
-    # 2. Filter feed items by rating if needed
+    # 2. Validate YAML
+    validation_result = validate_yaml_data(data, yaml_file)
+
+    # Display warnings
+    if validation_result.has_warnings():
+        click.echo(f"\n⚠️  Warnings for {yaml_file.name}:", err=True)
+        for warning in validation_result.warnings:
+            click.echo(f"   • {warning}", err=True)
+
+    # Display errors
+    if validation_result.has_errors():
+        click.echo(f"\n❌ Errors for {yaml_file.name}:", err=True)
+        for error in validation_result.errors:
+            click.echo(f"   • {error}", err=True)
+        raise ValueError(f"Validation failed for {yaml_file.name}")
+
+    # 3. Filter feed items by rating if needed
     if not include_all_ratings and "feed" in data:
         filtered_feed = []
         for item in data["feed"]:
@@ -103,12 +126,12 @@ def build_feed(
             filtered_feed.append(item)
         data["feed"] = filtered_feed
 
-    # 3. Load Jinja2 template
+    # 4. Load Jinja2 template
     template_path = Path(__file__).parent
     env = Environment(loader=FileSystemLoader(str(template_path)))
     template = env.get_template("rss_template.xml.j2")
 
-    # 4. Render with current timestamp
+    # 5. Render with current timestamp
     now = formatdate(timeval=None, localtime=False, usegmt=True)
     xml_content = template.render(
         data=data,
@@ -118,7 +141,7 @@ def build_feed(
         format_item_description=format_item_description,
     )
 
-    # 5. Write output
+    # 6. Write output
     output_file = output_dir / yaml_file.name.replace("media_", "feed_").replace(".yml", ".xml")
     output_file.parent.mkdir(parents=True, exist_ok=True)
     output_file.write_text(xml_content, encoding="utf-8")

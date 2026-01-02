@@ -149,6 +149,30 @@ media-feed build --all --output-dir custom_feeds/
 - Talks rated **1-2**: Excluded by default (use `--all-ratings` to include)
 - **Unrated talks**: Always included ✓
 
+#### YAML Validation
+
+The build command automatically validates your YAML files before generating RSS feeds:
+
+**Warnings** (shown but don't block generation):
+- Talks missing a `category` field
+
+**Errors** (prevent RSS generation):
+- Feedback entries missing a `rating` field
+
+Example validation output:
+```bash
+$ media-feed build media/media_36c3.yml
+
+⚠️  Warnings for media_36c3.yml:
+   • Talk 'Some Talk Title' is missing a category
+
+❌ Errors for media_36c3.yml:
+   • Talk 'Another Talk': Feedback #1 (by username) is missing a rating
+✗ Failed media/media_36c3.yml: Validation failed
+```
+
+Fix all errors in your YAML file before the RSS feed can be generated. Warnings can be addressed later.
+
 ### Apple Podcasts Compatibility
 
 The generated RSS feeds are fully compatible with Apple Podcasts and follow the official Apple Podcasts RSS specification.
