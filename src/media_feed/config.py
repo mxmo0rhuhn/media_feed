@@ -170,3 +170,34 @@ def get_latest_event(config: dict[str, Any]) -> tuple[str, dict[str, Any]]:
 
     latest_key = max(events.keys(), key=lambda k: events[k]["year"])
     return latest_key, events[latest_key]
+
+
+def calculate_congress_number(year: int, config: dict[str, Any]) -> int:
+    """Calculate congress number for a given year.
+
+    Uses the most recent event in config as a reference point and assumes
+    annual congresses. This avoids hardcoding assumptions about COVID gaps.
+
+    Args:
+        year: Event year
+        config: Configuration dictionary
+
+    Returns:
+        Calculated congress number
+
+    Raises:
+        ConfigError: If no events are configured
+    """
+    if "events" not in config or not config["events"]:
+        raise ConfigError("No events configured - cannot calculate congress number")
+
+    # Find the most recent event to use as reference
+    latest_event_key, latest_event = get_latest_event(config)
+    ref_year = latest_event["year"]
+    ref_congress = latest_event["congress_number"]
+
+    # Calculate offset from reference year (assumes annual congresses)
+    year_offset = year - ref_year
+    congress_number = ref_congress + year_offset
+
+    return congress_number

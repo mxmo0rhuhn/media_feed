@@ -10,6 +10,7 @@ import click
 from media_feed.ccc_api import search_ccc_talk
 from media_feed.config import (
     ConfigError,
+    calculate_congress_number,
     get_event_by_year,
     get_latest_event,
     load_config,
@@ -18,7 +19,6 @@ from media_feed.rss import calculate_average_rating, generate_rss_feed
 from media_feed.utils.http_utils import validate_url
 from media_feed.utils.logger import configure_logging
 from media_feed.utils.yaml_utils import load_yaml, save_yaml, validate_yaml_data
-
 
 # Input sanitization constants
 MAX_USERNAME_LENGTH = 50
@@ -136,6 +136,7 @@ def prompt_for_feedback(username: Optional[str] = None) -> Optional[dict[str, An
 
 
 # CLI Commands
+
 
 @click.group()
 @click.version_option(version="1.0.0")
@@ -338,8 +339,18 @@ def add(
 @click.option("--validate/--no-validate", default=True, help="Validate URLs")
 def new_event(year: int, congress_number: Optional[int], validate: bool) -> None:
     """Create new CCC event configuration."""
+    # Auto-calculate congress number if not provided
     if not congress_number:
-        congress_number = year - 1984
+        try:
+            config = load_config()
+            congress_number = calculate_congress_number(year, config)
+            click.echo(
+                f"Auto-calculated congress number: {congress_number} (based on most recent event in config)"
+            )
+        except (ConfigError, FileNotFoundError) as e:
+            click.echo(f"Error calculating congress number: {e}", err=True)
+            click.echo("Please provide congress number manually with -c option", err=True)
+            return
 
     event_id = f"{congress_number}c3"
 
@@ -354,6 +365,7 @@ def new_event(year: int, congress_number: Optional[int], validate: bool) -> None
     }
 
     # Validate if requested
+    all_valid = True
     if validate:
         click.echo("\nValidating URLs...")
         for key in ["fahrplan_url", "media_feed_url"]:
@@ -361,12 +373,46 @@ def new_event(year: int, congress_number: Optional[int], validate: bool) -> None
             is_valid, msg = validate_url(url)
             status = "✓" if is_valid else "✗"
             click.echo(f"{status} {key}: {msg}")
+            if not is_valid:
+                all_valid = False
 
-    # Generate YAML snippet
-    click.echo("\n--- Add to config.yaml ---")
-    click.echo(f"{event_id}:")
-    for key, value in event_config.items():
-        click.echo(f"  {key}: {value}")
+    # Auto-add to config if validation passed or was not requested
+    if not validate or all_valid:
+        try:
+            # Load existing config
+            config_path = Path("config.yaml")
+            if config_path.exists():
+                config = load_yaml(config_path)
+            else:
+                config = {"global": {}, "events": {}}
+
+            # Check if event already exists
+            if event_id in config.get("events", {}):
+                click.echo(f"\n⚠ Event '{event_id}' already exists in config.yaml", err=True)
+                click.echo("Event was not added. Remove the existing entry first if you want to replace it.")
+                return
+
+            # Add new event
+            if "events" not in config:
+                config["events"] = {}
+            config["events"][event_id] = event_config
+
+            # Save updated config
+            save_yaml(config_path, config)
+            click.echo(f"\n✓ Event '{event_id}' added to config.yaml successfully!")
+
+        except Exception as e:
+            click.echo(f"\n✗ Error adding event to config.yaml: {e}", err=True)
+            click.echo("\nYou can manually add the following to config.yaml:")
+            click.echo(f"{event_id}:")
+            for key, value in event_config.items():
+                click.echo(f"  {key}: {value}")
+    else:
+        click.echo("\n✗ Validation failed. Event not added to config.yaml")
+        click.echo("\nYou can manually add the following to config.yaml:")
+        click.echo(f"{event_id}:")
+        for key, value in event_config.items():
+            click.echo(f"  {key}: {value}")
 
 
 @main.command()
@@ -509,9 +555,7 @@ def list_by_rating(event: Optional[str], min_rating: Optional[float]) -> None:
     for talk in talks_with_ratings:
         rating_display = f"{talk['avg_rating']:.1f}/5"
         title = talk["title"][:47] + "..." if len(talk["title"]) > 50 else talk["title"]
-        click.echo(
-            f"{rating_display:<8} {title:<50} {talk['event']:<8} {talk['num_ratings']:<10}"
-        )
+        click.echo(f"{rating_display:<8} {title:<50} {talk['event']:<8} {talk['num_ratings']:<10}")
 
     click.echo("━" * 80)
     click.echo(f"\nTotal: {len(talks_with_ratings)} rated talk(s)\n")
