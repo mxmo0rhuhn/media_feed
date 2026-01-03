@@ -54,21 +54,21 @@ events:
   37c3:
     year: 2023
     congress_number: 37
-    fahrplan_url: https://fahrplan.events.ccc.de/congress/2023/Fahrplan/schedule.xml
-    media_feed_url: https://media.ccc.de/c/37c3/podcast/mp4.xml
-    event_pattern_head: https://fahrplan.events.ccc.de/congress/2023/Fahrplan/events/
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2023/fahrplan/schedule.xml
+    media_feed_url: https://media.ccc.de/c/37c3/podcast/mp4-hq.xml
+    event_pattern_head: https://fahrplan.events.ccc.de/congress/2023/fahrplan/events/
     event_pattern_tail: .html
   38c3:
     year: 2024
     congress_number: 38
-    fahrplan_url: https://fahrplan.events.ccc.de/congress/2024/Fahrplan/schedule.xml
-    media_feed_url: https://media.ccc.de/c/38c3/podcast/mp4.xml
-    event_pattern_head: https://fahrplan.events.ccc.de/congress/2024/Fahrplan/events/
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2024/fahrplan/schedule.xml
+    media_feed_url: https://media.ccc.de/c/38c3/podcast/mp4-hq.xml
+    event_pattern_head: https://fahrplan.events.ccc.de/congress/2024/fahrplan/events/
     event_pattern_tail: .html
   39c3:
     year: 2025
     congress_number: 39
-    fahrplan_url: https://fahrplan.events.ccc.de/congress/2025/Fahrplan/schedule.xml
-    media_feed_url: https://media.ccc.de/c/39c3/podcast/mp4.xml
-    event_pattern_head: https://fahrplan.events.ccc.de/congress/2025/Fahrplan/events/
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2025/fahrplan/schedules/schedule.xml
+    media_feed_url: https://media.ccc.de/c/39c3/podcast/mp4-hq.xml
+    event_pattern_head: https://fahrplan.events.ccc.de/congress/2025/fahrplan/events/
     event_pattern_tail: .html
