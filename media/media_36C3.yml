@@ -668,7 +668,8 @@ feed:
   category: "Society & Culture"
   feedback:
   - rating: 3
-    comment: Noch nicht gesehen, Empfehlung der GFF
+    username: GFF
+    comment: Empfehlung der GFF in ihrem Newsletter
 - title: 'Polizei-Datenbanken und Minderheiten: Staatliche Stigmatisierung und Diskriminierung
     von Sinti und Roma'
   published: Sat, 28 Dec 2019 16:10:00 +0100
@@ -719,8 +720,8 @@ feed:
     \ von Späh-Software oder bei der Datenerhebung."
   feedback:
   - rating: 3
-    username: max
-    comment: Noch nicht gesehen, Empfehlung der GFF
+    username: GFF
+    comment: Empfehlung der GFF in ihrem Newsletter
 - title: '#NoPNR – Let’s kill the next Data Retention Law'
   published: Mon, 30 Dec 2019 12:30:00 +0100
   speakers: Walter Hötzendorfer, Bijan Moini

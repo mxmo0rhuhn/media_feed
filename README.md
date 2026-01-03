@@ -95,6 +95,7 @@ feed:
       - Technology
       - Science
     feedback:  # Optional collaborative feedback section
+    - Utils may be organized by concern e.g. yaml_utils, file_utils, validation_utils. Please limit the number of utils files to a reasonable amount by grouping related functions together.
       - rating: 5
         username: max
         comment: "Einer der besten Talks des Congress!"
@@ -153,58 +154,13 @@ media-feed build --all --output-dir custom_feeds/
 
 The build command automatically validates your YAML files before generating RSS feeds:
 
-**Warnings** (shown but don't block generation):
-- Talks missing a `category` field
+- **Warnings**: Shown but don't block generation
+- **Errors** Prevent RSS generation
 
-**Errors** (prevent RSS generation):
-- Feedback entries missing a `rating` field
+#### Categories
 
-Example validation output:
-```bash
-$ media-feed build media/media_36c3.yml
-
-⚠️  Warnings for media_36c3.yml:
-   • Talk 'Some Talk Title' is missing a category
-
-❌ Errors for media_36c3.yml:
-   • Talk 'Another Talk': Feedback #1 (by username) is missing a rating
-✗ Failed media/media_36c3.yml: Validation failed
-```
-
-Fix all errors in your YAML file before the RSS feed can be generated. Warnings can be addressed later.
-
-### Apple Podcasts Compatibility
-
-The generated RSS feeds are fully compatible with Apple Podcasts and follow the official Apple Podcasts RSS specification.
-
-**iTunes Namespace Tags:**
-- `itunes:type` - Set to "episodic" for the podcast type
-- `itunes:explicit` - Marked as "yes"
-- `itunes:episodeType` - Set to "full" for complete episodes
-- `itunes:title`, `itunes:summary`, `itunes:author` - Episode metadata
-- `itunes:image` - Podcast and episode artwork
-- `itunes:owner` - Podcast owner information
-- `itunes:category` - Podcast categories
-
-**Artwork Handling:**
-
-The feed uses a smart image fallback system:
-1. **Event-specific image**: If a media YAML file specifies `meta.image_url`, that image is used (e.g., congress logo)
-2. **Global fallback**: If no event-specific image is provided, the global `media_feed.png` from config.yaml is used
-
-Both channel-level and episode-level artwork are supported via `itunes:image` tags. Images should meet Apple's requirements:
-- **Size**: 1400x1400 to 3000x3000 pixels
-- **Format**: JPG or PNG
-- **Color space**: RGB
-
-**Category Implementation:**
-
-Categories are implemented at the **channel level only**, per Apple Podcasts specification. When building a feed, the system:
-1. Collects all unique categories from individual talks in the feed
-2. Aggregates them at the channel level
-3. Limits to the top 3 categories for optimal podcast directory browsing
-
-Categories are auto-assigned from CCC tracks when adding talks (see the Categories section above for the mapping). While individual talks can have categories in the YAML files, these are aggregated to channel-level in the final RSS feed.
+The provided categories in the media YAML are intended to give you an impression of kind of content. They are only present in the YAML files as the Apple Podcast specification requires categories at the channel level only.
+Categories are auto-assigned from CCC tracks when adding talks (see the global `config.yaml` for the mapping).
 
 ### 3. Rate Talks Interactively
 
