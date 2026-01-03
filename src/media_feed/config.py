@@ -5,11 +5,13 @@ from typing import Any
 
 import yaml
 
-from media_feed.utils.constants import CONFIG_FILE, MAX_YAML_FILE_SIZE
-from media_feed.utils.files import safe_read
+from media_feed.utils.file_utils import MAX_YAML_FILE_SIZE, safe_read
 from media_feed.utils.logger import get_logger
 
 logger = get_logger(__name__)
+
+# Configuration file path
+CONFIG_FILE = Path("config.yaml")
 
 
 class ConfigError(Exception):

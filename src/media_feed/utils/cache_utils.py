@@ -5,10 +5,23 @@ import time
 from pathlib import Path
 from typing import Optional
 
-from media_feed.utils.constants import CACHE_MAX_AGE_DAYS, get_cache_directory
 from media_feed.utils.logger import get_logger
 
 logger = get_logger(__name__)
+
+# Cache settings
+CACHE_MAX_AGE_DAYS = 7
+
+
+def get_cache_directory() -> Path:
+    """Get the secure cache directory path.
+
+    Returns:
+        Path to cache directory in user's home directory
+    """
+    cache_dir = Path.home() / ".cache" / "media-feed"
+    cache_dir.mkdir(parents=True, exist_ok=True, mode=0o700)  # User-only access
+    return cache_dir
 
 
 def get_cache_path(url: str, extension: str = "") -> Path:

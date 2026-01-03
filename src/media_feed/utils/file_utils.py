@@ -1,8 +1,13 @@
-"""Atomic file operation utilities."""
+"""File operation utilities with security controls."""
 
+import re
 import tempfile
 from pathlib import Path
 from typing import Optional
+
+# File size limits (in bytes)
+MAX_YAML_FILE_SIZE = 10 * 1024 * 1024  # 10 MB
+MAX_XML_FILE_SIZE = 50 * 1024 * 1024  # 50 MB
 
 
 def atomic_write(file_path: Path, content: str, encoding: str = "utf-8") -> None:
@@ -75,3 +80,62 @@ def safe_read(
             )
 
     return file_path.read_text(encoding=encoding)
+
+
+def sanitize_path_component(component: str) -> str:
+    """Sanitize a path component to prevent path traversal.
+
+    Args:
+        component: Path component to sanitize
+
+    Returns:
+        Sanitized path component
+
+    Raises:
+        ValueError: If component contains path traversal attempts
+    """
+    if not component:
+        raise ValueError("Path component cannot be empty")
+
+    # Check for path traversal attempts
+    if ".." in component or component.startswith("/") or component.startswith("~"):
+        raise ValueError(f"Invalid path component (path traversal attempt): {component}")
+
+    # Remove potentially dangerous characters
+    sanitized = re.sub(r'[<>:"|?*\x00-\x1f]', "", component)
+
+    if not sanitized:
+        raise ValueError("Path component contains only invalid characters")
+
+    return sanitized
+
+
+def validate_file_path(file_path: Path, allowed_directory: Optional[Path] = None) -> Path:
+    """Validate a file path to prevent path traversal attacks.
+
+    Args:
+        file_path: Path to validate
+        allowed_directory: Optional directory that must contain the file
+
+    Returns:
+        Resolved absolute path
+
+    Raises:
+        ValueError: If path is invalid or outside allowed directory
+    """
+    try:
+        # Resolve to absolute path
+        resolved_path = file_path.resolve()
+
+        # If allowed directory specified, ensure path is within it
+        if allowed_directory:
+            allowed_resolved = allowed_directory.resolve()
+            if not str(resolved_path).startswith(str(allowed_resolved)):
+                raise ValueError(
+                    f"Path {file_path} is outside allowed directory {allowed_directory}"
+                )
+
+        return resolved_path
+
+    except (OSError, RuntimeError) as e:
+        raise ValueError(f"Invalid file path {file_path}: {e}") from e

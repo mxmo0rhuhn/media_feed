@@ -1,29 +1,91 @@
-#!/usr/bin/env python3
-"""Media Feed CLI - Refactored modular implementation."""
+"""Media Feed CLI command implementations."""
 
 import logging
+import re
 from pathlib import Path
 from typing import Any, Optional
 
 import click
 
-from media_feed.core.ccc_api import search_ccc_talk, validate_url
-from media_feed.core.config import (
+from media_feed.ccc_api import search_ccc_talk
+from media_feed.config import (
     ConfigError,
     get_event_by_year,
     get_latest_event,
     load_config,
 )
-from media_feed.core.rss import generate_rss_feed
-from media_feed.core.yaml_io import load_yaml, save_yaml
-from media_feed.feedback import calculate_average_rating
-from media_feed.security.sanitizer import (
-    sanitize_comment,
-    sanitize_username,
-    validate_rating,
-)
-from media_feed.utils.logger import configure_logging, set_log_level
-from media_feed.validation import validate_yaml_data
+from media_feed.rss import calculate_average_rating, generate_rss_feed
+from media_feed.utils.http_utils import validate_url
+from media_feed.utils.logger import configure_logging
+from media_feed.utils.yaml_utils import load_yaml, save_yaml, validate_yaml_data
+
+
+# Input sanitization constants
+MAX_USERNAME_LENGTH = 50
+MAX_COMMENT_LENGTH = 500
+
+
+def sanitize_username(username: str, max_length: int = MAX_USERNAME_LENGTH) -> str:
+    """Sanitize username input.
+
+    Args:
+        username: Raw username input
+        max_length: Maximum allowed length
+
+    Returns:
+        Sanitized username
+
+    Raises:
+        ValueError: If username is invalid
+    """
+    if not username:
+        raise ValueError("Username cannot be empty")
+
+    # Remove control characters and limit length
+    sanitized = re.sub(r"[\x00-\x1f\x7f-\x9f]", "", username)
+    sanitized = sanitized.strip()[:max_length]
+
+    if not sanitized:
+        raise ValueError("Username contains only invalid characters")
+
+    return sanitized
+
+
+def sanitize_comment(comment: str, max_length: int = MAX_COMMENT_LENGTH) -> str:
+    """Sanitize comment input.
+
+    Args:
+        comment: Raw comment input
+        max_length: Maximum allowed length
+
+    Returns:
+        Sanitized comment
+    """
+    if not comment:
+        return ""
+
+    # Remove control characters except newlines and tabs
+    sanitized = re.sub(r"[\x00-\x08\x0b-\x0c\x0e-\x1f\x7f-\x9f]", "", comment)
+    sanitized = sanitized.strip()[:max_length]
+
+    return sanitized
+
+
+def validate_rating(rating: int) -> int:
+    """Validate rating value.
+
+    Args:
+        rating: Rating value to validate
+
+    Returns:
+        Validated rating
+
+    Raises:
+        ValueError: If rating is out of range
+    """
+    if not isinstance(rating, int) or not 1 <= rating <= 5:
+        raise ValueError("Rating must be an integer between 1 and 5")
+    return rating
 
 
 def prompt_for_feedback(username: Optional[str] = None) -> Optional[dict[str, Any]]:
@@ -73,7 +135,8 @@ def prompt_for_feedback(username: Optional[str] = None) -> Optional[dict[str, An
     return feedback_entry
 
 
-# --- CLI Commands ---
+# CLI Commands
+
 @click.group()
 @click.version_option(version="1.0.0")
 @click.option("--verbose", "-v", is_flag=True, help="Enable verbose logging")
