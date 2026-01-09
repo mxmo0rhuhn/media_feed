@@ -1,0 +1,69 @@
+global:
+  contact:
+    email: media-feed@spam.schrimpf.ch
+    name: Maintainer
+  image_url: https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png
+  author: mxmo0rhuhn
+  link: https://github.com/mxmo0rhuhn/media_feed
+  language: en
+  category_mapping:
+    Technology:
+    - Security
+    - Hardware & Making
+    Science:
+    - Science
+    - Resilience & Sustainability
+    Society & Culture:
+    - Ethics, Society & Politics
+    - CCC
+    - CCC & Community
+    Arts:
+    - Art & Culture
+    Leisure:
+    - Entertainment
+    _default:
+    - Technology
+events:
+  31c3:
+    year: 2014
+    congress_number: 31
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2014/Fahrplan/schedule.xml
+    media_feed_url: https://media.ccc.de/c/31c3/podcast/mp4-hq.xml
+    event_pattern_head: https://fahrplan.events.ccc.de/congress/2014/Fahrplan/events/
+    event_pattern_tail: .html
+  32c3:
+    year: 2015
+    congress_number: 32
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2015/Fahrplan/schedule.xml
+    media_feed_url: https://media.ccc.de/c/32c3/podcast/mp4-hq.xml
+    event_pattern_head: https://fahrplan.events.ccc.de/congress/2015/Fahrplan/events/
+    event_pattern_tail: .html
+  33c3:
+    year: 2016
+    congress_number: 33
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/schedule.xml
+    media_feed_url: https://media.ccc.de/c/33c3/podcast/mp4-hq.xml
+    event_pattern_head: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/
+    event_pattern_tail: .html
+  36c3:
+    year: 2019
+    congress_number: 36
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/schedule.xml
+    media_feed_url: https://media.ccc.de/c/36c3/podcast/mp4-hq.xml
+    event_pattern_head: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/
+    event_pattern_tail: .html
+  37c3:
+    year: 2023
+    congress_number: 37
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2023/fahrplan/schedule.xml
+    media_feed_url: https://media.ccc.de/c/37c3/podcast/mp4-hq.xml
+  38c3:
+    year: 2024
+    congress_number: 38
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2024/fahrplan/schedule/export/schedule.xml
+    media_feed_url: https://media.ccc.de/c/38c3/podcast/mp4-hq.xml
+  39c3:
+    year: 2025
+    congress_number: 39
+    fahrplan_url: https://fahrplan.events.ccc.de/congress/2025/fahrplan/schedules/schedule.xml
+    media_feed_url: https://media.ccc.de/c/39c3/podcast/mp4-hq.xml

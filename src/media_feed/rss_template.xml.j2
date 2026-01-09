@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>{{ data.meta.title }}</title>
+    <description>{{ data.meta.description }}</description>
+    <link>{{ global_config.link }}</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>{{ global_config.language }}</language>
+    <generator>{{ generator }}</generator>
+    <pubDate>{{ now }}</pubDate>
+    <lastBuildDate>{{ now }}</lastBuildDate>
+    <managingEditor>{{ global_config.contact.email }} ({{ global_config.contact.name }})</managingEditor>
+    <webMaster>{{ global_config.contact.email }} ({{ global_config.contact.name }})</webMaster>
+    <itunes:owner>
+      <itunes:email>{{ global_config.contact.email }}</itunes:email>
+      <itunes:name>{{ global_config.contact.name }}</itunes:name>
+    </itunes:owner>
+    <image>
+      <url>{{ data.meta.image_url|default(global_config.image_url) }}</url>
+      <title>{{ data.meta.title }}</title>
+      <link>{{ global_config.link }}</link>
+      <description>{{ data.meta.description }}</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary>{{ data.meta.description }}</itunes:summary>
+    <itunes:author>{{ global_config.author }}</itunes:author>
+    <itunes:image href="{{ data.meta.image_url|default(global_config.image_url) }}"/>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    {%- set all_categories = [] %}
+    {%- for item in data.feed %}
+      {%- for category in item.categories|default([]) %}
+        {%- if category not in all_categories %}
+          {%- set _ = all_categories.append(category) %}
+        {%- endif %}
+      {%- endfor %}
+    {%- endfor %}
+    {%- for category in all_categories[:3] %}
+    <itunes:category text="{{ category }}"/>
+    {%- endfor %}
+    {%- for item in data.feed %}
+    {%- if item.published %}
+    <item>
+      <title>{{ item.title }}</title>
+      <description>{{ format_item_description(item)|e }}</description>
+      <link>{{ item.web_url }}</link>
+      <guid isPermaLink="true">{{ item.web_url }}</guid>
+      <pubDate>{{ item.published }}</pubDate>
+      <itunes:title>{{ item.title }}</itunes:title>
+      <itunes:summary>{{ format_item_description(item)|e }}</itunes:summary>
+      <itunes:author>{{ item.speakers }}</itunes:author>
+      <itunes:image href="{{ data.meta.image_url|default(global_config.image_url) }}"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="{{ item.media_url }}"
+                 length="{{ item.media_length }}"
+                 type="{{ item.media_type }}"/>
+    </item>
+    {%- endif %}
+    {%- endfor %}
+  </channel>
+</rss>

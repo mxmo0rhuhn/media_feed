@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>36C3 media feed</title>
+    <description>A curated feed for different talks of the 36C3 (Chaos Communication Congress 2019).</description>
+    <link>https://github.com/mxmo0rhuhn/media_feed</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en</language>
+    <generator>media-feed Python CLI</generator>
+    <pubDate>Fri, 09 Jan 2026 20:58:17 GMT</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2026 20:58:17 GMT</lastBuildDate>
+    <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
+    <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
+    <itunes:owner>
+      <itunes:email>media-feed@spam.schrimpf.ch</itunes:email>
+      <itunes:name>Maintainer</itunes:name>
+    </itunes:owner>
+    <image>
+      <url>https://static.media.ccc.de/media/congress/2019/logo.png</url>
+      <title>36C3 media feed</title>
+      <link>https://github.com/mxmo0rhuhn/media_feed</link>
+      <description>A curated feed for different talks of the 36C3 (Chaos Communication Congress 2019).</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary>A curated feed for different talks of the 36C3 (Chaos Communication Congress 2019).</itunes:summary>
+    <itunes:author>mxmo0rhuhn</itunes:author>
+    <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Verkehrswende selber hacken</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - Logbuch Netzpolitik: Empfehlung im Podcast Logbuch Netzpolitik
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Der Talk wird eine wilde Fahrt, vorbei an umfallenden Rollern, etwas Kunst mit Sharing-Daten, einer Shoppingtour aus Recherchegründen auf asiatischen Großhandelsplattformen, Sicherheitslücken in Fahrradschlössern, welche einen deutschen Bikesharer dazu bringen, seine 6000 Räder weltweit wieder einzusammeln, der Analyse von risikokapitalgetriebenen Sharingsystemen bis hin zum Gegenentwurf: Wie angewandte Lobbyarbeit für mehr offene Mobilitätsdaten aussieht. Und wie man es selbst in die Hand nehmen kann. Der Markt der Mobilitätsangebote ist in den letzten Jahren immer schneller immer größer geworden. Von einfachen Bikesharing-Rädern über E-Bikes, Lastenrädern hin zu Scootern bekommen wir in Großstädten immer mehr Möglichkeiten, ohne eigenes Gefährt trotzdem mobil zu sein. Aber warum nur in Großstädten? Wie nachhaltig ist das? Warum brauche ich immer noch 20 Apps für jede Stadt? Wie sehen diese Sharingsysteme eigentlich technisch aus? Was passiert mit den Daten und was lässt sich mit ihnen anfangen? Und warum sollten wir Mobilität eigentlich risikokapitalgetriebenen Technologieunternehmen überlassen? Daher bauen wir ein Open Source Bikesharingsystem: nicht profitorientiert und offen für alle, erprobt auf dem CCCamp19</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10881.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10881.html</guid>
+      <pubDate>Mon, 30 Dec 2019 13:50:00 +0100</pubDate>
+      <itunes:title>Verkehrswende selber hacken</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - Logbuch Netzpolitik: Empfehlung im Podcast Logbuch Netzpolitik
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Der Talk wird eine wilde Fahrt, vorbei an umfallenden Rollern, etwas Kunst mit Sharing-Daten, einer Shoppingtour aus Recherchegründen auf asiatischen Großhandelsplattformen, Sicherheitslücken in Fahrradschlössern, welche einen deutschen Bikesharer dazu bringen, seine 6000 Räder weltweit wieder einzusammeln, der Analyse von risikokapitalgetriebenen Sharingsystemen bis hin zum Gegenentwurf: Wie angewandte Lobbyarbeit für mehr offene Mobilitätsdaten aussieht. Und wie man es selbst in die Hand nehmen kann. Der Markt der Mobilitätsangebote ist in den letzten Jahren immer schneller immer größer geworden. Von einfachen Bikesharing-Rädern über E-Bikes, Lastenrädern hin zu Scootern bekommen wir in Großstädten immer mehr Möglichkeiten, ohne eigenes Gefährt trotzdem mobil zu sein. Aber warum nur in Großstädten? Wie nachhaltig ist das? Warum brauche ich immer noch 20 Apps für jede Stadt? Wie sehen diese Sharingsysteme eigentlich technisch aus? Was passiert mit den Daten und was lässt sich mit ihnen anfangen? Und warum sollten wir Mobilität eigentlich risikokapitalgetriebenen Technologieunternehmen überlassen? Daher bauen wir ein Open Source Bikesharingsystem: nicht profitorientiert und offen für alle, erprobt auf dem CCCamp19</itunes:summary>
+      <itunes:author>robbi5, ubahnverleih</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10881-deu-eng-Verkehrswende_selber_hacken_hd.mp4"
+                 length="673185792"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Hacker hin oder her: Die elektronische Patientenakte kommt!</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Viel Medienfeedback, scheint sehenswert
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Herzstück der digitalen Gesundheitsversorgung für 73 Millionen Versicherte ist die hochsichere, kritische Telematik-Infrastruktur mit bereits 115.000 angeschlossenen Arztpraxen. Nur berechtigte Teilnehmer haben über dieses geschlossene Netz Zugang zu unseren medizinischen Daten. Ein &#34;Höchstmaß an Schutz&#34; also, wie es das Gesundheitsministerium behauptet? Bewaffnet mit 10.000 Seiten Spezifikation und einem Faxgerät lassen wir Illusionen platzen und stellen fest: Technik allein ist auch keine Lösung. Braucht es einen Neuanfang? Schon in 12 Monaten können 73 Millionen gesetzlich Versicherte ihre Gesundheitsdaten in einer elektronischen Patientenakte speichern lassen. Dazu werden zurzeit alle Arztpraxen, Krankenhäuser und Apotheken Deutschlands über die neu geschaffene kritische Telematik-Infrastruktur verbunden. Dieses hochverfügbare Netz genügt &#34;militärischen Sicherheitsstandards&#34;, bietet ein &#34;europaweit einzigartiges Sicherheitsniveau&#34; und verspricht ein &#34;Höchstmaß an Schutz für die personenbezogenen medizinischen Daten&#34; wie Arztbriefe, Medikamentenpläne, Blutbilder und Chromosomenanalysen. &#34;Wir tun alles, damit Patientendaten sicher bleiben.&#34; &#34;Selbst dem Chaos Computer Club ist es nicht gelungen, sich in die Telematik-Infrastruktur einzuhacken.&#34; &#34;Nach den Lehren aus PC-Wahl, Ladesäulen und dem besonderen elektronischen Anwaltspostfach brauchen wir kein weiteres Exempel.&#34;</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10595.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10595.html</guid>
+      <pubDate>Fri, 27 Dec 2019 16:10:00 +0100</pubDate>
+      <itunes:title>Hacker hin oder her: Die elektronische Patientenakte kommt!</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Viel Medienfeedback, scheint sehenswert
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Herzstück der digitalen Gesundheitsversorgung für 73 Millionen Versicherte ist die hochsichere, kritische Telematik-Infrastruktur mit bereits 115.000 angeschlossenen Arztpraxen. Nur berechtigte Teilnehmer haben über dieses geschlossene Netz Zugang zu unseren medizinischen Daten. Ein &#34;Höchstmaß an Schutz&#34; also, wie es das Gesundheitsministerium behauptet? Bewaffnet mit 10.000 Seiten Spezifikation und einem Faxgerät lassen wir Illusionen platzen und stellen fest: Technik allein ist auch keine Lösung. Braucht es einen Neuanfang? Schon in 12 Monaten können 73 Millionen gesetzlich Versicherte ihre Gesundheitsdaten in einer elektronischen Patientenakte speichern lassen. Dazu werden zurzeit alle Arztpraxen, Krankenhäuser und Apotheken Deutschlands über die neu geschaffene kritische Telematik-Infrastruktur verbunden. Dieses hochverfügbare Netz genügt &#34;militärischen Sicherheitsstandards&#34;, bietet ein &#34;europaweit einzigartiges Sicherheitsniveau&#34; und verspricht ein &#34;Höchstmaß an Schutz für die personenbezogenen medizinischen Daten&#34; wie Arztbriefe, Medikamentenpläne, Blutbilder und Chromosomenanalysen. &#34;Wir tun alles, damit Patientendaten sicher bleiben.&#34; &#34;Selbst dem Chaos Computer Club ist es nicht gelungen, sich in die Telematik-Infrastruktur einzuhacken.&#34; &#34;Nach den Lehren aus PC-Wahl, Ladesäulen und dem besonderen elektronischen Anwaltspostfach brauchen wir kein weiteres Exempel.&#34;</itunes:summary>
+      <itunes:author>Martin Tschirsich, cbro - Dr. med. Christian Brodowski, Dr. André Zilch</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10595-deu-eng-Hacker_hin_oder_her_Die_elektronische_Patientenakte_kommt_hd.mp4"
+                 length="625999872"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Vom Ich zum Wir</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 5.0/5 from 1 rating)
+
+⭐⭐⭐⭐⭐ (5/5) - max: Maha und Kai - klares must see
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ein von Zeit Online entwickeltes Tool macht es möglich, die Plenarprotokolle des Bundestags grafisch und inhaltlich auszuwerten, und zwar seit seiner ersten Sitzung 1949 bis heute. In den 200 Millionen Wörtern zeigen sich historische Zäsuren, sie machen gesellschaftliche und sprachliche Entwicklungen sichtbar: Wie ernst nahm der Bundestag in den vergangenen Jahren den Klimawandel? Wie häufig redeten die Abgeordneten über Datenschutz, über Arbeitslosigkeit, über Rechtsextremismus, über Geflüchtete? Es wird sichtbar und vergleichbar, zu welchem Zeitpunkt welche Themen debattiert wurden, wie sich die politische Aufmerksamkeit über die Jahre verändert hat. Und die Daten belegen, wie die Sprache selbst sich verändert, nicht nur weil neue Themen aufkommen, sondern auch weil sich der Sprachgebrauch wandelt. Am Ende kann das Publikum selbst Wörter vorschlagen und versuchen, die entsprechenden Graphiken zu interpretieren.
+
+ Die Protokolle des Bundestags decken einen Zeitraum von siebzig Jahren ab. In dieser Zeit hat sich die Bundesrepublik stark verändert und damit natürlich auch die im Bundestag verwendete Sprache. Manche Dinge sind trivial, z.B. dass Flüchtlinge einst Vertriebene waren oder dass mit Computernetzen zusammenhängende Wörter erst in neuerer Zeit auftauchen. Andere überraschen, z.B. dass seit der Wiedervereinigung mehr von Ostdeutschen als von Westdeutschen gesprochen wird. Anhand von einschlägigen Beispielen wollen wir erläutern, wie sich Sprache und mit ihr Politik verändert hat. Wir untersuchen die Rhetorik alter und neuer Rechter, die Rhetorik des &#34;Marktes&#34;, der Krisen und natürlich auch die des gepflegten Beschimpfens.
+
+ Mit dem Tool lässt sich zeigen, welche Debatten groß und wortreich geführt wurden, welche klein und unbedeutend blieben, obwohl es vielleicht wichtig gewesen wäre, über die Themen zu debattieren. Die Sprache ist somit der Zugang zur Analyse der Politik des Parlaments.
+
+ Woher stammen unsere Daten?
+ Wir haben die Protokolle aller Sitzungen des Deutschen Bundestages analysiert: 4.217 Protokolle aus 19 Legislaturperioden, insgesamt rund 200 Millionen Wörter. Sie stammen aus dem Open Data Portal des Bundestages. Jede Sitzung wird dort von Stenografen genau dokumentiert und auf diesem Portal veröffentlicht. Unsere Auswertung beginnt mit der ersten Sitzung am 7. September 1949 und endet mit der letzten Sitzung vor der Sommerpause 2019 — der Sondersitzung zur Vereidigung von Annegret Kramp-Karrenbauer als Verteidigungsministerin am 24. Juli 2019.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10993.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10993.html</guid>
+      <pubDate>Fri, 27 Dec 2019 14:10:00 +0100</pubDate>
+      <itunes:title>Vom Ich zum Wir</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 5.0/5 from 1 rating)
+
+⭐⭐⭐⭐⭐ (5/5) - max: Maha und Kai - klares must see
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ein von Zeit Online entwickeltes Tool macht es möglich, die Plenarprotokolle des Bundestags grafisch und inhaltlich auszuwerten, und zwar seit seiner ersten Sitzung 1949 bis heute. In den 200 Millionen Wörtern zeigen sich historische Zäsuren, sie machen gesellschaftliche und sprachliche Entwicklungen sichtbar: Wie ernst nahm der Bundestag in den vergangenen Jahren den Klimawandel? Wie häufig redeten die Abgeordneten über Datenschutz, über Arbeitslosigkeit, über Rechtsextremismus, über Geflüchtete? Es wird sichtbar und vergleichbar, zu welchem Zeitpunkt welche Themen debattiert wurden, wie sich die politische Aufmerksamkeit über die Jahre verändert hat. Und die Daten belegen, wie die Sprache selbst sich verändert, nicht nur weil neue Themen aufkommen, sondern auch weil sich der Sprachgebrauch wandelt. Am Ende kann das Publikum selbst Wörter vorschlagen und versuchen, die entsprechenden Graphiken zu interpretieren.
+
+ Die Protokolle des Bundestags decken einen Zeitraum von siebzig Jahren ab. In dieser Zeit hat sich die Bundesrepublik stark verändert und damit natürlich auch die im Bundestag verwendete Sprache. Manche Dinge sind trivial, z.B. dass Flüchtlinge einst Vertriebene waren oder dass mit Computernetzen zusammenhängende Wörter erst in neuerer Zeit auftauchen. Andere überraschen, z.B. dass seit der Wiedervereinigung mehr von Ostdeutschen als von Westdeutschen gesprochen wird. Anhand von einschlägigen Beispielen wollen wir erläutern, wie sich Sprache und mit ihr Politik verändert hat. Wir untersuchen die Rhetorik alter und neuer Rechter, die Rhetorik des &#34;Marktes&#34;, der Krisen und natürlich auch die des gepflegten Beschimpfens.
+
+ Mit dem Tool lässt sich zeigen, welche Debatten groß und wortreich geführt wurden, welche klein und unbedeutend blieben, obwohl es vielleicht wichtig gewesen wäre, über die Themen zu debattieren. Die Sprache ist somit der Zugang zur Analyse der Politik des Parlaments.
+
+ Woher stammen unsere Daten?
+ Wir haben die Protokolle aller Sitzungen des Deutschen Bundestages analysiert: 4.217 Protokolle aus 19 Legislaturperioden, insgesamt rund 200 Millionen Wörter. Sie stammen aus dem Open Data Portal des Bundestages. Jede Sitzung wird dort von Stenografen genau dokumentiert und auf diesem Portal veröffentlicht. Unsere Auswertung beginnt mit der ersten Sitzung am 7. September 1949 und endet mit der letzten Sitzung vor der Sommerpause 2019 — der Sondersitzung zur Vereidigung von Annegret Kramp-Karrenbauer als Verteidigungsministerin am 24. Juli 2019.</itunes:summary>
+      <itunes:author>maha, Kai Biermann</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10993-deu-eng-fra-Vom_Ich_zum_Wir_hd.mp4"
+                 length="470810624"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Geheimdienstliche Massenüberwachung vs. Menschenrechte</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Interessante Zusammenfassung wie sowas läuft
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Der Europäische Menschenrechtsgerichtshof beschäftigt sich nun schon seit Jahren mit der Frage, ob die durch Edward Snowden öffentlich bekanntgewordene geheimdienstliche Massenüberwachung mit der Europäischen Menschenrechtskonvention kompatibel ist. Wie ist der Stand der Dinge?
+
+ Dieses Jahr gab es zwei neuerliche Anhörungen in Straßburg, die sich mit der britischen und schwedischen Massenüberwachung durch die Geheimdienste auseinandersetzten. Im Vortrag werden die bisher gefällten Urteile und die neuen vorgetragenen Argumente beleuchtet.
+
+ Insbesondere der britische Fall ist das erste Mal, dass der Gerichtshof nicht nur die Massenüberwachung an der Menschenrechtskonvention misst, sondern auch das Datenkarussell zwischen den Geheimdiensten, namentlich dem GCHQ und der NSA.
+
+ Wegen der schon Mitte Januar vom Bundesverfassungsgericht anberaumten mündlichen Anhörung zum BND-Gesetz wird sich ein Teil des Vortrags auch mit der deutschen geheimdienstlichen Massenüberwachung beschäftigen. Der CCC hat eine Stellungnahme zur Ausland-Ausland-Fernmeldeaufklärung abgegeben, deren Inhalt kurz zusammengefasst wird.
+
+ Offenlegung: Ich bin eine der Beschwerdeführerinnen in dem britischen Fall.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11141.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11141.html</guid>
+      <pubDate>Fri, 27 Dec 2019 18:50:00 +0100</pubDate>
+      <itunes:title>Geheimdienstliche Massenüberwachung vs. Menschenrechte</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Interessante Zusammenfassung wie sowas läuft
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Der Europäische Menschenrechtsgerichtshof beschäftigt sich nun schon seit Jahren mit der Frage, ob die durch Edward Snowden öffentlich bekanntgewordene geheimdienstliche Massenüberwachung mit der Europäischen Menschenrechtskonvention kompatibel ist. Wie ist der Stand der Dinge?
+
+ Dieses Jahr gab es zwei neuerliche Anhörungen in Straßburg, die sich mit der britischen und schwedischen Massenüberwachung durch die Geheimdienste auseinandersetzten. Im Vortrag werden die bisher gefällten Urteile und die neuen vorgetragenen Argumente beleuchtet.
+
+ Insbesondere der britische Fall ist das erste Mal, dass der Gerichtshof nicht nur die Massenüberwachung an der Menschenrechtskonvention misst, sondern auch das Datenkarussell zwischen den Geheimdiensten, namentlich dem GCHQ und der NSA.
+
+ Wegen der schon Mitte Januar vom Bundesverfassungsgericht anberaumten mündlichen Anhörung zum BND-Gesetz wird sich ein Teil des Vortrags auch mit der deutschen geheimdienstlichen Massenüberwachung beschäftigen. Der CCC hat eine Stellungnahme zur Ausland-Ausland-Fernmeldeaufklärung abgegeben, deren Inhalt kurz zusammengefasst wird.
+
+ Offenlegung: Ich bin eine der Beschwerdeführerinnen in dem britischen Fall.</itunes:summary>
+      <itunes:author>Constanze Kurz</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11141-deu-eng-spa-Geheimdienstliche_Massenueberwachung_vs_Menschenrechte_hd.mp4"
+                 length="953155584"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Let’s play Infokrieg</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 5.0/5 from 1 rating)
+
+⭐⭐⭐⭐⭐ (5/5) - max: Unglaublich beeindruckender und bedrückender talk talk mit vielen Insights. Persönliches must see für mich.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Manche Spiele will man gewinnen, andere will man einfach nur spielen. Bei vielen Spielen will man beides. Spielen macht Spaß. Gewinnen auch. Warum also nicht immer und überall spielen? Warum nicht Politik spielen wie einen Multiplayer-Shooter? Mit motivierten Kameraden und ahnungslosen Gegnern? Mit zerstörbarer Umgebung, erfolgreichen Missionen und zu erobernden Flaggen? Teile der radikalen Rechten tun das mit Erfolg. Der Vortrag schaut sich einige Beispiele aus Deutschland und den USA näher an.
+
+ Wir sprechen von “Spielifizierung”, wenn typische Elemente von Spielmechaniken genutzt werden, um in spielfremden Kontexten motivationssteigernd zu wirken. Während diese Strategie vor allem wirtschaftlich genutzt wird, um Kundenbindung und Mitarbeiterproduktivität zu erhöhen, ist sie auch zu einem zunehmend wichtigen Teil politischer Kultur geworden. Insbesondere Online-Communities verwenden Spielelemente, Memes/Lore und spielnahe Unterhaltungsformate, um ihre sozialen Beziehungen und jene zur Realität zu gestalten und zu strukturieren.
+
+ Innerhalb solcher Beziehungen war es nur eine Frage der Zeit, bis archetypische NPCs wie der gewöhnliche Troll sich zu Lone-Wolf-Spielercharakteren entwickeln, Rudel bilden und sich in einem stetig wachsenden und ausdifferenzierenden System von Gilden und meritokratischen Jagdverbänden organisieren würden. Die Politisierung solcher neuer Stammesgesellschaften ist eine logische Konsequenz dieser Evolution.
+
+ Der Vortrag beleuchtet einerseits den US-kulturellen Hintergrund des Feldes: von der Spielmetapher als legitimierenden Rahmen in der “Manosphere”, “#Gamergate” und Operationen der chan-übergreifenden /pol/-Community. Andererseits sucht er Strategien, die darauf abzielen, Teile des politischen Diskurses zu “gamen”, zu kapern und zu verstärken, auch in deutscher Trollkultur auf, vom genreprägenden “Drachengame” bis zu explizit politischen Initiativen wie “Reconquista Germanica”... und dem live gestreamten Terror einer neuen faschistischen Subkultur.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10639.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10639.html</guid>
+      <pubDate>Fri, 27 Dec 2019 23:30:00 +0100</pubDate>
+      <itunes:title>Let’s play Infokrieg</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 5.0/5 from 1 rating)
+
+⭐⭐⭐⭐⭐ (5/5) - max: Unglaublich beeindruckender und bedrückender talk talk mit vielen Insights. Persönliches must see für mich.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Manche Spiele will man gewinnen, andere will man einfach nur spielen. Bei vielen Spielen will man beides. Spielen macht Spaß. Gewinnen auch. Warum also nicht immer und überall spielen? Warum nicht Politik spielen wie einen Multiplayer-Shooter? Mit motivierten Kameraden und ahnungslosen Gegnern? Mit zerstörbarer Umgebung, erfolgreichen Missionen und zu erobernden Flaggen? Teile der radikalen Rechten tun das mit Erfolg. Der Vortrag schaut sich einige Beispiele aus Deutschland und den USA näher an.
+
+ Wir sprechen von “Spielifizierung”, wenn typische Elemente von Spielmechaniken genutzt werden, um in spielfremden Kontexten motivationssteigernd zu wirken. Während diese Strategie vor allem wirtschaftlich genutzt wird, um Kundenbindung und Mitarbeiterproduktivität zu erhöhen, ist sie auch zu einem zunehmend wichtigen Teil politischer Kultur geworden. Insbesondere Online-Communities verwenden Spielelemente, Memes/Lore und spielnahe Unterhaltungsformate, um ihre sozialen Beziehungen und jene zur Realität zu gestalten und zu strukturieren.
+
+ Innerhalb solcher Beziehungen war es nur eine Frage der Zeit, bis archetypische NPCs wie der gewöhnliche Troll sich zu Lone-Wolf-Spielercharakteren entwickeln, Rudel bilden und sich in einem stetig wachsenden und ausdifferenzierenden System von Gilden und meritokratischen Jagdverbänden organisieren würden. Die Politisierung solcher neuer Stammesgesellschaften ist eine logische Konsequenz dieser Evolution.
+
+ Der Vortrag beleuchtet einerseits den US-kulturellen Hintergrund des Feldes: von der Spielmetapher als legitimierenden Rahmen in der “Manosphere”, “#Gamergate” und Operationen der chan-übergreifenden /pol/-Community. Andererseits sucht er Strategien, die darauf abzielen, Teile des politischen Diskurses zu “gamen”, zu kapern und zu verstärken, auch in deutscher Trollkultur auf, vom genreprägenden “Drachengame” bis zu explizit politischen Initiativen wie “Reconquista Germanica”... und dem live gestreamten Terror einer neuen faschistischen Subkultur.</itunes:summary>
+      <itunes:author>Arne Vogelgesang</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10639-deu-eng-Lets_play_Infokrieg_hd.mp4"
+                 length="1149239296"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Das nützlich-unbedenklich Spektrum</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Gute Inputs zum Thema Softwarequalität
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Eine Software ist unbedenklich, wenn man sie auf ungefilterte Daten aus einem Webformular aufrufen kann, ohne prüfen zu müssen, ob dann etwas schlimmes passieren kann. In der Praxis lässt sich ein Kontinuum zwischen Nützlichkeit und Unbedenklichkeit als Kontrahenten beobachten. Software fängt häufig eher unbedenklich an, und wird dann immer bedenklicher, je mächtiger sie wird. Dieser Vortrag will a) diese Beobachtung beschreiben und b) fragen, wie man die Unbedenklichkeit beibehalten kann. Gibt es da Abstufungen? Metriken? Kriterien, die bei einer konkreten Entscheidung helfen können?
+
+ Die Kernidee dieses Vortrages ist es, von reaktiver Security (&#34;wir packen einfach alles in eine VM / einen Container / eine Sandbox&#34;) wegzukommen hin zu einer vertrauenswürdigen Software-Infrastruktur, der man auch ohne Einsperren trauen kann.&lt;p&gt;
+ Die offensichtliche Frage ist, wie man sowas konstruieren würde. Noch wichtiger ist aber die Frage, woran wir vertrauenswürdige Software überhaupt erkennen können.&lt;p&gt;Diese Metrik wäre dann auch hilfreich, um zu erkennen, ob unsere Einsperr-Methode überhaupt vertrauenswürdig war.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10608.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10608.html</guid>
+      <pubDate>Sat, 28 Dec 2019 14:10:00 +0100</pubDate>
+      <itunes:title>Das nützlich-unbedenklich Spektrum</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Gute Inputs zum Thema Softwarequalität
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Eine Software ist unbedenklich, wenn man sie auf ungefilterte Daten aus einem Webformular aufrufen kann, ohne prüfen zu müssen, ob dann etwas schlimmes passieren kann. In der Praxis lässt sich ein Kontinuum zwischen Nützlichkeit und Unbedenklichkeit als Kontrahenten beobachten. Software fängt häufig eher unbedenklich an, und wird dann immer bedenklicher, je mächtiger sie wird. Dieser Vortrag will a) diese Beobachtung beschreiben und b) fragen, wie man die Unbedenklichkeit beibehalten kann. Gibt es da Abstufungen? Metriken? Kriterien, die bei einer konkreten Entscheidung helfen können?
+
+ Die Kernidee dieses Vortrages ist es, von reaktiver Security (&#34;wir packen einfach alles in eine VM / einen Container / eine Sandbox&#34;) wegzukommen hin zu einer vertrauenswürdigen Software-Infrastruktur, der man auch ohne Einsperren trauen kann.&lt;p&gt;
+ Die offensichtliche Frage ist, wie man sowas konstruieren würde. Noch wichtiger ist aber die Frage, woran wir vertrauenswürdige Software überhaupt erkennen können.&lt;p&gt;Diese Metrik wäre dann auch hilfreich, um zu erkennen, ob unsere Einsperr-Methode überhaupt vertrauenswürdig war.</itunes:summary>
+      <itunes:author>Fefe</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10608-deu-eng-fra-Das_nuetzlich-unbedenklich_Spektrum_hd.mp4"
+                 length="436207616"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>BahnMining - Pünktlichkeit ist eine Zier</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 5.0/5 from 1 rating)
+
+⭐⭐⭐⭐⭐ (5/5) - max: Wie immer von Dacid Kriesel: Einer der besten Talks des Congress. Sehr informativ, wie man da ran geht und schöne Daten.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Seit Anfang 2019 hat David &lt;i&gt;jeden&lt;/i&gt; einzelnen Halt &lt;i&gt;jeder&lt;/i&gt; einzelnen Zugfahrt auf &lt;i&gt;jedem&lt;/i&gt; einzelnen Fernbahnhof in ganz Deutschland systematisch gespeichert. Inklusive Verspätungen und allem drum und dran. Und die werden wir in einem bunten Vortrag erforschen und endlich mal wieder ein bisschen Spaß mit Daten haben.
+
+ &lt;i&gt;Rechtlicher Hinweis: Es liegt eine schriftliche Genehmigung der Bahn vor, von ihr abgerufene Rohdaten aggregieren und für Vorträge nutzen zu dürfen. Inhaltliche Absprachen oder gar Auflagen existieren nicht.&lt;/i&gt;
+
+ Die Bahn gibt ihre Verspätungen in &#34;Prozent pünktlicher Züge pro Monat&#34; an. Das ist so radikal zusammengefasst, dass man daraus natürlich nichts interessantes lesen kann. Jetzt stellt euch mal vor, man könnte da mal ein bisschen genauer reingucken.
+
+ Stellt sich raus: Das geht! Davids Datensatz umfasst knapp 25 Millionen Halte - mehr als 50.000 pro Tag. Wir haben die Rohdaten und sind in unserer Betrachtung völlig frei.
+
+ Der Vortrag hat wieder mehrere rote Fäden.
+
+ &lt;b&gt; 1) Wir vermessen ein fast komplettes Fernverkehrsjahr der deutschen Bahn.  &lt;/b&gt; Hier etwas Erwartungsmanagement: Sinn ist keinesfalls Bahn-Bashing oder Sensationsheischerei - wer einen Hassvortrag gegen die Bahn erwartet, ist in dieser Veranstaltung falsch. Wir werden die Daten aber nutzen, um die Bahn einmal ein bisschen kennenzulernen. Die Bahn ist eine riesige Maschine mit Millionen beweglicher Teile. Wie viele Zugfahrten gibt es überhaupt? Was sind die größten Bahnhöfe? Wir werden natürlich auch die unerfreulichen Themen ansprechen, für die sich im Moment viele interessieren: Ist das Problem mit den Zugverspätungen wirklich so schlimm, wie alle sagen? Gibt es Orte und Zeiten, an denen es besonders hapert? Und wo fallen Züge einfach aus?
+
+ &lt;b&gt; 2) Es gibt wieder mehrere Blicke über den Tellerrand&lt;/b&gt;, wie bei Davids vorherigen Vorträgen auch. Ihr werdet wieder ganz automatisch und nebenher einen &lt;i&gt;allgemeinverständlichen&lt;/i&gt; Einblick in die heutige Datenauswerterei bekommen. (Eine verbreitete Verschwörungsheorie sagt, euch zur Auswertung öffentlicher Daten zu inspirieren, wäre sogar der Hauptzweck von Davids Vorträgen. :-) )Die Welt braucht Leute mit Ratio, die Analyse wichtiger als Kreischerei finden. Und darum beschreibt davod auch, wie man so ein durchaus aufwändiges Hobbyprojekt technisch angeht, Anfängerfehler vermeidet, und verantwortungsvoll handelt.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10652.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10652.html</guid>
+      <pubDate>Sat, 28 Dec 2019 22:10:00 +0100</pubDate>
+      <itunes:title>BahnMining - Pünktlichkeit ist eine Zier</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 5.0/5 from 1 rating)
+
+⭐⭐⭐⭐⭐ (5/5) - max: Wie immer von Dacid Kriesel: Einer der besten Talks des Congress. Sehr informativ, wie man da ran geht und schöne Daten.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Seit Anfang 2019 hat David &lt;i&gt;jeden&lt;/i&gt; einzelnen Halt &lt;i&gt;jeder&lt;/i&gt; einzelnen Zugfahrt auf &lt;i&gt;jedem&lt;/i&gt; einzelnen Fernbahnhof in ganz Deutschland systematisch gespeichert. Inklusive Verspätungen und allem drum und dran. Und die werden wir in einem bunten Vortrag erforschen und endlich mal wieder ein bisschen Spaß mit Daten haben.
+
+ &lt;i&gt;Rechtlicher Hinweis: Es liegt eine schriftliche Genehmigung der Bahn vor, von ihr abgerufene Rohdaten aggregieren und für Vorträge nutzen zu dürfen. Inhaltliche Absprachen oder gar Auflagen existieren nicht.&lt;/i&gt;
+
+ Die Bahn gibt ihre Verspätungen in &#34;Prozent pünktlicher Züge pro Monat&#34; an. Das ist so radikal zusammengefasst, dass man daraus natürlich nichts interessantes lesen kann. Jetzt stellt euch mal vor, man könnte da mal ein bisschen genauer reingucken.
+
+ Stellt sich raus: Das geht! Davids Datensatz umfasst knapp 25 Millionen Halte - mehr als 50.000 pro Tag. Wir haben die Rohdaten und sind in unserer Betrachtung völlig frei.
+
+ Der Vortrag hat wieder mehrere rote Fäden.
+
+ &lt;b&gt; 1) Wir vermessen ein fast komplettes Fernverkehrsjahr der deutschen Bahn.  &lt;/b&gt; Hier etwas Erwartungsmanagement: Sinn ist keinesfalls Bahn-Bashing oder Sensationsheischerei - wer einen Hassvortrag gegen die Bahn erwartet, ist in dieser Veranstaltung falsch. Wir werden die Daten aber nutzen, um die Bahn einmal ein bisschen kennenzulernen. Die Bahn ist eine riesige Maschine mit Millionen beweglicher Teile. Wie viele Zugfahrten gibt es überhaupt? Was sind die größten Bahnhöfe? Wir werden natürlich auch die unerfreulichen Themen ansprechen, für die sich im Moment viele interessieren: Ist das Problem mit den Zugverspätungen wirklich so schlimm, wie alle sagen? Gibt es Orte und Zeiten, an denen es besonders hapert? Und wo fallen Züge einfach aus?
+
+ &lt;b&gt; 2) Es gibt wieder mehrere Blicke über den Tellerrand&lt;/b&gt;, wie bei Davids vorherigen Vorträgen auch. Ihr werdet wieder ganz automatisch und nebenher einen &lt;i&gt;allgemeinverständlichen&lt;/i&gt; Einblick in die heutige Datenauswerterei bekommen. (Eine verbreitete Verschwörungsheorie sagt, euch zur Auswertung öffentlicher Daten zu inspirieren, wäre sogar der Hauptzweck von Davids Vorträgen. :-) )Die Welt braucht Leute mit Ratio, die Analyse wichtiger als Kreischerei finden. Und darum beschreibt davod auch, wie man so ein durchaus aufwändiges Hobbyprojekt technisch angeht, Anfängerfehler vermeidet, und verantwortungsvoll handelt.</itunes:summary>
+      <itunes:author>David Kriesel</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10652-deu-eng-BahnMining_-_Puenktlichkeit_ist_eine_Zier_hd.mp4"
+                 length="476053504"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Human Rights at a Global Crossroads</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Snowden zieht natürlich. Schöner Aufruf von ihm aber leider sonst sehr Chaos und kein guter roter Faden
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+An update on the circumstances of Mr Snowden and the Snowden Refugees will be provided at the 36C3 event and venue in December 2019. There have been many significant events and incidents during 2019.
+
+ Of these significant events is the major success of Vanessa Rodel and her daughter Keana being granted refugee status by Canada and resettled in Montreal, Canada in late March 2019. Vanessa’s journey to Canada will be discussed.
+
+ More significantly the issue of the Canadian government having left Supun and his family and Ajith behind in Canada has split up a family namely Keana in Montreal from her father Supun and siblings Sethumdi and Dinath in Hong Kong.
+
+ In further context of the emerging police state that Hong Kong has become and its arbitrary and disproportionate use of violence against protesters and innocent civilian bystanders and breaches of constitutional rights and under international law, this has re-traumatized The Snowden Refugees in Hong Kong and has put them all at heightened risk.
+
+ The lecture will cover the current global erosion and dismantling of international refugee and constitutional law by increasingly authoritarian democracies and loss of international protection for whistleblowers and those who protect whistleblowers. It will be discussed how this has impacted upon the cases of Mr Snowden and The Snowden Refugees.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10574.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10574.html</guid>
+      <pubDate>Sun, 29 Dec 2019 17:30:00 +0100</pubDate>
+      <itunes:title>Human Rights at a Global Crossroads</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Snowden zieht natürlich. Schöner Aufruf von ihm aber leider sonst sehr Chaos und kein guter roter Faden
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+An update on the circumstances of Mr Snowden and the Snowden Refugees will be provided at the 36C3 event and venue in December 2019. There have been many significant events and incidents during 2019.
+
+ Of these significant events is the major success of Vanessa Rodel and her daughter Keana being granted refugee status by Canada and resettled in Montreal, Canada in late March 2019. Vanessa’s journey to Canada will be discussed.
+
+ More significantly the issue of the Canadian government having left Supun and his family and Ajith behind in Canada has split up a family namely Keana in Montreal from her father Supun and siblings Sethumdi and Dinath in Hong Kong.
+
+ In further context of the emerging police state that Hong Kong has become and its arbitrary and disproportionate use of violence against protesters and innocent civilian bystanders and breaches of constitutional rights and under international law, this has re-traumatized The Snowden Refugees in Hong Kong and has put them all at heightened risk.
+
+ The lecture will cover the current global erosion and dismantling of international refugee and constitutional law by increasingly authoritarian democracies and loss of international protection for whistleblowers and those who protect whistleblowers. It will be discussed how this has impacted upon the cases of Mr Snowden and The Snowden Refugees.</itunes:summary>
+      <itunes:author>Robert Tibbo, Edward Snowden</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10574-eng-deu-fra-Human_Rights_at_a_Global_Crossroads_hd.mp4"
+                 length="1253048320"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Inside the Fake Like Factories</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - Logbuch Netzpolitik: Empfehlung aus der post CCC Podcastfolge
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+This talk investigates the business of fake likes and fake accounts: In a world, where the number of followers, likes, shares and views are worth money, the temptation and the will to cheat is high. With some luck, programming knowledge and persistence we obtained thousands of fanpages, You Tube and Instagram account, where likes have been bought from a Likes seller. We were also able to meet people working behind the scenes and we will prove, that Facebook is a big bubble, with a very high percentage of dead or at least zombie accounts. The talk presents the methodology, findings and outcomes from a team of scientists and investigative journalists, who delved into the parallel universe of Fake Like Factories.
+
+ When you hear about fake likes and fake accounts, you instantly think of mobile phones strung together in multiple lines in front of an Asian woman or man. What if we tell you, that this is not necessarily the whole truth?  That you better imagine a ordinary guy sitting at home at his computer? In a longterm investigation we met and talked to various of these so called “clickworkers” - liking, watching, clicking Facebook, You Tube and Instagram for a small amount of money the whole day in their living room.
+ Fortuitously we could access thousand campaigns, Facebook Fanpages, You Tube videos or Instagram accounts. Thousands of websites and accounts, for which somebody bought likes in the past years.
+ But we did not stop the investigation there: We dived deeper into the Facebook Fake Accounts and Fake Likes universe, bought likes at various other Fake Likes sellers. To get the big picture, we also developed a statistical method to calculate the alleged total number of Facebok User IDs, with surprising results.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10936.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10936.html</guid>
+      <pubDate>Fri, 27 Dec 2019 23:30:00 +0100</pubDate>
+      <itunes:title>Inside the Fake Like Factories</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - Logbuch Netzpolitik: Empfehlung aus der post CCC Podcastfolge
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+This talk investigates the business of fake likes and fake accounts: In a world, where the number of followers, likes, shares and views are worth money, the temptation and the will to cheat is high. With some luck, programming knowledge and persistence we obtained thousands of fanpages, You Tube and Instagram account, where likes have been bought from a Likes seller. We were also able to meet people working behind the scenes and we will prove, that Facebook is a big bubble, with a very high percentage of dead or at least zombie accounts. The talk presents the methodology, findings and outcomes from a team of scientists and investigative journalists, who delved into the parallel universe of Fake Like Factories.
+
+ When you hear about fake likes and fake accounts, you instantly think of mobile phones strung together in multiple lines in front of an Asian woman or man. What if we tell you, that this is not necessarily the whole truth?  That you better imagine a ordinary guy sitting at home at his computer? In a longterm investigation we met and talked to various of these so called “clickworkers” - liking, watching, clicking Facebook, You Tube and Instagram for a small amount of money the whole day in their living room.
+ Fortuitously we could access thousand campaigns, Facebook Fanpages, You Tube videos or Instagram accounts. Thousands of websites and accounts, for which somebody bought likes in the past years.
+ But we did not stop the investigation there: We dived deeper into the Facebook Fake Accounts and Fake Likes universe, bought likes at various other Fake Likes sellers. To get the big picture, we also developed a statistical method to calculate the alleged total number of Facebok User IDs, with surprising results.</itunes:summary>
+      <itunes:author>@sveckert, Dennis Tatang, pkreissel</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10936-eng-deu-Inside_the_Fake_Like_Factories_hd.mp4"
+                 length="701497344"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Boeing 737MAX: Automated Crashes</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Für Laien ganz interessant - die insider meinten es hätte einige Fehler gehabt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Everybody knows about the Boeing 737 MAX crashes and the type&#39;s continued grounding. I will try to give some technical background information on the causes of the crash, technical, sociological and organisational, covering pilot proficiency, botched maintenance, system design and risk assessment, as well as a deeply flawed certification processes.
+
+ On the surface of it, the accidents to two aircraft of the same type (Boeing 737 MAX), which eventually led to the suspension of airworthiness of the type, was caused by faulty data from one of the angle-of-attack sensors. This in turn led to automatic nose-down trim movements, which could not be countered effectively by the flight crew. Eventually, in both cases, the aircraft became uncontrollable and entered a steep accelerated dive into terrain, killing all people on board on impact.
+
+ In the course of the investigation, a new type of flight assistance system known as the Maneuvering Characteristics Augmentation System (MCAS) came to light. It was intended to bring the flight characteristics of the latest (and fourth) generation of Boeing&#39;s best-selling 737 airliner, the &#34;MAX&#34;, in line with certification criteria. The issue that the system was designed to address was relatively mild. A little software routine was added to an existing computer to add nose-down trim in situations of higher angles of attack, to counteract the nose-up aerodynamic moment of the new, much larger, and forward-mounted engine nacelles.
+
+ Apparently the risk assessment for this system was not commensurate with its possible effects on aircraft behaviour and subsequently a very odd (to a safety engineer&#39;s eyes) system design was chosen, using a single non-redundant sensor input to initiate movement of the horizontal stabiliser, the largest and most powerful flight control surface. At extreme deflections, the effects of this flight control surface cannot be overcome by the primary flight controls (elevators) or the manual actuation of the trim system. In consequence, the aircraft enters an accelerated nose-down dive, which further increases the control forces required to overcome its effects.
+
+ Finally I will take a look at certification processes where a large part of the work and evaluation is not performed by an independent authority (FAA, EASA, ...) but by the manufacturer, and in many cases is then simply signed off by the certification authority. In a deviation from common practice in the past, EASA has announced that it may not follow the FAA (re-) certification, but will require additional analyses and evidence. China, which was the first country to ground the &#34;MAX&#34;, will also not simply adopt the FAA paperwork.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10961.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10961.html</guid>
+      <pubDate>Sun, 29 Dec 2019 18:50:00 +0100</pubDate>
+      <itunes:title>Boeing 737MAX: Automated Crashes</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Für Laien ganz interessant - die insider meinten es hätte einige Fehler gehabt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Everybody knows about the Boeing 737 MAX crashes and the type&#39;s continued grounding. I will try to give some technical background information on the causes of the crash, technical, sociological and organisational, covering pilot proficiency, botched maintenance, system design and risk assessment, as well as a deeply flawed certification processes.
+
+ On the surface of it, the accidents to two aircraft of the same type (Boeing 737 MAX), which eventually led to the suspension of airworthiness of the type, was caused by faulty data from one of the angle-of-attack sensors. This in turn led to automatic nose-down trim movements, which could not be countered effectively by the flight crew. Eventually, in both cases, the aircraft became uncontrollable and entered a steep accelerated dive into terrain, killing all people on board on impact.
+
+ In the course of the investigation, a new type of flight assistance system known as the Maneuvering Characteristics Augmentation System (MCAS) came to light. It was intended to bring the flight characteristics of the latest (and fourth) generation of Boeing&#39;s best-selling 737 airliner, the &#34;MAX&#34;, in line with certification criteria. The issue that the system was designed to address was relatively mild. A little software routine was added to an existing computer to add nose-down trim in situations of higher angles of attack, to counteract the nose-up aerodynamic moment of the new, much larger, and forward-mounted engine nacelles.
+
+ Apparently the risk assessment for this system was not commensurate with its possible effects on aircraft behaviour and subsequently a very odd (to a safety engineer&#39;s eyes) system design was chosen, using a single non-redundant sensor input to initiate movement of the horizontal stabiliser, the largest and most powerful flight control surface. At extreme deflections, the effects of this flight control surface cannot be overcome by the primary flight controls (elevators) or the manual actuation of the trim system. In consequence, the aircraft enters an accelerated nose-down dive, which further increases the control forces required to overcome its effects.
+
+ Finally I will take a look at certification processes where a large part of the work and evaluation is not performed by an independent authority (FAA, EASA, ...) but by the manufacturer, and in many cases is then simply signed off by the certification authority. In a deviation from common practice in the past, EASA has announced that it may not follow the FAA (re-) certification, but will require additional analyses and evidence. China, which was the first country to ground the &#34;MAX&#34;, will also not simply adopt the FAA paperwork.</itunes:summary>
+      <itunes:author>Bernd Sieker</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10961-eng-deu-fra-Boeing_737MAX_Automated_Crashes_hd.mp4"
+                 length="514850816"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Die Affäre Hannibal</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: noch nicht gesehen - wurde als spannende Recherche empfohlen
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sie sollen den Staat schützen, sind aber selbst eine Gefahr: Soldaten und Polizisten, die sich in Chat-Gruppen organisieren und auf den „Tag X“ vorbereiten. Mit aufwändigen Recherchen hat ein Team der taz ein bundesweites konspiratives Netzwerk aus Preppern und Staatsbediensteten aufgedeckt. Kopf war „Hannibal“, Elitesoldat beim Kommando Spezialkräfte – und Auskunftsperson für den Militärischen Abschirmdienst. Hier geben die ReporterInnen Einblick in die Recherche und zeigen, was aus ihren Berichten folgte. Oder auch nicht.
+
+ Ein Elitesoldat des Kommando Spezialkräfte, der bundesweit Chatgruppen und einen Verein namens „Uniter e.V.“ gründet, in dem paramilitärische Trainings abgehalten werden.
+
+ Ein SEK-Polizist und Prepper, der knapp 60.000 Schuss Munition hortet, die aus Polizeibeständen entwendet wurden.
+
+ Männer, die Feindeslisten anlegen und offenbar planen, an einem „Tag X“ politische Gegner umzubringen.
+
+ Drei Schlaglichter auf die mehr als zwei Jahre andauernde „Hannibal“-Recherche der taz. Sie führte in viele Felder: Hinein in Verfassungsschutzbehörden und Bundeswehr; hinaus aufs Land zwischen Mecklenburg-Vorpommern und Baden-Württemberg; auf Facebook-Profile philippinischer Politiker und in Telegram-Chats deutscher Verschwörer.
+
+ Auf die Recherchen folgte Bestürzung, aber – zunächst – auch Belächeln. Sind diese Leute wirklich gefährlich oder doch bloß harmlose Spinner?
+
+ In diesem Talk geben zwei der ReporterInnen des taz-Teams einen Einblick in ihre Arbeit, berichten von Begegnungen mit Preppern mit Umsturzfantasien und Verfassungsschutzmitarbeitern, die im schwarzen Porsche Cayenne vorfahren. Sie berichten von Erfolgen bei der Online-Recherche und warum Hinfahren und an Türen klingeln am Ende doch unerlässlich ist.
+
+ Die Journalisten schildern, was nach ihren Veröffentlichungen passiert ist: Im politischen Raum, in der Justiz – und welche Fragen noch offen sind. Warum etwa wird nicht wegen Bildung einer terroristischen Vereinigung ermittelt?
+
+ Vortrag von:
+ Sebastian Erb, Redakteur der taz am Wochenende
+ Daniel Schulz, Leiter des Ressorts Reportage &amp; Recherche der taz</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11114.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11114.html</guid>
+      <pubDate>Sun, 29 Dec 2019 12:50:00 +0100</pubDate>
+      <itunes:title>Die Affäre Hannibal</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: noch nicht gesehen - wurde als spannende Recherche empfohlen
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sie sollen den Staat schützen, sind aber selbst eine Gefahr: Soldaten und Polizisten, die sich in Chat-Gruppen organisieren und auf den „Tag X“ vorbereiten. Mit aufwändigen Recherchen hat ein Team der taz ein bundesweites konspiratives Netzwerk aus Preppern und Staatsbediensteten aufgedeckt. Kopf war „Hannibal“, Elitesoldat beim Kommando Spezialkräfte – und Auskunftsperson für den Militärischen Abschirmdienst. Hier geben die ReporterInnen Einblick in die Recherche und zeigen, was aus ihren Berichten folgte. Oder auch nicht.
+
+ Ein Elitesoldat des Kommando Spezialkräfte, der bundesweit Chatgruppen und einen Verein namens „Uniter e.V.“ gründet, in dem paramilitärische Trainings abgehalten werden.
+
+ Ein SEK-Polizist und Prepper, der knapp 60.000 Schuss Munition hortet, die aus Polizeibeständen entwendet wurden.
+
+ Männer, die Feindeslisten anlegen und offenbar planen, an einem „Tag X“ politische Gegner umzubringen.
+
+ Drei Schlaglichter auf die mehr als zwei Jahre andauernde „Hannibal“-Recherche der taz. Sie führte in viele Felder: Hinein in Verfassungsschutzbehörden und Bundeswehr; hinaus aufs Land zwischen Mecklenburg-Vorpommern und Baden-Württemberg; auf Facebook-Profile philippinischer Politiker und in Telegram-Chats deutscher Verschwörer.
+
+ Auf die Recherchen folgte Bestürzung, aber – zunächst – auch Belächeln. Sind diese Leute wirklich gefährlich oder doch bloß harmlose Spinner?
+
+ In diesem Talk geben zwei der ReporterInnen des taz-Teams einen Einblick in ihre Arbeit, berichten von Begegnungen mit Preppern mit Umsturzfantasien und Verfassungsschutzmitarbeitern, die im schwarzen Porsche Cayenne vorfahren. Sie berichten von Erfolgen bei der Online-Recherche und warum Hinfahren und an Türen klingeln am Ende doch unerlässlich ist.
+
+ Die Journalisten schildern, was nach ihren Veröffentlichungen passiert ist: Im politischen Raum, in der Justiz – und welche Fragen noch offen sind. Warum etwa wird nicht wegen Bildung einer terroristischen Vereinigung ermittelt?
+
+ Vortrag von:
+ Sebastian Erb, Redakteur der taz am Wochenende
+ Daniel Schulz, Leiter des Ressorts Reportage &amp; Recherche der taz</itunes:summary>
+      <itunes:author>Sebastian Erb, Daniel Schulz</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11114-deu-eng-fra-Die_Affaere_Hannibal_hd.mp4"
+                 length="659554304"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Aus dem Schimpfwörterbuch der neuen Rechten</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Hartes Thema aber spannender Einblick in die sprachliche Welt dieser Subkultur
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Der Vortrag gibt auf der Basis umfangreicher korpuslinguistischer Analysen einen Überblick über den Fundus herabwürdigender und ausgrenzender Ausdrücke, die in rechten und rechtsextremen Onlinediskursen geprägt wurden. In den tiefensemantischen Strukturen des invektiven Wortschatzes der neuen Rechten wird ein stark schematisiertes Weltbild sichtbar, das von der grundlegenden Verachtung nicht nur des Fremden, sondern auch des eigenen Landes, seiner Institutionen, seiner Werte und seiner Bevölkerung geprägt ist.
+
+ Das gesteigerte Maß an Ausgrenzung und gesellschaftlicher Polarisierung, das seit dem Wiedererstarken rechter Parteien und Denkweisen in Deutschland zu verzeichnen ist, ist nicht die einzige Errungenschaft, die wir den neuen Rechten zu verdanken haben. Sie haben auch den Wortschatz um ein schier unerschöpfliches Repertoire an Schimpfwörtern bereichert. Deren Spektrum reicht von unüblichen Verknüpfungen von Wortbestandteilen wie bei &#34;Journhalunke&#34; oder &#34;GEZStapo&#34;, über die produktive Verfremdung von Eigennamen wie im Fall von &#34;K(r)amp(f)-K(n)arrenbauer&#34; oder &#34;Merkill&#34;, Hyperbolisierungen wie &#34;Superübergutbestmenschen&#34; oder Satzkomposita wie &#34;IchseheauswieeinkonservativerCSUKatholikundwerdedeshalbvondenganzenDeppengewähltweildasjanichtsoeinGrünerist&#34; (Winfried Kretschmann) bis hin zu Gleichsetzungen zur Denunziation von Kritik wie in &#34;Waffen=Rassismus=rächtz=Nazi=Gefahr=Erderwärmung&#34;.
+
+ Im Vortrag sollen zunächst die wichtigsten sprachlichen Strategien zur Bildung herabwürdigender Ausdrücke vorgestellt werden, ehe in einem zweiten Schritt der invektive Wortschatz zu einzelnen Politik- und Gesellschaftsbereichen in Auswahl präsentiert wird. Basis der Untersuchung bildet eine umfangreiche korpuslinguistische Analyse einschlägiger rechter und rechtsextremer &#34;Nachrichten&#34;-Seiten, Blogs, Kommentarspalten und Foren aus den Jahren von 2012 bis 2019, die mehr als 25.000 Schimpfwörter zutage färderte.
+
+ Der Vortrag will nicht nur das Offensichtliche zeigen: Dass für die neuen Rechten herabwürdigendes und ausgrenzenden Sprechen zentrales Medium der politischen Auseinandersetzung ist. Vielmehr wird in den vielfältigen Formen herabwürdigenden Sprechens ein Weltbild sichtbar, das von wenigen Grundunterscheidungen geprägt ist. Auch wird sich zeigen, dass die neuen Rechten sich als eine Schmähgemeinschaft konstituieren und das Land, in dem sie leben, seine Bürger_innen und seine Institutionen nachhaltig verachten.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10935.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10935.html</guid>
+      <pubDate>Sun, 29 Dec 2019 23:50:00 +0100</pubDate>
+      <itunes:title>Aus dem Schimpfwörterbuch der neuen Rechten</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Hartes Thema aber spannender Einblick in die sprachliche Welt dieser Subkultur
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Der Vortrag gibt auf der Basis umfangreicher korpuslinguistischer Analysen einen Überblick über den Fundus herabwürdigender und ausgrenzender Ausdrücke, die in rechten und rechtsextremen Onlinediskursen geprägt wurden. In den tiefensemantischen Strukturen des invektiven Wortschatzes der neuen Rechten wird ein stark schematisiertes Weltbild sichtbar, das von der grundlegenden Verachtung nicht nur des Fremden, sondern auch des eigenen Landes, seiner Institutionen, seiner Werte und seiner Bevölkerung geprägt ist.
+
+ Das gesteigerte Maß an Ausgrenzung und gesellschaftlicher Polarisierung, das seit dem Wiedererstarken rechter Parteien und Denkweisen in Deutschland zu verzeichnen ist, ist nicht die einzige Errungenschaft, die wir den neuen Rechten zu verdanken haben. Sie haben auch den Wortschatz um ein schier unerschöpfliches Repertoire an Schimpfwörtern bereichert. Deren Spektrum reicht von unüblichen Verknüpfungen von Wortbestandteilen wie bei &#34;Journhalunke&#34; oder &#34;GEZStapo&#34;, über die produktive Verfremdung von Eigennamen wie im Fall von &#34;K(r)amp(f)-K(n)arrenbauer&#34; oder &#34;Merkill&#34;, Hyperbolisierungen wie &#34;Superübergutbestmenschen&#34; oder Satzkomposita wie &#34;IchseheauswieeinkonservativerCSUKatholikundwerdedeshalbvondenganzenDeppengewähltweildasjanichtsoeinGrünerist&#34; (Winfried Kretschmann) bis hin zu Gleichsetzungen zur Denunziation von Kritik wie in &#34;Waffen=Rassismus=rächtz=Nazi=Gefahr=Erderwärmung&#34;.
+
+ Im Vortrag sollen zunächst die wichtigsten sprachlichen Strategien zur Bildung herabwürdigender Ausdrücke vorgestellt werden, ehe in einem zweiten Schritt der invektive Wortschatz zu einzelnen Politik- und Gesellschaftsbereichen in Auswahl präsentiert wird. Basis der Untersuchung bildet eine umfangreiche korpuslinguistische Analyse einschlägiger rechter und rechtsextremer &#34;Nachrichten&#34;-Seiten, Blogs, Kommentarspalten und Foren aus den Jahren von 2012 bis 2019, die mehr als 25.000 Schimpfwörter zutage färderte.
+
+ Der Vortrag will nicht nur das Offensichtliche zeigen: Dass für die neuen Rechten herabwürdigendes und ausgrenzenden Sprechen zentrales Medium der politischen Auseinandersetzung ist. Vielmehr wird in den vielfältigen Formen herabwürdigenden Sprechens ein Weltbild sichtbar, das von wenigen Grundunterscheidungen geprägt ist. Auch wird sich zeigen, dass die neuen Rechten sich als eine Schmähgemeinschaft konstituieren und das Land, in dem sie leben, seine Bürger_innen und seine Institutionen nachhaltig verachten.</itunes:summary>
+      <itunes:author>josch</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10935-deu-eng-Aus_dem_Schimpfwoerterbuch_der_neuen_Rechten_hd.mp4"
+                 length="806354944"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>15 Jahre deutsche Telematikinfrastruktur (TI)</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Interessant als Deutscher für einen Überblich über ein solches Grossprojekt aber kein kracher
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Seit spätestens 2005 wird in Deutschland an der Einführung der Telematik Infrastruktur, kurz die TI, gearbeitet. Diese soll nicht weniger als die komplette Digitalisierung der deutschen Medizinbranche bedeuten. Vom Arzt, Krankenhaus, Psychotherapeut bis hin zum Apotheker sollen alle Heilberufler miteinander vernetzt werden. Der Patient soll dabei die Datenhoheit behalten, und seine Daten mittels elektronischer Gesundheitskarte, sowie alternativ per mobiler Smartphone App steuern.
+
+ Mit Gründung der Gematik GmbH am 11. Januar 2005 begann die offizielle Entwicklung der Telematik-Infrastruktur (TI). Ziel war die Einführung einer elektronischen Gesundheitskarte mitsamt einer Infrastruktur, die langfristig alle Teilnehmer der Medizinischen Versorgung miteinander vernetzen sollte.
+ Der Arzt speichert alle Befunde samt Röntgen Bilder in der elektronischen Patientenakte (ePA) ab, kommuniziert verschlüsselt mit anderen Ärzten über die „Sichere Kommunikation zwischen Leistungserbringer“ (KOM-LE), der Medikationsplan ist digital verfügbar (eMP), das Rezept wird beim Apotheker digital eingelöst (E-Rezept) und im Notfall sind relevante Gesundheitsdaten (NFDM) auf der elektronischen Gesundheitskarte (eGK) des Patienten abgespeichert. So soll der digitale Arztbesuch der Zukunft aussehen.
+ Allerdings ist nach 15 Jahren Entwicklung und 2 Milliarden Euro Investitionen nur ein Dienst der TI online, das Versichertenstammdatenmanagement (VSDM). Damit können die Stammdaten des Patienten, bspw. Adresse und Krankenkasse online beim Arzt aktualisiert werden, ohne Austausch der elektronischen Gesundheitskarte.
+ Nachdem dieser Dienst nun eingeführt wurde sollen zeitnah die nächsten oben aufgeführten Dienste online gehen. Die Spezifikationen, Zulassungsunterlagen sowie Feldtestkonzepte für diese Dienste sind dafür weitestgehend fertig.
+ Parallel zu der von der Politik und Gematik getriebenen Entwicklung setzten sich technik-affine Personen wie bspw. Thomas Maus mit der Technik auseinander und zeigten potentielle Probleme und ungelöste Fragestellungen. Nachdem die TI nun größtenteils online ist und die ersten Dienste in der Praxis genutzt werden ist es an der Zeit sich die konkrete Umsetzung anzuschauen, zu evaluieren und bei Bedarf entsprechend zu verbessern.
+
+ Dieser Vortrag soll einen aktuellen Überblick auf die Telematikinfrastruktur geben. Es werden die bestehenden Dienste (VSDSM) sowie die schon spezifizierten Dienste wie KOM-LE oder ePA vorgestellt. Insbesondere wird auf die Sicherheit der verschiedenen Systeme eingegangen. Die Schutzziele sowie die spezifizierten Methoden um diese Ziele zu erreichen werden dargestellt und grob analysiert.
+ Dabei zeigt sich dass die TI vor allem ein sehr komplexes System mit aktuell knapp 8000 Seiten Spezifikationen plus gute 1000 Seiten Konzepten ist.
+ Dazu ist das Projekt ein sogenanntes Running Target mit regelmäßigen Updates der Spezifikationen. Diese werden entweder durch Änderungen der Stand der Technik, oder durch Wünsche von Seiten der Politik, meist durch Gesetzte, in das Projekt hereingetragen.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10895.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10895.html</guid>
+      <pubDate>Sun, 29 Dec 2019 22:50:00 +0100</pubDate>
+      <itunes:title>15 Jahre deutsche Telematikinfrastruktur (TI)</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Interessant als Deutscher für einen Überblich über ein solches Grossprojekt aber kein kracher
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Seit spätestens 2005 wird in Deutschland an der Einführung der Telematik Infrastruktur, kurz die TI, gearbeitet. Diese soll nicht weniger als die komplette Digitalisierung der deutschen Medizinbranche bedeuten. Vom Arzt, Krankenhaus, Psychotherapeut bis hin zum Apotheker sollen alle Heilberufler miteinander vernetzt werden. Der Patient soll dabei die Datenhoheit behalten, und seine Daten mittels elektronischer Gesundheitskarte, sowie alternativ per mobiler Smartphone App steuern.
+
+ Mit Gründung der Gematik GmbH am 11. Januar 2005 begann die offizielle Entwicklung der Telematik-Infrastruktur (TI). Ziel war die Einführung einer elektronischen Gesundheitskarte mitsamt einer Infrastruktur, die langfristig alle Teilnehmer der Medizinischen Versorgung miteinander vernetzen sollte.
+ Der Arzt speichert alle Befunde samt Röntgen Bilder in der elektronischen Patientenakte (ePA) ab, kommuniziert verschlüsselt mit anderen Ärzten über die „Sichere Kommunikation zwischen Leistungserbringer“ (KOM-LE), der Medikationsplan ist digital verfügbar (eMP), das Rezept wird beim Apotheker digital eingelöst (E-Rezept) und im Notfall sind relevante Gesundheitsdaten (NFDM) auf der elektronischen Gesundheitskarte (eGK) des Patienten abgespeichert. So soll der digitale Arztbesuch der Zukunft aussehen.
+ Allerdings ist nach 15 Jahren Entwicklung und 2 Milliarden Euro Investitionen nur ein Dienst der TI online, das Versichertenstammdatenmanagement (VSDM). Damit können die Stammdaten des Patienten, bspw. Adresse und Krankenkasse online beim Arzt aktualisiert werden, ohne Austausch der elektronischen Gesundheitskarte.
+ Nachdem dieser Dienst nun eingeführt wurde sollen zeitnah die nächsten oben aufgeführten Dienste online gehen. Die Spezifikationen, Zulassungsunterlagen sowie Feldtestkonzepte für diese Dienste sind dafür weitestgehend fertig.
+ Parallel zu der von der Politik und Gematik getriebenen Entwicklung setzten sich technik-affine Personen wie bspw. Thomas Maus mit der Technik auseinander und zeigten potentielle Probleme und ungelöste Fragestellungen. Nachdem die TI nun größtenteils online ist und die ersten Dienste in der Praxis genutzt werden ist es an der Zeit sich die konkrete Umsetzung anzuschauen, zu evaluieren und bei Bedarf entsprechend zu verbessern.
+
+ Dieser Vortrag soll einen aktuellen Überblick auf die Telematikinfrastruktur geben. Es werden die bestehenden Dienste (VSDSM) sowie die schon spezifizierten Dienste wie KOM-LE oder ePA vorgestellt. Insbesondere wird auf die Sicherheit der verschiedenen Systeme eingegangen. Die Schutzziele sowie die spezifizierten Methoden um diese Ziele zu erreichen werden dargestellt und grob analysiert.
+ Dabei zeigt sich dass die TI vor allem ein sehr komplexes System mit aktuell knapp 8000 Seiten Spezifikationen plus gute 1000 Seiten Konzepten ist.
+ Dazu ist das Projekt ein sogenanntes Running Target mit regelmäßigen Updates der Spezifikationen. Diese werden entweder durch Änderungen der Stand der Technik, oder durch Wünsche von Seiten der Politik, meist durch Gesetzte, in das Projekt hereingetragen.</itunes:summary>
+      <itunes:author>Christoph Saatjohann</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10895-deu-eng-15_Jahre_deutsche_Telematikinfrastruktur_TI_hd.mp4"
+                 length="381681664"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Weichenstellung</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: Einsteigerfreundlicher Überblick über das Spannungsfeld Datenschutz. Die gleichen Argumente, die man seit Jahren kennt aber grossartig, dass sie vom Bundesdatenschutzbeauftragten kommen
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Wir müssen jetzt entscheiden, in welcher digitalen Welt wir leben wollen.
+
+ Im Bereich des Datenschutzes und der Informationsfreiheit werden schwer umkehrbare Weichenstellungen vorgenommen, die weitreichende Konsequenzen für unsere Zukunft haben.
+ Als Bundesdatenschutzbeauftragter setze ich mich mit der Durchsetzung der Datenschutz-Grundverordnung, der Regulierung von Verbraucher-Scoring und -Profiling und der Weiterentwicklung des europäischen Datenschutzrechts auseinander.
+
+ Besonders beschäftigen mich dabei auch die Debatten um digitale Überwachung und massiv ausgeweitete Befugnisse der Sicherheitsbehörden.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11218.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11218.html</guid>
+      <pubDate>Mon, 30 Dec 2019 13:50:00 +0100</pubDate>
+      <itunes:title>Weichenstellung</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: Einsteigerfreundlicher Überblick über das Spannungsfeld Datenschutz. Die gleichen Argumente, die man seit Jahren kennt aber grossartig, dass sie vom Bundesdatenschutzbeauftragten kommen
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Wir müssen jetzt entscheiden, in welcher digitalen Welt wir leben wollen.
+
+ Im Bereich des Datenschutzes und der Informationsfreiheit werden schwer umkehrbare Weichenstellungen vorgenommen, die weitreichende Konsequenzen für unsere Zukunft haben.
+ Als Bundesdatenschutzbeauftragter setze ich mich mit der Durchsetzung der Datenschutz-Grundverordnung, der Regulierung von Verbraucher-Scoring und -Profiling und der Weiterentwicklung des europäischen Datenschutzrechts auseinander.
+
+ Besonders beschäftigen mich dabei auch die Debatten um digitale Überwachung und massiv ausgeweitete Befugnisse der Sicherheitsbehörden.</itunes:summary>
+      <itunes:author>Ulrich Kelber</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11218-deu-eng-Weichenstellung_hd.mp4"
+                 length="708837376"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Das Mauern muss weg</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: Lustig wie meistens, wenn Arne Semsrott von FragDenStaat berichtet - Popcorn
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Mit immer neuen Gesetzen gewinnt die Exekutive in Deutschland an Macht und Ressourcen. Die öffentliche Kontrolle von Ministerien und Geheimdienste gerät ins Hintertreffen. Wir sprechen darüber, warum dank Anfragen und Klagen nach dem Informationsfreiheitsfreiheitsgesetz in diesem Jahr der Kampf noch nicht verloren ist, wie wir gegen den BND vor Gericht gewonnen haben und wann das Zensurheberrecht endlich abgeschafft wird. Plus: Das Beste aus 100.000 Anfragen über FragDenStaat in diesem Jahr.
+
+ Error 451</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10496.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10496.html</guid>
+      <pubDate>Mon, 30 Dec 2019 15:10:00 +0100</pubDate>
+      <itunes:title>Das Mauern muss weg</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: Lustig wie meistens, wenn Arne Semsrott von FragDenStaat berichtet - Popcorn
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Mit immer neuen Gesetzen gewinnt die Exekutive in Deutschland an Macht und Ressourcen. Die öffentliche Kontrolle von Ministerien und Geheimdienste gerät ins Hintertreffen. Wir sprechen darüber, warum dank Anfragen und Klagen nach dem Informationsfreiheitsfreiheitsgesetz in diesem Jahr der Kampf noch nicht verloren ist, wie wir gegen den BND vor Gericht gewonnen haben und wann das Zensurheberrecht endlich abgeschafft wird. Plus: Das Beste aus 100.000 Anfragen über FragDenStaat in diesem Jahr.
+
+ Error 451</itunes:summary>
+      <itunes:author>Arne Semsrott</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10496-deu-eng-spa-Das_Mauern_muss_weg_hd.mp4"
+                 length="374341632"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Security Nightmares 0x14</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Security Nightmares halt - die übliche sehr lustige / zum Nachdenken anregende Art von frank und Ron
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Was werden die nächsten Buzzwords sein und welche neuen Trends sind schon heute absehbar?
+
+ Wie immer wagen wir den IT-Security-Alptraum-Ausblick auf das Jahr 2020 und darüber hinaus. Denn was wir wirklich wissen wollen, ist ja schließlich: Wer hat sich letztes Jahr mit seiner AI gestritten? Und wie entwickelt sich das Berufsbild des Blockchain-Exorzisten weiter? Gibt es bald IT-Sicherheits-Wettervorhersagen im Fernsehen?</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11164.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11164.html</guid>
+      <pubDate>Mon, 30 Dec 2019 16:10:00 +0100</pubDate>
+      <itunes:title>Security Nightmares 0x14</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Security Nightmares halt - die übliche sehr lustige / zum Nachdenken anregende Art von frank und Ron
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Was werden die nächsten Buzzwords sein und welche neuen Trends sind schon heute absehbar?
+
+ Wie immer wagen wir den IT-Security-Alptraum-Ausblick auf das Jahr 2020 und darüber hinaus. Denn was wir wirklich wissen wollen, ist ja schließlich: Wer hat sich letztes Jahr mit seiner AI gestritten? Und wie entwickelt sich das Berufsbild des Blockchain-Exorzisten weiter? Gibt es bald IT-Sicherheits-Wettervorhersagen im Fernsehen?</itunes:summary>
+      <itunes:author>frank, Ron</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11164-deu-eng-Security_Nightmares_0x14_hd.mp4"
+                 length="612368384"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Hacking the Media: Geflüchtete schmuggeln, Nazis torten, Pässe fälschen</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Super spannende Reflektion über aktionen politischer Künstler
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ein lustiger Rückblick über die Aktionen des Peng Kollektivs.
+
+ Cop Map zu Polizeigewalt, MaskID zum Überwachungsstaat und Gesichtserkennung, Adblocker zur Werbeindustrie, CFRO zum Finanzsystem, Deutschland geht klauen zu Lieferketten und der Aufbau der Bewegung Seebrücke zur Entkriminalisierung der Seenotrettung sind nur ein Bruchteil der Aktionen, die seit dem letzten Besuch 2015 hier noch nicht präsentiert wurden.
+
+ Eine Tour de Force durch Momente zivilen Ungehorsams und Subversion, wobei wir uns selbst nicht zu ernst nehmen und vor allem darauf abzielen, mit den sozialen Bewegungen zusammen zu arbeiten.
+
+ Eine Stunde geballte Kommunikationsguerilla, lustige Medienaktionen, aber auch ein Einblick in mögliche Denkweisen und Aktionsmöglichkeiten, die andere machen können. Was ist heutzutage möglich und was ist vor allem nötig?</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10541.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10541.html</guid>
+      <pubDate>Sun, 29 Dec 2019 14:10:00 +0100</pubDate>
+      <itunes:title>Hacking the Media: Geflüchtete schmuggeln, Nazis torten, Pässe fälschen</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Super spannende Reflektion über aktionen politischer Künstler
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ein lustiger Rückblick über die Aktionen des Peng Kollektivs.
+
+ Cop Map zu Polizeigewalt, MaskID zum Überwachungsstaat und Gesichtserkennung, Adblocker zur Werbeindustrie, CFRO zum Finanzsystem, Deutschland geht klauen zu Lieferketten und der Aufbau der Bewegung Seebrücke zur Entkriminalisierung der Seenotrettung sind nur ein Bruchteil der Aktionen, die seit dem letzten Besuch 2015 hier noch nicht präsentiert wurden.
+
+ Eine Tour de Force durch Momente zivilen Ungehorsams und Subversion, wobei wir uns selbst nicht zu ernst nehmen und vor allem darauf abzielen, mit den sozialen Bewegungen zusammen zu arbeiten.
+
+ Eine Stunde geballte Kommunikationsguerilla, lustige Medienaktionen, aber auch ein Einblick in mögliche Denkweisen und Aktionsmöglichkeiten, die andere machen können. Was ist heutzutage möglich und was ist vor allem nötig?</itunes:summary>
+      <itunes:author>Conny Runner, Ronny Sommer</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10541-deu-eng-rus-Hacking_the_Media_Gefluechtete_schmuggeln_Nazis_torten_Paesse_faelschen_hd.mp4"
+                 length="1176502272"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Katastrophe und Kommunikation am Beispiel Nord-Ost-Syrien</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - Logbuch Netzpolitik: Empfehlung aus LNP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Katastrophen, Krisen &amp; Kriege lassen sich heute live mitverfolgen. Wir erleben eine kaum überblickbare Quellendiversität in den sozialen Medien – jeder wird zur Quelle. Welchen Einfluss hat das darauf, wie ein Konflikt wahrgenommen wird, wie setzen Konfliktparteien aber auch Helfende die sozialen Medien ein und was bedeutet das für Diejenigen, die vor Ort humanitäre Hilfe leisten. Wir diskutieren dies anhand des türkischen Überfalls auf Nord-Ost-Syrien gemeinsam mit Fee Baumann von Heyva Sor A Kurd, live aus Nord-Ost-Syrien
+
+ Katastrophen, Krisen &amp; Kriege lassen sich heute live mitverfolgen. Wir erleben eine kaum überblickbare Quellendiversität in den sozialen Medien – jeder wird zur Quelle. Welchen Einfluss hat das darauf, wie ein Konflikt wahrgenommen wird, wie setzen Konfliktparteien aber auch Helfende die sozialen Medien ein und was bedeutet das für Diejenigen, die vor Ort humanitäre Hilfe leisten. Wir diskutieren dies anhand des türkischen Überfalls auf Nord-Ost-Syrien.
+
+ Fand Live-Berichterstattung aus Kriegsgebieten zu Zeiten des 2. Golfkrieges noch überwiegend durch ein paar wenige Journalist*innen, oft “embedded” statt, die für CNN&amp;Co im grünlichen Nachtsicht-Look aus dem Panzer berichteten, kann in den sozialen Medien heute jede*r zur Quelle werden. Auf diese Weise gelangt die Öffentlichkeit an Informationen die vorher nur sehr schwer zu bekommen gewesen wären &amp; schon gar nicht in Echtzeit.
+
+ Die Quellenvielfalt birgt große Chancen für die Bewertung einer Lage und auch zur Überprüfung von Informationen durch mehrere Quellen oder Image Reverse Suche. Gleichzeitig verbreiten sich Gerüchte und Falschinformationen ebenfalls sehr viel schneller. Zudem können soziale Medien auch gezielt, etwa von Kriegsparteien manipuliert werden. Die Türkei setzte neben Deutschen Panzern etwa auch Bot-Armeen ein, im Ergebnis: Zwar verurteilte ein großteil der Welt den türkischen Einmarsch in Nord-Ost-Syrien, aber Twitter-Hashtags zeichneten zeitweilig ein ganz anderes Bild. Gleichzeitig kann es schon auch mal passieren, dass Türkei nahe Djihadistische Gruppen ausversehen selbst Videos ihrer Kriegsverbrechen prahlerisch ins Netz stellen.
+
+ Was bedeutet all das für humanitäre Helfende vor Ort, die Twitter &amp; co mittlerweile nicht nur zur Spendenwerbung sondern auch zur Lagebewertung nutzen: Wie kann man in der Praxis damit umgehen, dass sich auf Twitter gegebenenfalls ein ganz anderes Bild zeichnet als vor Ort und vor allem: Welches davon ist näher an der Realität?
+
+ Darum geht es in diesem Talk am Beispiel des Türkischen Überfalls auf Nord-Ost-Syrien, von Sebastian Jünemann und Ruben Neugebauer von der Hilfsorganisation Cadus, die vor Ort mit mehreren, im wesentlichen medizinischen Projekten aktiv war, sowie Fee Baumann von der Organisation Heyvasor a Kurd, dem kurdischen roten Halbmond. Außerdem werden wir klären wie man sich per Selfie bequem ins Jenseits befördern kann und was sonst noch so für die persönliche Sicherheit zu beachten ist, im Umgang mit modernen Medien in Kriegsgebieten.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10957.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10957.html</guid>
+      <pubDate>Fri, 27 Dec 2019 12:50:00 +0100</pubDate>
+      <itunes:title>Katastrophe und Kommunikation am Beispiel Nord-Ost-Syrien</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - Logbuch Netzpolitik: Empfehlung aus LNP
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Katastrophen, Krisen &amp; Kriege lassen sich heute live mitverfolgen. Wir erleben eine kaum überblickbare Quellendiversität in den sozialen Medien – jeder wird zur Quelle. Welchen Einfluss hat das darauf, wie ein Konflikt wahrgenommen wird, wie setzen Konfliktparteien aber auch Helfende die sozialen Medien ein und was bedeutet das für Diejenigen, die vor Ort humanitäre Hilfe leisten. Wir diskutieren dies anhand des türkischen Überfalls auf Nord-Ost-Syrien gemeinsam mit Fee Baumann von Heyva Sor A Kurd, live aus Nord-Ost-Syrien
+
+ Katastrophen, Krisen &amp; Kriege lassen sich heute live mitverfolgen. Wir erleben eine kaum überblickbare Quellendiversität in den sozialen Medien – jeder wird zur Quelle. Welchen Einfluss hat das darauf, wie ein Konflikt wahrgenommen wird, wie setzen Konfliktparteien aber auch Helfende die sozialen Medien ein und was bedeutet das für Diejenigen, die vor Ort humanitäre Hilfe leisten. Wir diskutieren dies anhand des türkischen Überfalls auf Nord-Ost-Syrien.
+
+ Fand Live-Berichterstattung aus Kriegsgebieten zu Zeiten des 2. Golfkrieges noch überwiegend durch ein paar wenige Journalist*innen, oft “embedded” statt, die für CNN&amp;Co im grünlichen Nachtsicht-Look aus dem Panzer berichteten, kann in den sozialen Medien heute jede*r zur Quelle werden. Auf diese Weise gelangt die Öffentlichkeit an Informationen die vorher nur sehr schwer zu bekommen gewesen wären &amp; schon gar nicht in Echtzeit.
+
+ Die Quellenvielfalt birgt große Chancen für die Bewertung einer Lage und auch zur Überprüfung von Informationen durch mehrere Quellen oder Image Reverse Suche. Gleichzeitig verbreiten sich Gerüchte und Falschinformationen ebenfalls sehr viel schneller. Zudem können soziale Medien auch gezielt, etwa von Kriegsparteien manipuliert werden. Die Türkei setzte neben Deutschen Panzern etwa auch Bot-Armeen ein, im Ergebnis: Zwar verurteilte ein großteil der Welt den türkischen Einmarsch in Nord-Ost-Syrien, aber Twitter-Hashtags zeichneten zeitweilig ein ganz anderes Bild. Gleichzeitig kann es schon auch mal passieren, dass Türkei nahe Djihadistische Gruppen ausversehen selbst Videos ihrer Kriegsverbrechen prahlerisch ins Netz stellen.
+
+ Was bedeutet all das für humanitäre Helfende vor Ort, die Twitter &amp; co mittlerweile nicht nur zur Spendenwerbung sondern auch zur Lagebewertung nutzen: Wie kann man in der Praxis damit umgehen, dass sich auf Twitter gegebenenfalls ein ganz anderes Bild zeichnet als vor Ort und vor allem: Welches davon ist näher an der Realität?
+
+ Darum geht es in diesem Talk am Beispiel des Türkischen Überfalls auf Nord-Ost-Syrien, von Sebastian Jünemann und Ruben Neugebauer von der Hilfsorganisation Cadus, die vor Ort mit mehreren, im wesentlichen medizinischen Projekten aktiv war, sowie Fee Baumann von der Organisation Heyvasor a Kurd, dem kurdischen roten Halbmond. Außerdem werden wir klären wie man sich per Selfie bequem ins Jenseits befördern kann und was sonst noch so für die persönliche Sicherheit zu beachten ist, im Umgang mit modernen Medien in Kriegsgebieten.</itunes:summary>
+      <itunes:author>Ruben Neugebauer, Sebastian Jünemann</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10957-deu-eng-fra-Katastrophe_und_Kommunikation_am_Beispiel_Nord-Ost-Syrien_hd.mp4"
+                 length="1140850688"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Digitalisierte Migrationskontrolle</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - GFF: Empfehlung der GFF in ihrem Newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Die sogenannten digitalen Assistenzsysteme des BAMF, „intelligente Grenzen“ in der EU und immer größer werdende Datenbanken: Wer ins Land kommt und bleiben darf, wird immer mehr von IT-Systemen bestimmt. Davon profitiert die Überwachungsindustrie, während Menschen von automatisierten Entscheidungen abhängig werden.
+
+ Deutschland hat in den letzten Jahren massiv in Technik investiert, um Asylverfahren zu digitalisieren. Biometrische Bilder mit Datenbanken abgleichen, Handys ausgelesen und analysieren, Sprache durch automatische Erkennungssysteme schleifen. Ganz abgesehen von der Blockchain, die alles noch besser machen soll. Doch nicht nur in Deutschland werden zum Zweck der Migrationskontrollen immer mehr Daten genutzt. In Norwegen werden Facebook-Profile Geflüchteter ausgewertet, in Dänemark sogar USB-Armbänder. Die Grenzagentur Frontex soll für „intelligente Grenzen“ sorgen, Datenbanken werden EU-weit ausgebaut und zusammengelegt. Rechtschutzmechanismen versagen größtenteils. Worum es dabei geht? Schnellere Abschiebungen. Wer davon profitiert? Die Überwachungsindustrie.
+
+ In Vorbereitung von Klageverfahren bringt die Gesellschaft für Freiheitsrechte e.V. (GFF) gemeinsam mit der Journalistin Anna Biselli im Laufe des Dezembers eine Studie heraus, die sich diesem Thema genauer widmet. Die Ergebnisse der Studie wollen Lea Beckmann und Anna Biselli gemeinsam vorstellen und kontextualisieren.
+
+ Anna Biselli ist Informatikerin und Journalistin und arbeitet seit Jahren zu Fragen der Digitalisierung von Migrationskontrolle.
+ Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Gerichtsverfahren Grund- und Menschenrechte stärkt und zivilgesellschaftliche Partnerorganisationen rechtlich unterstützt. In vielen ihrer Verfahren setzt sich die GFF dabei für Datenschutz und einen verantwortungsvollen Einsatz von Technologie und gegen Diskriminierung ein.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10766.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10766.html</guid>
+      <pubDate>Fri, 27 Dec 2019 20:50:00 +0100</pubDate>
+      <itunes:title>Digitalisierte Migrationskontrolle</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - GFF: Empfehlung der GFF in ihrem Newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Die sogenannten digitalen Assistenzsysteme des BAMF, „intelligente Grenzen“ in der EU und immer größer werdende Datenbanken: Wer ins Land kommt und bleiben darf, wird immer mehr von IT-Systemen bestimmt. Davon profitiert die Überwachungsindustrie, während Menschen von automatisierten Entscheidungen abhängig werden.
+
+ Deutschland hat in den letzten Jahren massiv in Technik investiert, um Asylverfahren zu digitalisieren. Biometrische Bilder mit Datenbanken abgleichen, Handys ausgelesen und analysieren, Sprache durch automatische Erkennungssysteme schleifen. Ganz abgesehen von der Blockchain, die alles noch besser machen soll. Doch nicht nur in Deutschland werden zum Zweck der Migrationskontrollen immer mehr Daten genutzt. In Norwegen werden Facebook-Profile Geflüchteter ausgewertet, in Dänemark sogar USB-Armbänder. Die Grenzagentur Frontex soll für „intelligente Grenzen“ sorgen, Datenbanken werden EU-weit ausgebaut und zusammengelegt. Rechtschutzmechanismen versagen größtenteils. Worum es dabei geht? Schnellere Abschiebungen. Wer davon profitiert? Die Überwachungsindustrie.
+
+ In Vorbereitung von Klageverfahren bringt die Gesellschaft für Freiheitsrechte e.V. (GFF) gemeinsam mit der Journalistin Anna Biselli im Laufe des Dezembers eine Studie heraus, die sich diesem Thema genauer widmet. Die Ergebnisse der Studie wollen Lea Beckmann und Anna Biselli gemeinsam vorstellen und kontextualisieren.
+
+ Anna Biselli ist Informatikerin und Journalistin und arbeitet seit Jahren zu Fragen der Digitalisierung von Migrationskontrolle.
+ Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Gerichtsverfahren Grund- und Menschenrechte stärkt und zivilgesellschaftliche Partnerorganisationen rechtlich unterstützt. In vielen ihrer Verfahren setzt sich die GFF dabei für Datenschutz und einen verantwortungsvollen Einsatz von Technologie und gegen Diskriminierung ein.</itunes:summary>
+      <itunes:author>Anna Biselli, Lea Beckmann</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10766-deu-eng-spa-Digitalisierte_Migrationskontrolle_hd.mp4"
+                 length="704643072"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Polizei-Datenbanken und Minderheiten: Staatliche Stigmatisierung und Diskriminierung von Sinti und Roma</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - GFF: Empfehlung der GFF in ihrem Newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Für Sinti*zze und Roma*nja gehören Anfeindungen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht.
+
+ Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann und mit welchen Methoden tut sie es vielleicht trotz Verbots?
+
+ Für Sinti*zze und Roma*nja gehören auch in Deutschland Anfeindungen in allen Lebenslagen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht. In Pressemitteilungen der Polizei tauchen immer wieder Hinweise auf die ethnische Herkunft auf, vor allem bei Tatverdächtigen, seltener bei Opfern oder Zeug*innen. Die Berliner Polizei hat in der Kriminalstatistik 2017 den Hinweis veröffentlicht, dass die Mehrheit der Tatverdächtigen von „Trickdiebstahl in Wohnungen“ Angehörige der Volksgruppe Sinti und Roma seien: Dass es rechtswidrig ist, wenn die Polizei die zugrunde liegenden Daten tatsächlich erhebt, ist unstreitig.
+
+ In Kooperation mit dem Zentralrat hat die Gesellschaft für Freiheitsrechte e.V. (GFF) im Fall der Berliner Polizeikriminalstatistik bei der Berliner Landesdatenschutzbeauftragten ein Beschwerdeverfahren wegen des Verdachts auf Diskriminierung von Sinti*zze und Roma*nja lanciert. Beide Organisationen prüfen gemeinsam weitere rechtliche Möglichkeiten.
+
+ Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann tut sie es vielleicht trotz Verbots? Und mit welchen Methoden erhebt die Polizei überhaupt die ethnische Herkunft?
+
+ Die Gesellschaft für Freiheitsrechte e.V. (GFF) und der Zentralrat Deutscher Sinti und Roma wollen diese Fragen gemeinsam mit dem Publikum diskutieren.
+
+ Anja Reuss ist Politische Referentin des Zentralrats Deutscher Sinti und Roma, der politischen Interessenvertretung der deutschen Sinti und Roma mit Sitz in Heidelberg. Als Dachverband setzt sich der Zentralrat auf nationaler und internationaler Ebene für eine gleichberechtigte Teilhabe von Sinti und Roma in Politik und Gesellschaft sowie für die Auseinandersetzung mit und Bekämpfung von Antiziganismus ein.
+
+ Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Prozesse Grund- und Menschenrechte stärkt und zivilgesellschaftlichen Partnerorganisationen rechtlich unterstützt. In ihren Verfahren setzt sich die GFF dabei immer wieder kritisch mit polizeilichen Ermittlungsbefugnissen auseinander, sei dies im Zusammenhang mit dem Einsatz von Späh-Software oder bei der Datenerhebung.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10828.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10828.html</guid>
+      <pubDate>Sat, 28 Dec 2019 16:10:00 +0100</pubDate>
+      <itunes:title>Polizei-Datenbanken und Minderheiten: Staatliche Stigmatisierung und Diskriminierung von Sinti und Roma</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - GFF: Empfehlung der GFF in ihrem Newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Für Sinti*zze und Roma*nja gehören Anfeindungen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht.
+
+ Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann und mit welchen Methoden tut sie es vielleicht trotz Verbots?
+
+ Für Sinti*zze und Roma*nja gehören auch in Deutschland Anfeindungen in allen Lebenslagen zum Alltag. Auch bei Ermittlungsbehörden stehen sie unter Generalverdacht: Es steht zu befürchten, dass die Polizei in unterschiedlichen Bundesländern rechtswidrig Daten zu ethnischer Herkunft erhebt und veröffentlicht. In Pressemitteilungen der Polizei tauchen immer wieder Hinweise auf die ethnische Herkunft auf, vor allem bei Tatverdächtigen, seltener bei Opfern oder Zeug*innen. Die Berliner Polizei hat in der Kriminalstatistik 2017 den Hinweis veröffentlicht, dass die Mehrheit der Tatverdächtigen von „Trickdiebstahl in Wohnungen“ Angehörige der Volksgruppe Sinti und Roma seien: Dass es rechtswidrig ist, wenn die Polizei die zugrunde liegenden Daten tatsächlich erhebt, ist unstreitig.
+
+ In Kooperation mit dem Zentralrat hat die Gesellschaft für Freiheitsrechte e.V. (GFF) im Fall der Berliner Polizeikriminalstatistik bei der Berliner Landesdatenschutzbeauftragten ein Beschwerdeverfahren wegen des Verdachts auf Diskriminierung von Sinti*zze und Roma*nja lanciert. Beide Organisationen prüfen gemeinsam weitere rechtliche Möglichkeiten.
+
+ Warum ist es so gefährlich, ethnische Herkunft in Polizeidatenbanken zu erfassen? Und was für Konsequenzen hat es, sie in Berichterstattung zu erwähnen? Wann darf die Polizei überhaupt Daten zu ethnischer Herkunft erheben? Und wann tut sie es vielleicht trotz Verbots? Und mit welchen Methoden erhebt die Polizei überhaupt die ethnische Herkunft?
+
+ Die Gesellschaft für Freiheitsrechte e.V. (GFF) und der Zentralrat Deutscher Sinti und Roma wollen diese Fragen gemeinsam mit dem Publikum diskutieren.
+
+ Anja Reuss ist Politische Referentin des Zentralrats Deutscher Sinti und Roma, der politischen Interessenvertretung der deutschen Sinti und Roma mit Sitz in Heidelberg. Als Dachverband setzt sich der Zentralrat auf nationaler und internationaler Ebene für eine gleichberechtigte Teilhabe von Sinti und Roma in Politik und Gesellschaft sowie für die Auseinandersetzung mit und Bekämpfung von Antiziganismus ein.
+
+ Lea Beckmann ist Juristin und Verfahrenskoordinatorin der Gesellschaft für Freiheitsrechte e.V. (GFF). Die GFF ist eine NGO, die durch strategische Prozesse Grund- und Menschenrechte stärkt und zivilgesellschaftlichen Partnerorganisationen rechtlich unterstützt. In ihren Verfahren setzt sich die GFF dabei immer wieder kritisch mit polizeilichen Ermittlungsbefugnissen auseinander, sei dies im Zusammenhang mit dem Einsatz von Späh-Software oder bei der Datenerhebung.</itunes:summary>
+      <itunes:author>Lea Beckmann, Anja Reuss</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10828-deu-eng-spa-Polizei-Datenbanken_und_Minderheiten_Staatliche_Stigmatisierung_und_Diskriminierung_von_Sinti_und_Roma_hd.mp4"
+                 length="404750336"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>#NoPNR – Let’s kill the next Data Retention Law</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - GFF: Empfehlung der GFF in ihrem Newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The talk will address how passenger name records (PNR) of flight passengers are currently used by law enforcement throughout the European Union to track and identify suspects of a variety of crimes, how this is likely to be only a first step by the security state to surveil our every movement. Two NGOs have joined forces to stop this new form of indiscriminate mass surveillance in the courts and build safeguards against future infringements of our fundamental right to privacy.
+
+ The PNR directive obliges all EU member states to process and save for five years all PNR data of passengers entering or exiting the European Union by plane. All member states have agreed to voluntarily extend this practice to all intra-EU flights as well. Subsequently, the data of hundreds of millions flight passengers are being checked against databases, generating vast amounts of false positives and futile infringements on passengers’ right to privacy. The data are also processed against “pre-determined criteria” which allows law enforcement to define “suspicious flight patterns”. The goal of this profiling of our travel movements is to find suspects among flight passengers that the authorities have never even heard of before. The system has no effective safeguards to prevent vast numbers of people from being falsely labeled as potential terrorists.
+
+ Member states are already planning to extend this practice to international buses, trains and ferries – even though the effectiveness of processing flight passengers’ PNR data has yet to be proven. By this logic, the next step would be to track rental cars, then all cars, then mobile phones, and finally getting rid of the criterion “international”, enabling the state to surveil our every movement and to identify those of us who seemingly move around in suspicious patterns.
+
+ But there is hope. The Court of Justice of the European Union (CJEU) has proven before to be critical of indiscriminate mass surveillance affecting people that are not even on the authorities’ radar yet. Therefore, the Gesellschaft für Freiheitsrechte, a German NGO focused on strategic litigation, and epicenter.works, an Austrian NGO focused on protecting human rights in the digital age, have started legal proceedings against the PNR directive, aiming to have German and/or Austrian courts ask the CJEU whether the PNR directive and national transposition laws violate the Charta of Fundamental Rights.
+
+ This talk will explain how law enforcement currently processes PNR data, how this violates fundamental rights, how these surveillance systems may soon extended to other means of transportation, and what strategy civil society is pursuing to stop this from happening.</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10919.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10919.html</guid>
+      <pubDate>Mon, 30 Dec 2019 12:30:00 +0100</pubDate>
+      <itunes:title>#NoPNR – Let’s kill the next Data Retention Law</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - GFF: Empfehlung der GFF in ihrem Newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The talk will address how passenger name records (PNR) of flight passengers are currently used by law enforcement throughout the European Union to track and identify suspects of a variety of crimes, how this is likely to be only a first step by the security state to surveil our every movement. Two NGOs have joined forces to stop this new form of indiscriminate mass surveillance in the courts and build safeguards against future infringements of our fundamental right to privacy.
+
+ The PNR directive obliges all EU member states to process and save for five years all PNR data of passengers entering or exiting the European Union by plane. All member states have agreed to voluntarily extend this practice to all intra-EU flights as well. Subsequently, the data of hundreds of millions flight passengers are being checked against databases, generating vast amounts of false positives and futile infringements on passengers’ right to privacy. The data are also processed against “pre-determined criteria” which allows law enforcement to define “suspicious flight patterns”. The goal of this profiling of our travel movements is to find suspects among flight passengers that the authorities have never even heard of before. The system has no effective safeguards to prevent vast numbers of people from being falsely labeled as potential terrorists.
+
+ Member states are already planning to extend this practice to international buses, trains and ferries – even though the effectiveness of processing flight passengers’ PNR data has yet to be proven. By this logic, the next step would be to track rental cars, then all cars, then mobile phones, and finally getting rid of the criterion “international”, enabling the state to surveil our every movement and to identify those of us who seemingly move around in suspicious patterns.
+
+ But there is hope. The Court of Justice of the European Union (CJEU) has proven before to be critical of indiscriminate mass surveillance affecting people that are not even on the authorities’ radar yet. Therefore, the Gesellschaft für Freiheitsrechte, a German NGO focused on strategic litigation, and epicenter.works, an Austrian NGO focused on protecting human rights in the digital age, have started legal proceedings against the PNR directive, aiming to have German and/or Austrian courts ask the CJEU whether the PNR directive and national transposition laws violate the Charta of Fundamental Rights.
+
+ This talk will explain how law enforcement currently processes PNR data, how this violates fundamental rights, how these surveillance systems may soon extended to other means of transportation, and what strategy civil society is pursuing to stop this from happening.</itunes:summary>
+      <itunes:author>Walter Hötzendorfer, Bijan Moini</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10919-eng-deu-fra-NoPNR_-_Lets_kill_the_next_Data_Retention_Law_hd.mp4"
+                 length="498073600"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Hirne Hacken</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: Interessante Denkanstösse zu nicht technischen Aspekten der IT Security
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Die überwältigende Mehrheit der erfolgreichen Hacks in freier Wildbahn setzen auf menschliche Faktoren. Wie können wir Systeme und Interfaces gestalten, um diese Schwachstellen zu mindern?
+
+ Ob Ransomware oder Phishing, APT-Angriffe oder Stalking: Die am häufigsten ausgenutzte Schwachstelle ist der Mensch.
+
+ Ein Problem, das nur wenig Forschung tatsächlich angehen will. Stattdessen begnügen wir uns damit, den Usern Dummheit zu unterstellen und menschliche Faktoren der IT-Sicherheit &#34;out of scope&#34; zu sehen.
+
+ Zeit, anders über das Problem nachzudenken, denn es gibt einige Interessante Erkenntnisse zu entdecken.
+
+ Neumann, Linus (2017): „Menschliche Faktoren in der IT-Sicherheit“ in: Ferri Abolhassan (Hg.) „Security Einfach Machen: IT-Sicherheit als Sprungbrett für die Digitalisierung“, p. 85-98
+ Neumann, Linus (2019): „Wenn Hacker Menschen hacken“ in: Report Psychologie 11/12.2018, p. 462-464</description>
+      <link>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11175.html</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11175.html</guid>
+      <pubDate>Sun, 29 Dec 2019 21:50:00 +0100</pubDate>
+      <itunes:title>Hirne Hacken</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: Interessante Denkanstösse zu nicht technischen Aspekten der IT Security
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Die überwältigende Mehrheit der erfolgreichen Hacks in freier Wildbahn setzen auf menschliche Faktoren. Wie können wir Systeme und Interfaces gestalten, um diese Schwachstellen zu mindern?
+
+ Ob Ransomware oder Phishing, APT-Angriffe oder Stalking: Die am häufigsten ausgenutzte Schwachstelle ist der Mensch.
+
+ Ein Problem, das nur wenig Forschung tatsächlich angehen will. Stattdessen begnügen wir uns damit, den Usern Dummheit zu unterstellen und menschliche Faktoren der IT-Sicherheit &#34;out of scope&#34; zu sehen.
+
+ Zeit, anders über das Problem nachzudenken, denn es gibt einige Interessante Erkenntnisse zu entdecken.
+
+ Neumann, Linus (2017): „Menschliche Faktoren in der IT-Sicherheit“ in: Ferri Abolhassan (Hg.) „Security Einfach Machen: IT-Sicherheit als Sprungbrett für die Digitalisierung“, p. 85-98
+ Neumann, Linus (2019): „Wenn Hacker Menschen hacken“ in: Report Psychologie 11/12.2018, p. 462-464</itunes:summary>
+      <itunes:author>Linus Neumann</itunes:author>
+      <itunes:image href="https://static.media.ccc.de/media/congress/2019/logo.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2019/h264-hd/36c3-11175-deu-eng-fra-Hirne_Hacken_hd.mp4"
+                 length="331350016"
+                 type="video/mp4"/>
+    </item>
+  </channel>
+</rss>

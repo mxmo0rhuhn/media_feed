@@ -1,0 +1,421 @@
+sources:
+- https://media.ccc.de/c/31c3
+feed:
+- title: The Matter of Heartbleed
+  published: Sun, 28 Dec 2014 23:00:00 +0100
+  speakers: Zakir Durumeric
+  subtitle: What went wrong, how the Internet reacted, what we can learn for the future
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6321-en-de-The_Matter_of_Heartbleed_hd.mp4
+  media_type: video/mp4
+  media_length: 437256192
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6321.html
+  description: The Heartbleed vulnerability took the Internet by surprise in April
+    of this year. The vulnerability was one of the most consequential in the history
+    of the Internet, since it allowed attackers to potentially steal login credentials,
+    cryptographic keys, and other private data from up to half of all popular HTTPS
+    sites.  In this talk, we take a detailed look at Heartbleed and its aftermath,
+    based on comprehensive measurements and analysis that our research team performed
+    over the past six months.  We began tracking Heartbleed's impact within hours
+    of its disclosure using massive ZMap scans and large network telescopes.  This
+    allowed us to track which sites remained vulnerable, observe certificate revocations,
+    and monitor for large scale attacks in close to real time. Based on this data,
+    we also conducted one of the largest ever mass vulnerability notifications, informing
+    the network administrators for all devices still susceptible to Heartbleed across
+    the entire IPv4 address space.  Finally, we investigated the question of whether
+    attackers knew about and exploited Heartbleed prior to its public disclosure---and
+    we will present new details about this question in the talk.  We hope that by
+    learning from the Heartbleed security disaster, our community can prepare to respond
+    more effectively to such events in the future.
+  category: Technology
+  feedback:
+  - rating: 4
+    username: max
+    comment: post mortem zu einem krassen Problem
+- title: Fnord News Show
+  published: Mon, 29 Dec 2014 00:15:00 +0100
+  speakers: frank, Fefe
+  subtitle: Wir helfen Euch die Fnords zu sehen.
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6109-de-en-Fnord_News_Show_hd.mp4
+  media_type: video/mp4
+  media_length: 891289600
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6109.html
+  description: Im Format einer lockeren Abendshow werden wir die Nachrichten-Highlights
+    des Jahres präsentieren, die Meldungen zwischen den Meldungen, die subtilen Sensationen
+    hinter den Schlagzeilen.
+  category: Entertainment
+  feedback:
+  - rating: 3
+    username: max
+    comment: schlechter als sonst
+- title: Cyber Necromancy
+  published: Sun, 28 Dec 2014 14:00:00 +0100
+  speakers: Joseph Tartaro, Matthew Halchyshak
+  subtitle: Reverse Engineering Dead Protocols
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-5956-en-Cyber_Necromancy_hd.mp4
+  media_type: video/mp4
+  media_length: 288358400
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/5956.html
+  description: Reverse engineering is not all binaries and byte-code. The black art
+    also extends to networks and unobtainable game servers. In this talk we go into
+    the gruesome details of how we dug through the graveyards of console binaries
+    and mausoleums of forgotten network protocols in order to stitch together the
+    pieces necessary to bring our favorite game Metal Gear Online back to life. We
+    will be examining the process of reverse engineering the games custom network
+    protocols in all angles from packet logs to low level disassembly of client code.
+  category: Technology
+  feedback:
+  - rating: 2
+    username: max
+    comment: naja
+- title: Krypto für die Zukunft
+  published: Sun, 28 Dec 2014 16:45:00 +0100
+  speakers: ruedi
+  subtitle: Verteidigung gegen Dunkle Künste
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6295-de-en-Krypto_fuer_die_Zukunft_hd.mp4
+  media_type: video/mp4
+  media_length: 459276288
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6295.html
+  description: (K)ein kleiner Rant über Elliptische Kurven, Quantencomputer, Bitcoins
+    und die NSA et al.
+  category: Technology
+  feedback:
+  - rating: 4
+    username: max
+    comment: Gute Einführung wenn man sich mit Krypto nicht auskennt. Guter Speaker
+      wie immer.
+- title: Forging the USB armory
+  published: Sun, 28 Dec 2014 17:30:00 +0100
+  speakers: Andrea Barisani
+  subtitle: Creating an open source secure flash-drive-sized computer
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6541-en-de-Forging_the_USB_armory_hd.mp4
+  media_type: video/mp4
+  media_length: 298844160
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6541.html
+  description: The presentation will cover the journey that we have taken to develop
+    the USB armory board from scratch, explaining the lessons learned and its prospected
+    applications.
+  category: Technology
+  feedback:
+  - rating: 2
+    username: max
+    comment: Sales talk über ein spannendes Flash drive mit lustiger Krypto. Nicht
+      unbedingt sehenswert.
+- title: Why is GPG 'damn near unusable'?
+  published: Sun, 28 Dec 2014 11:30:00 +0100
+  speakers: Arne Padmos
+  subtitle: An overview of usable security research
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6021-en-de-Why_is_GPG_damn_near_unusable_hd.mp4
+  media_type: video/mp4
+  media_length: 318767104
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6021.html
+  description: GPG has been correctly described as "damn near unusable". Why is this
+    so? What does research into usable security tell us? This talk covers the history,
+    methods, and findings of the research field, as well as proposed solutions and
+    open questions.
+  category: Technology
+  feedback:
+  - rating: 2
+    username: max
+    comment: Schlecht benannter talk über usability. Relativ enttäuschend
+- title: Crypto Tales from the Trenches
+  published: Sat, 27 Dec 2014 23:00:00 +0100
+  speakers: Nadia Heninger, Julia Angwin,  Laura Poitras, Jack Gillum
+  subtitle: ''
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6154-en-de-Crypto_Tales_from_the_Trenches_hd.mp4
+  media_type: video/mp4
+  media_length: 808452096
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6154.html
+  description: Julia Angwin, Jack Gillum, and Laura Poitras will tell us stories about
+    how they use crypto and privacy-enhancing technologies as high-profile journalists,
+    and rant in an entertaining way about how these tools have failed or are horribly
+    inadequate for their needs. They will also talk about their rare crypto successes.
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: wie verwenden Journalisten Krypto?
+- title: Rocket science – how hard can it be?
+  published: Sat, 27 Dec 2014 18:30:00 +0100
+  speakers: David Madlener, Sean
+  subtitle: First steps into space with sounding rockets
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6180-en-de-Rocket_science_-_how_hard_can_it_be_sd.mp4
+  media_type: video/mp4
+  media_length: 247463936
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6180.html
+  description: Three years have elapsed since the call for a "Hacker Space Program"
+    during the Chaos Communication Camp 2011. In this lecture we will review the basics
+    of space flight, discuss common problems and pitfalls encountered by a practitioner
+    on the way to orbit, and report on the state of our sounding rocket program.
+  category: Science
+  feedback:
+  - rating: 4
+    username: max
+    comment: Spannend was man alles an Raketen machen kann ohne die ESA zu sein und
+      ohne viel Geld
+- title: Mit Kunst die Gesellschaft hacken
+  published: Sat, 27 Dec 2014 14:00:00 +0100
+  speakers: Stefan Pelzer, Philipp Ruch
+  subtitle: Das Zentrum für politische Schönheit
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6584-de-en-Mit_Kunst_die_Gesellschaft_hacken_hd.mp4
+  media_type: video/mp4
+  media_length: 1076887552
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6584.html
+  description: 'Ein Mahnmal gegen die Vereinten Nationen, 25.000 Euro Kopfgeld auf
+    eine deutsche Waffenhändlerfamilie, eine falsche Kampagne für das Familienministerium
+    oder die Flucht der "Mauerkreuze" vom Reichstagsufer an die EU-Außengrenzen: wenn
+    das Zentrum für Politische Schönheit (ZPS) das Kriegsbeil ausgräbt, ist eine kontroverse
+    Debatte garantiert.'
+  category: "Arts"
+  feedback:
+  - rating: 5
+    username: max
+    comment: Sehr, Sehr genialer Talk (inhaltlich und in der Präsentation) zu politischem
+      Aktivismus
+- title: Vor Windows 8 wird gewarnt
+  published: Sun, 28 Dec 2014 18:15:00 +0100
+  speakers: ruedi
+  subtitle: Und nichts (Secure) Bootet mehr?
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6294-de-en-Vor_Windows_8_wird_gewarnt_hd.mp4
+  media_type: video/mp4
+  media_length: 329252864
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6294.html
+  description: Im Vortrag sollen technische und gesellschaftliche Konsequenzen der
+    von Microsoft kontrollierten Windows-8-Secure-Boot-Architektur und mögliche Gegenmaßnahmen
+    diskutiert werden.
+  category: Technology
+  feedback:
+  - rating: 4
+    username: max
+    comment: Super präsentiertes bashing von bekannteren Problemen + warum
+- title: Wir beteiligen uns aktiv an den Diskussionen
+  published: Sat, 27 Dec 2014 12:45:00 +0100
+  speakers: Martin Haase/maha
+  subtitle: Die digitale 'Agenda' der Bundesregierung aus inhaltlicher, philologischer
+    und linguistischer Perspektive
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6264-de-en-Wir_beteiligen_uns_aktiv_an_den_Diskussionen_sd.mp4
+  media_type: video/mp4
+  media_length: 288358400
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6264.html
+  description: Im Sommer 2014 wurde die sogenannte Digitale „Agenda“ vorgestellt,
+    die als „netzpolitisches Regierungsprogramm“ bezeichnet wurde. Aus texttypologischer
+    Sicht handelt es sich aber eher um einen PR-Text, der so aussieht, als sei er
+    ein Auszug aus einer Wahlkampfbroschüre. Der Vortrag analysiert den Text zunächst
+    inhaltlich, um zu zeigen, worum es im Einzelnen geht und wo Widersprüche auftauchen,
+    dann aus textkritischer und aus linguistischer Perspektive. Insbesondere werden
+    bestimmte Interessen der Bundesregierung und anderer Akteure deutlich, die weniger
+    offen thematisiert werden, aber doch sprachlich zu Tage treten.
+  category: "Society & Culture"
+  feedback:
+  - rating: 3
+    username: max
+    comment: Ein Sprache (und deren Verwendung in der deutschen Politik) analysiert.
+      Wie jedes Jahr sehenswert.
+- title: Ich sehe, also bin ich ... Du
+  published: Sat, 27 Dec 2014 20:30:00 +0100
+  speakers: starbug
+  subtitle: Gefahren von Kameras für (biometrische) Authentifizierungsverfahren
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6450-de-en-Ich_sehe_also_bin_ich_Du_hd.mp4
+  media_type: video/mp4
+  media_length: 544210944
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6450.html
+  description: Bei der Passworteingabe über die Schultern schauen? Die Mateflasche
+    klauen, um an Fingerabdrücke zu kommen? Alles Technik von gestern. Der Vortrag
+    zeigt, wie man heutzutage an Daten kommt, um Authentifizierungsmethoden zu überwinden.
+  category: Technology
+  feedback:
+  - rating: 5
+    username: max
+    comment: Biometrie lustig geowned (man kann Fingerabdrücke fälschen basierend
+      auf einem Photo). Sehr gut vorgetragen und sorgt für Lacher.
+- title: NSA Points of Presence in AT
+  published: Mon, 29 Dec 2014 11:30:00 +0100
+  speakers: Erich Moechel
+  subtitle: Vortrag mit aktuellen Fotos aus luftigen Perspektiven
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6430-de-en-NSA_Points_of_Presence_in_AT_hd.mp4
+  media_type: video/mp4
+  media_length: 876609536
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6430.html
+  description: Station VIENNA in der US-Botschaft Wien VIENNA ANNEX beim UNO-Sitz
+    in Wien Legacy Standort „NSA-Villa“ Wien Relaystation Exelberg,Breitbandnetz von
+    NSA/SCS über Wien Equipment und Funktion der FORNSAT-Station Königswarte.
+  category: "Society & Culture"
+  feedback:
+  - rating: 3
+    username: max
+    comment: super talk mit kleinen technischen Problemen zu den Aussmassen der Spionage
+      in Wien und AT
+- title: Jahresrückblick des CCC
+  published: Mon, 29 Dec 2014 12:45:00 +0100
+  speakers: Frank Rieger, erdgeist, Linus Neumann, heckpiet, Constanze Kurz
+  subtitle: ''
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6583-de-en-Jahresrueckblick_des_CCC_hd.mp4
+  media_type: video/mp4
+  media_length: 1412431872
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6583.html
+  description: Auch das Jahr 2014 geht irgendwann vorbei. Deshalb werfen wir einen
+    Blick zurück auf die für uns besonders relevanten Themen und versuchen abzuschätzen,
+    was im Jahr 2015 auf uns zukommen könnte.
+  category: "Society & Culture"
+  feedback:
+  - rating: 3
+    username: max
+    comment: Spannend - aber vlt nur für (DE-)Netzpolitisch Interessierte
+- title: What Ever Happened to Nuclear Weapons?
+  published: Mon, 29 Dec 2014 17:15:00 +0100
+  speakers: Michael Büker
+  subtitle: Politics and Physics of a Problem That's Not Going Away
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6121-en-de-What_Ever_Happened_to_Nuclear_Weapons_hd.mp4
+  media_type: video/mp4
+  media_length: 673185792
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6121.html
+  description: An overview of 70 years of nuclear weapons, focusing on some of the
+    underlying physics, the international politics that surround the topic, modern
+    technology for nuclear weapons detection and monitoring, and what everyone can
+    do to help nuclear disarmament.
+  category: "Science"
+  feedback:
+  - rating: 3
+    username: max
+    comment: Was wir alles für Probleme haben / haben werden mit den Tausenden Waffen
+      die die Menschheit einfach auslöschen könnten
+- title: Funky File Formats
+  published: Mon, 29 Dec 2014 14:00:00 +0100
+  speakers: Ange Albertini
+  subtitle: Advanced binary tricks
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-5930-en-de-Funky_File_Formats_hd.mp4
+  media_type: video/mp4
+  media_length: 405798912
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/5930.html
+  description: Binary tricks to evade identification, detection, to exploit encryption
+    and hash collisions.
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: Ein Pdf ist ein JPG ist ein Song usw ... sehr lustig was man mit Dateiformaten
+      alles anrichten kann
+- title: Living Drones
+  published: Mon, 29 Dec 2014 20:30:00 +0100
+  speakers: Anja Drephal
+  subtitle: From war pigeons in 1914 to cyborg moths in 2014
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6275-en-de-Living_Drones_hd.mp4
+  media_type: video/mp4
+  media_length: 436207616
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6275.html
+  description: During World War I, homing pigeons were used to carry messages and
+    take photographs over enemy territory. Today, experiments are being conducted
+    to remote-control insects for similar purposes. This talk intends to give an overview
+    of 100 years of living drones, speculate on future developments in the field,
+    and question the ethical implications of the practice.
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: Wie werden Brieftauben und andere nicht menschliche Lebewesen für militärische
+      Zwecke missbraucht
+- title: 'The Perl Jam: Exploiting a 20 Year-old Vulnerability'
+  published: Mon, 29 Dec 2014 22:00:00 +0100
+  speakers: Netanel Rubin
+  subtitle: ''
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6243-en-de-The_Perl_Jam_Exploiting_a_20_Year-old_Vulnerability_hd.mp4
+  media_type: video/mp4
+  media_length: 285212672
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6243.html
+  description: tl;dr EXPLOIT ALL THE PERL. We chained several of Perl’s ridiculous
+    syntax quirks in order to create a surprisingly powerful attack, bringing down
+    some of the most popular Perl-based projects in the world to their knees. Brace
+    yourselves, RCE exploits are coming.
+  category: Technology
+  feedback:
+  - rating: 4
+    username: max
+    comment: Humorvoller WAT Talk zu idiotischem Verhalten in PERL. Viele Lacher,
+      kurzweilig.
+- title: 31C3 Infrastructure Review
+  published: Tue, 30 Dec 2014 16:00:00 +0100
+  speakers: Leon
+  subtitle: ''
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6557-en-de-31C3_Infrastructure_Review_hd.mp4
+  media_type: video/mp4
+  media_length: 479199232
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6557.html
+  description: Sections <ul> <li><a href="#t=0:10">0:10 Network (NOC)</a></li> <li><a
+    href="#t=26:19">26:19 Power</a></li> <li><a href="#t=29:39">29:39 Seidenstraße
+    (SOC)</a></li> <li><a href="#t=37:21">37:21 Video (VOC)</a></li> </ul>
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: beeindruckende Fakten zum grössten Kongress Deutschlands - eher lustig, wenn man vor Ort war
+- title: Security Nightmares
+  published: Tue, 30 Dec 2014 17:15:00 +0100
+  speakers: frank, Ron
+  subtitle: Damit Sie auch morgen schlecht von Ihrem Computer träumen.
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6572-de-en-Security_Nightmares_hd.mp4
+  media_type: video/mp4
+  media_length: 1154482176
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6572.html
+  description: Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Welche
+    neuen Entwicklungen haben sich ergeben? Welche neuen Buzzwords und Trends waren
+    zu sehen?
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: alles ist kaputt und wird kaputt sein. Lustig und aufrüttelnd wie jedes
+      Jahr
+- title: Inside Field Station Berlin Teufelsberg
+  published: Sun, 28 Dec 2014 21:45:00 +0100
+  speakers: Bill Scannell
+  subtitle: The story of the NSA listening post – told by an ex-SIGINT analyst who
+    worked there
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6585-en-de-Inside_Field_Station_Berlin_Teufelsberg_hd.mp4
+  media_type: video/mp4
+  media_length: 610271232
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6585.html
+  description: Of all the NSA's Cold War listening posts, their intelligence facility
+    on top of Berlin's Teufelsberg was their most secretive.
+  category: "Society & Culture"
+  feedback:
+  - rating: 3
+    username: max
+    comment: Lustige Anekdoten von nem patriotischen Ami, der bei der NSA in Berlin
+      war
+- title: Traue keinem Scan, den du nicht selbst gefälscht hast
+  published: Sun, 28 Dec 2014 23:00:00 +0100
+  speakers: David Kriesel
+  subtitle: '''Bei Kopierern kommt das raus, was man reinsteckt.'' – Wer das denkt,
+    sollte diesen Vortrag besuchen.'
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6558-de-en-Traue_keinem_Scan_den_du_nicht_selbst_gefaelscht_hast_hd.mp4
+  media_type: video/mp4
+  media_length: 778043392
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6558.html
+  category: Technology
+  feedback:
+  - rating: 5
+    username: max
+    comment: Grandioser Talk über einen krassen Bug in Scannern/Kopierern der jahrelang unentdeckt blieb. Absoluter Klassiker!
+  description: 'Kopierer, die spontan Zahlen im Dokument verändern: Im August 2013
+    kam heraus, dass so gut wie alle Xerox-Scankopierer beim Scannen Zahlen und Buchstaben
+    einfach so durch andere ersetzen. Da man solche Fehler als Benutzer so gut wie
+    nicht sehen kann, ist der Bug extrem gefährlich und blieb lange unentdeckt: Er
+    existiert über acht Jahre in freier Wildbahn. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6558.html'
+- title: Mobile self-defense
+  published: Sat, 27 Dec 2014 18:30:00 +0100
+  speakers: Karsten Nohl
+  subtitle: ''
+  media_url: http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6122-en-de-Mobile_self-defense_sd.mp4
+  media_type: video/mp4
+  media_length: 263192576
+  web_url: https://events.ccc.de/congress/2014/Fahrplan/events/6122.html
+  description: 'We know that mobile networks can — and do — attack us on many fronts.
+    As this talk will show, even 3G is attackable. It''s high time that we upgrade
+    from complaining to self-defense. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6122.html'
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: Handynetze sind absolut kaputt - danach will man kein Handy mehr haben
+meta:
+  title: 31C3 media feed
+  description: 'A curated feed for different talks of the 31C3 (Chaos Communication Congress 2014).'

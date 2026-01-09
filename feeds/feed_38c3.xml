@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>38C3 media feed</title>
+    <description>A curated feed for different talks of the 38C3 (Chaos Communication Congress 2024).</description>
+    <link>https://github.com/mxmo0rhuhn/media_feed</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en</language>
+    <generator>media-feed Python CLI</generator>
+    <pubDate>Fri, 09 Jan 2026 20:58:17 GMT</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2026 20:58:17 GMT</lastBuildDate>
+    <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
+    <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
+    <itunes:owner>
+      <itunes:email>media-feed@spam.schrimpf.ch</itunes:email>
+      <itunes:name>Maintainer</itunes:name>
+    </itunes:owner>
+    <image>
+      <url>https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png</url>
+      <title>38C3 media feed</title>
+      <link>https://github.com/mxmo0rhuhn/media_feed</link>
+      <description>A curated feed for different talks of the 38C3 (Chaos Communication Congress 2024).</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary>A curated feed for different talks of the 38C3 (Chaos Communication Congress 2024).</itunes:summary>
+    <itunes:author>mxmo0rhuhn</itunes:author>
+    <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Dialing into the Past: RCE via the Fax Machine – Because Why Not?</title>
+      <description>Remember the days when faxes were the pinnacle of office tech, and the sound of a paper getting pulled in was as satisfying as a fresh cup of coffee? Well,  it&#39;s time to dust off those memories and reintroduce ourselves to the quirky world of printers and their forgotten fax interfaces – yes, those relics that make us all feel like we&#39;re in an &#39;80ies sci-fi movie – and specifically, how they can unlock a new frontier in printer security exploits!
+
+In this talk, we&#39;ll show you how we leveraged a printer bug that we found at Pwn2Own Ireland this year to gain remote code execution. Over its fax interface. You might think, &#34;Who cares about faxes?&#34; – but what if I told you that lurking within this vintage feature is a potential pathway for remote code execution? That&#39;s right, while everyone else is busy patching the latest vulnerabilities in trendy software and half the world is obsessed with cloud security, we&#39;ll be having a blast with tech that should&#39;ve been retired to the attic long ago, exploiting a feature that&#39;s older than some of the attendees!
+
+We&#39;ll explore how this vintage tech can be the gateway to some serious mischief. Think of the possibilities: municipalities, banks, courts, you pick your favorite bureaucracy. Unfortunately, we can&#39;t do any of those things -- that&#39;d be naughty -- so we&#39;re restricted to doing the stupidest things we can think of in our live demos. In case you&#39;re wondering: of course we&#39;ll be running doom on this thing, proving that even the most outdated tech can still pack a punch, as we take control over this device in style. Expect a mix of technical insights and many moments of &#34;why would you do that?&#34;.
+
+So join us in this wild ride through simpler times -- who knew the key to world domination lays in a dusty fax machine?
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/dialing-into-the-past-rce-via-the-fax-machine-because-why-not/
+</description>
+      <link>https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/KBSSG9/</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/KBSSG9/</guid>
+      <pubDate>Sun, 29 Dec 2024 14:45:00 +0100</pubDate>
+      <itunes:title>Dialing into the Past: RCE via the Fax Machine – Because Why Not?</itunes:title>
+      <itunes:summary>Remember the days when faxes were the pinnacle of office tech, and the sound of a paper getting pulled in was as satisfying as a fresh cup of coffee? Well,  it&#39;s time to dust off those memories and reintroduce ourselves to the quirky world of printers and their forgotten fax interfaces – yes, those relics that make us all feel like we&#39;re in an &#39;80ies sci-fi movie – and specifically, how they can unlock a new frontier in printer security exploits!
+
+In this talk, we&#39;ll show you how we leveraged a printer bug that we found at Pwn2Own Ireland this year to gain remote code execution. Over its fax interface. You might think, &#34;Who cares about faxes?&#34; – but what if I told you that lurking within this vintage feature is a potential pathway for remote code execution? That&#39;s right, while everyone else is busy patching the latest vulnerabilities in trendy software and half the world is obsessed with cloud security, we&#39;ll be having a blast with tech that should&#39;ve been retired to the attic long ago, exploiting a feature that&#39;s older than some of the attendees!
+
+We&#39;ll explore how this vintage tech can be the gateway to some serious mischief. Think of the possibilities: municipalities, banks, courts, you pick your favorite bureaucracy. Unfortunately, we can&#39;t do any of those things -- that&#39;d be naughty -- so we&#39;re restricted to doing the stupidest things we can think of in our live demos. In case you&#39;re wondering: of course we&#39;ll be running doom on this thing, proving that even the most outdated tech can still pack a punch, as we take control over this device in style. Expect a mix of technical insights and many moments of &#34;why would you do that?&#34;.
+
+So join us in this wild ride through simpler times -- who knew the key to world domination lays in a dusty fax machine?
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/dialing-into-the-past-rce-via-the-fax-machine-because-why-not/
+</itunes:summary>
+      <itunes:author>Rick de Jager, Carlo Meijer</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2024/h264-hd/38c3-648-eng-deu-fra-Dialing_into_the_Past_RCE_via_the_Fax_Machine_-_Because_Why_Not_hd.mp4"
+                 length="954204160"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>How to Spec - Fun with dinosaurs</title>
+      <description>The public image of dinosaurs is largely shaped by art. While paleontology is a dynamic and productive science, it is primarily through paleoart that our perception of prehistoric life takes form. By combining informed speculation with a deep understanding of anatomy, ecology, and geology, paleoartists continuously reimagine extinct organisms in innovative ways.
+
+The public image of dinosaurs is largely shaped by art. While paleontology is a dynamic and productive science, it is primarily through paleoart that our perception of prehistoric life takes form. This tradition of science informed art form, rooted in a 200-year history, finds its inspiration in the fossil record and the interpretations it offers.
+The gaps in our knowledge are as influential as the fossils themselves. Through informed speculation and a fundamental understanding of anatomy, ecology and geology a paleoartist is able to bring back extinct organisms in ever new ways.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/how-to-spec-fun-with-dinosaurs/
+</description>
+      <link>https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/WFEH8C/</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/WFEH8C/</guid>
+      <pubDate>Fri, 27 Dec 2024 21:10:00 +0100</pubDate>
+      <itunes:title>How to Spec - Fun with dinosaurs</itunes:title>
+      <itunes:summary>The public image of dinosaurs is largely shaped by art. While paleontology is a dynamic and productive science, it is primarily through paleoart that our perception of prehistoric life takes form. By combining informed speculation with a deep understanding of anatomy, ecology, and geology, paleoartists continuously reimagine extinct organisms in innovative ways.
+
+The public image of dinosaurs is largely shaped by art. While paleontology is a dynamic and productive science, it is primarily through paleoart that our perception of prehistoric life takes form. This tradition of science informed art form, rooted in a 200-year history, finds its inspiration in the fossil record and the interpretations it offers.
+The gaps in our knowledge are as influential as the fossils themselves. Through informed speculation and a fundamental understanding of anatomy, ecology and geology a paleoartist is able to bring back extinct organisms in ever new ways.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/how-to-spec-fun-with-dinosaurs/
+</itunes:summary>
+      <itunes:author>Joschua Knüppe</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2024/h264-hd/38c3-691-eng-deu-How_to_Spec_-_Fun_with_dinosaurs_hd.mp4"
+                 length="776994816"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Digitalisierung mit der Brechstange</title>
+      <description>Fünf Prozent der Bevölkerung im Alter von 16 bis 74 Jahren in Deutschland sind offline. Dafür gibt es verschiedenen Gründe: Manche wollen nicht ins Netz und manche können nicht. Dennoch gibt es zunehmend auch öffentliche Dienstleistungen nur noch digital.
+
+Das wäre kein Problem, wenn gewährleistet wäre, dass alle Zugang zu Geräte, zum Netz und die nötige Unterstützung haben, um die Angebote nutzen zu können. Und wenn wir darauf vertrauen könnten, dass unsere Daten dort sicher sind. 
+
+Solange beides nicht gegeben ist, darf niemand ausgeschlossen werden, weil der Zugang fehlt.
+
+Menschen, die noch immer nicht online sind, sind älter, arm, häufig weiblich, manchmal behindert, sind keine Akademiker*innen oder arbeiten in Jobs, bei denen sie nicht vor Computern sitzen. 
+
+Aber auch durchaus IT-affine Menschen geraten mal ins Straucheln, wenn der Akku vom Gerät mit dem digitalen Ticket nicht mehr mitmacht oder das Funkloch verhindert, dass die digitale Bahncard aktualisiert werden kann, wenn die Kontrolle kommt. 
+
+Statt dafür zu sorgen, dass die nötige Infrastruktur läuft und alle die Unterstützung bekommen, die sie brauchen, um die immer anders aussehenden digitalen Behördengänge erledigen zu können, setzt die Bundesregierung auf Zuckerbrot und Peitsche. Es gab Geschenke wie den Kulturpass für 18-Jährige oder eine 200-Euro-Einmalzahlung für Studierende, aber die gab es nur für die, die sie online beantragten. Es wird akzeptiert, dass Post- und Bankfilialen durch Online-Angebote ersetzt werden. Alle, die damit nicht klarkommen, werden höchstens belächelt. Aber das betrifft nicht wenige Menschen, die angesichts dieser Digitalisierung mit der Brechstange im Regen stehen. Sie sind oft so schon auf die eine oder andere Weise benachteiligt und nun durch rein digitale Angebote noch weiter abgehängt. Im Idealfall sollte Digitalisierung das Leben vereinfachen. Tatsächlich trägt diese Digitalisierung zu noch mehr gesellschaftlicher Spaltung bei. 
+
+Dieser Talk beleuchtet, wen das betrifft und warum, und zeigt Beispiele für Dienstleistungen und Angebote, die nur online zu haben sind – und für die, die keine Skrupel haben angesichts der häufig wenig vertrauenserweckenden Umsetzung. Schließlich wird es auch darum gehen, was nötig wäre, um diese Situation zu ändern.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/digitalisierung-mit-der-brechstange/
+</description>
+      <link>https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/MWGDZZ/</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/MWGDZZ/</guid>
+      <pubDate>Sat, 28 Dec 2024 12:00:00 +0100</pubDate>
+      <itunes:title>Digitalisierung mit der Brechstange</itunes:title>
+      <itunes:summary>Fünf Prozent der Bevölkerung im Alter von 16 bis 74 Jahren in Deutschland sind offline. Dafür gibt es verschiedenen Gründe: Manche wollen nicht ins Netz und manche können nicht. Dennoch gibt es zunehmend auch öffentliche Dienstleistungen nur noch digital.
+
+Das wäre kein Problem, wenn gewährleistet wäre, dass alle Zugang zu Geräte, zum Netz und die nötige Unterstützung haben, um die Angebote nutzen zu können. Und wenn wir darauf vertrauen könnten, dass unsere Daten dort sicher sind. 
+
+Solange beides nicht gegeben ist, darf niemand ausgeschlossen werden, weil der Zugang fehlt.
+
+Menschen, die noch immer nicht online sind, sind älter, arm, häufig weiblich, manchmal behindert, sind keine Akademiker*innen oder arbeiten in Jobs, bei denen sie nicht vor Computern sitzen. 
+
+Aber auch durchaus IT-affine Menschen geraten mal ins Straucheln, wenn der Akku vom Gerät mit dem digitalen Ticket nicht mehr mitmacht oder das Funkloch verhindert, dass die digitale Bahncard aktualisiert werden kann, wenn die Kontrolle kommt. 
+
+Statt dafür zu sorgen, dass die nötige Infrastruktur läuft und alle die Unterstützung bekommen, die sie brauchen, um die immer anders aussehenden digitalen Behördengänge erledigen zu können, setzt die Bundesregierung auf Zuckerbrot und Peitsche. Es gab Geschenke wie den Kulturpass für 18-Jährige oder eine 200-Euro-Einmalzahlung für Studierende, aber die gab es nur für die, die sie online beantragten. Es wird akzeptiert, dass Post- und Bankfilialen durch Online-Angebote ersetzt werden. Alle, die damit nicht klarkommen, werden höchstens belächelt. Aber das betrifft nicht wenige Menschen, die angesichts dieser Digitalisierung mit der Brechstange im Regen stehen. Sie sind oft so schon auf die eine oder andere Weise benachteiligt und nun durch rein digitale Angebote noch weiter abgehängt. Im Idealfall sollte Digitalisierung das Leben vereinfachen. Tatsächlich trägt diese Digitalisierung zu noch mehr gesellschaftlicher Spaltung bei. 
+
+Dieser Talk beleuchtet, wen das betrifft und warum, und zeigt Beispiele für Dienstleistungen und Angebote, die nur online zu haben sind – und für die, die keine Skrupel haben angesichts der häufig wenig vertrauenserweckenden Umsetzung. Schließlich wird es auch darum gehen, was nötig wäre, um diese Situation zu ändern.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/digitalisierung-mit-der-brechstange/
+</itunes:summary>
+      <itunes:author>Anne Roth</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2024/h264-hd/38c3-599-deu-eng-Digitalisierung_mit_der_Brechstange_hd.mp4"
+                 length="1119879168"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Was lange währt, wird endlich gut? Die Modernisierung des Computerstrafrechts</title>
+      <description>Die Reform des Computerstrafrechts ist längst überfällig. Die bestehende Gesetzgebung ist zunehmend veraltet und entspricht nicht mehr den Anforderungen unserer digitalen Welt. Spätestens seit der Veröffentlichung des aktuellen Koalitionsvertrags hat sich die Bundesregierung die Modernisierung dieses vielfach kritisierten Rechtsbereichs auf die Fahnen geschrieben. Doch was ist seitdem wirklich passiert? Wie sieht der aktuelle Stand der Reformbemühung aus? Was wird sich konkret ändern und welche Auswirkungen wird dies auf die Hacker-Community und die Sicherheitsforschung haben? Und wird das endlich gut?
+
+Das Computerstrafrecht steht seit vielen Jahren in der Kritik – nicht nur von Seiten der Hacker-Community, sondern auch aus der Wissenschaft, der Wirtschaft und sogar von Strafrechtsexperten. Ein zentraler Kritikpunkt ist die Kriminalisierung von Hacking mit guter Absicht, sogenannten ethischen Hackern. Aktuell ist auch diese Form des Hacking strafbar. Initiativen wie Bug Bounty Programme und Disclosure Policies zeigen, dass die Industrie durchaus ein Interesse daran hat, von ethischen Hackern zu profitieren, die Schwachstellen verantwortungsbewusst aufdecken und melden. Seit Ende Oktober ist nun ein Gesetzesentwurf im Umlauf, welcher die Modernisierung des Computerstrafrechts vorsieht.
+ 
+Dieser Vortrag gibt einen Einblick in die Entwicklung dieses Gesetzesentwurfs, den aktuellen Stand der Debatte und die nächsten Schritte. Wir erklären dabei die geplanten Änderungen anhand von praktischen Beispielen und erläutern, welche Aktivitäten zukünftig legal wären und welche weiterhin verboten bleiben.
+ 
+Ziel des Vortrags ist es, die Zuhörenden über den Prozess der Gesetzesänderungen zu informieren. Sie erkennen, welche Möglichkeiten sich aus dem reformierten Computerstrafrecht ergeben und lernen, was beim verantwortungsvollen Aufdecken von Sicherheitslücken beachtet werden muss und welche rechtlichen Grenzen weiterhin bestehen. Zudem wird der Vortrag verdeutlichen, inwieweit die geplante Gesetzesreform als Gewinn für die Hacker-Community angesehen werden kann – oder ob es noch immer Nachbesserungsbedarf gibt.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/was-lange-whrt-wird-endlich-gut-die-modernisierung-des-computerstrafrechts/
+</description>
+      <link>https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/7GVNYD/</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/7GVNYD/</guid>
+      <pubDate>Fri, 27 Dec 2024 13:50:00 +0100</pubDate>
+      <itunes:title>Was lange währt, wird endlich gut? Die Modernisierung des Computerstrafrechts</itunes:title>
+      <itunes:summary>Die Reform des Computerstrafrechts ist längst überfällig. Die bestehende Gesetzgebung ist zunehmend veraltet und entspricht nicht mehr den Anforderungen unserer digitalen Welt. Spätestens seit der Veröffentlichung des aktuellen Koalitionsvertrags hat sich die Bundesregierung die Modernisierung dieses vielfach kritisierten Rechtsbereichs auf die Fahnen geschrieben. Doch was ist seitdem wirklich passiert? Wie sieht der aktuelle Stand der Reformbemühung aus? Was wird sich konkret ändern und welche Auswirkungen wird dies auf die Hacker-Community und die Sicherheitsforschung haben? Und wird das endlich gut?
+
+Das Computerstrafrecht steht seit vielen Jahren in der Kritik – nicht nur von Seiten der Hacker-Community, sondern auch aus der Wissenschaft, der Wirtschaft und sogar von Strafrechtsexperten. Ein zentraler Kritikpunkt ist die Kriminalisierung von Hacking mit guter Absicht, sogenannten ethischen Hackern. Aktuell ist auch diese Form des Hacking strafbar. Initiativen wie Bug Bounty Programme und Disclosure Policies zeigen, dass die Industrie durchaus ein Interesse daran hat, von ethischen Hackern zu profitieren, die Schwachstellen verantwortungsbewusst aufdecken und melden. Seit Ende Oktober ist nun ein Gesetzesentwurf im Umlauf, welcher die Modernisierung des Computerstrafrechts vorsieht.
+ 
+Dieser Vortrag gibt einen Einblick in die Entwicklung dieses Gesetzesentwurfs, den aktuellen Stand der Debatte und die nächsten Schritte. Wir erklären dabei die geplanten Änderungen anhand von praktischen Beispielen und erläutern, welche Aktivitäten zukünftig legal wären und welche weiterhin verboten bleiben.
+ 
+Ziel des Vortrags ist es, die Zuhörenden über den Prozess der Gesetzesänderungen zu informieren. Sie erkennen, welche Möglichkeiten sich aus dem reformierten Computerstrafrecht ergeben und lernen, was beim verantwortungsvollen Aufdecken von Sicherheitslücken beachtet werden muss und welche rechtlichen Grenzen weiterhin bestehen. Zudem wird der Vortrag verdeutlichen, inwieweit die geplante Gesetzesreform als Gewinn für die Hacker-Community angesehen werden kann – oder ob es noch immer Nachbesserungsbedarf gibt.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/was-lange-whrt-wird-endlich-gut-die-modernisierung-des-computerstrafrechts/
+</itunes:summary>
+      <itunes:author>Florian Hantke, Prof. Dr. Dennis-Kenji Kipker</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2024/h264-hd/38c3-344-deu-eng-Was_lange_waehrt_wird_endlich_gut_Die_Modernisierung_des_Computerstrafrechts_hd.mp4"
+                 length="782237696"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Police 2.0: Peaceful activism is terrorism and fakenews is facts</title>
+      <description>On 23 October 2019 peaceful activist Frank van der Linde found out the Dutch Police was associating him with terrorism to other countries&#39; law enforcement.
+ 
+This talk goes over the bizarre, worrying and, frankly, quite funny journey that Frank van der Linde has embarked on, hoping on a litigation frenzy to seek justice and fight back against the institutional intimidation of activists.
+
+In 2014 the Dutch police started monitoring Frank van der Linde after he demonstrated and publicly opposed racism, climate change, animal cruelty, homelessness, and other social injustices. By 2019 the Dutch law enforcement had put him on a terror list and shared his personal data with the German Federal Criminal Police Office, Europol and Interpol. Frank challenged the police for sharing his data and categorising him as &#34;terrorist&#34;, they responded &#34;The term ‘terrorism’ is a broad term, and they don&#39;t really mean it.&#34; The Police maintained the categorisation. 
+ 
+Last year, a Dutch police officer blew the whistle and spoke out in favor of Frank during a hearing in court. He told the court that the police file about Frank contained grossly mischaracterised and biased information.
+ 
+Overall is seems that wherever van der Linde data is processed, data gets lost and accountability processes cave in. To quote Frank, “What do they have to hide?!”
+ 
+Speakers: 
+Frank van der Linde
+Lori Roussey, Director of Data Rights, who participates in supporting Frank courageous journey
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/police-2-0-peaceful-activism-is-terrorism-and-fakenews-are-facts/
+</description>
+      <link>https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/MJYTSS/</link>
+      <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2024/fahrplan/talk/MJYTSS/</guid>
+      <pubDate>Fri, 27 Dec 2024 12:00:00 +0100</pubDate>
+      <itunes:title>Police 2.0: Peaceful activism is terrorism and fakenews is facts</itunes:title>
+      <itunes:summary>On 23 October 2019 peaceful activist Frank van der Linde found out the Dutch Police was associating him with terrorism to other countries&#39; law enforcement.
+ 
+This talk goes over the bizarre, worrying and, frankly, quite funny journey that Frank van der Linde has embarked on, hoping on a litigation frenzy to seek justice and fight back against the institutional intimidation of activists.
+
+In 2014 the Dutch police started monitoring Frank van der Linde after he demonstrated and publicly opposed racism, climate change, animal cruelty, homelessness, and other social injustices. By 2019 the Dutch law enforcement had put him on a terror list and shared his personal data with the German Federal Criminal Police Office, Europol and Interpol. Frank challenged the police for sharing his data and categorising him as &#34;terrorist&#34;, they responded &#34;The term ‘terrorism’ is a broad term, and they don&#39;t really mean it.&#34; The Police maintained the categorisation. 
+ 
+Last year, a Dutch police officer blew the whistle and spoke out in favor of Frank during a hearing in court. He told the court that the police file about Frank contained grossly mischaracterised and biased information.
+ 
+Overall is seems that wherever van der Linde data is processed, data gets lost and accountability processes cave in. To quote Frank, “What do they have to hide?!”
+ 
+Speakers: 
+Frank van der Linde
+Lori Roussey, Director of Data Rights, who participates in supporting Frank courageous journey
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2024/hub/event/police-2-0-peaceful-activism-is-terrorism-and-fakenews-are-facts/
+</itunes:summary>
+      <itunes:author>Lori Roussey, Frank van der Linde</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2024/h264-hd/38c3-359-eng-deu-fra-Police_20_Peaceful_activism_is_terrorism_and_fakenews_are_facts_hd.mp4"
+                 length="3033530368"
+                 type="video/mp4"/>
+    </item>
+  </channel>
+</rss>

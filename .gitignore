@@ -1,0 +1,10 @@
+.idea
+
+# Python artifacts
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+dist/
+*.egg-info/
+.ruff_cache/

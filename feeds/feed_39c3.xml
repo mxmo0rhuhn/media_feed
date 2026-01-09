@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>39C3 media feed</title>
+    <description>A curated feed for different talks of the 39C3 (Chaos Communication Congress 2025).</description>
+    <link>https://github.com/mxmo0rhuhn/media_feed</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en</language>
+    <generator>media-feed Python CLI</generator>
+    <pubDate>Fri, 09 Jan 2026 20:58:17 GMT</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2026 20:58:17 GMT</lastBuildDate>
+    <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
+    <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
+    <itunes:owner>
+      <itunes:email>media-feed@spam.schrimpf.ch</itunes:email>
+      <itunes:name>Maintainer</itunes:name>
+    </itunes:owner>
+    <image>
+      <url>https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png</url>
+      <title>39C3 media feed</title>
+      <link>https://github.com/mxmo0rhuhn/media_feed</link>
+      <description>A curated feed for different talks of the 39C3 (Chaos Communication Congress 2025).</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary>A curated feed for different talks of the 39C3 (Chaos Communication Congress 2025).</itunes:summary>
+    <itunes:author>mxmo0rhuhn</itunes:author>
+    <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Building hardware - easier than ever - harder than it should be</title>
+      <description>Building electronics has never been easier, cheaper, or more accessible than the last few years. It&#39;s also becoming a precious skill in a world where commercially made electronics are the latest victim of enshittification and vibe coding. And yet, while removing technical and financial barriers to building things, we&#39;ve not come as far as we should have in removing social barriers. The electronics and engineering industry and the cultures around them are hostile to newcomers and self-taught practitioners, for no good reason at all. I&#39;ve been teaching advanced electronics manufacturing skills to absolute beginners for a decade now, and they&#39;ve consistently succeeded at acquiring them. I&#39;m here to tell you why it&#39;s not as hard as it seems, how to get into it, and why more people who think they can&#39;t should try.
+
+Electronics is easier and more fun to get into than it&#39;s ever been before. All the tools and resources are easily accessible and super cheap or free. There&#39;s an enormous amount of things to build from and build on.
+
+It&#39;s also never been more important to be able to build and understand electronics, as assholes running corporations are wasting their workers&#39; unpaid overtime on making all the electronics in our lives shittier, more full of ads, slop, and spyware, and more frustrating to use. Encountering a device that works for you instead of against you is a breath of fresh air. Building one is an act of resistance and power. Not depending on the whims of corporate assholes is freedom.
+
+However, the culture around electronics and the electronics industry is one of exclusion and gatekeeping. It doesn&#39;t need to be. It would be stupidly easy to make things better, and we should. I&#39;ve been teaching absolute beginners advanced electronics manufacturing skills for many years now. It&#39;s absolutely shocking how much more diverse the people who I teach are compared to the industry. The &#34;hardware is hard&#34; meme is true in some cases but toxic when worn as a badge of pride or a warning to people attempting it.
+
+I will tell you why designing and building electronics is not nearly as hard as it seems, how it&#39;s almost never been easier to get into it, and why it&#39;s very important that people who think or have been told they can&#39;t do it should be doing more of it. I&#39;ll tell you my experiences of what building devices is like, show and tell a few useful skills, and tell the story of how trying to prove someone wrong on the internet turned into a decade of teaching people with zero experience how to handle the most complex electronic components at all sorts of community events.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/building-hardware-easier-than-ever-harder-than-it-should-be
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/building-hardware-easier-than-ever-harder-than-it-should-be</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/building-hardware-easier-than-ever-harder-than-it-should-be</guid>
+      <pubDate>Sat, 27 Dec 2025 12:50:00 +0100</pubDate>
+      <itunes:title>Building hardware - easier than ever - harder than it should be</itunes:title>
+      <itunes:summary>Building electronics has never been easier, cheaper, or more accessible than the last few years. It&#39;s also becoming a precious skill in a world where commercially made electronics are the latest victim of enshittification and vibe coding. And yet, while removing technical and financial barriers to building things, we&#39;ve not come as far as we should have in removing social barriers. The electronics and engineering industry and the cultures around them are hostile to newcomers and self-taught practitioners, for no good reason at all. I&#39;ve been teaching advanced electronics manufacturing skills to absolute beginners for a decade now, and they&#39;ve consistently succeeded at acquiring them. I&#39;m here to tell you why it&#39;s not as hard as it seems, how to get into it, and why more people who think they can&#39;t should try.
+
+Electronics is easier and more fun to get into than it&#39;s ever been before. All the tools and resources are easily accessible and super cheap or free. There&#39;s an enormous amount of things to build from and build on.
+
+It&#39;s also never been more important to be able to build and understand electronics, as assholes running corporations are wasting their workers&#39; unpaid overtime on making all the electronics in our lives shittier, more full of ads, slop, and spyware, and more frustrating to use. Encountering a device that works for you instead of against you is a breath of fresh air. Building one is an act of resistance and power. Not depending on the whims of corporate assholes is freedom.
+
+However, the culture around electronics and the electronics industry is one of exclusion and gatekeeping. It doesn&#39;t need to be. It would be stupidly easy to make things better, and we should. I&#39;ve been teaching absolute beginners advanced electronics manufacturing skills for many years now. It&#39;s absolutely shocking how much more diverse the people who I teach are compared to the industry. The &#34;hardware is hard&#34; meme is true in some cases but toxic when worn as a badge of pride or a warning to people attempting it.
+
+I will tell you why designing and building electronics is not nearly as hard as it seems, how it&#39;s almost never been easier to get into it, and why it&#39;s very important that people who think or have been told they can&#39;t do it should be doing more of it. I&#39;ll tell you my experiences of what building devices is like, show and tell a few useful skills, and tell the story of how trying to prove someone wrong on the internet turned into a decade of teaching people with zero experience how to handle the most complex electronic components at all sorts of community events.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/building-hardware-easier-than-ever-harder-than-it-should-be
+</itunes:summary>
+      <itunes:author>Kliment</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2271-eng-deu-spa-Building_hardware_-_easier_than_ever_-_harder_than_it_should_be_hd.mp4"
+                 length="507510784"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Chaos Communication Chemistry: DNA security systems based on molecular randomness</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**Over the past few decades, nucleic acids have increasingly been investigated as alternative data storage media and platforms for molecular computing. This talk builds on past research and introduces another branch to the field: DNA cryptography based on random chemistry. This technology provides a platform for conceiving new security architectures that bridge the physical with the digital world.**
+
+Nucleic acids have been theorized as potential data storage and computation platforms since the mid-20th century. In the meantime, notable advances have been made in implementing such systems, combining academic research with industry efforts. 
+After providing a general introduction to the interdisciplinary field of DNA information technology, in the second half of the talk focuses on DNA-based cryptography and security systems, in particular zooming in on the example of chemical unclonable functions (CUFs) based on randomly generated, synthetic DNA sequences. Similar to Physical Unclonable Functions (PUFs), these DNA-based systems contain vast random elements that cannot be reconstructed – neither algorithmically nor synthetically. Using biochemical processing, we can operate these systems in a fashion comparable to cryptographic hash functions, enabling new authentication protocols. Aside from covering the basics, we delve into the advantages, as well as the drawbacks, of DNA as a medium. Finally, we explore how CUFs could in the future be implemented as physical security architectures: For example, in anti-counterfeiting of medicines or as personal signatures for artworks. 
+In a broader sense, this talk aims to inspire a reconsideration of entropy, randomness and information in the experimental sciences through a digital lens. In doing so, it provides examples of how looking at physical systems through an information perspective can unravel new synergies, applications and even security architectures.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/chaos-communication-chemistry-dna-security-systems-based-on-molecular-randomness
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/chaos-communication-chemistry-dna-security-systems-based-on-molecular-randomness</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/chaos-communication-chemistry-dna-security-systems-based-on-molecular-randomness</guid>
+      <pubDate>Sun, 28 Dec 2025 14:45:00 +0100</pubDate>
+      <itunes:title>Chaos Communication Chemistry: DNA security systems based on molecular randomness</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+**Over the past few decades, nucleic acids have increasingly been investigated as alternative data storage media and platforms for molecular computing. This talk builds on past research and introduces another branch to the field: DNA cryptography based on random chemistry. This technology provides a platform for conceiving new security architectures that bridge the physical with the digital world.**
+
+Nucleic acids have been theorized as potential data storage and computation platforms since the mid-20th century. In the meantime, notable advances have been made in implementing such systems, combining academic research with industry efforts. 
+After providing a general introduction to the interdisciplinary field of DNA information technology, in the second half of the talk focuses on DNA-based cryptography and security systems, in particular zooming in on the example of chemical unclonable functions (CUFs) based on randomly generated, synthetic DNA sequences. Similar to Physical Unclonable Functions (PUFs), these DNA-based systems contain vast random elements that cannot be reconstructed – neither algorithmically nor synthetically. Using biochemical processing, we can operate these systems in a fashion comparable to cryptographic hash functions, enabling new authentication protocols. Aside from covering the basics, we delve into the advantages, as well as the drawbacks, of DNA as a medium. Finally, we explore how CUFs could in the future be implemented as physical security architectures: For example, in anti-counterfeiting of medicines or as personal signatures for artworks. 
+In a broader sense, this talk aims to inspire a reconsideration of entropy, randomness and information in the experimental sciences through a digital lens. In doing so, it provides examples of how looking at physical systems through an information perspective can unravel new synergies, applications and even security architectures.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/chaos-communication-chemistry-dna-security-systems-based-on-molecular-randomness
+</itunes:summary>
+      <itunes:author>Anne Lüscher</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1493-eng-deu-por-Chaos_Communication_Chemistry_DNA_security_systems_based_on_molecular_randomness_hd.mp4"
+                 length="613416960"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Security Nightmares</title>
+      <description>Was hat sich im Jahr 2025 im Bereich IT-Sicherheit getan? Welche neuen Methoden, Buzzwords und Trends waren zu sehen? Was waren die fiesesten Angriffe und die teuersten Fehler?
+
+Wir wagen auch den IT-Security-Ausblick auf das Jahr 2026. Der ist wie immer mit Vorsicht zu genießen.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/security-nightmares
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/security-nightmares</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/security-nightmares</guid>
+      <pubDate>Tue, 30 Dec 2025 14:45:00 +0100</pubDate>
+      <itunes:title>Security Nightmares</itunes:title>
+      <itunes:summary>Was hat sich im Jahr 2025 im Bereich IT-Sicherheit getan? Welche neuen Methoden, Buzzwords und Trends waren zu sehen? Was waren die fiesesten Angriffe und die teuersten Fehler?
+
+Wir wagen auch den IT-Security-Ausblick auf das Jahr 2026. Der ist wie immer mit Vorsicht zu genießen.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/security-nightmares
+</itunes:summary>
+      <itunes:author>Constanze Kurz, Ron</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1965-deu-eng-fra-Security_Nightmares_hd.mp4"
+                 length="1718616064"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>CCC-Jahresrückblick</title>
+      <description>Das war nicht das Jahr 2025, das wir bestellt hatten.
+
+2025 war ein gutes Jahr für Exploits, kein gutes Jahr für die Freiheit und ein herausragendes für schlechte Ideen. Regierungen kämpften weiter für Massenüberwachung, natürlich mit KI-Unterstützung™. Kriege wurden weiter „digitalisiert“, Chatkontrolle als Kinderschutz verkauft, Waffensysteme haben inzwischen mehr Autonomie als die meisten Bürger*innen und künstliche Intelligenz löst endlich alle Probleme – vor allem die, die bisher niemand hatte.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/ccc-jahresruckblick
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/ccc-jahresruckblick</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/ccc-jahresruckblick</guid>
+      <pubDate>Sun, 28 Dec 2025 16:35:00 +0100</pubDate>
+      <itunes:title>CCC-Jahresrückblick</itunes:title>
+      <itunes:summary>Das war nicht das Jahr 2025, das wir bestellt hatten.
+
+2025 war ein gutes Jahr für Exploits, kein gutes Jahr für die Freiheit und ein herausragendes für schlechte Ideen. Regierungen kämpften weiter für Massenüberwachung, natürlich mit KI-Unterstützung™. Kriege wurden weiter „digitalisiert“, Chatkontrolle als Kinderschutz verkauft, Waffensysteme haben inzwischen mehr Autonomie als die meisten Bürger*innen und künstliche Intelligenz löst endlich alle Probleme – vor allem die, die bisher niemand hatte.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/ccc-jahresruckblick
+</itunes:summary>
+      <itunes:author>Constanze Kurz, khaleesi, Matthias Marx, Linus Neumann, erdgeist</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2397-deu-eng-fra-CCC-Jahresrueckblick_hd.mp4"
+                 length="2196766720"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Who cares about the Baltic Jammer? – Terrestrial Navigation in the Baltic Sea Region</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Reports of GNSS interference in the Baltic Sea have become almost routine — airplanes losing GPS, ships drifting off course, and timing systems failing. But what happens when a group of engineers decides to build a navigation system that simply *doesn’t care* about the jammer?
+
+Since 2017, we’ve been developing **R-Mode**, a terrestrial navigation system that uses existing radio beacons and maritime infrastructure to provide independent positioning — no satellites needed. In this talk, we’ll share our journey from an obscure research project that “nobody needs” to a system now seen as crucial for resilience and sovereignty. Expect technical insights, field stories from ships in the Baltic, and reflections on what it means when a civilian backup system suddenly attracts military interest.
+
+Since 2017, our team at DLR and partners across Europe have been working on an alternative to satellite navigation: **R-Mode**, a backup system based on terrestrial transmitters. Our main testbed spans the Baltic Sea — a region now infamous for GNSS jamming and spoofing.
+
+We’ll start by showing what GNSS interference actually means in practice: aircraft losing navigation data, ships switching to manual control, and entire regions facing timing outages — such as the recent disruption of telecommunications in Gdańsk during Easter 2025.
+
+Then we’ll take you behind the scenes of building R-Mode: designing signals that can coexist with legacy systems, installing transmitters along the coast, and testing shipborne receivers in rough conditions. We’ll share personal moments — like the first time we received a stable position fix in the middle of the Baltic.
+
+Finally, we’ll talk about perception and politics: how a “research curiosity” became a critical infrastructure project, why ESA now wants to build a *satellite* backup (with the same vulnerabilities), and how it feels when your civilian open-source navigation system suddenly becomes strategically relevant.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/who-cares-about-the-baltic-jammer-terrestrial-navigation-in-the-baltic-sea-region
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/who-cares-about-the-baltic-jammer-terrestrial-navigation-in-the-baltic-sea-region</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/who-cares-about-the-baltic-jammer-terrestrial-navigation-in-the-baltic-sea-region</guid>
+      <pubDate>Sat, 27 Dec 2025 12:50:00 +0100</pubDate>
+      <itunes:title>Who cares about the Baltic Jammer? – Terrestrial Navigation in the Baltic Sea Region</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Reports of GNSS interference in the Baltic Sea have become almost routine — airplanes losing GPS, ships drifting off course, and timing systems failing. But what happens when a group of engineers decides to build a navigation system that simply *doesn’t care* about the jammer?
+
+Since 2017, we’ve been developing **R-Mode**, a terrestrial navigation system that uses existing radio beacons and maritime infrastructure to provide independent positioning — no satellites needed. In this talk, we’ll share our journey from an obscure research project that “nobody needs” to a system now seen as crucial for resilience and sovereignty. Expect technical insights, field stories from ships in the Baltic, and reflections on what it means when a civilian backup system suddenly attracts military interest.
+
+Since 2017, our team at DLR and partners across Europe have been working on an alternative to satellite navigation: **R-Mode**, a backup system based on terrestrial transmitters. Our main testbed spans the Baltic Sea — a region now infamous for GNSS jamming and spoofing.
+
+We’ll start by showing what GNSS interference actually means in practice: aircraft losing navigation data, ships switching to manual control, and entire regions facing timing outages — such as the recent disruption of telecommunications in Gdańsk during Easter 2025.
+
+Then we’ll take you behind the scenes of building R-Mode: designing signals that can coexist with legacy systems, installing transmitters along the coast, and testing shipborne receivers in rough conditions. We’ll share personal moments — like the first time we received a stable position fix in the middle of the Baltic.
+
+Finally, we’ll talk about perception and politics: how a “research curiosity” became a critical infrastructure project, why ESA now wants to build a *satellite* backup (with the same vulnerabilities), and how it feels when your civilian open-source navigation system suddenly becomes strategically relevant.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/who-cares-about-the-baltic-jammer-terrestrial-navigation-in-the-baltic-sea-region
+</itunes:summary>
+      <itunes:author>Lars, Niklas Hehenkamp, Markus</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1997-eng-deu-Who_cares_about_the_Baltic_Jammer_-_Terrestrial_Navigation_in_the_Baltic_Sea_Region_hd.mp4"
+                 length="844103680"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>CPU Entwicklung in Factorio: Vom D-Flip-Flop bis zum eigenen Betriebssystem</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Insane - just insane you learn a lot about how CPUs work (or should pause the video to do so on the side). However, very niche.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Factorio ist ein Fabriksimulationsspiel mit integriertem Logiksystem. Dies ermöglichte mir den Bau einer CPU, die unter anderem aus einer 5-stufiger Pipeline, einer Forwarding Logikeinheit, Interrupt Handling sowie einem I/O Interface besteht. Über einen selbst geschriebenen Assembler konnte ich ein eigenes Betriebssystem und Programme wie Minesweeper oder Snake integrieren. 
+Der Talk soll euch zeigen, wie sich klassische Computerarchitektur in einem völlig anderen technischen Kontext umsetzen lässt und wo dabei überraschend echte Probleme der CPU-Entwicklung auftreten.
+Kommt mit auf die Reise: Vom Blick auf den gesamten Computer bis hinunter zu den einzelnen Logikgattern ist es nur eine Mausradbewegung entfernt!
+
+Factorio ist ein Spiel über Fabrikautomation - Förderbänder, Dampfmaschinen und Produktionsketten stehen im Vordergrund. Eigentlich ist das interne Logiksystem („Combinators“) gedacht für die Steuerung der Fabrik, jedoch erlaubt es auch die Entwicklung komplexer Hardware.
+
+In diesem Vortrag erzähle ich meine Geschichte, wie ich eine vollständige RISC-V-Architektur in Factorio  rein aus Vanilla-Combinators erschaffen habe:
+Die CPU arbeitet mit 32 Bit-Wörtern, verfügt über 32 General Purpose Register, 128 KB RAM/Persistent Storage, eine 5-stufige Pipeline mit Forwarding und Hazard-Handling sowie eine Logikeinheit für Branches und Interrupts. Ein Display-Controller steuert eine Konsolen-Ausgabe sowie ein Farbdisplay, während ein Keyboard-Controller Eingaben über physische In-Game-Tasten ermöglicht.
+
+Ergänzt wird die Hardware auf der Softwareseite durch das Betriebssystem *FactOS*, das ein einfaches Filesystem sowie Systemcalls (zum Beispiel zum Drucken eines Strings im Terminal) zur Verfügung stellt.  Außerdem schränkt das Betriebssystem das ausführende User-Programm auf einen festen Bereich des RAMs ein und verhindert so direkten Zugriff auf die Hardware.
+
+Im Talk möchte ich euch durch alle Schichten dieser Konstruktion führen:
+Von den Grundlagen der Factorio-Signalphysik über CPU-Design und Pipeline-Hazards bis zur Toolchain und dem Betriebssystem. Außerdem gebe ich einen Einblick, wie die Limitierungen aber auch die Vorteile von Factorio im Vergleich zu herkömmlichen Logik Simulatoren das Design einer CPU beeinflussen können. Ich runde meinen Talk mit einer Live-Demonstration des Systems ab.
+
+Die vollständige CPU, inklusive Quellcode des Assemblers, Blueprints und Beispielprogramme, stelle ich öffentlich zur Verfügung. Dadurch kann jede interessierte Person die Architektur in Factorio laden, erweitern und eigene Software dafür entwickeln.
+
+Es wird im Anschluss eine [Self-organized Session](https://events.ccc.de/congress/2025/hub/en/event/detail/cpu-entwicklung-in-factorio-wie-benutze-ich-phds-f) geben, in der ich eine hands-on Einleitung geben werde, wie man die CPU in Factorio lädt, wie man Programme schreibt, diese assembliert und in Factorio einfügt. Auch kann man dort gerne mit mir über das Projekt quatschen, ich freue mich auf alle Beiträge und Kommentare :)
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/cpu-entwicklung-in-factorio-vom-d-flip-flop-bis-zum-eigenen-betriebssystem
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/cpu-entwicklung-in-factorio-vom-d-flip-flop-bis-zum-eigenen-betriebssystem</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/cpu-entwicklung-in-factorio-vom-d-flip-flop-bis-zum-eigenen-betriebssystem</guid>
+      <pubDate>Sun, 28 Dec 2025 19:15:00 +0100</pubDate>
+      <itunes:title>CPU Entwicklung in Factorio: Vom D-Flip-Flop bis zum eigenen Betriebssystem</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Insane - just insane you learn a lot about how CPUs work (or should pause the video to do so on the side). However, very niche.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Factorio ist ein Fabriksimulationsspiel mit integriertem Logiksystem. Dies ermöglichte mir den Bau einer CPU, die unter anderem aus einer 5-stufiger Pipeline, einer Forwarding Logikeinheit, Interrupt Handling sowie einem I/O Interface besteht. Über einen selbst geschriebenen Assembler konnte ich ein eigenes Betriebssystem und Programme wie Minesweeper oder Snake integrieren. 
+Der Talk soll euch zeigen, wie sich klassische Computerarchitektur in einem völlig anderen technischen Kontext umsetzen lässt und wo dabei überraschend echte Probleme der CPU-Entwicklung auftreten.
+Kommt mit auf die Reise: Vom Blick auf den gesamten Computer bis hinunter zu den einzelnen Logikgattern ist es nur eine Mausradbewegung entfernt!
+
+Factorio ist ein Spiel über Fabrikautomation - Förderbänder, Dampfmaschinen und Produktionsketten stehen im Vordergrund. Eigentlich ist das interne Logiksystem („Combinators“) gedacht für die Steuerung der Fabrik, jedoch erlaubt es auch die Entwicklung komplexer Hardware.
+
+In diesem Vortrag erzähle ich meine Geschichte, wie ich eine vollständige RISC-V-Architektur in Factorio  rein aus Vanilla-Combinators erschaffen habe:
+Die CPU arbeitet mit 32 Bit-Wörtern, verfügt über 32 General Purpose Register, 128 KB RAM/Persistent Storage, eine 5-stufige Pipeline mit Forwarding und Hazard-Handling sowie eine Logikeinheit für Branches und Interrupts. Ein Display-Controller steuert eine Konsolen-Ausgabe sowie ein Farbdisplay, während ein Keyboard-Controller Eingaben über physische In-Game-Tasten ermöglicht.
+
+Ergänzt wird die Hardware auf der Softwareseite durch das Betriebssystem *FactOS*, das ein einfaches Filesystem sowie Systemcalls (zum Beispiel zum Drucken eines Strings im Terminal) zur Verfügung stellt.  Außerdem schränkt das Betriebssystem das ausführende User-Programm auf einen festen Bereich des RAMs ein und verhindert so direkten Zugriff auf die Hardware.
+
+Im Talk möchte ich euch durch alle Schichten dieser Konstruktion führen:
+Von den Grundlagen der Factorio-Signalphysik über CPU-Design und Pipeline-Hazards bis zur Toolchain und dem Betriebssystem. Außerdem gebe ich einen Einblick, wie die Limitierungen aber auch die Vorteile von Factorio im Vergleich zu herkömmlichen Logik Simulatoren das Design einer CPU beeinflussen können. Ich runde meinen Talk mit einer Live-Demonstration des Systems ab.
+
+Die vollständige CPU, inklusive Quellcode des Assemblers, Blueprints und Beispielprogramme, stelle ich öffentlich zur Verfügung. Dadurch kann jede interessierte Person die Architektur in Factorio laden, erweitern und eigene Software dafür entwickeln.
+
+Es wird im Anschluss eine [Self-organized Session](https://events.ccc.de/congress/2025/hub/en/event/detail/cpu-entwicklung-in-factorio-wie-benutze-ich-phds-f) geben, in der ich eine hands-on Einleitung geben werde, wie man die CPU in Factorio lädt, wie man Programme schreibt, diese assembliert und in Factorio einfügt. Auch kann man dort gerne mit mir über das Projekt quatschen, ich freue mich auf alle Beiträge und Kommentare :)
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/cpu-entwicklung-in-factorio-vom-d-flip-flop-bis-zum-eigenen-betriebssystem
+</itunes:summary>
+      <itunes:author>PhD (Philipp)</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1562-deu-eng-CPU_Entwicklung_in_Factorio_Vom_D-Flip-Flop_bis_zum_eigenen_Betriebssystem_hd.mp4"
+                 length="726663168"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Verlorene Domains, offene Türen - Was alte Behördendomains verraten</title>
+      <description>Was passiert, wenn staatliche Domains auslaufen - und plötzlich jemand anderes sie besitzt?
+In diesem Vortrag wird berichtet, wie mehrere ehemals offizielle, aber unregistrierte Domains deutscher Bundesministerien und Behörden erworben werden konnten - und welche Datenströme dadurch sichtbar wurden. Über Monate hinweg konnten so DNS-Anfragen aus Netzen des Bundes empfangen werden - ein erhebliches Sicherheitsrisiko. Unter anderem da es so möglich war Accounts zu übernehmen, Validierungen von E-Mailsignaturen zu manipulieren, Anfrage umzuleiten und im Extremfall Code auf Systemen auszuführen.
+(Keine sensiblen Daten werden veröffentlicht; der Fokus liegt auf Forschung, Aufklärung und verantwortungsvollem Umgang mit den Ergebnissen.)
+
+Im Rahmen der Untersuchung zeigten sich nicht nur Fehlkonfigurationen, sondern auch Phänomene wie Bitsquatting und Typoquatting innerhalb der Verwaltungsnetze. Mit dem Betrieb eines DNS-Servers und dem Erwerb von bund.ee (naher Typosquatting/Bitquatting zu bund.de) konnten u.a. zahlreiche DNS-Anfragen von Servern des Bundesministerium des Innern (BMI) und weiterer Einrichtungen des Bundes empfangen werden.
+
+Der Vortrag beleuchtet die technischen und organisatorischen Schwachstellen, die hinter solchen Vorgängen stehen - und zeigt, wie DNS-Details Einblicke in die IT-Infrastruktur des Staates ermöglichen können. Abgerundet wird das Ganze durch praktische Beispiele, Datenanalysen und Empfehlungen, wie sich ähnliche Vorfälle künftig vermeiden lassen.
+
+In anderen Ländern sind gov-Domains als TLDs längst üblich (bspw. gov.uk) - in Deutschland ist bund.de oder gov.de allerdings nicht so verbreitet wie man glaubt, unter anderem da Bundesministerien eigene Domains nutzen oder nach Regierungsbildung umbenannt werden.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/verlorene-domains-offene-turen-was-alte-behordendomains-verraten
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/verlorene-domains-offene-turen-was-alte-behordendomains-verraten</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/verlorene-domains-offene-turen-was-alte-behordendomains-verraten</guid>
+      <pubDate>Sun, 28 Dec 2025 21:05:00 +0100</pubDate>
+      <itunes:title>Verlorene Domains, offene Türen - Was alte Behördendomains verraten</itunes:title>
+      <itunes:summary>Was passiert, wenn staatliche Domains auslaufen - und plötzlich jemand anderes sie besitzt?
+In diesem Vortrag wird berichtet, wie mehrere ehemals offizielle, aber unregistrierte Domains deutscher Bundesministerien und Behörden erworben werden konnten - und welche Datenströme dadurch sichtbar wurden. Über Monate hinweg konnten so DNS-Anfragen aus Netzen des Bundes empfangen werden - ein erhebliches Sicherheitsrisiko. Unter anderem da es so möglich war Accounts zu übernehmen, Validierungen von E-Mailsignaturen zu manipulieren, Anfrage umzuleiten und im Extremfall Code auf Systemen auszuführen.
+(Keine sensiblen Daten werden veröffentlicht; der Fokus liegt auf Forschung, Aufklärung und verantwortungsvollem Umgang mit den Ergebnissen.)
+
+Im Rahmen der Untersuchung zeigten sich nicht nur Fehlkonfigurationen, sondern auch Phänomene wie Bitsquatting und Typoquatting innerhalb der Verwaltungsnetze. Mit dem Betrieb eines DNS-Servers und dem Erwerb von bund.ee (naher Typosquatting/Bitquatting zu bund.de) konnten u.a. zahlreiche DNS-Anfragen von Servern des Bundesministerium des Innern (BMI) und weiterer Einrichtungen des Bundes empfangen werden.
+
+Der Vortrag beleuchtet die technischen und organisatorischen Schwachstellen, die hinter solchen Vorgängen stehen - und zeigt, wie DNS-Details Einblicke in die IT-Infrastruktur des Staates ermöglichen können. Abgerundet wird das Ganze durch praktische Beispiele, Datenanalysen und Empfehlungen, wie sich ähnliche Vorfälle künftig vermeiden lassen.
+
+In anderen Ländern sind gov-Domains als TLDs längst üblich (bspw. gov.uk) - in Deutschland ist bund.de oder gov.de allerdings nicht so verbreitet wie man glaubt, unter anderem da Bundesministerien eigene Domains nutzen oder nach Regierungsbildung umbenannt werden.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/verlorene-domains-offene-turen-was-alte-behordendomains-verraten
+</itunes:summary>
+      <itunes:author>Tim Philipp Schäfers (TPS)</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1458-deu-eng-fra-Verlorene_Domains_offene_Tueren_-_Was_alte_Behoerdendomains_verraten_hd.mp4"
+                 length="457179136"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Design for 3D-Printing</title>
+      <description>3D-Printers have given us all the unprecedented ability to manufacture mechanical parts with a very low barrier to entry.  The only thing between your idea and its physical manifestation is the process of designing the parts. However, this is actually a topic of incredible depth: Design engineering is a whole discipline to itself, built on top of tons and tons of heuristics to produce shapes that are functional, strong, and importantly: well-manufacturable
+
+In this talk, I will present the rules for designing well-printable parts and touch on other areas of design considerations so you can learn to create parts that work first try and can be reproduced by others on their 3d-printers easily.
+
+Over the years, the 3d-printing community has discovered many tricks and rules that help creating parts that can be printed well and fulfill their purpose as best as possible. I started collecting these rules and wrote an article guide to make this knowledge more accessible. I want to present the most important principles and the mindset that is needed to achieve perfected design.
+
+This is not about how to use a CAD program to design a part — but rather about the thought process of the design engineer while drawing up a part.  A though process that consists of compromises between many objectives, of heuristic rules, and many neat little tricks.
+
+The article that this talk is based on can be found on my blog: https://blog.rahix.de/design-for-3d-printing/
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/design-for-3d-printing
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/design-for-3d-printing</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/design-for-3d-printing</guid>
+      <pubDate>Mon, 29 Dec 2025 11:00:00 +0100</pubDate>
+      <itunes:title>Design for 3D-Printing</itunes:title>
+      <itunes:summary>3D-Printers have given us all the unprecedented ability to manufacture mechanical parts with a very low barrier to entry.  The only thing between your idea and its physical manifestation is the process of designing the parts. However, this is actually a topic of incredible depth: Design engineering is a whole discipline to itself, built on top of tons and tons of heuristics to produce shapes that are functional, strong, and importantly: well-manufacturable
+
+In this talk, I will present the rules for designing well-printable parts and touch on other areas of design considerations so you can learn to create parts that work first try and can be reproduced by others on their 3d-printers easily.
+
+Over the years, the 3d-printing community has discovered many tricks and rules that help creating parts that can be printed well and fulfill their purpose as best as possible. I started collecting these rules and wrote an article guide to make this knowledge more accessible. I want to present the most important principles and the mindset that is needed to achieve perfected design.
+
+This is not about how to use a CAD program to design a part — but rather about the thought process of the design engineer while drawing up a part.  A though process that consists of compromises between many objectives, of heuristic rules, and many neat little tricks.
+
+The article that this talk is based on can be found on my blog: https://blog.rahix.de/design-for-3d-printing/
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/design-for-3d-printing
+</itunes:summary>
+      <itunes:author>rahix</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2250-eng-deu-pol-Design_for_3D-Printing_hd.mp4"
+                 length="537919488"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Bluetooth Headphone Jacking: A Key to Your Phone</title>
+      <description>Bluetooth headphones and earbuds are everywhere, and we were wondering what attackers could abuse them for. Sure, they can probably do things like finding out what the person is currently listening to. But what else? During our research we discovered three vulnerabilities (CVE-2025-20700, CVE-2025-20701, CVE-2025-20702) in popular Bluetooth audio chips developed by Airoha. These chips are used by many popular device manufacturers in numerous Bluetooth headphones and earbuds.
+
+The identified vulnerabilities may allow a complete device compromise. We demonstrate the immediate impact using a pair of current-generation headphones. We also demonstrate how a compromised Bluetooth peripheral can be abused to attack paired devices, like smartphones, due to their trust relationship with the peripheral.
+
+This presentation will give an overview over the vulnerabilities and a demonstration and discussion of their impact. We also generalize these findings and discuss the impact of compromised Bluetooth peripherals in general. At the end, we briefly discuss the difficulties in the disclosure and patching process. Along with the talk, we will release tooling for users to check whether their devices are affected and for other researchers to continue looking into Airoha-based devices.
+
+Examples of affected vendors and devices are Sony (e.g., WH1000-XM5, WH1000-XM6, WF-1000XM5), Marshall (e.g. Major V, Minor IV), Beyerdynamic (e.g. AMIRON 300), or Jabra (e.g. Elite 8 Active).
+
+Airoha is a vendor that, amongst other things, builds Bluetooth SoCs and offers reference designs and implementations incorporating these chips. They have become a large supplier in the Bluetooth audio space, especially in the area of True Wireless Stereo (TWS) earbuds. Several reputable headphone and earbud vendors have built products based on Airoha’s SoCs and reference implementations using Airoha’s Software Development Kit (SDK).
+
+During our Bluetooth Auracast research we stumbled upon a pair of these headphones. During the process of obtaining the firmware for further research we initially discovered the powerful custom Bluetooth protocol called *RACE*. The protocol provides functionality to take full control of headphones. Data can be written to and read from the device&#39;s flash and RAM.
+
+The goal of this presentation is twofold. Firstly, we want to inform about the vulnerabilities. It is important that headphone users are aware of the issues. In our opinion, some of the device manufacturers have done a bad job of informing their users about the potential threats and the available security updates. We also want to provide the technical details to understand the issues and enable other researchers to continue working with the platform. With the protocol it is possible to read and write firmware. This opens up the possibility to patch and potentially customize the firmware.
+
+Secondly, we want to discuss the general implications of compromising Bluetooth peripherals. As smart phones are becoming increasingly secure, the focus for attackers might shift to other devices in the environment of the smart phone. For example, when the Bluetooth Link Key, that authenticates a Bluetooth connection between the smart phone and the peripheral is stolen, an attacker might be able to impersonate the peripheral and gain its capabilities.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/bluetooth-headphone-jacking-a-key-to-your-phone
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/bluetooth-headphone-jacking-a-key-to-your-phone</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/bluetooth-headphone-jacking-a-key-to-your-phone</guid>
+      <pubDate>Sat, 27 Dec 2025 23:00:00 +0100</pubDate>
+      <itunes:title>Bluetooth Headphone Jacking: A Key to Your Phone</itunes:title>
+      <itunes:summary>Bluetooth headphones and earbuds are everywhere, and we were wondering what attackers could abuse them for. Sure, they can probably do things like finding out what the person is currently listening to. But what else? During our research we discovered three vulnerabilities (CVE-2025-20700, CVE-2025-20701, CVE-2025-20702) in popular Bluetooth audio chips developed by Airoha. These chips are used by many popular device manufacturers in numerous Bluetooth headphones and earbuds.
+
+The identified vulnerabilities may allow a complete device compromise. We demonstrate the immediate impact using a pair of current-generation headphones. We also demonstrate how a compromised Bluetooth peripheral can be abused to attack paired devices, like smartphones, due to their trust relationship with the peripheral.
+
+This presentation will give an overview over the vulnerabilities and a demonstration and discussion of their impact. We also generalize these findings and discuss the impact of compromised Bluetooth peripherals in general. At the end, we briefly discuss the difficulties in the disclosure and patching process. Along with the talk, we will release tooling for users to check whether their devices are affected and for other researchers to continue looking into Airoha-based devices.
+
+Examples of affected vendors and devices are Sony (e.g., WH1000-XM5, WH1000-XM6, WF-1000XM5), Marshall (e.g. Major V, Minor IV), Beyerdynamic (e.g. AMIRON 300), or Jabra (e.g. Elite 8 Active).
+
+Airoha is a vendor that, amongst other things, builds Bluetooth SoCs and offers reference designs and implementations incorporating these chips. They have become a large supplier in the Bluetooth audio space, especially in the area of True Wireless Stereo (TWS) earbuds. Several reputable headphone and earbud vendors have built products based on Airoha’s SoCs and reference implementations using Airoha’s Software Development Kit (SDK).
+
+During our Bluetooth Auracast research we stumbled upon a pair of these headphones. During the process of obtaining the firmware for further research we initially discovered the powerful custom Bluetooth protocol called *RACE*. The protocol provides functionality to take full control of headphones. Data can be written to and read from the device&#39;s flash and RAM.
+
+The goal of this presentation is twofold. Firstly, we want to inform about the vulnerabilities. It is important that headphone users are aware of the issues. In our opinion, some of the device manufacturers have done a bad job of informing their users about the potential threats and the available security updates. We also want to provide the technical details to understand the issues and enable other researchers to continue working with the platform. With the protocol it is possible to read and write firmware. This opens up the possibility to patch and potentially customize the firmware.
+
+Secondly, we want to discuss the general implications of compromising Bluetooth peripherals. As smart phones are becoming increasingly secure, the focus for attackers might shift to other devices in the environment of the smart phone. For example, when the Bluetooth Link Key, that authenticates a Bluetooth connection between the smart phone and the peripheral is stolen, an attacker might be able to impersonate the peripheral and gain its capabilities.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/bluetooth-headphone-jacking-a-key-to-your-phone
+</itunes:summary>
+      <itunes:author>Dennis Heinze, Frieder Steinmetz</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1491-eng-deu-fra-Bluetooth_Headphone_Jacking_A_Key_to_Your_Phone_hd.mp4"
+                 length="938475520"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Hacking washing machines</title>
+      <description>Almost everyone has a household appliance at home, whether it&#39;s a washing machine, dishwasher, or dryer. Despite their ubiquity, little is publicly documented about how these devices actually work or how their internal components communicate. This talk takes a closer look at proprietary bus systems, hidden diagnostic interfaces, and approaches to cloud-less integration of appliances from two well-known manufacturers into modern home automation systems.
+
+Modern home appliances may seem simple from the outside, but inside they contain complex electronic systems, proprietary communication protocols, and diagnostic interfaces rarely documented outside the manufacturer. In this talk, we&#39;ll explore the challenges of reverse-engineering these systems: from analyzing appliance control boards and internal communication buses to decompiling and modifying firmware to better understand device functionality.
+
+We&#39;ll also look at the security mechanisms designed to protect diagnostic access and firmware readout, and how these protections can be bypassed to enable deeper insight into device operation. Finally, this talk will demonstrate how the results of this research can be used to integrate even legacy home appliances into popular home automation platforms.
+
+This session combines examples and insights from the reverse-engineering of B/S/H/ and Miele household appliances.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/hacking-washing-machines
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/hacking-washing-machines</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/hacking-washing-machines</guid>
+      <pubDate>Sat, 27 Dec 2025 21:45:00 +0100</pubDate>
+      <itunes:title>Hacking washing machines</itunes:title>
+      <itunes:summary>Almost everyone has a household appliance at home, whether it&#39;s a washing machine, dishwasher, or dryer. Despite their ubiquity, little is publicly documented about how these devices actually work or how their internal components communicate. This talk takes a closer look at proprietary bus systems, hidden diagnostic interfaces, and approaches to cloud-less integration of appliances from two well-known manufacturers into modern home automation systems.
+
+Modern home appliances may seem simple from the outside, but inside they contain complex electronic systems, proprietary communication protocols, and diagnostic interfaces rarely documented outside the manufacturer. In this talk, we&#39;ll explore the challenges of reverse-engineering these systems: from analyzing appliance control boards and internal communication buses to decompiling and modifying firmware to better understand device functionality.
+
+We&#39;ll also look at the security mechanisms designed to protect diagnostic access and firmware readout, and how these protections can be bypassed to enable deeper insight into device operation. Finally, this talk will demonstrate how the results of this research can be used to integrate even legacy home appliances into popular home automation platforms.
+
+This session combines examples and insights from the reverse-engineering of B/S/H/ and Miele household appliances.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/hacking-washing-machines
+</itunes:summary>
+      <itunes:author>Severin von Wnuck-Lipinski, Hajo Noerenberg</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2405-eng-deu-por-Hacking_washing_machines_hd.mp4"
+                 length="875560960"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Netzpolitik in der Schweiz: Zwischen Bodensee und Matterhorn</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: If you&#39;re interested in swiss politics this is a great talk. Way better than the years before - informative!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Auch in der Schweizer Netzpolitik ging es im auslaufenden Jahr drunter und drüber. Wir blicken mit gewohntem Schalk auf das netzpolitische Jahr 2025 zwischen Bodensee und Matterhorn zurück - und diskutieren jene Themen, die relevant waren und relevant bleiben.
+
+**Themen sind unter anderem:**
+
+
+**E-ID und E-Collecting:** Die netzpolitische Community hat nicht nur eine privatisierte E-ID verhindert sondern auch den Datenschutz als zentrales Prinzip verankert und einen beispielhaften Gesetzgebungsprozess begleitet. Das Gleiche haben wir bei E-Collecting vor, mit dem wir die direkte Demokratie der Schweiz auf ein neues Level heben wollen.
+
+
+**Elektronisches Gesundheitsdossier:** Was macht man, um eine Verschlechterung bei einem Produkt zu kaschieren? Richtig, man nimmt ein Rebranding vor. Und so heisst das E-PD nun E-GD.
+
+
+**Kabelaufklärung:** Im Dezember überraschte uns das Bundesverwaltungsgericht mit einem wegweisenden Urteil: Es beurteilte die Kabelaufklärung als nicht vereinbar mit der Bundesverfassung und der Europäischen Menschenrechtskonvention. Lässt das ganze aber 5 Jahr laufen.
+
+
+**What the VÜPF:** Wie die Schweiz zudem plant, das freie Internet weitgehend abzuschaffen. Wie der Stand der Verschärfung ist. Was wir und du dagegen tun können?
+
+
+**Plattformregulierung:** Ein Vorschlag zur Plattformregulierung wurde vom Bund ausgearbeitet - und nach der Verhängung von 39% Strafzoll still und heimlich in der Schublade versenkt. Doch der Bund fasste Mut - und wagt einen zaghaften Aufbruch.
+
+
+**KI-Regulierung &amp; Leistungsschutzrecht:** Und wieso getraut sich der Bund, ein Leistungsschuzrecht einzuführen? Und mit der Motion «Gössi» KI-Sprachmodelle mit Schweizer Daten zu gefährden? (Spoiler: wegen der Verleger-Lobby)
+
+
+**Community in der Schweiz:** Winterkongress, Diversity und andere Aktivitäten.
+
+
+Nach dem Vortrag sind alle interessierten Personen eingeladen, die [Diskussion in einer self-organized Session](https://events.ccc.de/congress/2025/hub/en/event/detail/treffen-der-netzpolitischen-community-der-sch_uoca) fortzusetzen. Es werden Aktivist:innen von verschiedenen Organisationen der Netzpolitik in der Schweiz anwesend sein.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/netzpolitik-in-der-schweiz-zwischen-bodensee-und-matterhorn
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/netzpolitik-in-der-schweiz-zwischen-bodensee-und-matterhorn</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/netzpolitik-in-der-schweiz-zwischen-bodensee-und-matterhorn</guid>
+      <pubDate>Mon, 29 Dec 2025 19:15:00 +0100</pubDate>
+      <itunes:title>Netzpolitik in der Schweiz: Zwischen Bodensee und Matterhorn</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: If you&#39;re interested in swiss politics this is a great talk. Way better than the years before - informative!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Auch in der Schweizer Netzpolitik ging es im auslaufenden Jahr drunter und drüber. Wir blicken mit gewohntem Schalk auf das netzpolitische Jahr 2025 zwischen Bodensee und Matterhorn zurück - und diskutieren jene Themen, die relevant waren und relevant bleiben.
+
+**Themen sind unter anderem:**
+
+
+**E-ID und E-Collecting:** Die netzpolitische Community hat nicht nur eine privatisierte E-ID verhindert sondern auch den Datenschutz als zentrales Prinzip verankert und einen beispielhaften Gesetzgebungsprozess begleitet. Das Gleiche haben wir bei E-Collecting vor, mit dem wir die direkte Demokratie der Schweiz auf ein neues Level heben wollen.
+
+
+**Elektronisches Gesundheitsdossier:** Was macht man, um eine Verschlechterung bei einem Produkt zu kaschieren? Richtig, man nimmt ein Rebranding vor. Und so heisst das E-PD nun E-GD.
+
+
+**Kabelaufklärung:** Im Dezember überraschte uns das Bundesverwaltungsgericht mit einem wegweisenden Urteil: Es beurteilte die Kabelaufklärung als nicht vereinbar mit der Bundesverfassung und der Europäischen Menschenrechtskonvention. Lässt das ganze aber 5 Jahr laufen.
+
+
+**What the VÜPF:** Wie die Schweiz zudem plant, das freie Internet weitgehend abzuschaffen. Wie der Stand der Verschärfung ist. Was wir und du dagegen tun können?
+
+
+**Plattformregulierung:** Ein Vorschlag zur Plattformregulierung wurde vom Bund ausgearbeitet - und nach der Verhängung von 39% Strafzoll still und heimlich in der Schublade versenkt. Doch der Bund fasste Mut - und wagt einen zaghaften Aufbruch.
+
+
+**KI-Regulierung &amp; Leistungsschutzrecht:** Und wieso getraut sich der Bund, ein Leistungsschuzrecht einzuführen? Und mit der Motion «Gössi» KI-Sprachmodelle mit Schweizer Daten zu gefährden? (Spoiler: wegen der Verleger-Lobby)
+
+
+**Community in der Schweiz:** Winterkongress, Diversity und andere Aktivitäten.
+
+
+Nach dem Vortrag sind alle interessierten Personen eingeladen, die [Diskussion in einer self-organized Session](https://events.ccc.de/congress/2025/hub/en/event/detail/treffen-der-netzpolitischen-community-der-sch_uoca) fortzusetzen. Es werden Aktivist:innen von verschiedenen Organisationen der Netzpolitik in der Schweiz anwesend sein.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/netzpolitik-in-der-schweiz-zwischen-bodensee-und-matterhorn
+</itunes:summary>
+      <itunes:author>Kire, Rahel</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2173-deu-eng-Netzpolitik_in_der_Schweiz_Zwischen_Bodensee_und_Matterhorn_hd.mp4"
+                 length="872415232"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>PRÜF</title>
+      <description>PRÜF! Prüfung Rettet übrigens Freiheit!
+Alles wird in Deutschland geprüft. Warum nicht auch mutmaßlich verfassungswidrige Parteien? Hier stelle ich vor, was PRÜF! anders machen will als bisherige Kampagnen.
+
+Wir haben eine Forderung: „Alle Parteien, die vom Verfassungsschutz als rechtsextremer Verdachtsfall oder gesichert rechtsextrem eingestuft werden, sollen durch das Bundesverfassungsgericht überprüft werden.“ Wir demonstrieren so lange, bis der Bundesrat die Prüfung formal beantragt hat. PRÜF-Demos. Bald in allen Landeshauptstädten. Am 2. Samstag. Jeden Monat.
+
+Warum beim Schutz der Demokratie nicht mal einen Ansatz wählen, der so noch nicht probiert wurde? Nicht auf die anderen gucken, sondern auf uns? Auf das gemeinsame? Auf Spaß? Das nutzen, was wir haben und was wir können? Wir haben das Grundgesetz, dessen Stärken eingesetzt werden müssen. Wir haben uns, Millionen Menschen, die wir uns organisieren können. Wir haben Ideen, wir haben Geld, wir haben Macht, wir haben Wissen. Bisher haben wir nicht einmal ansatzweise unsere Möglichkeiten ausgeschöpft und es wäre absurd, wenn wir das nicht schaffen würden, die Freiheitliche Demokratische Grundordnung zu schützen.
+
+Vortrag kann Spuren von Prüfen enthalten.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/pruf
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/pruf</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/pruf</guid>
+      <pubDate>Tue, 30 Dec 2025 00:15:00 +0100</pubDate>
+      <itunes:title>PRÜF</itunes:title>
+      <itunes:summary>PRÜF! Prüfung Rettet übrigens Freiheit!
+Alles wird in Deutschland geprüft. Warum nicht auch mutmaßlich verfassungswidrige Parteien? Hier stelle ich vor, was PRÜF! anders machen will als bisherige Kampagnen.
+
+Wir haben eine Forderung: „Alle Parteien, die vom Verfassungsschutz als rechtsextremer Verdachtsfall oder gesichert rechtsextrem eingestuft werden, sollen durch das Bundesverfassungsgericht überprüft werden.“ Wir demonstrieren so lange, bis der Bundesrat die Prüfung formal beantragt hat. PRÜF-Demos. Bald in allen Landeshauptstädten. Am 2. Samstag. Jeden Monat.
+
+Warum beim Schutz der Demokratie nicht mal einen Ansatz wählen, der so noch nicht probiert wurde? Nicht auf die anderen gucken, sondern auf uns? Auf das gemeinsame? Auf Spaß? Das nutzen, was wir haben und was wir können? Wir haben das Grundgesetz, dessen Stärken eingesetzt werden müssen. Wir haben uns, Millionen Menschen, die wir uns organisieren können. Wir haben Ideen, wir haben Geld, wir haben Macht, wir haben Wissen. Bisher haben wir nicht einmal ansatzweise unsere Möglichkeiten ausgeschöpft und es wäre absurd, wenn wir das nicht schaffen würden, die Freiheitliche Demokratische Grundordnung zu schützen.
+
+Vortrag kann Spuren von Prüfen enthalten.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/pruf
+</itunes:summary>
+      <itunes:author>Nico Semsrott</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2427-deu-eng-spa-PRUEF_hd.mp4"
+                 length="1038090240"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Celestial navigation with very little math</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - balz: auch ganz spannend
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Learn how to find your position using a sextant and a custom slide rule, almost no math required!
+
+Since the dawn of time people have asked themselves: where am I and why am I here?  This talk won&#39;t help you answer the why question, but it will discuss how determine the where in the pre-GPS age of sextants, slide rules and stopwatches by taking the noon sight, aka the meridian passage.
+
+The usual way to find your position using the Sun requires a large almanac of lookup tables and some challenging math.  The books are frustrating to consult on every sight and the base 60 degree-minute-second math is frustrating even with a calculator, and if you&#39;re on a traditional ship it seems wrong to do traditional navigation with electronic devices.
+
+To speed up the process I’ve designed a specialized circular slide rule that handles most of the table lookups to correct height of eye, semi-diameter, temperature, refraction and index errors, and also simplifies the degree-minute-second arithmetic required to calculate the exact declination of the Sun.
+
+In this talk I’ll demonstrate how to make your own printable paper slide rule and use it to reduce the meridian passage measurement to a lat/lon with just a few rotations of the wheels and pointer, no electronics or bulky books necessary!
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/celestial-navigation-with-very-little-math
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/celestial-navigation-with-very-little-math</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/celestial-navigation-with-very-little-math</guid>
+      <pubDate>Mon, 29 Dec 2025 11:55:00 +0100</pubDate>
+      <itunes:title>Celestial navigation with very little math</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - balz: auch ganz spannend
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Learn how to find your position using a sextant and a custom slide rule, almost no math required!
+
+Since the dawn of time people have asked themselves: where am I and why am I here?  This talk won&#39;t help you answer the why question, but it will discuss how determine the where in the pre-GPS age of sextants, slide rules and stopwatches by taking the noon sight, aka the meridian passage.
+
+The usual way to find your position using the Sun requires a large almanac of lookup tables and some challenging math.  The books are frustrating to consult on every sight and the base 60 degree-minute-second math is frustrating even with a calculator, and if you&#39;re on a traditional ship it seems wrong to do traditional navigation with electronic devices.
+
+To speed up the process I’ve designed a specialized circular slide rule that handles most of the table lookups to correct height of eye, semi-diameter, temperature, refraction and index errors, and also simplifies the degree-minute-second arithmetic required to calculate the exact declination of the Sun.
+
+In this talk I’ll demonstrate how to make your own printable paper slide rule and use it to reduce the meridian passage measurement to a lat/lon with just a few rotations of the wheels and pointer, no electronics or bulky books necessary!
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/celestial-navigation-with-very-little-math
+</itunes:summary>
+      <itunes:author>Trammell Hudson</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1375-eng-deu-por-Celestial_navigation_with_very_little_math_hd.mp4"
+                 length="958398464"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Schlechte Karten - IT-Sicherheit im Jahr null der ePA für alle</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Seit Mitte 2025 steht die elektronische Patientenakte für alle zur Verfügung – nach ein paar kleineren oder größeren Sicherheitsproblemen im Vorfeld, sei es vor einem Jahr auf dem 38C3 oder Ende April zum deutschlandweiten Start. 
+Zeit ein Fazit zu ziehen: Ist die ePA jetzt sicher? Wurden nachhaltige Veränderungen durchgeführt, die zu mehr Sicherheit führen? Kann der Umgang mit der IT-Sicherheit «eines der größten IT-Projekte der Bundesrepublik» für zukünftige Digitalprojekte hilfreich sein?
+
+Zeit, mit etwas Abstand auf das zu blicken, was war, was ist und was sich abzeichnet nicht nur bei der ePA, sondern auch beim Umgang mit IT-Sicherheit bei ähnlichen Vorhaben in Deutschland. Eine umfassende Analyse der Historie und der Ursachen einer der weitreichendsten Fehlentwicklungen im Bereich der IT-Sicherheit der letzten Jahre, die sich in weit mehr zeigt, als nur in schlechter Prüfung der Anwesenheit von Gesundheitskarten im Gesundheitswesen.
+
+Zum letzten Chaos Communication Congress konnten Martin Tschirsich und Bianca Kastl eine Ansammlung größerer und kleiner Sicherheitsprobleme in der elektronischen Patientenakte für alle aufzuzeigen – sei es in der Ausgabe von Identifikationsmitteln, in Systemen in der Telematikinfrastruktur oder in angebundenen Systemen. All diese Probleme kumulierten in einem veränderten und reduzierten Rollout der ePA für alle in den Modellregionen Anfang 2025, bei dem bereits erste Maßnahmen zur Schadensminimierung unternommen wurden. 
+Ende April 2025 wurde die ePA für alle dann auch wirklich für alle deutschlandweit bereitgestellt – allerdings traten am gleichen Tag die scheinbar sicher gelösten Sicherheitslücken im Zugangsmanagement wieder zu Tage und wurden alsbald wieder nur provisorisch abgedichtet.
+
+Dieser Talk will etwas zurückblicken auf die Geschichte und die Ursachen dieser Sicherheitsprobleme der ePA für alle. Als «eines der größten IT-Projekte der Bundesrepublik» steht die ePA sinnbildlich für den digitalpolitischen Umgang mit Sicherheitsversprechen und interessensgetriebenen Anforderungen über die Köpfe von Patient*innen oder Bürger*innen hinweg.
+
+Dabei geht es nicht nur um technische Probleme und deren Behebungsversuche, sondern auch um die strukturellen Ursachen, die große digitale Vorhaben immer wieder in manchen Bereichen scheitern lassen. Diese tiefergehende Betrachtung kann uns dabei helfen, die Ursachen für schlechte IT-Sicherheit auch bei zukünftigen digitalpolitischen Vorhaben in Deutschland besser zu verstehen. Nicht für die ePA für alle und Anwendungen im Bereich der Telematikinfrastruktur, sondern auch weit darüber hinaus.
+
+Tiefergehende Analyse und Nachwirkungen zu 38C3 „Konnte bisher noch nie gehackt werden“: Die elektronische Patientenakte kommt - jetzt für alle!
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/schlechte-karten-it-sicherheit-im-jahr-null-der-epa-fur-alle
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/schlechte-karten-it-sicherheit-im-jahr-null-der-epa-fur-alle</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/schlechte-karten-it-sicherheit-im-jahr-null-der-epa-fur-alle</guid>
+      <pubDate>Mon, 29 Dec 2025 17:15:00 +0100</pubDate>
+      <itunes:title>Schlechte Karten - IT-Sicherheit im Jahr null der ePA für alle</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Seit Mitte 2025 steht die elektronische Patientenakte für alle zur Verfügung – nach ein paar kleineren oder größeren Sicherheitsproblemen im Vorfeld, sei es vor einem Jahr auf dem 38C3 oder Ende April zum deutschlandweiten Start. 
+Zeit ein Fazit zu ziehen: Ist die ePA jetzt sicher? Wurden nachhaltige Veränderungen durchgeführt, die zu mehr Sicherheit führen? Kann der Umgang mit der IT-Sicherheit «eines der größten IT-Projekte der Bundesrepublik» für zukünftige Digitalprojekte hilfreich sein?
+
+Zeit, mit etwas Abstand auf das zu blicken, was war, was ist und was sich abzeichnet nicht nur bei der ePA, sondern auch beim Umgang mit IT-Sicherheit bei ähnlichen Vorhaben in Deutschland. Eine umfassende Analyse der Historie und der Ursachen einer der weitreichendsten Fehlentwicklungen im Bereich der IT-Sicherheit der letzten Jahre, die sich in weit mehr zeigt, als nur in schlechter Prüfung der Anwesenheit von Gesundheitskarten im Gesundheitswesen.
+
+Zum letzten Chaos Communication Congress konnten Martin Tschirsich und Bianca Kastl eine Ansammlung größerer und kleiner Sicherheitsprobleme in der elektronischen Patientenakte für alle aufzuzeigen – sei es in der Ausgabe von Identifikationsmitteln, in Systemen in der Telematikinfrastruktur oder in angebundenen Systemen. All diese Probleme kumulierten in einem veränderten und reduzierten Rollout der ePA für alle in den Modellregionen Anfang 2025, bei dem bereits erste Maßnahmen zur Schadensminimierung unternommen wurden. 
+Ende April 2025 wurde die ePA für alle dann auch wirklich für alle deutschlandweit bereitgestellt – allerdings traten am gleichen Tag die scheinbar sicher gelösten Sicherheitslücken im Zugangsmanagement wieder zu Tage und wurden alsbald wieder nur provisorisch abgedichtet.
+
+Dieser Talk will etwas zurückblicken auf die Geschichte und die Ursachen dieser Sicherheitsprobleme der ePA für alle. Als «eines der größten IT-Projekte der Bundesrepublik» steht die ePA sinnbildlich für den digitalpolitischen Umgang mit Sicherheitsversprechen und interessensgetriebenen Anforderungen über die Köpfe von Patient*innen oder Bürger*innen hinweg.
+
+Dabei geht es nicht nur um technische Probleme und deren Behebungsversuche, sondern auch um die strukturellen Ursachen, die große digitale Vorhaben immer wieder in manchen Bereichen scheitern lassen. Diese tiefergehende Betrachtung kann uns dabei helfen, die Ursachen für schlechte IT-Sicherheit auch bei zukünftigen digitalpolitischen Vorhaben in Deutschland besser zu verstehen. Nicht für die ePA für alle und Anwendungen im Bereich der Telematikinfrastruktur, sondern auch weit darüber hinaus.
+
+Tiefergehende Analyse und Nachwirkungen zu 38C3 „Konnte bisher noch nie gehackt werden“: Die elektronische Patientenakte kommt - jetzt für alle!
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/schlechte-karten-it-sicherheit-im-jahr-null-der-epa-fur-alle
+</itunes:summary>
+      <itunes:author>Bianca Kastl</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2403-deu-eng-spa-Schlechte_Karten_-_IT-Sicherheit_im_Jahr_null_der_ePA_fuer_alle_hd.mp4"
+                 length="910163968"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>All my Deutschlandtickets gone: Fraud at an industrial scale</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The Deutschlandticket was the flagship transport policy of the last government, rolled out in an impressive timescale for a political project; but this speed came with a cost - a system ripe for fraud at an industrial scale.
+
+German public transport is famously decentralised, with thousands of individual companies involved in ticketing and operations. Unifying all of these under one national, secure, system has proven a challenge too far for politicians. The end result: losses in the hundreds of millions of Euros, compensated to the transport companies from state and federal budgets to keep the system afloat, and nobody willing to take responsibility.
+
+This talk will cover the political, policy, and technical mistakes that lead to this mess; how we can learn from these mistakes; and what we can do to ensure the Deutschlandticket has a viable future.
+
+At last years Congress Q presented [a deep-dive into the technical details of train ticketing](https://media.ccc.de/v/38c3-what-s-inside-my-train-ticket) and its [Zügli](https://zügli.app) platform for this; since then, things have gone rather out of hand. The little side-project for looking into the details of train tickets turned into a full-time project for detecting ticketing fraud. This talk details an executive summary of the madness that has been the past year, and how we accidentally ended up in national and international politics working to secure the Deutschlandticket.
+
+Shortly after last year&#39;s talk, we were contacted about some *interesting* looking tickets someone noticed, issued by the Vetter GmbH Omnibus- und Mietwagenbetrieb - or so they claimed to be. These were normal Deutschlandtickets, but with a few weird mistakes in them. At first, we thought nothing much of it; mistakes happen. But, on further investigation, these turned out to not be legitimate tickets at all, but rather from a fraudulent website by the name of d-ticket.su, using the private signing key obtained under suspicious circumstances. How exactly this key came into the wrong hands remains unclear, but we present the possible explanations for how this could&#39;ve happened, how many responsible have been thoroughly uncooperative in getting to the bottom of this, and how the supporting systems and processes of the Deutschlandticket were unable to cope with this situation.
+
+Parallel to this, another fraud has been draining the transport companies of their much-needed cash: SEPA Direct Debit fraud. Often, a direct debit payment can be setup online with little more than an IBAN and ticking a box; and most providers of the Deutschlandticket offer an option to pay via direct debit. Fraudsters have noticed this, and mass purchase Deutschlandtickets with invalid or stolen IBANs before flipping them for a discounted price on Telegram; made easier because most transport companies issue a ticket immediately, before the direct debit has been fully processed. The supporting systems of the Deutschlandticket in many cases don&#39;t even provide for the revocation of such tickets. We will detail the hallmarks of this fraud, how transport companies can work to prevent it, and how we tracked down the fraudsters by their own careless mistakes.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/all-my-deutschlandtickets-gone-fraud-at-an-industrial-scale
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/all-my-deutschlandtickets-gone-fraud-at-an-industrial-scale</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/all-my-deutschlandtickets-gone-fraud-at-an-industrial-scale</guid>
+      <pubDate>Sat, 27 Dec 2025 16:00:00 +0100</pubDate>
+      <itunes:title>All my Deutschlandtickets gone: Fraud at an industrial scale</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The Deutschlandticket was the flagship transport policy of the last government, rolled out in an impressive timescale for a political project; but this speed came with a cost - a system ripe for fraud at an industrial scale.
+
+German public transport is famously decentralised, with thousands of individual companies involved in ticketing and operations. Unifying all of these under one national, secure, system has proven a challenge too far for politicians. The end result: losses in the hundreds of millions of Euros, compensated to the transport companies from state and federal budgets to keep the system afloat, and nobody willing to take responsibility.
+
+This talk will cover the political, policy, and technical mistakes that lead to this mess; how we can learn from these mistakes; and what we can do to ensure the Deutschlandticket has a viable future.
+
+At last years Congress Q presented [a deep-dive into the technical details of train ticketing](https://media.ccc.de/v/38c3-what-s-inside-my-train-ticket) and its [Zügli](https://zügli.app) platform for this; since then, things have gone rather out of hand. The little side-project for looking into the details of train tickets turned into a full-time project for detecting ticketing fraud. This talk details an executive summary of the madness that has been the past year, and how we accidentally ended up in national and international politics working to secure the Deutschlandticket.
+
+Shortly after last year&#39;s talk, we were contacted about some *interesting* looking tickets someone noticed, issued by the Vetter GmbH Omnibus- und Mietwagenbetrieb - or so they claimed to be. These were normal Deutschlandtickets, but with a few weird mistakes in them. At first, we thought nothing much of it; mistakes happen. But, on further investigation, these turned out to not be legitimate tickets at all, but rather from a fraudulent website by the name of d-ticket.su, using the private signing key obtained under suspicious circumstances. How exactly this key came into the wrong hands remains unclear, but we present the possible explanations for how this could&#39;ve happened, how many responsible have been thoroughly uncooperative in getting to the bottom of this, and how the supporting systems and processes of the Deutschlandticket were unable to cope with this situation.
+
+Parallel to this, another fraud has been draining the transport companies of their much-needed cash: SEPA Direct Debit fraud. Often, a direct debit payment can be setup online with little more than an IBAN and ticking a box; and most providers of the Deutschlandticket offer an option to pay via direct debit. Fraudsters have noticed this, and mass purchase Deutschlandtickets with invalid or stolen IBANs before flipping them for a discounted price on Telegram; made easier because most transport companies issue a ticket immediately, before the direct debit has been fully processed. The supporting systems of the Deutschlandticket in many cases don&#39;t even provide for the revocation of such tickets. We will detail the hallmarks of this fraud, how transport companies can work to prevent it, and how we tracked down the fraudsters by their own careless mistakes.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/all-my-deutschlandtickets-gone-fraud-at-an-industrial-scale
+</itunes:summary>
+      <itunes:author>Q Misell, 551724 / maya boeckh</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1254-eng-deu-fra-All_my_Deutschlandtickets_gone_Fraud_at_an_industrial_scale_hd.mp4"
+                 length="845152256"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Die Känguru-Rebellion: Digital Independence Day</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 2 ratings)
+
+⭐⭐⭐⭐ (4/5) - max: Fun and a real message. One of the talks where you feel agency afterwards.
+⭐⭐⭐⭐ (4/5) - spon.de: Recomendation of spon.de in their review of 39C3.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Marc-Uwe Kling liest neues vom Känguru vor.
+
+Vielleicht auch was von Elon und Jeff on Mars.
+Und dann ruft das Känguru zum Digital Independence Day auf.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/die-kanguru-rebellion-digital-independence-day
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/die-kanguru-rebellion-digital-independence-day</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/die-kanguru-rebellion-digital-independence-day</guid>
+      <pubDate>Sat, 27 Dec 2025 19:15:00 +0100</pubDate>
+      <itunes:title>Die Känguru-Rebellion: Digital Independence Day</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 2 ratings)
+
+⭐⭐⭐⭐ (4/5) - max: Fun and a real message. One of the talks where you feel agency afterwards.
+⭐⭐⭐⭐ (4/5) - spon.de: Recomendation of spon.de in their review of 39C3.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Marc-Uwe Kling liest neues vom Känguru vor.
+
+Vielleicht auch was von Elon und Jeff on Mars.
+Und dann ruft das Känguru zum Digital Independence Day auf.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/die-kanguru-rebellion-digital-independence-day
+</itunes:summary>
+      <itunes:author>Marc-Uwe Kling, Linus Neumann</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2193-deu-eng-spa-Die_Kaenguru-Rebellion_Digital_Independence_Day_hd.mp4"
+                 length="1180696576"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Blackbox Palantir</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - spon.de: Recomendation of spon.de in their review of 39C3.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Wer nutzt in Deutschland Software von Palantir und wer hat das in naher Zukunft vor? Was sind die rechtlichen Voraussetzungen für den Einsatz solcher Analysewerkzeuge? Und was plant Innenminister Alexander Dobrindt in Sachen Palantir für die Polizeien des Bundes?
+
+Software von Palantir analysiert für Polizeien und Militär deren Daten – dafür lizenzieren auch deutsche Polizeibehörden seit Jahren die Analysesoftware Gotham des US-Unternehmens. Die Software verarbeitet strukturierte und unstrukturierte Informationen aus Polizeidatenbanken. Die genauen Funktionsweisen sind für die Öffentlichkeit, Gesetzgeber und Kontrollbehörden jedoch nicht einsehbar.
+
+Das US-Unternehmen ist hochumstritten und auch in Deutschland seit einigen Gesetzesinitiativen wieder umkämpft – wegen seiner intransparenten Analysemethoden, seiner Zusammenarbeit mit autoritären Staaten und seiner Nähe zur US-Regierung.
+
+Rechtlich ist der Einsatz von Analysetools wie von Palantir in Deutschland ohnehin komplex, denn das Bundesverfassungsgericht hat 2023 deutliche Grenzen für polizeiliche Datenanalysen gezogen. Dennoch haben mehrere Bundesländer für ihre Polizeien Verträge oder streben sie an. Auch auf Bundesebene wird der Einsatz für das Bundeskriminalamt und die Bundespolizei hitzig diskutiert.
+
+Wie funktioniert Gotham und welche Gefahren gehen damit einher?
+Welche Entwicklungen sind im Bund und in den Ländern zu beobachten? Wie geht es weiter?
+
+Wir wollen über den Stand der Dinge in Bund und Ländern informieren und auch zeigen, wie wir versuchen, rechtliche Vorgaben durchzusetzen. Denn die GFF und der CCC sind an Verfassungsbeschwerden beteiligt, unter anderem in Hessen, Hamburg und zuletzt in Bayern.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/blackbox-palantir
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/blackbox-palantir</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/blackbox-palantir</guid>
+      <pubDate>Mon, 29 Dec 2025 20:30:00 +0100</pubDate>
+      <itunes:title>Blackbox Palantir</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - spon.de: Recomendation of spon.de in their review of 39C3.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Wer nutzt in Deutschland Software von Palantir und wer hat das in naher Zukunft vor? Was sind die rechtlichen Voraussetzungen für den Einsatz solcher Analysewerkzeuge? Und was plant Innenminister Alexander Dobrindt in Sachen Palantir für die Polizeien des Bundes?
+
+Software von Palantir analysiert für Polizeien und Militär deren Daten – dafür lizenzieren auch deutsche Polizeibehörden seit Jahren die Analysesoftware Gotham des US-Unternehmens. Die Software verarbeitet strukturierte und unstrukturierte Informationen aus Polizeidatenbanken. Die genauen Funktionsweisen sind für die Öffentlichkeit, Gesetzgeber und Kontrollbehörden jedoch nicht einsehbar.
+
+Das US-Unternehmen ist hochumstritten und auch in Deutschland seit einigen Gesetzesinitiativen wieder umkämpft – wegen seiner intransparenten Analysemethoden, seiner Zusammenarbeit mit autoritären Staaten und seiner Nähe zur US-Regierung.
+
+Rechtlich ist der Einsatz von Analysetools wie von Palantir in Deutschland ohnehin komplex, denn das Bundesverfassungsgericht hat 2023 deutliche Grenzen für polizeiliche Datenanalysen gezogen. Dennoch haben mehrere Bundesländer für ihre Polizeien Verträge oder streben sie an. Auch auf Bundesebene wird der Einsatz für das Bundeskriminalamt und die Bundespolizei hitzig diskutiert.
+
+Wie funktioniert Gotham und welche Gefahren gehen damit einher?
+Welche Entwicklungen sind im Bund und in den Ländern zu beobachten? Wie geht es weiter?
+
+Wir wollen über den Stand der Dinge in Bund und Ländern informieren und auch zeigen, wie wir versuchen, rechtliche Vorgaben durchzusetzen. Denn die GFF und der CCC sind an Verfassungsbeschwerden beteiligt, unter anderem in Hessen, Hamburg und zuletzt in Bayern.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/blackbox-palantir
+</itunes:summary>
+      <itunes:author>Constanze Kurz, Franziska Görlitz</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1958-deu-eng-Blackbox_Palantir_hd.mp4"
+                 length="1868562432"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>AI Agent, AI Spy</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - spon.de: Recomendation of spon.de in their review of 39C3.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Agentic AI is the catch-all term for AI-enabled systems that propose to complete more or less complex tasks on their own, without stopping to ask permission or consent. What could go wrong? These systems are being integrated directly into operating systems and applications, like web browsers. This move represents a fundamental paradigm shift, transforming them from relatively neutral resource managers into an active, goal-oriented infrastructure ultimately controlled by the companies that develop these systems, not by users or application developers. Systems like Microsoft&#39;s &#34;Recall,&#34; which create a comprehensive &#34;photographic memory&#34; of all user activity, are marketed as productivity enhancers, but they function as OS-level surveillance and create significant privacy vulnerabilities. In the case of Recall, we’re talking about a centralized, high-value target for attackers that poses an existential threat to the privacy guarantees of meticulously engineered applications like Signal. This shift also fundamentally undermines personal agency, replacing individual choice and discovery with automated, opaque recommendations that can obscure commercial interests and erode individual autonomy.
+
+This talk will review the immediate and serious danger that the rush to shove agents into our devices and digital lives poses to our fundamental right to privacy and our capacity for genuine personal agency. Drawing from Signal&#39;s analysis, it moves beyond outlining the problem to also present a &#34;tourniquet&#34; solution: looking at what we need to do *now* to ensure that privacy at the application layer isn’t eliminated, and what the hacker community can do to help. We will outline a path for ensuring developer agency, granular user control, radical transparency, and the role of adversarial research.
+
+The talk will provide a critical technical and political economy analysis of the new privacy crisis emerging from OS and application level AI agents, aimed at the 39C3 &#34;Ethics, Society &amp; Politics&#34; audience.
+
+1. Defining the Threat: The OS as a Proactive Participant (5 mins)
+ We will begin by defining &#34;Agentic AI&#34; in two contexts - imbibed into the operating system and deployed via critical gateway applications such as web browsers. Traditionally, the operating systems and browsers are largely neutral enforcers of user agency, managing resources and providing APIs for applications to run reliably. We will argue that this neutrality is close to being eliminated. The new paradigm shifts these applications into a proactive agent that actively observes, records, and anticipates user actions across all applications.The prime example for this analysis will be Microsoft’s &#34;Recall&#34; feature, Google’s Magic Cue, and OpenAI’s Atlas. Politically, we will frame this not as a &#34;feature&#34; but as the implementation of pervasive, non-consensual surveillance and remote-control infrastructure. This &#34;photographic memory&#34; of and demand for non-differentiated access to everything from private Signal messages to financial data to health data creates a catastrophic single point of failure, making a single security breach an existential threat to a user&#39;s entire digital life. Ultimately, we hope to illustrate how putting our brains in a jar (with agentic systems) is effectively a prompt injection attack against our own humanity.
+
+2. The Existential Threat to Application-Level Privacy (10 mins)
+ The core of the talk will focus on what this means for privacy-first applications like Signal. We will explain the &#34;blood-brain barrier&#34; analogy: secure apps are meticulously engineered to minimize data and protect communications, relying on the OS to be a stable, neutral foundation on which to build. This new OS trend breaks that barrier. We will demonstrate how OS-level surveillance renders application-level privacy features, including end-to-end encryption, effectively useless. If the OS can screenshot a message before it&#39;s encrypted or after it&#39;s decrypted, the promise of privacy is broken, regardless of the app&#39;s design. We will also discuss the unsustainable &#34;clever hacks&#34; (like Signal using a DRM feature) that developers are forced to implement, underscoring the need for a structural solution.
+
+3. An Actionable Framework for Remediation (20 mins)
+ The final, and most important, part of the talk will move from critique to action. We will present an actionable four-point framework as a &#34;tourniquet&#34; to address these immediate dangers:
+
+a. Empower Developers: Demand clear, officially supported APIs for developers to designate individual applications as &#34;sensitive&#34; with the default posture being for such applications being opted-out of access by agentic systems (either OS or application based) (default opt-out)
+
+b. Granular User Control: Move beyond all-or-nothing permissions. Users must have explicit, fine-grained control to grant or deny AI access on an app-by-app basis.
+
+c. Mandate Radical Transparency: OS vendors and application developers must clearly disclose what data is accessed, how it&#39;s used, and how it&#39;s protected—in human-readable terms, not buried in legalese. Laws and regulations must play an essential role but we cannot just wait for them to be enforced, or it will be too late.
+
+d. Encourage and Protect Adversarial Research: We will conclude by reinforcing the need for a pro-privacy, pro-security architecture by default, looking at the legal frameworks that govern these processes and why they need to be enforced, and finally asking the attendees to continue exposing vulnerabilities in such systems. It was only due to technically-grounded collective outrage that Recall was re-architected by Microsoft and we will need that energy if we are to win this war.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/ai-agent-ai-spy
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/ai-agent-ai-spy</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/ai-agent-ai-spy</guid>
+      <pubDate>Mon, 29 Dec 2025 19:15:00 +0100</pubDate>
+      <itunes:title>AI Agent, AI Spy</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - spon.de: Recomendation of spon.de in their review of 39C3.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Agentic AI is the catch-all term for AI-enabled systems that propose to complete more or less complex tasks on their own, without stopping to ask permission or consent. What could go wrong? These systems are being integrated directly into operating systems and applications, like web browsers. This move represents a fundamental paradigm shift, transforming them from relatively neutral resource managers into an active, goal-oriented infrastructure ultimately controlled by the companies that develop these systems, not by users or application developers. Systems like Microsoft&#39;s &#34;Recall,&#34; which create a comprehensive &#34;photographic memory&#34; of all user activity, are marketed as productivity enhancers, but they function as OS-level surveillance and create significant privacy vulnerabilities. In the case of Recall, we’re talking about a centralized, high-value target for attackers that poses an existential threat to the privacy guarantees of meticulously engineered applications like Signal. This shift also fundamentally undermines personal agency, replacing individual choice and discovery with automated, opaque recommendations that can obscure commercial interests and erode individual autonomy.
+
+This talk will review the immediate and serious danger that the rush to shove agents into our devices and digital lives poses to our fundamental right to privacy and our capacity for genuine personal agency. Drawing from Signal&#39;s analysis, it moves beyond outlining the problem to also present a &#34;tourniquet&#34; solution: looking at what we need to do *now* to ensure that privacy at the application layer isn’t eliminated, and what the hacker community can do to help. We will outline a path for ensuring developer agency, granular user control, radical transparency, and the role of adversarial research.
+
+The talk will provide a critical technical and political economy analysis of the new privacy crisis emerging from OS and application level AI agents, aimed at the 39C3 &#34;Ethics, Society &amp; Politics&#34; audience.
+
+1. Defining the Threat: The OS as a Proactive Participant (5 mins)
+ We will begin by defining &#34;Agentic AI&#34; in two contexts - imbibed into the operating system and deployed via critical gateway applications such as web browsers. Traditionally, the operating systems and browsers are largely neutral enforcers of user agency, managing resources and providing APIs for applications to run reliably. We will argue that this neutrality is close to being eliminated. The new paradigm shifts these applications into a proactive agent that actively observes, records, and anticipates user actions across all applications.The prime example for this analysis will be Microsoft’s &#34;Recall&#34; feature, Google’s Magic Cue, and OpenAI’s Atlas. Politically, we will frame this not as a &#34;feature&#34; but as the implementation of pervasive, non-consensual surveillance and remote-control infrastructure. This &#34;photographic memory&#34; of and demand for non-differentiated access to everything from private Signal messages to financial data to health data creates a catastrophic single point of failure, making a single security breach an existential threat to a user&#39;s entire digital life. Ultimately, we hope to illustrate how putting our brains in a jar (with agentic systems) is effectively a prompt injection attack against our own humanity.
+
+2. The Existential Threat to Application-Level Privacy (10 mins)
+ The core of the talk will focus on what this means for privacy-first applications like Signal. We will explain the &#34;blood-brain barrier&#34; analogy: secure apps are meticulously engineered to minimize data and protect communications, relying on the OS to be a stable, neutral foundation on which to build. This new OS trend breaks that barrier. We will demonstrate how OS-level surveillance renders application-level privacy features, including end-to-end encryption, effectively useless. If the OS can screenshot a message before it&#39;s encrypted or after it&#39;s decrypted, the promise of privacy is broken, regardless of the app&#39;s design. We will also discuss the unsustainable &#34;clever hacks&#34; (like Signal using a DRM feature) that developers are forced to implement, underscoring the need for a structural solution.
+
+3. An Actionable Framework for Remediation (20 mins)
+ The final, and most important, part of the talk will move from critique to action. We will present an actionable four-point framework as a &#34;tourniquet&#34; to address these immediate dangers:
+
+a. Empower Developers: Demand clear, officially supported APIs for developers to designate individual applications as &#34;sensitive&#34; with the default posture being for such applications being opted-out of access by agentic systems (either OS or application based) (default opt-out)
+
+b. Granular User Control: Move beyond all-or-nothing permissions. Users must have explicit, fine-grained control to grant or deny AI access on an app-by-app basis.
+
+c. Mandate Radical Transparency: OS vendors and application developers must clearly disclose what data is accessed, how it&#39;s used, and how it&#39;s protected—in human-readable terms, not buried in legalese. Laws and regulations must play an essential role but we cannot just wait for them to be enforced, or it will be too late.
+
+d. Encourage and Protect Adversarial Research: We will conclude by reinforcing the need for a pro-privacy, pro-security architecture by default, looking at the legal frameworks that govern these processes and why they need to be enforced, and finally asking the attendees to continue exposing vulnerabilities in such systems. It was only due to technically-grounded collective outrage that Recall was re-architected by Microsoft and we will need that energy if we are to win this war.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/ai-agent-ai-spy
+</itunes:summary>
+      <itunes:author>Udbhav Tiwari, Meredith Whittaker</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2230-eng-deu-fra-AI_Agent_AI_Spy_hd.mp4"
+                 length="638582784"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Agentic ProbLLMs: Exploiting AI Computer-Use and Coding Agents</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.5/5 from 2 ratings)
+
+⭐⭐⭐⭐ (4/5) - spon.de: Recomendation of spon.de in their review of 39C3.
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+This talk demonstrates end-to-end prompt injection exploits that compromise agentic systems. Specifically, we will discuss exploits that target computer-use and coding agents, such as Anthropic&#39;s Claude Code, GitHub Copilot, Google Jules, Devin AI, ChatGPT Operator, Amazon Q, AWS Kiro, and others. 
+
+Exploits will impact confidentiality, system integrity, and the future of AI-driven automation, including remote code execution, exfiltration of sensitive information such as access tokens, and even joining Agents to traditional command and control infrastructure. Which are known as &#34;ZombAIs&#34;, a term first coined by the presenter as well as long-term prompt injection persistence in AI coding agents.
+
+Additionally, we will explore how nation state TTPs such as ClickFix apply to Computer-Use systems and how they can trick AI systems and lead to full system compromise (AI ClickFix). 
+
+Finally, we will cover current mitigation strategies and forward-looking recommendations and strategic thoughts.
+
+During the Month of AI Bugs (August 2025), I responsibly disclosed over two dozen security vulnerabilities across all major agentic AI coding assistants. This talk distills the most severe findings and patterns observed.
+
+Key highlights include:
+* Critical prompt-injection exploits enabling zero-click data exfiltration and arbitrary remote code execution across multiple platforms and vendor products
+* Recurring systemic flaws such as over-reliance on LLM behavior for trust decisions, inadequate sandboxing of tools, and weak user-in-the-loop controls.
+* How I leveraged AI to find some of these vulnerabilities quickly
+* The AI Kill Chain: prompt injection, confused deputy behavior, and automatic tool invocation
+* Adaptation of nation-state TTPs (e.g., ClickFix) into AI ClickFix techniques that can fully compromise computer-use systems.
+* Insights about vendor responses: from quick patches and CVEs to months of silence, or quiet patching
+* AgentHopper will highlight how these vulnerabilities combined could have led to an AI Virus
+
+Finally, the session presents practical mitigations and forward-looking strategies to reduce the growing attack surface of probabilistic, autonomous AI systems.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/agentic-probllms-exploiting-ai-computer-use-and-coding-agents
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/agentic-probllms-exploiting-ai-computer-use-and-coding-agents</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/agentic-probllms-exploiting-ai-computer-use-and-coding-agents</guid>
+      <pubDate>Sun, 28 Dec 2025 13:30:00 +0100</pubDate>
+      <itunes:title>Agentic ProbLLMs: Exploiting AI Computer-Use and Coding Agents</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.5/5 from 2 ratings)
+
+⭐⭐⭐⭐ (4/5) - spon.de: Recomendation of spon.de in their review of 39C3.
+⭐⭐⭐ (3/5) - heise.de: Empfehlung im heise.de top-newsletter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+This talk demonstrates end-to-end prompt injection exploits that compromise agentic systems. Specifically, we will discuss exploits that target computer-use and coding agents, such as Anthropic&#39;s Claude Code, GitHub Copilot, Google Jules, Devin AI, ChatGPT Operator, Amazon Q, AWS Kiro, and others. 
+
+Exploits will impact confidentiality, system integrity, and the future of AI-driven automation, including remote code execution, exfiltration of sensitive information such as access tokens, and even joining Agents to traditional command and control infrastructure. Which are known as &#34;ZombAIs&#34;, a term first coined by the presenter as well as long-term prompt injection persistence in AI coding agents.
+
+Additionally, we will explore how nation state TTPs such as ClickFix apply to Computer-Use systems and how they can trick AI systems and lead to full system compromise (AI ClickFix). 
+
+Finally, we will cover current mitigation strategies and forward-looking recommendations and strategic thoughts.
+
+During the Month of AI Bugs (August 2025), I responsibly disclosed over two dozen security vulnerabilities across all major agentic AI coding assistants. This talk distills the most severe findings and patterns observed.
+
+Key highlights include:
+* Critical prompt-injection exploits enabling zero-click data exfiltration and arbitrary remote code execution across multiple platforms and vendor products
+* Recurring systemic flaws such as over-reliance on LLM behavior for trust decisions, inadequate sandboxing of tools, and weak user-in-the-loop controls.
+* How I leveraged AI to find some of these vulnerabilities quickly
+* The AI Kill Chain: prompt injection, confused deputy behavior, and automatic tool invocation
+* Adaptation of nation-state TTPs (e.g., ClickFix) into AI ClickFix techniques that can fully compromise computer-use systems.
+* Insights about vendor responses: from quick patches and CVEs to months of silence, or quiet patching
+* AgentHopper will highlight how these vulnerabilities combined could have led to an AI Virus
+
+Finally, the session presents practical mitigations and forward-looking strategies to reduce the growing attack surface of probabilistic, autonomous AI systems.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/agentic-probllms-exploiting-ai-computer-use-and-coding-agents
+</itunes:summary>
+      <itunes:author>Johann Rehberger</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1306-eng-deu-fra-Agentic_ProbLLMs_Exploiting_AI_Computer-Use_and_Coding_Agents_hd.mp4"
+                 length="674234368"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>The Heartbreak Machine: Nazis in the Echo Chamber</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - Techcrunch: Articles on techcrunch and all over social media praised this talk
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WhiteDate ist eine Plattform weißer Suprematist:innen, die sich an Rassist:innen und Antisemit:innen richtet – und auf veralteter Infrastruktur basiert. Was die 8000 Mitglieder nicht wussten: Einige der Nazis flirteten dieses Jahr mit realistisch wirkenden Chatbots -  und verliebten sich sogar in sie. Mit einer Kombination aus automatisierter Konversationsanalyse, Web-Scraping und klassischen OSINT-Methoden verfolgten wir öffentliche Spuren und identifizierten die Personen hinter der Seite. Dieser Vortrag zeigt, wie KI-Personas und investigatives Denken extremistische Netzwerke aufdecken und wie Algorithmen gegen Extremismus eingesetzt werden können.
+
+Monatelang tauchte Martha in die verborgene Welt von WhiteDate, WhiteChild und WhiteDeal ein, drei Plattformen, die von einer Rechtsextremistin aus Deutschland betrieben werden. Sie glaubt an die Verschwörung einer weißen Vorherrschaft und einer „rassisch reinen“ weißen Gemeinschaft.  Was als Neugier begann, entwickelte sich schnell zu einem Experiment über menschliches Verhalten, Technologie und Absurdität.
+
+Martha infiltrierte das Portal mit „realistischen“ KI-Chatbots. Die Bots waren so überzeugend, dass sie die Überprüfungen umgingen und sogar als „weiß“ verifiziert worden. Durch die Gespräche und Recherche von digitalen Spuren dieser Gemeinschaft, die sich in Sicherheit wähnte, konnte sie Nutzer identifizieren.
+
+Gemeinsam mit Reporter:innen der „Die Zeit“ konnten wir die Person hinter der Plattform enttarnen und ihre Radikalisierung von einer erfolgreichen Pianistin zu einer Szene-Unternehmerin nachzeichnen. Um ihr Dating-Portal hat sie ein Netzwerk von Websites aufgebaut, dass seinen Nutzern Liebe, Treue und Tradition vermarktet. WhiteDate verspricht romantische Beziehungen, WhiteChild propagiert Familien- und Abstammungsideale und WhiteDeal ermöglicht berufliches Networking und „gegenseitige Unterstützung“ unter einem rassistischen Weltbild. Gemeinsam zeigen sie, wie Ideologie und Einsamkeit auf bizarre Weise miteinander verwoben sein können.
+
+Nach monatelanger Beobachtung, klassischer OSINT-Recherche, automatisierter Gesprächsanalyse und Web-Scraping haben wir herausgefunden, wer hinter diesen Plattformen steckt und wie ihre Infrastruktur funktioniert. Dabei deckten wir die Widersprüche und Absurditäten extremistischer Gemeinschaften auf, verdeutlichten ihre Anfälligkeit für technologische Eingriffe und brachten sogar den einen oder anderen Nazi zum Weinen.
+
+Dieser Vortrag erzählt von Beobachtung, Schabernack und Einblicken in die digitale Welt extremistischer Gruppen. Er zeigt, wie Algorithmen, KI-Personas und investigatives Denken Hass entlarven, seine Narrative hinterfragen und seine Echokammern aufbrechen können. Wir zeigen, wie Technologie im Kampf gegen Extremismus eingesetzt werden kann.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/the-heartbreak-machine-nazis-in-the-echo-chamber
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/the-heartbreak-machine-nazis-in-the-echo-chamber</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/the-heartbreak-machine-nazis-in-the-echo-chamber</guid>
+      <pubDate>Mon, 29 Dec 2025 21:45:00 +0100</pubDate>
+      <itunes:title>The Heartbreak Machine: Nazis in the Echo Chamber</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - Techcrunch: Articles on techcrunch and all over social media praised this talk
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WhiteDate ist eine Plattform weißer Suprematist:innen, die sich an Rassist:innen und Antisemit:innen richtet – und auf veralteter Infrastruktur basiert. Was die 8000 Mitglieder nicht wussten: Einige der Nazis flirteten dieses Jahr mit realistisch wirkenden Chatbots -  und verliebten sich sogar in sie. Mit einer Kombination aus automatisierter Konversationsanalyse, Web-Scraping und klassischen OSINT-Methoden verfolgten wir öffentliche Spuren und identifizierten die Personen hinter der Seite. Dieser Vortrag zeigt, wie KI-Personas und investigatives Denken extremistische Netzwerke aufdecken und wie Algorithmen gegen Extremismus eingesetzt werden können.
+
+Monatelang tauchte Martha in die verborgene Welt von WhiteDate, WhiteChild und WhiteDeal ein, drei Plattformen, die von einer Rechtsextremistin aus Deutschland betrieben werden. Sie glaubt an die Verschwörung einer weißen Vorherrschaft und einer „rassisch reinen“ weißen Gemeinschaft.  Was als Neugier begann, entwickelte sich schnell zu einem Experiment über menschliches Verhalten, Technologie und Absurdität.
+
+Martha infiltrierte das Portal mit „realistischen“ KI-Chatbots. Die Bots waren so überzeugend, dass sie die Überprüfungen umgingen und sogar als „weiß“ verifiziert worden. Durch die Gespräche und Recherche von digitalen Spuren dieser Gemeinschaft, die sich in Sicherheit wähnte, konnte sie Nutzer identifizieren.
+
+Gemeinsam mit Reporter:innen der „Die Zeit“ konnten wir die Person hinter der Plattform enttarnen und ihre Radikalisierung von einer erfolgreichen Pianistin zu einer Szene-Unternehmerin nachzeichnen. Um ihr Dating-Portal hat sie ein Netzwerk von Websites aufgebaut, dass seinen Nutzern Liebe, Treue und Tradition vermarktet. WhiteDate verspricht romantische Beziehungen, WhiteChild propagiert Familien- und Abstammungsideale und WhiteDeal ermöglicht berufliches Networking und „gegenseitige Unterstützung“ unter einem rassistischen Weltbild. Gemeinsam zeigen sie, wie Ideologie und Einsamkeit auf bizarre Weise miteinander verwoben sein können.
+
+Nach monatelanger Beobachtung, klassischer OSINT-Recherche, automatisierter Gesprächsanalyse und Web-Scraping haben wir herausgefunden, wer hinter diesen Plattformen steckt und wie ihre Infrastruktur funktioniert. Dabei deckten wir die Widersprüche und Absurditäten extremistischer Gemeinschaften auf, verdeutlichten ihre Anfälligkeit für technologische Eingriffe und brachten sogar den einen oder anderen Nazi zum Weinen.
+
+Dieser Vortrag erzählt von Beobachtung, Schabernack und Einblicken in die digitale Welt extremistischer Gruppen. Er zeigt, wie Algorithmen, KI-Personas und investigatives Denken Hass entlarven, seine Narrative hinterfragen und seine Echokammern aufbrechen können. Wir zeigen, wie Technologie im Kampf gegen Extremismus eingesetzt werden kann.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/the-heartbreak-machine-nazis-in-the-echo-chamber
+</itunes:summary>
+      <itunes:author>Martha Root, Eva Hoffmann, Christian Fuchs</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1695-deu-eng-The_Heartbreak_Machine_Nazis_in_the_Echo_Chamber_hd.mp4"
+                 length="959447040"
+                 type="video/mp4"/>
+    </item>
+  </channel>
+</rss>

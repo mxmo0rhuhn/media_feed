@@ -1,0 +1,238 @@
+meta:
+  title: 37C3 media feed
+  description: A curated feed for different talks of the 37C3 (Chaos Communication
+    Congress 2023).
+  image_url: https://static.media.ccc.de/media/congress/2023/logo.png
+feed:
+- title: How Many Planets in Our Solar System? Glad You Asked!
+  published: Fri, 29 Dec 2023 17:15:00 +0100
+  speakers: Michael Büker
+  subtitle: How Astronomy Knew 6 Planets, Then Found 20 More, Then Went Back To 8
+    (For Now)
+  media_url: https://cdn.media.ccc.de/congress/2023/h264-hd/37c3-11734-eng-deu-spa-How_Many_Planets_in_Our_Solar_System_Glad_You_Asked_hd.mp4
+  media_type: video/mp4
+  media_length: '580911104'
+  web_url: https://fahrplan.events.ccc.de/congress/2023/fahrplan/events/11734.html
+  description: 'The Solar System has had 8 planets ever since Pluto was excluded in
+    2006. This has made a lot of people very angry and been widely regarded as a bad
+    move. But did you know Neptune was discovered as the 12th planet? Or that, 80
+    years before Star Trek, astronomers seriously suspected a planet called Vulcan
+    near the Sun? This talk will take you through centuries of struggling with the
+    question: Do you even planet?!
+
+
+    In antiquity, scientists counted the 7 classical planets: the Moon, Mercury, Venus,
+    the Sun, Mars, Jupiter and Saturn – but their model of the universe was wrong.
+    Two thousand years later, a new model was introduced. It was less wrong, and it
+    brought the number of planets down to 6: Mercury, Venus, Earth, Mars, Jupiter,
+    Saturn. Since then, it''s been a roller coaster ride of planet discoveries and
+    dismissals.
+
+
+    In this talk, we stagger through the smoke and mirrors of scientific history.
+    We meet old friends like Uranus and Neptune, forgotten lovers like Ceres, Psyche
+    and Eros, fallen celebrities like Pluto, regicidal interlopers like Eris and Makemake
+    as well as mysterious strangers like Vulcan, Planet X and Planet Nine.
+
+
+    Find out how science has been tricked by its own vanity, been hampered by too
+    little (or too much!) imagination, and how human drama can make a soap opera out
+    of a question as simple as: How Many Planets in Our Solar System?
+
+    about this event: https://events.ccc.de/congress/2023/hub/event/how_many_planets_in_our_solar_system_glad_you_asked/
+
+    '
+  category: Science
+  feedback:
+  - rating: 3
+    username: max
+    comment: Entertaining talk about the solar system
+- title: 'Apple''s iPhone 15: Under the C'
+  published: Wed, 27 Dec 2023 12:00:00 +0100
+  speakers: stacksmashing
+  subtitle: Hardware hacking tooling for the new iPhone generation
+  media_url: https://cdn.media.ccc.de/congress/2023/h264-hd/37c3-12074-eng-deu-fra-Apples_iPhone_15_Under_the_C_hd.mp4
+  media_type: video/mp4
+  media_length: '294649856'
+  web_url: https://fahrplan.events.ccc.de/congress/2023/fahrplan/events/12074.html
+  description: "Hardware hacking tooling for the new iPhone generation\n\nIf you've\
+    \ followed the iPhone hacking scene you probably heard about cables such as the\
+    \ Kanzi Cable, Kong Cable, Bonobo Cable, and so on: Special cables that allow\
+    \ access to hardware debugging features on Lightning-based iPhones such as UART\
+    \ and JTAG. However with the iPhone 15, all of those tools became basically useless:\
+    \ USB-C is here, and with that we need new hardware and software tooling.\n\n\
+    This talk gives you a brief history of iPhone hardware hacking through the Lightning\
+    \ port, and then looks at the new iPhone 15, and how - using vendor defined messages,\
+    \ modifying existing tooling like the Central Scrutinizer, and a bit of hardware\
+    \ hacking - we managed to get access to the (unfortunately locked on production\
+    \ devices) JTAG interface exposed on the USB-C port on the new iPhone 15.\n\n\
+    And how you can do it using open-source tooling too.\n\nThe iPhone's Lightning\
+    \ connector was a proprietary beast with a lot of hidden features: By sending\
+    \ custom SDQ commands there, it was possible to get it to expose hardware debugging\
+    \ features such as JTAG and UART. For a long time, this was only easily possible\
+    \ using either gray and black-market cables such as the Kanzi-Cable, or proprietary\
+    \ tools such as the Bonobo Cable. Last year, we released an open-source tool to\
+    \ get access to the iPhone debugging features called the Tamarin Cable - finally\
+    \ allowing anyone to get JTAG and UART on the iPhone for just a couple of $ in\
+    \ parts. \n\nBut then the iPhone 15 came along, and with that USB-C: All previous\
+    \ hardware and software tooling basically became useless, but that did not stop\
+    \ us from trying: We knew from the Apple Silicon macs and the work of t8012-team\
+    \ and the AsahiLinux project that Apple uses USB-C's VDM feature - Vendor Defined\
+    \ Messages - to allow access to features such as the UART console, and so chances\
+    \ were high that we could use something similar to get access to the hardware\
+    \ debugging features on the iPhone 15.\n\nSo we pre-ordered the iPhone 15, a couple\
+    \ of PCBs, a case of Club Mate and got started: And less than 48 hours after the\
+    \ launch we got JTAG working on the iPhone 15.\n\nIn this talk we will start by\
+    \ looking at the history of iPhone and Lightning hardware hacking, and then look\
+    \ at how USB-C is used for debugging on Apple Silicon devices, and what we had\
+    \ to do to get JTAG on the iPhone 15.\n\nWe will also use this talk to release\
+    \ the new version of the open-source Tamarin Cable firmware: Tamarin-C. A fully\
+    \ integrated, open-source debugging probe for the iPhone 15 and other Apple Silicon\
+    \ devices. Tamarin-C is also able to give access to a DFU mode that you can't\
+    \ access without sending VDMs.\n\n\nNote: This talk will not contain any 0days\
+    \ or previously unknown vulnerabilities. Production iPhones are locked, and so\
+    \ while we get access to some of the device's busses we can't for example access\
+    \ the CPU core.\n\n\nThis talk is about building tooling for future work.\nabout\
+    \ this event: https://events.ccc.de/congress/2023/hub/event/apple_s_iphone_15_under_the_c/\n"
+  category: Technology
+  feedback:
+  - rating: 4
+    username: max
+    comment: Was commented as a must see by many
+- title: All cops are broadcasting
+  published: Wed, 27 Dec 2023 17:15:00 +0100
+  speakers: Carlo Meijer, Wouter Bokslag, Jos Wetzels
+  subtitle: TETRA unlocked after decades in the shadows
+  media_url: https://cdn.media.ccc.de/congress/2023/h264-hd/37c3-11761-eng-deu-All_cops_are_broadcasting_hd.mp4
+  media_type: video/mp4
+  media_length: '602931200'
+  web_url: https://fahrplan.events.ccc.de/congress/2023/fahrplan/events/11761.html
+  description: 'This talk will present details of the TETRA:BURST vulnerablities -
+    the result of the first public in-depth security analysis of TETRA (Terrestrial
+    Trunked Radio): a European standard for trunked radio globally used by government
+    agencies, police, military, and critical infrastructure relying on secret cryptographic
+    algorithms which we reverse-engineered and published in August 2023. Adding to
+    our initial disclosure, this talk will present new details on our deanonymization
+    attack and provide additional insights into background and new developments.
+
+
+    In August 2023, we published the TETRA:BURST vulnerablities - the result of the
+    first public in-depth security analysis of TETRA (Terrestrial Trunked Radio):
+    a European standard for trunked radio globally used by government agencies, police,
+    military, and critical infrastructure. Authentication and encryption within TETRA
+    are handled by proprietary cryptographic cipher-suites, which had remained secret
+    for over two decades through restrictive NDAs until our reverse-engineering and
+    publication.
+
+
+    TETRA:BURST consists of five vulnerabilities, two of which are critical, including
+    the backdoored TEA1 cipher (crackable in minutes on commodity hardware by a passive
+    adversary), a keystream recovery attack (which works regardless of the cipher
+    employed), and a deanonymization attack with counter-intelligence implications.
+
+
+    In this talk, we will discuss and demonstrate the TETRA:BURST vulnerabilities
+    themselves and will - for the first time - disclose the details of the TA61 identity
+    anonymization primitive and our Meet-in-the-Middle deanonymization attack against
+    it. In addition, we will provide more background on how the TEA1 backdoor proliferated
+    throughout Europe and provide attendees with an update on new developments since
+    our initial disclosure, the future of TETRA, and the vast amount of TETRA hardening
+    work that still needs to be done in critical infrastructure.
+
+    about this event: https://events.ccc.de/congress/2023/hub/event/all_cops_are_broadcasting/
+
+    '
+  category: Technology
+  feedback:
+  - rating: 3
+    username: netzpolitik.org
+    comment: Empfehlung auf der Website netzpolitik.org
+- title: How to build a submarine and survive
+  published: Fri, 29 Dec 2023 21:45:00 +0100
+  speakers: quirsh, Elias
+  subtitle: Wie wir mit begrenzten Mitteln ein U-Boot gebaut haben und was ihr draus
+    lernen könnt.
+  media_url: https://cdn.media.ccc.de/congress/2023/h264-hd/37c3-11828-deu-eng-How_to_build_a_submarine_and_survive_hd.mp4
+  media_type: video/mp4
+  media_length: '478150656'
+  web_url: https://fahrplan.events.ccc.de/congress/2023/fahrplan/events/11828.html
+  description: '3,4 Tonnen schwer, 4,3 Meter lang, Material: Stahl, Farbe: Orange
+    und der Fahrzeugtyp ist „Sporttauchboot”. Vom Fund eines Drucktanks bis zum ersten
+    Tauchgang auf den Grund eines Tagebausees – wir erzählen von unseren größten Herausforderungen
+    sowie Fehlschlägen.
+
+
+    Wir laden euch ein zu einem technischen Beratungsgespräch für alle, die schonmal
+    mit dem Gedanken gespielt haben, ein U-Boot zu bauen.
+
+
+    Die einzelnen Systeme eines U-Boots sind nicht kompliziert. Aber die Schwierigkeit
+    liegt in der Summe der Einzelsysteme, die auf engem Raum im Zusammenspiel sicher
+    funktionieren müssen. Der Fokus des Vortrags liegt neben unserer kurzweiligen
+    Geschichte auf den technischen Schwierigkeiten, zu denen sich in der Literatur
+    wenig findet oder wegen derer es nicht gleich auf Anhieb funktioniert hat. Damit
+    ihr, falls ihr ähnliches plant, einen besseren Start habt und von unseren Fehlern
+    profitieren könnt.
+
+
+    Was gibt es bei der Wahl eines geeigneten Drucktanks zu beachten?
+
+    Wie lässt sich eine wasserdichte Luke konstruieren?
+
+    Drahtlose Unterwasserkommunikation mittels Ultraschall?
+
+    Wie bauen wir Redundanz in die Systeme ein?
+
+    Wie werden wir das CO2 los, um nicht zu ersticken?
+
+    Warum sind auf einmal Risse in den Scheiben?
+
+    Was tun, wenn nichts mehr geht?
+
+    Und was, wenn dann auch noch die Polizei kommt?
+
+
+    In dem Vortrag geht es nicht um Probleme anderer kaputter U-Boote. Wir werden
+    das Titan-Desaster mit maximal einer Folie behandeln.
+
+
+    Mit Fotos von Selene Magnolia
+
+    about this event: https://events.ccc.de/congress/2023/hub/event/how_to_build_a_submarine_and_survive/
+
+    '
+  category: Technology
+  feedback:
+  - rating: 5
+    username: max
+    comment: Absolute CCC classic. Funny & informative. Much reporting in media outlets.
+- title: SMTP Smuggling – Spoofing E-Mails Worldwide
+  published: Wed, 27 Dec 2023 22:05:00 +0100
+  speakers: Timo Longin
+  subtitle: ''
+  media_url: https://cdn.media.ccc.de/congress/2023/h264-hd/37c3-11782-eng-deu-SMTP_Smuggling_-_Spoofing_E-Mails_Worldwide_hd.mp4
+  media_type: video/mp4
+  media_length: '176160768'
+  web_url: https://fahrplan.events.ccc.de/congress/2023/fahrplan/events/11782.html
+  description: 'Introducing a novel technique for e-mail spoofing.
+
+
+    SMTP, the Simple Mail Transfer Protocol, allows e-mailing since 1982. This easily
+    makes it one of the oldest technologies amongst the Internet. However, even though
+    it seems to have stood the test of time, there was still a trivial but novel exploitation
+    technique just waiting to be discovered – SMTP smuggling!
+
+    In this talk, we’ll explore how SMTP smuggling breaks the interpretation of the
+    SMTP protocol in vulnerable server constellations worldwide, allowing some more
+    than unwanted behavior. Sending e-mails as admin@microsoft.com to fortune 500
+    companies – while still passing SPF checks – will be the least of our problems!
+
+    From identifying this novel technique to exploiting it in one of the most used
+    e-mail services on the Internet, we’ll dive into all the little details this attack
+    has to offer. Therefore, in this talk, we’ll embark on an expedition beyond the
+    known limits of SMTP, and venture into the uncharted territories of SMTP smuggling!
+
+    about this event: https://events.ccc.de/congress/2023/hub/event/smtp_smuggling_spoofing_e-mails_worldwide/
+
+    '
+  category: Technology

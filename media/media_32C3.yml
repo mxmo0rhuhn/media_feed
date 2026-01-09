@@ -1,0 +1,356 @@
+sources:
+- https://media.ccc.de/c/32c3
+feed:
+- title: 'libusb: Maintainer fail'
+  published: Tue, 29 Dec 2015 23:30:00 +0100
+  speakers: Peter Stuge
+  subtitle: How I failed to run an open source project
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7547-en-libusb_Maintainer_fail.mp4
+  media_type: video/mp4
+  media_length: 298844160
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7547.html
+  description: In 2010 I was asked by the second maintainer in a row to take over
+    as new maintainer of the libusb project. The first time I had declined. The second
+    time I accepted, and sadly failed. Eventually a hostile fork emerged, with the
+    explicit goal to take over the original project. I will tell you my story, which
+    mistakes I made and what I learned - about independent and corporate contributors
+    in open source projects, about package maintainers in downstream OS distributions,
+    about trolls on the internet, about GitHub Inc. and about myself. The hostile
+    fork? It wasn't merged.
+  category: Technology
+  feedback:
+  - rating: 3
+    username: tino
+    comment: True lessons everyone involved in OSS will have to learn eventually.
+  - rating: 3
+    username: max
+    comment: Very humble talk about how to not run a OSS project nice to have it seen once.
+- title: Beyond your cable modem
+  published: Sun, 27 Dec 2015 18:30:00 +0100
+  speakers: Alexander Graf
+  subtitle: How not to do DOCSIS networks
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7133-en-de-Beyond_your_cable_modem_sd.mp4
+  media_type: video/mp4
+  media_length: 196083712
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7133.html
+  description: 'Have you ever wondered why cable modem providers don''t allow you to
+    swap out your modems with your own?  Once you look at the network your modem (and
+    thus you once you gain access to it) has access to, a whole new world of security
+    mess-up lies ahead. Join me in exploring how DOCSIS (the standard behind cable
+    modems) works, how it''s used today in a real life example setup, how you could
+    potentially make it secure and what implications this has to you as an end user.
+    I will also show you what happens if you don''t look out for security on the DOCSIS
+    network and how that can lead to compromising other people''s modems, private
+    networks and telephone access.'
+  category: Technology
+  feedback:
+  - rating: 5
+    username: phil
+    comment: Best presentation of 32c3 so far!
+  - rating: 4
+    username: max
+    comment: Quite good on a technical side and fun as well.
+  - rating: 4
+    username: alain
+    comment: 'Very fun and at the same time horrific talk. Basically everyone on
+      a cable network can easily gain access to a root shell on everyone elses cable
+      modem. Not only that, you can also listen in to other peoples VOIP calls or call
+      from somebody eleses number. Horrifying, because it''s so simple and extremely powerful.
+      In the questions, it''s also very interesting at 30:15 when he''s being asked
+      an easy question and the guy gets very uneasy and says: "The problem is the law.
+      I cannot tell you about ....".'
+- title: Intelexit
+  published: Tue, 29 Dec 2015 21:15:00 +0100
+  speakers: Gloria Spindle - Peng! Collective
+  subtitle: 'Calling secret service agents to quit their jobs '
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7426-en-de-Intelexit_sd.mp4
+  media_type: video/mp4
+  media_length: 142606336
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7426.html
+  description: When we talk about government surveillance, we most often talk about
+    it as a dark and menacing threat. But there are humans working day in and day
+    out at secret service offices around the world, following orders, keeping secrets.
+    How many of them feel ethically conflicted about their role in upholding these
+    structures? How many of them might consider leaving and pursuing another career,
+    if nudged in the right direction? Intelexit, an initiative produced by the Peng!
+    Collective, reaches out to these people and offers them a friendly nudge and connects
+    them with the right kinds of support if they wish to leave. Treading the line
+    between art and activism, between spectacle and reality, Peng set up Intelexit
+    to draw attention to the women and men working in the shadows, and to reach out
+    to them. Intelexit was an experiment at first but it turned out to be very popular
+    and needed, so it will continue into 2016 and it needs your help!
+  category: "Arts"
+  feedback:
+  - rating: 3
+    username: phil
+    comment: Performed by the same woman who did the Google Nest talk on Republica 2014.
+  - rating: 3
+    username: max
+    comment: Interesting artistic approach aiming at the people behind mass survailance.
+- title: Ein Abgrund von Landesverrat
+  published: Mon, 28 Dec 2015 16:00:00 +0100
+  speakers: Markus Beckedahl
+  subtitle: Wie es dazu kam und was daraus zu lernen ist
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7135-de-Ein_Abgrund_von_Landesverrat.mp4
+  media_type: video/mp4
+  media_length: 449839104
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7135.html
+  description: Im Sommer kam heraus, dass der Generalbundesanwalt Ermittlungen gegen
+    zwei Journalisten von netzpolitik.org in Gang gesetzt hatte. Das geschah, weil
+    sich das Bundesamt für Verfassungsschutz dadurch auf den Schlips getreten fühlte,
+    dass Auszüge aus ihren Haushaltsplänen der allgemeinen Bevölkerung bei netzpolitik.org
+    zugänglich gemacht wurden.
+  category: "Society & Culture"
+  feedback:
+  - rating: 3
+    username: max
+    comment: Die Landesverat Ermitlungen gegen das Blog netzpolitik.org haben im Sommer
+      2015 für einige Aufregung in Deutschland gesorgt.  Der Talk ist eine humoristische
+      Aufarbeitung der Erkenntnisse.  Eher ein post mortem da bspw. auf dem Camp 2015
+      das Thema schon gross debattiert wurde.
+- title: Netzpolitik in der Schweiz
+  published: Sun, 27 Dec 2015 16:00:00 +0100
+  speakers: vimja, ari, Patrick Stählin, Hakuna MaMate
+  subtitle: NDG, BÜPF und wie wir uns dagegen wehren
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7205-de-Netzpolitik_in_der_Schweiz_sd.mp4
+  media_type: video/mp4
+  media_length: 141557760
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7205.html
+  description: 2015 und 2016 sind wichtige Jahre für die Netzpolitik in der Schweiz,
+    denn die Parlamente entscheiden sowohl die Revision des BÜPF (<b>B</b>undesgesetz
+    betreffend die <b>Ü</b>berwachung des <b>P</b>ost- und <b>F</b>ernmeldeverkehrs)
+    als auch das NDG (<b>N</b>achrichten<b>d</b>ienst<b>g</b>esetz).
+  category: "Society & Culture"
+  feedback:
+  - rating: 2
+    username: alain
+    comment: 'Sehr langweilig vorgetragen. Die Sprecher nutzen gerne Wörter und Akronyme
+      rechtlicher Natur ohne sie einzuführen oder zu erklären. Primär eine Erklärung
+      des aktuellen Stands und den neuen Gesetzen, die alsbald kommen können. Dahingehend
+      inhaltlich durchaus interessant.'
+  - rating: 3
+    username: max
+    comment: 'Gibt einen guten Überblick über die Möglichkeiten
+      zur politischen Partizipation in der Schweiz und versch. Überwachungsgesetze. Ist
+      zum Teil anstrengend zu folgen, das die Vortragenden den guten Stoff nicht besonders
+      aufarbeiten.'
+- title: 'NSA-Untersuchungsausschuss: Zwischen Aufklärungswillen und Mauern aus Schweigen'
+  published: Sun, 27 Dec 2015 12:45:00 +0100
+  speakers: anna
+  subtitle: ''
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7228-de-en-NSA-Untersuchungsausschuss_Zwischen_Aufklaerungswillen_und_Mauern_aus_Schweigen_sd.mp4
+  media_type: video/mp4
+  media_length: 235929600
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7228.html
+  category: "Society & Culture"
+  description: 'März 2014 wurde der NSA-Untersuchungsausschuss im Bundestag
+    eingesetzt, der die Verwicklungen um die deutschen Geheimdienste aufkl&auml;ren
+    soll. Ein R&uuml;ck- und Ausblick: Was wissen wir heute, was erwartet uns noch?'
+  feedback:
+  - rating: 4
+    username: max
+    comment: Bei Interesse an der deutschen Aufarbeitung von 5-Eyes etc. super spannend. Aus schweizer Sicht wohl eher nicht sooo sehr.
+- title: PQCHacks
+  published: Sun, 27 Dec 2015 23:00:00 +0100
+  speakers: djb, Tanja Lange
+  subtitle: A gentle introduction to post-quantum cryptography
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7210-en-PQCHacks.mp4
+  media_type: video/mp4
+  media_length: 433061888
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7210.html
+  description: <p>Last year your friend Karen joined the alternative music scene and
+    sent you a sound track. The government is recording everything, and this year
+    announced that alternative music is a gateway drug to terrorism (see <a href="http://www.theguardian.com/australia-news/2015/sep/25/radicalisation-kit-links-activism-and-alternative-music-scene-to-extremism">http://www.theguardian.com/australia-news/2015/sep/25/radicalisation-kit-links-activism-and-alternative-music-scene-to-extremism</a>).
+    Fortunately, Karen encrypted the email.</p>
+  category: Technology
+  feedback:
+  - rating: 4
+    username: max
+    comment: Super spannender Vortrag von zwei Koryphäen auf dem Bereich. Es braucht
+      zwei etwa zwei Stunden Konzentration sollte aber mit einem grundlegenden Interesse
+      an der Materie gut verständlich sein.
+- title: Shopshifting
+  published: Sun, 27 Dec 2015 21:45:00 +0100
+  speakers: Karsten Nohl, Fabian Bräunlein, dexter
+  subtitle: The potential for payment system abuse
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7368-en-de-Shopshifting_sd.mp4
+  media_type: video/mp4
+  media_length: 301989888
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7368.html
+  description: Payment systems are old and have – unlike card protocols – seen little
+    scrutiny so far. This talk enumerates design and implementation flaws in payment
+    processing systems, which can defraud consumers and merchants.
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: Deutsche EC-Karten (Maestro Äquivalent) Terminals sind auf mehreren Leveln
+      vollkommen kaputt.  Der Talk zeigt (grösstenteils) super Aufbereitet wie man
+      die verwendeten Sicherheitslücken zum Schaden von Kunden und Händlern ausnutzen
+      kann und was falsch lief.
+- title: Running your own 3G/3.5G network
+  published: Sun, 27 Dec 2015 20:30:00 +0100
+  speakers: LaForge
+  subtitle: OpenBSC reloaded
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd/32c3-7412-en-Running_your_own_3G_35G_network_hd.mp4
+  media_type: video/mp4
+  media_length: 285212672
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7412.html
+  description: Seven years after presenting „running your own GSM network“, we are
+    back presenting about how to do the same for 3G (UMTS/HSPA) networks.
+  category: Technology
+  feedback:
+  - rating: 2
+    username: max
+    comment: Trocken. Sehr sehr Trocken. Sicher spannend für Experten und der Typ
+      kennt sich aus ... nix für Leute, die mit der Materie nicht vertraut sind.
+- title: How the Great Firewall discovers hidden circumvention servers
+  published: Sun, 27 Dec 2015 17:15:00 +0100
+  speakers: Philipp Winter
+  subtitle: ''
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7196-en-de-How_the_Great_Firewall_discovers_hidden_circumvention_servers_sd.mp4
+  media_type: video/mp4
+  media_length: 245366784
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7196.html
+  description: Several years ago, the Great Firewall of China was silently upgraded
+    to find and block circumvention servers that employ encryption to defeat deep
+    packet inspection. The system is now used to block protocols such as Tor, SoftEther,
+    and SSH. In this talk, we will give an overview of how this system works, and
+    how it can be circumvented.
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: Spannende Einblicke in die Funktionsweise der great Firewall, die Auswirkungen
+      und was dies Allgemein für Zensur bedeuten kann.
+- title: Das Zahnrad aus Fleisch
+  published: Mon, 28 Dec 2015 20:30:00 +0100
+  speakers: agonarch, @fraufeli
+  subtitle: Expeditionen ins Kommentierreich
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7249-de-Das_Zahnrad_aus_Fleisch.mp4
+  media_type: video/mp4
+  media_length: 533725184
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7249.html
+  description: Kommentierendes im Internet ist neuerdings bedroht. Der unflätige Kommentierer
+    hat den Pedonazi als Schrecken des Netzes abgelöst, als Strohmann für mehr Kontrolle
+    über das Netz kann er auf breitere Gefolgschaft rechnen. Es “muss etwas geschehen”
+    gegen den “Hass im Netz”, “Putintrolle” und Wutnetzbürger. Twitter, Mark Zuckerberg,
+    Politiker, alle sollen mehr tun - aber was denn eigentlich, mehr Zensur und Moderation,
+    andere Ausgestaltungen von Kommentarsystemen?
+  category: "Society & Culture"
+  feedback:
+  - rating: 2
+    username: max
+    comment: Gutes Thema, einige Highlights (originale Kommentare etc.) leider von
+      vielen Allgemeinplätzen umgeben und deshalb nicht wirklich sehenswert.
+- title: goto fail;
+  published: Mon, 28 Dec 2015 23:00:00 +0100
+  speakers: Nick Sullivan
+  subtitle: exploring two decades of transport layer insecurity
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7438-en-goto_fail.mp4
+  media_type: video/mp4
+  media_length: 554696704
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7438.html
+  description: Legend has it, the first iteration of the Secure Sockets Layer (SSL)
+    protocol was broken in ten minutes by Phillip Hallam-Baker and Alan Schiffman
+    during a presentation by Marc Andreesen at MIT in 1994. In the following two decades
+    the protocol has been improved and the implementations have been strengthened,
+    but not without a steady stream of implementation vulnerabilities and protocol
+    design errors. From the ciphersuite rollback attack to LogJam, SSL/TLS has seen
+    a diverse set of problems. In this talk we’ll discuss the pitfalls in designing
+    and implementing a cryptographic protocol and lessons learned from TLS up to version
+    1.2.
+  category: Technology
+  feedback:
+  - rating: 5
+    username: max
+    comment: Bester Talk über SSL/TLS den ich bisher gehört habe.  Guter Überblick
+      über Funktionsweise und über diverse Angriffe.
+- title: „Nach bestem Wissen und Gewissen“ – Floskeln in der Politik
+  published: Tue, 29 Dec 2015 11:30:00 +0100
+  speakers: Martin Haase/maha, Kai Biermann
+  subtitle: Politische Phrasologie – warum man aus dem ganzen Zeug, das Politiker
+    so reden, schlau werden kann
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7150-de-Nach_bestem_Wissen_und_Gewissen_-_Floskeln_in_der_Politik.mp4
+  media_type: video/mp4
+  media_length: 725614592
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7150.html
+  description: In der politischen Rede sind immer wieder Floskeln zu beobachten, zum
+    Teil gibt es Moden, wie im Zusammenhang mit dem so genannten No-Spy-Abkommen,
+    wo Handlungen wiederholt mit „bestem Wissen und Gewissen“ gerechtfertigt wurden.
+    Auch das „volle/vollste Vertrauen“ der Kanzlerin ist auffällig. Der Vortrag vertritt
+    die Hypothese, dass solche Phrasen nicht zufällig sind, dass sie eine Funktion
+    besitzen. Es wird erläutert, was mit ihnen erreicht werden soll. Es wird außerdem
+    der Frage nachgegangen, wie Floskeln sich durch häufigen Gebrauch in ihrer Bedeutung
+    verändern bzw. verselbständigen und gegen den Sprecher wenden können.
+  category: "Society & Culture"
+  feedback:
+  - rating: 3
+    username: max
+    comment: Ganz nette Aufsführungen zu Sprache und mit ihr verbundem oder eben auch
+      nicht verbundenem Informationsgehalt.  An einigen stellen gefühlt eher esoterisch
+      und wichtige Aspekte der politischen Rede vernachlässigend.  Ein grobes Wissen
+      über wichtige Themen der dt. Politik in 2015 wird benötigt.
+- title: Graphs, Drones & Phones
+  published: Tue, 29 Dec 2015 12:45:00 +0100
+  speakers: Christoph Engemann
+  subtitle: 'The role of social-graphs for Drones in the War on Terror. '
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7259-en-Graphs_Drones_Phones.mp4
+  media_type: video/mp4
+  media_length: 614465536
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7259.html
+  description: "The military use of Drones has profoundly changed warfare and is a\
+    \ central aspect of the globalized war on terror. The public debate including\
+    \ the respective talks at prior CCCs is dominated by questions of the ethical\
+    \ and juridical aspects of Drone use. \nThis talk tries to shift the focus towards\
+    \ the enabling dimensions of Drone warfare."
+  category: Technology
+  feedback:
+  - rating: 5
+    username: max
+    comment: Übel. Ganz übel. Sehr sehenswerte Ausführungen wie ein bisschen Graphentheorie zum Abschuss von Hellfire-Raketen und Co. führt und wie wir auch sonst alle nur Knoten mit mehr oder weniger Kanten sind. Stimmt eher nachdenklich - gelinde gesagt. "
+- title: Check your privileges!
+  published: Tue, 29 Dec 2015 16:00:00 +0100
+  speakers: Fefe
+  subtitle: How to drop more of your privileges to reduce attack surface.
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7284-en-Check_your_privileges.mp4
+  media_type: video/mp4
+  media_length: 314572800
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7284.html
+  description: 'After defensive programming techniques and before attack method mitigations,
+    the least privilege principle is our strongest weapon against exploitation. Much
+    of the focus has been on how the admin can sandbox processes away. about this
+    event: https://events.ccc.de/congress/2015/Fahrplan/events/7284.html'
+  category: Technology
+  feedback:
+  - rating: 3
+    username: max
+    comment: Sehr technischer, fundierter Talk wie man auf system programming level
+      Applikationen möglichst sicher machen kann.  Hinreichende Kentnisse in C werden
+      implizit vorausgesetzt. Folien lesen lohnt sich ;).
+- title: Ten years after ‚We Lost The War‘
+  published: Tue, 29 Dec 2015 18:30:00 +0100
+  speakers: rop, frank
+  subtitle: The future does not look much brighter than ten years ago. What comes
+    next, and what can the hacker community do to make things better?
+  media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7501-en-Ten_years_after_We_Lost_The_War.mp4
+  media_type: video/mp4
+  media_length: 963641344
+  web_url: https://events.ccc.de/congress/2015/Fahrplan/events/7501.html
+  description: 'The talk „We Lost The War“ was presented at Congress ten years ago,
+    causing quite a stir. It was a prediction of a dark future that did not sit well
+    with many people, but unfortunately many predictions have come true meanwhile.
+    This talk will try to address what comes next, as well as what the hacker community
+    can do to make things better. about this event: https://events.ccc.de/congress/2015/Fahrplan/events/7501.html'
+  category: Technology
+  feedback:
+  - rating: 4
+    username: max
+    comment: Wir haben den Krieg verloren, die Revolution wird kommen - warum und
+      was können wir machen um unsere individuellen Leben dennoch angenhm zu gestalten?  In
+      Teilen sehr dystopisch aber eventuell motivierend sich auf die Mitmenschen und
+      das was wirklich zählt zu besinnen? Stimmt sehr nachdenklich - keine gute Idee
+      für einsame Abende.
+meta:
+  title: 32C3 media feed
+  description: 'A curated feed for different talks of the 32C3 (Chaos Communication Congress 2015).'
