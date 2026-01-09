@@ -50,9 +50,7 @@ def atomic_write(file_path: Path, content: str, encoding: str = "utf-8") -> None
         raise
 
 
-def safe_read(
-    file_path: Path, max_size: Optional[int] = None, encoding: str = "utf-8"
-) -> str:
+def safe_read(file_path: Path, max_size: Optional[int] = None, encoding: str = "utf-8") -> str:
     """Safely read a file with size validation.
 
     Args:

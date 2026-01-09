@@ -8,10 +8,30 @@
 
 # Media feed
 
+## TL;DR - Just Want to Rate Talks?
+
+```bash
+# Install
+pip install media-feed
+
+# Rate talks interactively in any event file
+media-feed rate media/media_39c3.yml
+
+# Or rate while adding a new talk
+media-feed add "BahnMining" --event 36c3
+
+# See the best-rated talks
+media-feed list-by-rating
+```
+
+That's it! Your ratings help curate the feed for everyone.
+
+---
+
 The media feed provides different podcast feeds to keep track of recommended talks and give others a curated list of talks.
 This allows users to subscribe to these feeds in their favorite podcast player and get an easy overview of interesting talks as well as which talks they have already watched. Just copy the raw GitHub URL of the generated feed XML file into your podcast player of choice.
 
-It is a is an evolution of the great idea of the [200ok media feed](https://github.com/200ok-ch/media_feed).
+It is an evolution of the great idea of the [200ok media feed](https://github.com/200ok-ch/media_feed).
 
 ## Features
 
@@ -95,7 +115,6 @@ feed:
       - Technology
       - Science
     feedback:  # Optional collaborative feedback section
-    - Utils may be organized by concern e.g. yaml_utils, file_utils, validation_utils. Please limit the number of utils files to a reasonable amount by grouping related functions together.
       - rating: 5
         username: max
         comment: "Einer der besten Talks des Congress!"
@@ -354,15 +373,26 @@ media_feed/
 │   ├── media_32C3.yml
 │   ├── media_33C3.yml
 │   ├── media_36C3.yml
-│   └── media_todo.yml
+│   ├── media_37c3.yml
+│   ├── media_38c3.yml
+│   └── media_39c3.yml
 ├── feeds/                    # Generated RSS feed XML files
 │   ├── feed_31C3.xml
 │   ├── feed_32C3.xml
 │   └── ...
 ├── src/media_feed/           # Python package source
 │   ├── cli.py                # Main CLI logic
-│   ├── feedback.py           # Feedback formatting utilities
-│   └── rss_template.xml.j2   # Jinja2 RSS template
+│   ├── ccc_api.py            # CCC media API client
+│   ├── config.py             # Configuration management
+│   ├── rss.py                # RSS feed generation
+│   ├── rss_template.xml.j2   # Jinja2 RSS template
+│   └── utils/                # Utility modules
+│       ├── cache_utils.py
+│       ├── file_utils.py
+│       ├── http_utils.py
+│       ├── logger.py
+│       ├── validation_utils.py
+│       └── yaml_utils.py
 ├── config.yaml               # Event configurations
 └── pyproject.toml            # Package configuration
 ```

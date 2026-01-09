@@ -1,8 +1,8 @@
 """CCC event API and search functionality."""
 
 from pathlib import Path
-from typing import Any
-from xml.dom.minidom import Document
+from typing import Any, cast
+from xml.dom.minidom import Document, Element, Text
 
 from defusedxml import minidom
 
@@ -11,6 +11,32 @@ from media_feed.utils.http_utils import download_with_cache
 from media_feed.utils.logger import get_logger
 
 logger = get_logger(__name__)
+
+
+def get_text_content(node: Element) -> str:
+    """Get text content from an Element's first child node.
+
+    Args:
+        node: XML Element node
+
+    Returns:
+        Text content or empty string if not available
+    """
+    if node.childNodes and hasattr(node.childNodes[0], "data"):
+        return cast(Text, node.childNodes[0]).data
+    return ""
+
+
+def get_parent_element(node: Element) -> Element:
+    """Get parent element of a node, with type assertion.
+
+    Args:
+        node: XML Element node
+
+    Returns:
+        Parent Element
+    """
+    return cast(Element, node.parentNode)
 
 
 def parse_xml_file(file_path: Path) -> Document:

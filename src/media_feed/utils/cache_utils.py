@@ -86,8 +86,7 @@ def read_cache(cache_path: Path, max_size: Optional[int] = None) -> Optional[byt
             file_size = cache_path.stat().st_size
             if file_size > max_size:
                 logger.warning(
-                    f"Cached file {cache_path.name} exceeds size limit "
-                    f"({file_size} > {max_size})"
+                    f"Cached file {cache_path.name} exceeds size limit ({file_size} > {max_size})"
                 )
                 return None
 

@@ -45,7 +45,7 @@ class ValidationResult:
 
     def __str__(self) -> str:
         """Format validation results."""
-        lines = [f"\n{'='*70}", f"Event: {self.event_id}", f"{'='*70}"]
+        lines = [f"\n{'=' * 70}", f"Event: {self.event_id}", f"{'=' * 70}"]
 
         # Fahrplan results
         lines.append("\n📅 Fahrplan Schedule:")
@@ -229,17 +229,17 @@ def main():
         results.append(result)
 
     # Print detailed results
-    print("\n" + "="*70)
+    print("\n" + "=" * 70)
     print("DETAILED RESULTS")
-    print("="*70)
+    print("=" * 70)
 
     for result in results:
         print(result)
 
     # Print summary
-    print("\n" + "="*70)
+    print("\n" + "=" * 70)
     print("SUMMARY")
-    print("="*70)
+    print("=" * 70)
 
     passed = sum(1 for r in results if r.is_success)
     failed = len(results) - passed

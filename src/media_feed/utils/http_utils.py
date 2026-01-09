@@ -58,9 +58,7 @@ def download_with_cache(url: str, max_size: int = MAX_DOWNLOAD_SIZE) -> bytes:
         for chunk in response.iter_content(chunk_size=8192):
             content += chunk
             if len(content) > max_size:
-                raise ValueError(
-                    f"Downloaded content exceeds maximum size ({max_size} bytes)"
-                )
+                raise ValueError(f"Downloaded content exceeds maximum size ({max_size} bytes)")
 
         # Cache the result
         write_cache(cache_path, content)

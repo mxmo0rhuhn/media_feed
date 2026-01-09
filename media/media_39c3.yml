@@ -3,6 +3,70 @@ meta:
   description: A curated feed for different talks of the 39C3 (Chaos Communication
     Congress 2025).
 feed:
+- title: A post-American, enshittification-resistant internet
+  published: Sun, 28 Dec 2025 13:30:00 +0100
+  speakers: Cory Doctorow
+  subtitle: ''
+  media_url: https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1421-eng-deu-fra-A_post-American_enshittification-resistant_internet_hd.mp4
+  media_type: video/mp4
+  media_length: '1713373184'
+  web_url: https://events.ccc.de/congress/2025/hub/event/detail/a-post-american-enshittification-resistant-internet
+  description: 'Trump has staged an unscheduled, midair rapid disassembly of the global
+    system of trade. Ironically, it is this system that prevented all of America''s
+    trading partners from disenshittifying their internet: the US trade representative
+    threatened the world with tariffs unless they passed laws that criminalized reverse-engineering
+    and modding. By banning "adversarial interoperability," America handcuffed the
+    world''s technologists, banning them from creating the mods, hacks, alt clients,
+    scrapers, and other tools needed to liberate their neighbours from the enshittificatory
+    predations of the ketamine-addled zuckermuskian tyrants of US Big Tech.
+
+
+    Well, when life gives you SARS, you make sarsaparilla. The Trump tariffs are here,
+    and it''s time to pick the locks on the those handcuffs and set the world''s hackers
+    loose on Big Tech. Happy Liberation Day, everyone!
+
+
+    Enshittification wasn''t an accident. It also wasn''t inevitable. This isn''t
+    the iron laws of economics at work, nor is it the great forces of history.
+
+
+    Enshittification was a choice: named individuals, in living memory, enacted policies
+    that created the enshittogenic environment. They created a world that encouraged
+    tech companies to merge to monopoly, transforming the internet into "five giant
+    websites, each filled with screenshots of the other four." They let these monopolists
+    rip us off and spy on us.
+
+
+    And they banned us from fighting back, claiming that anyone who modified a technology
+    without permission from its maker was a pirate (or worse, a terrorist). They created
+    a system of "felony contempt of business-model," where it''s literally a crime
+    to change how your own devices work. They declared war on the general-purpose
+    computer and demanded a computer that would do what the manufacturer told it to
+    do (even if the owner of the computer didn''t want that).
+
+
+    We are at a turning point in the decades-long war on general-purpose computing.
+    Geopolitics are up for grabs. The future is ours to seize.
+
+
+    In my 24 years with EFF, I have seen many strange moments, but never one quite
+    like this. There''s plenty of terrifying things going on right now, but there''s
+    also a massive, amazing, incredibly opportunity to seize the means of computation.
+
+
+    Let''s take it. ''
+
+
+    Licensed to the public under http://creativecommons.org/licenses/by/4.0
+
+    about this event: https://events.ccc.de/congress/2025/hub/event/detail/a-post-american-enshittification-resistant-internet
+
+    '
+  category: Society & Culture
+  feedback:
+  - rating: 4
+    username: max
+    comment: Food for thought and ideas how to turn dependency into agency.
 - title: 'A space odyssey #2: How to study moon rocks from the Soviet sample return
     mission Luna 24'
   published: Sun, 28 Dec 2025 13:30:00 +0100

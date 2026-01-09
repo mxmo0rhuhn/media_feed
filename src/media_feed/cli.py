@@ -69,7 +69,10 @@ def _initialize_media_file(event_id: str, year: int, congress_number: int) -> No
     media_data = {
         "meta": {
             "title": f"{event_name} media feed",
-            "description": f"A curated feed for different talks of the {event_name} (Chaos Communication Congress {year}).",
+            "description": (
+                f"A curated feed for different talks of the {event_name} "
+                f"(Chaos Communication Congress {year})."
+            ),
         },
         "feed": [],
     }
@@ -350,17 +353,17 @@ def add(
         return
 
     if not entry:
-        congress_num = event_config.get('congress_number', '?')
-        year = event_config.get('year', '?')
+        congress_num = event_config.get("congress_number", "?")
+        year = event_config.get("year", "?")
         click.echo(
             f"✗ No matching talk found for '{query}' in {event_key.upper()} "
             f"(Congress #{congress_num}, {year})",
-            err=True
+            err=True,
         )
         click.echo(
             f"  Tip: Try a shorter or more specific search term, or check the event's "
             f"schedule at {event_config.get('fahrplan_url', 'N/A')}",
-            err=True
+            err=True,
         )
         return
 
@@ -436,7 +439,8 @@ def new_event(
             config = load_config()
             congress_number = calculate_congress_number(year, config)
             click.echo(
-                f"Auto-calculated congress number: {congress_number} (based on most recent event in config)"
+                f"Auto-calculated congress number: {congress_number} "
+                "(based on most recent event in config)"
             )
         except (ConfigError, FileNotFoundError) as e:
             click.echo(f"Error calculating congress number: {e}", err=True)
@@ -447,7 +451,8 @@ def new_event(
 
     # Generate URL patterns to try (from newest to oldest patterns)
     fahrplan_patterns = [
-        f"https://fahrplan.events.ccc.de/congress/{year}/fahrplan/schedules/schedule.xml",  # 39c3 pattern
+        # 39c3 pattern
+        f"https://fahrplan.events.ccc.de/congress/{year}/fahrplan/schedules/schedule.xml",
         f"https://pretalx.c3voc.de/{event_id}/schedule/export/schedule.xml",  # 38c3 pattern
         f"https://fahrplan.events.ccc.de/congress/{year}/fahrplan/schedule.xml",  # 37c3 pattern
     ]
@@ -488,9 +493,8 @@ def new_event(
                         break
             else:
                 if try_all_patterns:
-                    click.echo(
-                        f"  ✗ Failed: {fahrplan_result.error or f'HTTP {fahrplan_result.status_code}'}\n"
-                    )
+                    error_msg = fahrplan_result.error or f"HTTP {fahrplan_result.status_code}"
+                    click.echo(f"  ✗ Failed: {error_msg}\n")
 
         # Use the first working pattern or default to 39c3 pattern (newest)
         fahrplan_url = working_fahrplan or fahrplan_patterns[0]
@@ -691,7 +695,9 @@ def rate(event_file: str) -> None:
 @click.option("--event", "-e", help="Filter by event (e.g., '39C3' or 'media/media_36C3.yml')")
 @click.option("--min-rating", "-m", type=float, help="Minimum average rating")
 @click.option("--category", "-c", help="Filter by category (e.g., 'Technology', 'Science')")
-def list_by_rating(event: Optional[str], min_rating: Optional[float], category: Optional[str]) -> None:
+def list_by_rating(
+    event: Optional[str], min_rating: Optional[float], category: Optional[str]
+) -> None:
     """List talks sorted by rating."""
     # Determine files to process
     if event:
@@ -770,7 +776,8 @@ def list_by_rating(event: Optional[str], min_rating: Optional[float], category: 
         rating_display = f"{talk['avg_rating']:.1f}/5"
         title = talk["title"][:37] + "..." if len(talk["title"]) > 40 else talk["title"]
         cat = talk["category"][:11] + "..." if len(talk["category"]) > 14 else talk["category"]
-        click.echo(f"{rating_display:<8} {title:<40} {cat:<14} {talk['event']:<8} {talk['num_ratings']:<10}")
+        num = talk["num_ratings"]
+        click.echo(f"{rating_display:<8} {title:<40} {cat:<14} {talk['event']:<8} {num:<10}")
 
     click.echo("━" * 95)
     click.echo(f"\nTotal: {len(talks_with_ratings)} rated talk(s)\n")

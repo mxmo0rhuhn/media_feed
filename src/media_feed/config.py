@@ -201,8 +201,8 @@ def calculate_congress_number(year: int, config: dict[str, Any]) -> int:
 
     # Find the most recent event to use as reference
     latest_event_key, latest_event = get_latest_event(config)
-    ref_year = latest_event["year"]
-    ref_congress = latest_event["congress_number"]
+    ref_year: int = int(latest_event["year"])
+    ref_congress: int = int(latest_event["congress_number"])
 
     # Calculate offset from reference year (assumes annual congresses)
     year_offset = year - ref_year

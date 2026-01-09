@@ -21,12 +21,7 @@ class ValidationResult:
     @property
     def is_success(self) -> bool:
         """Check if validation passed."""
-        return (
-            self.status_code == 200
-            and self.valid_xml
-            and self.has_content
-            and not self.error
-        )
+        return self.status_code == 200 and self.valid_xml and self.has_content and not self.error
 
 
 def validate_fahrplan_xml(content: str) -> tuple[bool, bool, Optional[str]]:

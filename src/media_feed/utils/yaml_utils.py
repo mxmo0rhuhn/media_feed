@@ -19,7 +19,7 @@ logger = get_logger(__name__)
 class ValidationResult:
     """Container for validation warnings and errors."""
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.warnings: list[str] = []
         self.errors: list[str] = []
 

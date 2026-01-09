@@ -7,8 +7,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Fri, 09 Jan 2026 20:58:17 GMT</pubDate>
-    <lastBuildDate>Fri, 09 Jan 2026 20:58:17 GMT</lastBuildDate>
+    <pubDate>Fri, 09 Jan 2026 22:35:17 GMT</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2026 22:35:17 GMT</lastBuildDate>
     <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
     <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
     <itunes:owner>
@@ -28,6 +28,130 @@
     <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
     <itunes:explicit>yes</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>A post-American, enshittification-resistant internet</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: Food for thought and ideas how to turn dependency into agency.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Trump has staged an unscheduled, midair rapid disassembly of the global system of trade. Ironically, it is this system that prevented all of America&#39;s trading partners from disenshittifying their internet: the US trade representative threatened the world with tariffs unless they passed laws that criminalized reverse-engineering and modding. By banning &#34;adversarial interoperability,&#34; America handcuffed the world&#39;s technologists, banning them from creating the mods, hacks, alt clients, scrapers, and other tools needed to liberate their neighbours from the enshittificatory predations of the ketamine-addled zuckermuskian tyrants of US Big Tech.
+
+Well, when life gives you SARS, you make sarsaparilla. The Trump tariffs are here, and it&#39;s time to pick the locks on the those handcuffs and set the world&#39;s hackers loose on Big Tech. Happy Liberation Day, everyone!
+
+Enshittification wasn&#39;t an accident. It also wasn&#39;t inevitable. This isn&#39;t the iron laws of economics at work, nor is it the great forces of history.
+
+Enshittification was a choice: named individuals, in living memory, enacted policies that created the enshittogenic environment. They created a world that encouraged tech companies to merge to monopoly, transforming the internet into &#34;five giant websites, each filled with screenshots of the other four.&#34; They let these monopolists rip us off and spy on us.
+
+And they banned us from fighting back, claiming that anyone who modified a technology without permission from its maker was a pirate (or worse, a terrorist). They created a system of &#34;felony contempt of business-model,&#34; where it&#39;s literally a crime to change how your own devices work. They declared war on the general-purpose computer and demanded a computer that would do what the manufacturer told it to do (even if the owner of the computer didn&#39;t want that).
+
+We are at a turning point in the decades-long war on general-purpose computing. Geopolitics are up for grabs. The future is ours to seize.
+
+In my 24 years with EFF, I have seen many strange moments, but never one quite like this. There&#39;s plenty of terrifying things going on right now, but there&#39;s also a massive, amazing, incredibly opportunity to seize the means of computation.
+
+Let&#39;s take it. &#39;
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/a-post-american-enshittification-resistant-internet
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/a-post-american-enshittification-resistant-internet</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/a-post-american-enshittification-resistant-internet</guid>
+      <pubDate>Sun, 28 Dec 2025 13:30:00 +0100</pubDate>
+      <itunes:title>A post-American, enshittification-resistant internet</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: Food for thought and ideas how to turn dependency into agency.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Trump has staged an unscheduled, midair rapid disassembly of the global system of trade. Ironically, it is this system that prevented all of America&#39;s trading partners from disenshittifying their internet: the US trade representative threatened the world with tariffs unless they passed laws that criminalized reverse-engineering and modding. By banning &#34;adversarial interoperability,&#34; America handcuffed the world&#39;s technologists, banning them from creating the mods, hacks, alt clients, scrapers, and other tools needed to liberate their neighbours from the enshittificatory predations of the ketamine-addled zuckermuskian tyrants of US Big Tech.
+
+Well, when life gives you SARS, you make sarsaparilla. The Trump tariffs are here, and it&#39;s time to pick the locks on the those handcuffs and set the world&#39;s hackers loose on Big Tech. Happy Liberation Day, everyone!
+
+Enshittification wasn&#39;t an accident. It also wasn&#39;t inevitable. This isn&#39;t the iron laws of economics at work, nor is it the great forces of history.
+
+Enshittification was a choice: named individuals, in living memory, enacted policies that created the enshittogenic environment. They created a world that encouraged tech companies to merge to monopoly, transforming the internet into &#34;five giant websites, each filled with screenshots of the other four.&#34; They let these monopolists rip us off and spy on us.
+
+And they banned us from fighting back, claiming that anyone who modified a technology without permission from its maker was a pirate (or worse, a terrorist). They created a system of &#34;felony contempt of business-model,&#34; where it&#39;s literally a crime to change how your own devices work. They declared war on the general-purpose computer and demanded a computer that would do what the manufacturer told it to do (even if the owner of the computer didn&#39;t want that).
+
+We are at a turning point in the decades-long war on general-purpose computing. Geopolitics are up for grabs. The future is ours to seize.
+
+In my 24 years with EFF, I have seen many strange moments, but never one quite like this. There&#39;s plenty of terrifying things going on right now, but there&#39;s also a massive, amazing, incredibly opportunity to seize the means of computation.
+
+Let&#39;s take it. &#39;
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/a-post-american-enshittification-resistant-internet
+</itunes:summary>
+      <itunes:author>Cory Doctorow</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1421-eng-deu-fra-A_post-American_enshittification-resistant_internet_hd.mp4"
+                 length="1713373184"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>A space odyssey #2: How to study moon rocks from the Soviet sample return mission Luna 24</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Interesting what can be done to rocks from space :D
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+It is 1976 and the USA long stopped going to the Moon when a Soviet automatic landing station called Luna 24 descends to the Lunar surface. It touches down on 3.3 Billion year old rock formations at a place no mission has ever gone before. What exactly happened remains a mystery to this day, but the space probe managed to take a 2.3 m long drill core from the Lunar regolith, packaged the sample in a genius way and launched it for its voyage to Earth. Some days later the sample entered earths atmosphere and landed in remote Siberia and ended up in our hands more than 50 Years later. We tell the story of the sample, the people that brought it to Earth and how we analyzed it with the newest methods including µm sized high intensity X-ray beams, 30kV electron beams and LN2 cooled infrared spectrometers.
+
+In this talk, members of the Museum for Natural History in Berlin will present the story of a Luna 24 sample retrieved by the GDR from the USSR. The sample has been almost &#34;lost&#34; to time. When it fell into our hands, we started understanding its historical and scientific significance, produced specialized sample containers and initiated curation efforts of the sample while slowly understanding its history and geochemical composition.
+
+### Luna 24 Moon Mission
+What happened on the 18th &amp; 19th of August 1976 on the moon? Why was this landing site chosen and how was the sample retrieved and brought back to Earth? Which way did the scientists handle these extremely precious samples? Picture: Музей Космонавтики (CC0 1.0)
+
+### Methods and Results
+Which methods can be utilized to gather new information from such a sample without destroying it? Which storage and curation methods must be used to preserve its value for the scientists that come after us? How did advanced analytical methods like µCT, electron microscopes, µ X-ray fluorescence spectrometers and nitrogen-cooled infrared spectrometers contribute to our understanding of the sample?
+
+Fly with us to the moon!
+
+This work has been developed together with Christopher Hamann.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/a-space-odyssey-2-how-to-study-moon-rocks-from-the-soviet-sample-return-mission-luna-24
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/a-space-odyssey-2-how-to-study-moon-rocks-from-the-soviet-sample-return-mission-luna-24</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/a-space-odyssey-2-how-to-study-moon-rocks-from-the-soviet-sample-return-mission-luna-24</guid>
+      <pubDate>Sun, 28 Dec 2025 13:30:00 +0100</pubDate>
+      <itunes:title>A space odyssey #2: How to study moon rocks from the Soviet sample return mission Luna 24</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Interesting what can be done to rocks from space :D
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+It is 1976 and the USA long stopped going to the Moon when a Soviet automatic landing station called Luna 24 descends to the Lunar surface. It touches down on 3.3 Billion year old rock formations at a place no mission has ever gone before. What exactly happened remains a mystery to this day, but the space probe managed to take a 2.3 m long drill core from the Lunar regolith, packaged the sample in a genius way and launched it for its voyage to Earth. Some days later the sample entered earths atmosphere and landed in remote Siberia and ended up in our hands more than 50 Years later. We tell the story of the sample, the people that brought it to Earth and how we analyzed it with the newest methods including µm sized high intensity X-ray beams, 30kV electron beams and LN2 cooled infrared spectrometers.
+
+In this talk, members of the Museum for Natural History in Berlin will present the story of a Luna 24 sample retrieved by the GDR from the USSR. The sample has been almost &#34;lost&#34; to time. When it fell into our hands, we started understanding its historical and scientific significance, produced specialized sample containers and initiated curation efforts of the sample while slowly understanding its history and geochemical composition.
+
+### Luna 24 Moon Mission
+What happened on the 18th &amp; 19th of August 1976 on the moon? Why was this landing site chosen and how was the sample retrieved and brought back to Earth? Which way did the scientists handle these extremely precious samples? Picture: Музей Космонавтики (CC0 1.0)
+
+### Methods and Results
+Which methods can be utilized to gather new information from such a sample without destroying it? Which storage and curation methods must be used to preserve its value for the scientists that come after us? How did advanced analytical methods like µCT, electron microscopes, µ X-ray fluorescence spectrometers and nitrogen-cooled infrared spectrometers contribute to our understanding of the sample?
+
+Fly with us to the moon!
+
+This work has been developed together with Christopher Hamann.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/a-space-odyssey-2-how-to-study-moon-rocks-from-the-soviet-sample-return-mission-luna-24
+</itunes:summary>
+      <itunes:author>Paul Koetter</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1445-eng-deu-pol-A_space_odyssey_2_How_to_study_moon_rocks_from_the_Soviet_sample_return_mission_Luna_24_hd.mp4"
+                 length="1141899264"
+                 type="video/mp4"/>
+    </item>
     <item>
       <title>Building hardware - easier than ever - harder than it should be</title>
       <description>Building electronics has never been easier, cheaper, or more accessible than the last few years. It&#39;s also becoming a precious skill in a world where commercially made electronics are the latest victim of enshittification and vibe coding. And yet, while removing technical and financial barriers to building things, we&#39;ve not come as far as we should have in removing social barriers. The electronics and engineering industry and the cultures around them are hostile to newcomers and self-taught practitioners, for no good reason at all. I&#39;ve been teaching advanced electronics manufacturing skills to absolute beginners for a decade now, and they&#39;ve consistently succeeded at acquiring them. I&#39;m here to tell you why it&#39;s not as hard as it seems, how to get into it, and why more people who think they can&#39;t should try.

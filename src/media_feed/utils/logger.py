@@ -2,7 +2,6 @@
 
 import logging
 import sys
-from typing import Optional
 
 # Global logger configuration
 _log_level = logging.WARNING

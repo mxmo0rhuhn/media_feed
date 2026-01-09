@@ -29,22 +29,23 @@ def _normalize_feed_for_comparison(xml_content: str) -> str:
     # Remove channel-level pubDate and lastBuildDate
     # These are the only fields that change on every build
     normalized = re.sub(
-        r'<pubDate>.*?</pubDate>',
-        '<pubDate></pubDate>',
+        r"<pubDate>.*?</pubDate>",
+        "<pubDate></pubDate>",
         xml_content,
-        count=1  # Only replace first occurrence (channel-level)
+        count=1,  # Only replace first occurrence (channel-level)
     )
     normalized = re.sub(
-        r'<lastBuildDate>.*?</lastBuildDate>',
-        '<lastBuildDate></lastBuildDate>',
+        r"<lastBuildDate>.*?</lastBuildDate>",
+        "<lastBuildDate></lastBuildDate>",
         normalized,
-        count=1
+        count=1,
     )
 
     return normalized.strip()
 
 
 # Feedback formatting functions
+
 
 def format_stars(rating: int) -> str:
     """Convert numeric rating to star display."""
@@ -117,7 +118,8 @@ def format_feedback_section(feedback_list: Optional[list[dict[str, Any]]]) -> st
 
     lines = []
     lines.append("━" * 30)
-    lines.append(f"📊 RATINGS (Average: {avg_rating:.1f}/5 from {num_ratings} rating{'s' if num_ratings != 1 else ''})")
+    plural = "s" if num_ratings != 1 else ""
+    lines.append(f"📊 RATINGS (Average: {avg_rating:.1f}/5 from {num_ratings} rating{plural})")
     lines.append("")
 
     for feedback_item in valid_feedback:
@@ -133,6 +135,7 @@ def format_feedback_section(feedback_list: Optional[list[dict[str, Any]]]) -> st
 
 
 # RSS generation functions
+
 
 def format_item_description(item: dict[str, Any]) -> str:
     """Format item description with feedback prepended.
@@ -174,8 +177,7 @@ def filter_feed_by_rating(
             # Exclude if average rating is 2 or lower
             if avg_rating is not None and avg_rating <= 2.0:
                 logger.debug(
-                    f"Excluding talk '{item.get('title', 'Untitled')}' "
-                    f"with rating {avg_rating:.1f}"
+                    f"Excluding talk '{item.get('title', 'Untitled')}' with rating {avg_rating:.1f}"
                 )
                 continue
 
