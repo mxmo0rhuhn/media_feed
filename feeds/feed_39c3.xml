@@ -7,8 +7,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Fri, 09 Jan 2026 22:35:17 GMT</pubDate>
-    <lastBuildDate>Fri, 09 Jan 2026 22:35:17 GMT</lastBuildDate>
+    <pubDate>Sat, 10 Jan 2026 09:51:19 GMT</pubDate>
+    <lastBuildDate>Sat, 10 Jan 2026 09:51:19 GMT</lastBuildDate>
     <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
     <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
     <itunes:owner>
@@ -28,6 +28,164 @@
     <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
     <itunes:explicit>yes</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Zentrum für Politische Schönheit: Ein Jahr Adenauer SRP+ und der Walter Lübcke Memorial Park</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: ZPS showing what they did against the reactionary backlash in germany again in a very humorous way.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Es ist genau ein Jahr her, dass der Adenauer SRP+ in der Halle des 38C3 stand. Damals war er noch eine Baustelle, aber schon bald machte er sich auf den Weg, um Geschichte zu schreiben. Wir nehmen euch mit auf eine Reise: von Blockade über Protest, von Sommerinterviews bis zu Polizeischikanen lassen wir ein Jahr Adenauer SRP+ Revue passieren. Das könnte lustig werden.
+Außerdem: alles zum Walter Lübcke-Memorial-Park, den wir gerade direkt vor die CDU-Zentrale gebaut haben.
+
+Owei owei: Das wird viel für 40 Minuten.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/zps-ein-jahr-adenauer-srp-und-mehr
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/zps-ein-jahr-adenauer-srp-und-mehr</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/zps-ein-jahr-adenauer-srp-und-mehr</guid>
+      <pubDate>Sat, 27 Dec 2025 11:55:00 +0100</pubDate>
+      <itunes:title>Zentrum für Politische Schönheit: Ein Jahr Adenauer SRP+ und der Walter Lübcke Memorial Park</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 4.0/5 from 1 rating)
+
+⭐⭐⭐⭐ (4/5) - max: ZPS showing what they did against the reactionary backlash in germany again in a very humorous way.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Es ist genau ein Jahr her, dass der Adenauer SRP+ in der Halle des 38C3 stand. Damals war er noch eine Baustelle, aber schon bald machte er sich auf den Weg, um Geschichte zu schreiben. Wir nehmen euch mit auf eine Reise: von Blockade über Protest, von Sommerinterviews bis zu Polizeischikanen lassen wir ein Jahr Adenauer SRP+ Revue passieren. Das könnte lustig werden.
+Außerdem: alles zum Walter Lübcke-Memorial-Park, den wir gerade direkt vor die CDU-Zentrale gebaut haben.
+
+Owei owei: Das wird viel für 40 Minuten.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/zps-ein-jahr-adenauer-srp-und-mehr
+</itunes:summary>
+      <itunes:author>Stefan Pelzer, Philipp Ruch</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2183-deu-eng-fra-Zentrum_fuer_Politische_Schoenheit_Ein_Jahr_Adenauer_SRP_und_der_Walter_Luebcke_Memorial_Park_hd.mp4"
+                 length="1414529024"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Och Menno – IT und IT Security Uppsis</title>
+      <description>Willkommen     zum inkompetenten Podcast mit der besonderen Folge zur Inkompetenz in der IT und IT Security. Warum ist das Password Louvre schlecht ? Wie läuft die Cloud Transformation richtig schlecht ?
+Eine kleine Show der Pleiten, Pech und Pannen. Und für die Besucher des Talks über Uboote letztes Jahr gibt es noch einen kleinen Ausflug in die Welt der ultrakomprimierten Daten, oder die Server formaly known als TITAN Steuersystem.
+
+Ein kleiner Rundflug über die besten Fails der letzten Jahre.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/och-menno-it-und-it-security-uppsis
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/och-menno-it-und-it-security-uppsis</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/och-menno-it-und-it-security-uppsis</guid>
+      <pubDate>Sat, 27 Dec 2025 17:15:00 +0100</pubDate>
+      <itunes:title>Och Menno – IT und IT Security Uppsis</itunes:title>
+      <itunes:summary>Willkommen     zum inkompetenten Podcast mit der besonderen Folge zur Inkompetenz in der IT und IT Security. Warum ist das Password Louvre schlecht ? Wie läuft die Cloud Transformation richtig schlecht ?
+Eine kleine Show der Pleiten, Pech und Pannen. Und für die Besucher des Talks über Uboote letztes Jahr gibt es noch einen kleinen Ausflug in die Welt der ultrakomprimierten Daten, oder die Server formaly known als TITAN Steuersystem.
+
+Ein kleiner Rundflug über die besten Fails der letzten Jahre.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/och-menno-it-und-it-security-uppsis
+</itunes:summary>
+      <itunes:author>Sven Uckermann</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-83756-deu-Och_Menno_-_IT_und_IT_Security_Uppsis_hd.mp4"
+                 length="1303379968"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>Gegenmacht - Best of Informationsfreiheit</title>
+      <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Great as usual - mostly interesting for german audience
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sind mehr Infos wirklich die Lösung? Ob Jens Spahn, Philipp Amthor oder Friedrich Merz - sie alle sagen offen, was sie vorhaben und machen keinen Hehl aus ihren Verbindungen zur Trump-Regierung, zu Milliardären und der fossilen Lobby. Was bringt Transparenz in Zeiten der autoritären Wende?
+
+Transparenz braucht Rechenschaft. Ohne Konsequenzen bleibt Transparenz wirkungslos. Wie können wir also eine wirksame Gegenmacht schaffen, die Veränderungen durchsetzt?
+
+Philipp Amthors Angriff aufs Informationsfreiheitsgesetz konnten wir erst einmal abwehren - jetzt geht&#39;s in die Offensive! Mit den Highlights aus Strafanzeigen gegen Alexandeer Dobrindt, Spahns geleaktem Maskenbericht, der Milliardärslobby im Wirtschaftsministerium und allen Steueroasen in Deutschland.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/gegenmacht-best-of-informationsfreiheit
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/gegenmacht-best-of-informationsfreiheit</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/gegenmacht-best-of-informationsfreiheit</guid>
+      <pubDate>Mon, 29 Dec 2025 16:00:00 +0100</pubDate>
+      <itunes:title>Gegenmacht - Best of Informationsfreiheit</itunes:title>
+      <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 RATINGS (Average: 3.0/5 from 1 rating)
+
+⭐⭐⭐ (3/5) - max: Great as usual - mostly interesting for german audience
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sind mehr Infos wirklich die Lösung? Ob Jens Spahn, Philipp Amthor oder Friedrich Merz - sie alle sagen offen, was sie vorhaben und machen keinen Hehl aus ihren Verbindungen zur Trump-Regierung, zu Milliardären und der fossilen Lobby. Was bringt Transparenz in Zeiten der autoritären Wende?
+
+Transparenz braucht Rechenschaft. Ohne Konsequenzen bleibt Transparenz wirkungslos. Wie können wir also eine wirksame Gegenmacht schaffen, die Veränderungen durchsetzt?
+
+Philipp Amthors Angriff aufs Informationsfreiheitsgesetz konnten wir erst einmal abwehren - jetzt geht&#39;s in die Offensive! Mit den Highlights aus Strafanzeigen gegen Alexandeer Dobrindt, Spahns geleaktem Maskenbericht, der Milliardärslobby im Wirtschaftsministerium und allen Steueroasen in Deutschland.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/gegenmacht-best-of-informationsfreiheit
+</itunes:summary>
+      <itunes:author>Arne Semsrott</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1207-deu-eng-spa-Gegenmacht_-_Best_of_Informationsfreiheit_hd.mp4"
+                 length="821035008"
+                 type="video/mp4"/>
+    </item>
+    <item>
+      <title>To sign or not to sign: Practical vulnerabilities in GPG & friends</title>
+      <description>Might contain zerodays. https://gpg.fail/
+
+From secure communications to software updates: PGP implementations such as *GnuPG* ubiquitously relied on to provide cryptographic assurances. Many applications from secure communications to software updates fundamentally rely on these utilities.
+Since these have been developed for decades, one might expect mature codebases, a multitude of code audit reports, and extensive continuous testing.
+When looking into various PGP-related codebases for some personal use cases, we found these expectations not met, and discovered multiple vulnerabilities in cryptographic utilities, namely in *GnuPG*, *Sequoia PGP*, *age*, and *minisign*.
+The vulnerabilities have implementation bugs at their core, for example in parsing code, rather than bugs in the mathematics of the cryptography itself. A vulnerability in a parser could for example lead to a confusion about what data was actually signed, allowing attackers without the private key of the signer to swap the plain text. As we initially did not start with the intent of conducting security research, but rather were looking into understanding some internals of key management and signatures for personal use, we also discuss the process of uncovering these bugs. Furthermore, we touch on the role of the OpenPGP specification, and the disclosure process.
+
+Beyond the underlying mathematics of cryptographic algorithms, there is a whole other layer of implementation code, assigning meaning to the processed data. For example, a signature verification operation both needs robust cryptography **and** assurance that the verified data is indeed the same as was passed into the signing operation. To facilitate the second part, software such as *GnuPG* implement parsing and processing code of a standardized format. Especially when implementing a feature rich and evolving standard, there is the risk of ambivalent specification, and classical implementation bugs.
+
+The impact of the vulnerabilities we found reaches from various signature verification bypasses, breaking encryption in transit and encryption at rest, undermining key signatures, to exploitable memory corruption vulnerabilities.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/to-sign-or-not-to-sign-practical-vulnerabilities-i
+</description>
+      <link>https://events.ccc.de/congress/2025/hub/event/detail/to-sign-or-not-to-sign-practical-vulnerabilities-i</link>
+      <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/to-sign-or-not-to-sign-practical-vulnerabilities-i</guid>
+      <pubDate>Sat, 27 Dec 2025 17:15:00 +0100</pubDate>
+      <itunes:title>To sign or not to sign: Practical vulnerabilities in GPG & friends</itunes:title>
+      <itunes:summary>Might contain zerodays. https://gpg.fail/
+
+From secure communications to software updates: PGP implementations such as *GnuPG* ubiquitously relied on to provide cryptographic assurances. Many applications from secure communications to software updates fundamentally rely on these utilities.
+Since these have been developed for decades, one might expect mature codebases, a multitude of code audit reports, and extensive continuous testing.
+When looking into various PGP-related codebases for some personal use cases, we found these expectations not met, and discovered multiple vulnerabilities in cryptographic utilities, namely in *GnuPG*, *Sequoia PGP*, *age*, and *minisign*.
+The vulnerabilities have implementation bugs at their core, for example in parsing code, rather than bugs in the mathematics of the cryptography itself. A vulnerability in a parser could for example lead to a confusion about what data was actually signed, allowing attackers without the private key of the signer to swap the plain text. As we initially did not start with the intent of conducting security research, but rather were looking into understanding some internals of key management and signatures for personal use, we also discuss the process of uncovering these bugs. Furthermore, we touch on the role of the OpenPGP specification, and the disclosure process.
+
+Beyond the underlying mathematics of cryptographic algorithms, there is a whole other layer of implementation code, assigning meaning to the processed data. For example, a signature verification operation both needs robust cryptography **and** assurance that the verified data is indeed the same as was passed into the signing operation. To facilitate the second part, software such as *GnuPG* implement parsing and processing code of a standardized format. Especially when implementing a feature rich and evolving standard, there is the risk of ambivalent specification, and classical implementation bugs.
+
+The impact of the vulnerabilities we found reaches from various signature verification bypasses, breaking encryption in transit and encryption at rest, undermining key signatures, to exploitable memory corruption vulnerabilities.
+
+Licensed to the public under http://creativecommons.org/licenses/by/4.0
+about this event: https://events.ccc.de/congress/2025/hub/event/detail/to-sign-or-not-to-sign-practical-vulnerabilities-i
+</itunes:summary>
+      <itunes:author>49016, Liam</itunes:author>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1854-eng-deu-fra-To_sign_or_not_to_sign_Practical_vulnerabilities_in_GPG_friends_hd.mp4"
+                 length="658505728"
+                 type="video/mp4"/>
+    </item>
     <item>
       <title>A post-American, enshittification-resistant internet</title>
       <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

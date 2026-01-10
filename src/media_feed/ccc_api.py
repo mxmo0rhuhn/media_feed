@@ -23,7 +23,7 @@ def get_text_content(node: Element) -> str:
         Text content or empty string if not available
     """
     if node.childNodes and hasattr(node.childNodes[0], "data"):
-        return cast(Text, node.childNodes[0]).data
+        return str(cast(Text, node.childNodes[0]).data)
     return ""
 
 
@@ -212,22 +212,22 @@ def search_ccc_talk(
         # Search logic
         query_upper = query.upper()
 
-        for fahrplan_node in fahrplan_dom.getElementsByTagName("title"):
-            if not fahrplan_node.childNodes:
+        for fahrplan_elem in fahrplan_dom.getElementsByTagName("title"):
+            if not fahrplan_elem.childNodes:
                 continue
 
-            title_text = fahrplan_node.childNodes[0].data
+            title_text = get_text_content(fahrplan_elem)
 
             if query_upper not in title_text.upper():
                 continue
 
             # Extract from Fahrplan
-            event = fahrplan_node.parentNode
+            event = get_parent_element(fahrplan_elem)
             event_id = event.getAttribute("id")
 
             subtitle_elems = event.getElementsByTagName("subtitle")
             subtitle = (
-                subtitle_elems[0].childNodes[0].data
+                get_text_content(subtitle_elems[0])
                 if subtitle_elems and subtitle_elems[0].childNodes
                 else ""
             )
@@ -237,7 +237,7 @@ def search_ccc_talk(
                 persons = event.getElementsByTagName("persons")[0]
                 speakers = ", ".join(
                     [
-                        p.childNodes[0].data
+                        get_text_content(p)
                         for p in persons.getElementsByTagName("person")
                         if p.childNodes
                     ]
@@ -247,36 +247,36 @@ def search_ccc_talk(
 
             desc_elems = event.getElementsByTagName("description")
             description = (
-                desc_elems[0].childNodes[0].data if desc_elems and desc_elems[0].childNodes else ""
+                get_text_content(desc_elems[0]) if desc_elems and desc_elems[0].childNodes else ""
             )
 
             # Extract track for category mapping
             track_elems = event.getElementsByTagName("track")
             track = (
-                track_elems[0].childNodes[0].data
+                get_text_content(track_elems[0])
                 if track_elems and track_elems[0].childNodes
                 else ""
             )
 
             # Find in media feed
-            for media_node in media_dom.getElementsByTagName("title"):
-                if not media_node.childNodes:
+            for media_elem in media_dom.getElementsByTagName("title"):
+                if not media_elem.childNodes:
                     continue
 
-                media_title = media_node.childNodes[0].data
+                media_title = get_text_content(media_elem)
                 if not titles_match(title_text, media_title):
                     continue
 
-                item = media_node.parentNode
+                item = get_parent_element(media_elem)
 
                 pub_elems = item.getElementsByTagName("pubDate")
                 pub_date = (
-                    pub_elems[0].childNodes[0].data if pub_elems and pub_elems[0].childNodes else ""
+                    get_text_content(pub_elems[0]) if pub_elems and pub_elems[0].childNodes else ""
                 )
 
                 media_desc_elems = item.getElementsByTagName("description")
                 media_desc = (
-                    media_desc_elems[0].childNodes[0].data
+                    get_text_content(media_desc_elems[0])
                     if media_desc_elems and media_desc_elems[0].childNodes
                     else ""
                 )
@@ -293,7 +293,7 @@ def search_ccc_talk(
                 # Try to extract URL from fahrplan XML first (preferred method)
                 url_elems = event.getElementsByTagName("url")
                 if url_elems and url_elems[0].childNodes:
-                    web_url = url_elems[0].childNodes[0].data
+                    web_url = get_text_content(url_elems[0])
                     logger.debug(f"Extracted web_url from <url> tag: {web_url}")
                 else:
                     # Fallback: construct URL from pattern (for backward compatibility)

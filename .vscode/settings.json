@@ -8,6 +8,12 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.insertSpaces": true,
+    // Mypy strict mode for real-time type checking
+    "mypy-type-checker.args": [
+        "--strict"
+    ],
+    // Ruff linting (in addition to formatting)
+    "ruff.lint.enable": true,
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.tabSize": 4,

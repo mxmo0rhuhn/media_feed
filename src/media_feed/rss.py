@@ -85,7 +85,9 @@ def format_feedback_line(feedback_item: dict[str, Any]) -> str:
 
 def calculate_average_rating(feedback_list: list[dict[str, Any]]) -> Optional[float]:
     """Calculate average rating from feedback list."""
-    ratings = [f.get("rating") for f in feedback_list if f.get("rating") is not None]
+    ratings: list[float] = [
+        float(f["rating"]) for f in feedback_list if f.get("rating") is not None
+    ]
     if not ratings:
         return None
     return sum(ratings) / len(ratings)
@@ -147,7 +149,7 @@ def format_item_description(item: dict[str, Any]) -> str:
         Formatted description with feedback section
     """
     feedback_section = format_feedback_section(item.get("feedback"))
-    description = item.get("description", "")
+    description: str = str(item.get("description", ""))
     return feedback_section + description
 
 

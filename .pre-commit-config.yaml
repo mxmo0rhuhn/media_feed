@@ -3,7 +3,9 @@ repos:
     rev: v4.5.0
     hooks:
       - id: trailing-whitespace
+        exclude: ^feeds/
       - id: end-of-file-fixer
+        exclude: ^feeds/
       - id: check-yaml
       - id: check-toml
 
@@ -21,6 +23,9 @@ repos:
         additional_dependencies:
           - types-pyyaml
           - types-requests
+          - types-defusedxml
+          - click
+          - jinja2
         files: ^src/
 
   - repo: local

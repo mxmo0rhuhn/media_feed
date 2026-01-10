@@ -66,20 +66,21 @@ def _initialize_media_file(event_id: str, year: int, congress_number: int) -> No
 
     # Create media file content
     event_name = event_id.upper()
-    media_data = {
-        "meta": {
-            "title": f"{event_name} media feed",
-            "description": (
-                f"A curated feed for different talks of the {event_name} "
-                f"(Chaos Communication Congress {year})."
-            ),
-        },
-        "feed": [],
+    meta: dict[str, str] = {
+        "title": f"{event_name} media feed",
+        "description": (
+            f"A curated feed for different talks of the {event_name} "
+            f"(Chaos Communication Congress {year})."
+        ),
     }
-
     # Add image_url only if logo was found
     if logo_url:
-        media_data["meta"]["image_url"] = logo_url
+        meta["image_url"] = logo_url
+
+    media_data: dict[str, Any] = {
+        "meta": meta,
+        "feed": [],
+    }
 
     # Save the file
     save_yaml(media_file, media_data)
@@ -182,7 +183,7 @@ def prompt_for_feedback(username: Optional[str] = None) -> Optional[dict[str, An
     ).strip()
 
     # Create feedback entry
-    feedback_entry = {"rating": rating}
+    feedback_entry: dict[str, int | str] = {"rating": rating}
 
     if username:
         try:
@@ -525,7 +526,7 @@ def new_event(
         click.echo("\nValidating URLs...")
 
         fahrplan_result, podcast_result = validate_event_urls(
-            event_config["fahrplan_url"], event_config["media_feed_url"]
+            str(event_config["fahrplan_url"]), str(event_config["media_feed_url"])
         )
 
         # Display fahrplan validation
