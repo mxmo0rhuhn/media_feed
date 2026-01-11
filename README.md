@@ -8,7 +8,19 @@
 
 # Media feed
 
+## TL;DR - Just Want to Watch Talks?
+
+Add the generated RSS feed URLs to your favorite podcast player to get a curated list of recommended talks e.g. for the 39th Chaos Communication Congress (39C3):
+
+``` plain
+https://raw.githubusercontent.com/mxmo0rhuhn/media_feed/main/feeds/feed_39c3.xml
+```
+
+That's it! Enjoy the talks.
+
 ## TL;DR - Just Want to Rate Talks?
+
+You can quickly rate talks in the media/media_<event>.yml files by altering them manually or using the interactive CLI:
 
 ```bash
 # Install

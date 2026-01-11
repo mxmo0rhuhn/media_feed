@@ -7,8 +7,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Sat, 10 Jan 2026 09:51:19 GMT</pubDate>
-    <lastBuildDate>Sat, 10 Jan 2026 09:51:19 GMT</lastBuildDate>
+    <pubDate>Sun, 11 Jan 2026 23:26:45 GMT</pubDate>
+    <lastBuildDate>Sun, 11 Jan 2026 23:26:45 GMT</lastBuildDate>
     <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
     <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
     <itunes:owner>
@@ -16,7 +16,7 @@
       <itunes:name>Maintainer</itunes:name>
     </itunes:owner>
     <image>
-      <url>https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png</url>
+      <url>https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png</url>
       <title>39C3 media feed</title>
       <link>https://github.com/mxmo0rhuhn/media_feed</link>
       <description>A curated feed for different talks of the 39C3 (Chaos Communication Congress 2025).</description>
@@ -25,7 +25,7 @@
     </image>
     <itunes:summary>A curated feed for different talks of the 39C3 (Chaos Communication Congress 2025).</itunes:summary>
     <itunes:author>mxmo0rhuhn</itunes:author>
-    <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+    <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
     <itunes:explicit>yes</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
@@ -63,7 +63,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/zps-ein-jahr-adenauer-srp-und-mehr
 </itunes:summary>
       <itunes:author>Stefan Pelzer, Philipp Ruch</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2183-deu-eng-fra-Zentrum_fuer_Politische_Schoenheit_Ein_Jahr_Adenauer_SRP_und_der_Walter_Luebcke_Memorial_Park_hd.mp4"
@@ -93,7 +93,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/och-menno-it-und-it-security-uppsis
 </itunes:summary>
       <itunes:author>Sven Uckermann</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-83756-deu-Och_Menno_-_IT_und_IT_Security_Uppsis_hd.mp4"
@@ -137,7 +137,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/gegenmacht-best-of-informationsfreiheit
 </itunes:summary>
       <itunes:author>Arne Semsrott</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1207-deu-eng-spa-Gegenmacht_-_Best_of_Informationsfreiheit_hd.mp4"
@@ -179,7 +179,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/to-sign-or-not-to-sign-practical-vulnerabilities-i
 </itunes:summary>
       <itunes:author>49016, Liam</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1854-eng-deu-fra-To_sign_or_not_to_sign_Practical_vulnerabilities_in_GPG_friends_hd.mp4"
@@ -243,7 +243,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/a-post-american-enshittification-resistant-internet
 </itunes:summary>
       <itunes:author>Cory Doctorow</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1421-eng-deu-fra-A_post-American_enshittification-resistant_internet_hd.mp4"
@@ -303,7 +303,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/a-space-odyssey-2-how-to-study-moon-rocks-from-the-soviet-sample-return-mission-luna-24
 </itunes:summary>
       <itunes:author>Paul Koetter</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1445-eng-deu-pol-A_space_odyssey_2_How_to_study_moon_rocks_from_the_Soviet_sample_return_mission_Luna_24_hd.mp4"
@@ -343,7 +343,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/building-hardware-easier-than-ever-harder-than-it-should-be
 </itunes:summary>
       <itunes:author>Kliment</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2271-eng-deu-spa-Building_hardware_-_easier_than_ever_-_harder_than_it_should_be_hd.mp4"
@@ -387,7 +387,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/chaos-communication-chemistry-dna-security-systems-based-on-molecular-randomness
 </itunes:summary>
       <itunes:author>Anne Lüscher</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1493-eng-deu-por-Chaos_Communication_Chemistry_DNA_security_systems_based_on_molecular_randomness_hd.mp4"
@@ -415,7 +415,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/security-nightmares
 </itunes:summary>
       <itunes:author>Constanze Kurz, Ron</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1965-deu-eng-fra-Security_Nightmares_hd.mp4"
@@ -443,7 +443,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/ccc-jahresruckblick
 </itunes:summary>
       <itunes:author>Constanze Kurz, khaleesi, Matthias Marx, Linus Neumann, erdgeist</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2397-deu-eng-fra-CCC-Jahresrueckblick_hd.mp4"
@@ -499,7 +499,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/who-cares-about-the-baltic-jammer-terrestrial-navigation-in-the-baltic-sea-region
 </itunes:summary>
       <itunes:author>Lars, Niklas Hehenkamp, Markus</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1997-eng-deu-Who_cares_about_the_Baltic_Jammer_-_Terrestrial_Navigation_in_the_Baltic_Sea_Region_hd.mp4"
@@ -567,7 +567,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/cpu-entwicklung-in-factorio-vom-d-flip-flop-bis-zum-eigenen-betriebssystem
 </itunes:summary>
       <itunes:author>PhD (Philipp)</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1562-deu-eng-CPU_Entwicklung_in_Factorio_Vom_D-Flip-Flop_bis_zum_eigenen_Betriebssystem_hd.mp4"
@@ -607,7 +607,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/verlorene-domains-offene-turen-was-alte-behordendomains-verraten
 </itunes:summary>
       <itunes:author>Tim Philipp Schäfers (TPS)</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1458-deu-eng-fra-Verlorene_Domains_offene_Tueren_-_Was_alte_Behoerdendomains_verraten_hd.mp4"
@@ -647,7 +647,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/design-for-3d-printing
 </itunes:summary>
       <itunes:author>rahix</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2250-eng-deu-pol-Design_for_3D-Printing_hd.mp4"
@@ -699,7 +699,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/bluetooth-headphone-jacking-a-key-to-your-phone
 </itunes:summary>
       <itunes:author>Dennis Heinze, Frieder Steinmetz</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1491-eng-deu-fra-Bluetooth_Headphone_Jacking_A_Key_to_Your_Phone_hd.mp4"
@@ -735,7 +735,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/hacking-washing-machines
 </itunes:summary>
       <itunes:author>Severin von Wnuck-Lipinski, Hajo Noerenberg</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2405-eng-deu-por-Hacking_washing_machines_hd.mp4"
@@ -823,7 +823,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/netzpolitik-in-der-schweiz-zwischen-bodensee-und-matterhorn
 </itunes:summary>
       <itunes:author>Kire, Rahel</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2173-deu-eng-Netzpolitik_in_der_Schweiz_Zwischen_Bodensee_und_Matterhorn_hd.mp4"
@@ -861,7 +861,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/pruf
 </itunes:summary>
       <itunes:author>Nico Semsrott</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2427-deu-eng-spa-PRUEF_hd.mp4"
@@ -913,7 +913,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/celestial-navigation-with-very-little-math
 </itunes:summary>
       <itunes:author>Trammell Hudson</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1375-eng-deu-por-Celestial_navigation_with_very_little_math_hd.mp4"
@@ -973,7 +973,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/schlechte-karten-it-sicherheit-im-jahr-null-der-epa-fur-alle
 </itunes:summary>
       <itunes:author>Bianca Kastl</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2403-deu-eng-spa-Schlechte_Karten_-_IT-Sicherheit_im_Jahr_null_der_ePA_fuer_alle_hd.mp4"
@@ -1029,7 +1029,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/all-my-deutschlandtickets-gone-fraud-at-an-industrial-scale
 </itunes:summary>
       <itunes:author>Q Misell, 551724 / maya boeckh</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1254-eng-deu-fra-All_my_Deutschlandtickets_gone_Fraud_at_an_industrial_scale_hd.mp4"
@@ -1073,7 +1073,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/die-kanguru-rebellion-digital-independence-day
 </itunes:summary>
       <itunes:author>Marc-Uwe Kling, Linus Neumann</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2193-deu-eng-spa-Die_Kaenguru-Rebellion_Digital_Independence_Day_hd.mp4"
@@ -1131,7 +1131,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/blackbox-palantir
 </itunes:summary>
       <itunes:author>Constanze Kurz, Franziska Görlitz</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1958-deu-eng-Blackbox_Palantir_hd.mp4"
@@ -1209,7 +1209,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/ai-agent-ai-spy
 </itunes:summary>
       <itunes:author>Udbhav Tiwari, Meredith Whittaker</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-2230-eng-deu-fra-AI_Agent_AI_Spy_hd.mp4"
@@ -1285,7 +1285,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/agentic-probllms-exploiting-ai-computer-use-and-coding-agents
 </itunes:summary>
       <itunes:author>Johann Rehberger</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1306-eng-deu-fra-Agentic_ProbLLMs_Exploiting_AI_Computer-Use_and_Coding_Agents_hd.mp4"
@@ -1341,7 +1341,7 @@ Licensed to the public under http://creativecommons.org/licenses/by/4.0
 about this event: https://events.ccc.de/congress/2025/hub/event/detail/the-heartbreak-machine-nazis-in-the-echo-chamber
 </itunes:summary>
       <itunes:author>Martha Root, Eva Hoffmann, Christian Fuchs</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.media.ccc.de/congress/2025/h264-hd/39c3-1695-deu-eng-The_Heartbreak_Machine_Nazis_in_the_Echo_Chamber_hd.mp4"

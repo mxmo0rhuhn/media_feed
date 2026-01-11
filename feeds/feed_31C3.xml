@@ -7,8 +7,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Fri, 09 Jan 2026 20:58:17 GMT</pubDate>
-    <lastBuildDate>Fri, 09 Jan 2026 20:58:17 GMT</lastBuildDate>
+    <pubDate>Sun, 11 Jan 2026 23:26:45 GMT</pubDate>
+    <lastBuildDate>Sun, 11 Jan 2026 23:26:45 GMT</lastBuildDate>
     <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
     <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
     <itunes:owner>
@@ -16,7 +16,7 @@
       <itunes:name>Maintainer</itunes:name>
     </itunes:owner>
     <image>
-      <url>https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png</url>
+      <url>https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png</url>
       <title>31C3 media feed</title>
       <link>https://github.com/mxmo0rhuhn/media_feed</link>
       <description>A curated feed for different talks of the 31C3 (Chaos Communication Congress 2014).</description>
@@ -25,7 +25,7 @@
     </image>
     <itunes:summary>A curated feed for different talks of the 31C3 (Chaos Communication Congress 2014).</itunes:summary>
     <itunes:author>mxmo0rhuhn</itunes:author>
-    <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+    <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
     <itunes:explicit>yes</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
@@ -49,7 +49,7 @@ The Heartbleed vulnerability took the Internet by surprise in April of this year
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 The Heartbleed vulnerability took the Internet by surprise in April of this year. The vulnerability was one of the most consequential in the history of the Internet, since it allowed attackers to potentially steal login credentials, cryptographic keys, and other private data from up to half of all popular HTTPS sites.  In this talk, we take a detailed look at Heartbleed and its aftermath, based on comprehensive measurements and analysis that our research team performed over the past six months.  We began tracking Heartbleed&#39;s impact within hours of its disclosure using massive ZMap scans and large network telescopes.  This allowed us to track which sites remained vulnerable, observe certificate revocations, and monitor for large scale attacks in close to real time. Based on this data, we also conducted one of the largest ever mass vulnerability notifications, informing the network administrators for all devices still susceptible to Heartbleed across the entire IPv4 address space.  Finally, we investigated the question of whether attackers knew about and exploited Heartbleed prior to its public disclosure---and we will present new details about this question in the talk.  We hope that by learning from the Heartbleed security disaster, our community can prepare to respond more effectively to such events in the future.</itunes:summary>
       <itunes:author>Zakir Durumeric</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6321-en-de-The_Matter_of_Heartbleed_hd.mp4"
@@ -77,7 +77,7 @@ Im Format einer lockeren Abendshow werden wir die Nachrichten-Highlights des Jah
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Im Format einer lockeren Abendshow werden wir die Nachrichten-Highlights des Jahres präsentieren, die Meldungen zwischen den Meldungen, die subtilen Sensationen hinter den Schlagzeilen.</itunes:summary>
       <itunes:author>frank, Fefe</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6109-de-en-Fnord_News_Show_hd.mp4"
@@ -105,7 +105,7 @@ Im Format einer lockeren Abendshow werden wir die Nachrichten-Highlights des Jah
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 (K)ein kleiner Rant über Elliptische Kurven, Quantencomputer, Bitcoins und die NSA et al.</itunes:summary>
       <itunes:author>ruedi</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6295-de-en-Krypto_fuer_die_Zukunft_hd.mp4"
@@ -133,7 +133,7 @@ Julia Angwin, Jack Gillum, and Laura Poitras will tell us stories about how they
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Julia Angwin, Jack Gillum, and Laura Poitras will tell us stories about how they use crypto and privacy-enhancing technologies as high-profile journalists, and rant in an entertaining way about how these tools have failed or are horribly inadequate for their needs. They will also talk about their rare crypto successes.</itunes:summary>
       <itunes:author>Nadia Heninger, Julia Angwin,  Laura Poitras, Jack Gillum</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6154-en-de-Crypto_Tales_from_the_Trenches_hd.mp4"
@@ -161,7 +161,7 @@ Three years have elapsed since the call for a &#34;Hacker Space Program&#34; dur
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Three years have elapsed since the call for a &#34;Hacker Space Program&#34; during the Chaos Communication Camp 2011. In this lecture we will review the basics of space flight, discuss common problems and pitfalls encountered by a practitioner on the way to orbit, and report on the state of our sounding rocket program.</itunes:summary>
       <itunes:author>David Madlener, Sean</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6180-en-de-Rocket_science_-_how_hard_can_it_be_sd.mp4"
@@ -189,7 +189,7 @@ Ein Mahnmal gegen die Vereinten Nationen, 25.000 Euro Kopfgeld auf eine deutsche
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Ein Mahnmal gegen die Vereinten Nationen, 25.000 Euro Kopfgeld auf eine deutsche Waffenhändlerfamilie, eine falsche Kampagne für das Familienministerium oder die Flucht der &#34;Mauerkreuze&#34; vom Reichstagsufer an die EU-Außengrenzen: wenn das Zentrum für Politische Schönheit (ZPS) das Kriegsbeil ausgräbt, ist eine kontroverse Debatte garantiert.</itunes:summary>
       <itunes:author>Stefan Pelzer, Philipp Ruch</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6584-de-en-Mit_Kunst_die_Gesellschaft_hacken_hd.mp4"
@@ -217,7 +217,7 @@ Im Vortrag sollen technische und gesellschaftliche Konsequenzen der von Microsof
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Im Vortrag sollen technische und gesellschaftliche Konsequenzen der von Microsoft kontrollierten Windows-8-Secure-Boot-Architektur und mögliche Gegenmaßnahmen diskutiert werden.</itunes:summary>
       <itunes:author>ruedi</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6294-de-en-Vor_Windows_8_wird_gewarnt_hd.mp4"
@@ -245,7 +245,7 @@ Im Sommer 2014 wurde die sogenannte Digitale „Agenda“ vorgestellt, die als �
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Im Sommer 2014 wurde die sogenannte Digitale „Agenda“ vorgestellt, die als „netzpolitisches Regierungsprogramm“ bezeichnet wurde. Aus texttypologischer Sicht handelt es sich aber eher um einen PR-Text, der so aussieht, als sei er ein Auszug aus einer Wahlkampfbroschüre. Der Vortrag analysiert den Text zunächst inhaltlich, um zu zeigen, worum es im Einzelnen geht und wo Widersprüche auftauchen, dann aus textkritischer und aus linguistischer Perspektive. Insbesondere werden bestimmte Interessen der Bundesregierung und anderer Akteure deutlich, die weniger offen thematisiert werden, aber doch sprachlich zu Tage treten.</itunes:summary>
       <itunes:author>Martin Haase/maha</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6264-de-en-Wir_beteiligen_uns_aktiv_an_den_Diskussionen_sd.mp4"
@@ -273,7 +273,7 @@ Bei der Passworteingabe über die Schultern schauen? Die Mateflasche klauen, um 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Bei der Passworteingabe über die Schultern schauen? Die Mateflasche klauen, um an Fingerabdrücke zu kommen? Alles Technik von gestern. Der Vortrag zeigt, wie man heutzutage an Daten kommt, um Authentifizierungsmethoden zu überwinden.</itunes:summary>
       <itunes:author>starbug</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6450-de-en-Ich_sehe_also_bin_ich_Du_hd.mp4"
@@ -301,7 +301,7 @@ Station VIENNA in der US-Botschaft Wien VIENNA ANNEX beim UNO-Sitz in Wien Legac
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Station VIENNA in der US-Botschaft Wien VIENNA ANNEX beim UNO-Sitz in Wien Legacy Standort „NSA-Villa“ Wien Relaystation Exelberg,Breitbandnetz von NSA/SCS über Wien Equipment und Funktion der FORNSAT-Station Königswarte.</itunes:summary>
       <itunes:author>Erich Moechel</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6430-de-en-NSA_Points_of_Presence_in_AT_hd.mp4"
@@ -329,7 +329,7 @@ Auch das Jahr 2014 geht irgendwann vorbei. Deshalb werfen wir einen Blick zurüc
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Auch das Jahr 2014 geht irgendwann vorbei. Deshalb werfen wir einen Blick zurück auf die für uns besonders relevanten Themen und versuchen abzuschätzen, was im Jahr 2015 auf uns zukommen könnte.</itunes:summary>
       <itunes:author>Frank Rieger, erdgeist, Linus Neumann, heckpiet, Constanze Kurz</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6583-de-en-Jahresrueckblick_des_CCC_hd.mp4"
@@ -357,7 +357,7 @@ An overview of 70 years of nuclear weapons, focusing on some of the underlying p
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 An overview of 70 years of nuclear weapons, focusing on some of the underlying physics, the international politics that surround the topic, modern technology for nuclear weapons detection and monitoring, and what everyone can do to help nuclear disarmament.</itunes:summary>
       <itunes:author>Michael Büker</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6121-en-de-What_Ever_Happened_to_Nuclear_Weapons_hd.mp4"
@@ -385,7 +385,7 @@ Binary tricks to evade identification, detection, to exploit encryption and hash
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Binary tricks to evade identification, detection, to exploit encryption and hash collisions.</itunes:summary>
       <itunes:author>Ange Albertini</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-5930-en-de-Funky_File_Formats_hd.mp4"
@@ -413,7 +413,7 @@ During World War I, homing pigeons were used to carry messages and take photogra
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 During World War I, homing pigeons were used to carry messages and take photographs over enemy territory. Today, experiments are being conducted to remote-control insects for similar purposes. This talk intends to give an overview of 100 years of living drones, speculate on future developments in the field, and question the ethical implications of the practice.</itunes:summary>
       <itunes:author>Anja Drephal</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6275-en-de-Living_Drones_hd.mp4"
@@ -441,7 +441,7 @@ tl;dr EXPLOIT ALL THE PERL. We chained several of Perl’s ridiculous syntax qui
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 tl;dr EXPLOIT ALL THE PERL. We chained several of Perl’s ridiculous syntax quirks in order to create a surprisingly powerful attack, bringing down some of the most popular Perl-based projects in the world to their knees. Brace yourselves, RCE exploits are coming.</itunes:summary>
       <itunes:author>Netanel Rubin</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6243-en-de-The_Perl_Jam_Exploiting_a_20_Year-old_Vulnerability_hd.mp4"
@@ -469,7 +469,7 @@ Sections &lt;ul&gt; &lt;li&gt;&lt;a href=&#34;#t=0:10&#34;&gt;0:10 Network (NOC)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Sections &lt;ul&gt; &lt;li&gt;&lt;a href=&#34;#t=0:10&#34;&gt;0:10 Network (NOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=26:19&#34;&gt;26:19 Power&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=29:39&#34;&gt;29:39 Seidenstraße (SOC)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&#34;#t=37:21&#34;&gt;37:21 Video (VOC)&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;</itunes:summary>
       <itunes:author>Leon</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6557-en-de-31C3_Infrastructure_Review_hd.mp4"
@@ -497,7 +497,7 @@ Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Welche neuen Entwic
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Was hat sich im letzten Jahr im Bereich IT-Sicherheit getan? Welche neuen Entwicklungen haben sich ergeben? Welche neuen Buzzwords und Trends waren zu sehen?</itunes:summary>
       <itunes:author>frank, Ron</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6572-de-en-Security_Nightmares_hd.mp4"
@@ -525,7 +525,7 @@ Of all the NSA&#39;s Cold War listening posts, their intelligence facility on to
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Of all the NSA&#39;s Cold War listening posts, their intelligence facility on top of Berlin&#39;s Teufelsberg was their most secretive.</itunes:summary>
       <itunes:author>Bill Scannell</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6585-en-de-Inside_Field_Station_Berlin_Teufelsberg_hd.mp4"
@@ -553,7 +553,7 @@ Kopierer, die spontan Zahlen im Dokument verändern: Im August 2013 kam heraus, 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Kopierer, die spontan Zahlen im Dokument verändern: Im August 2013 kam heraus, dass so gut wie alle Xerox-Scankopierer beim Scannen Zahlen und Buchstaben einfach so durch andere ersetzen. Da man solche Fehler als Benutzer so gut wie nicht sehen kann, ist der Bug extrem gefährlich und blieb lange unentdeckt: Er existiert über acht Jahre in freier Wildbahn. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6558.html</itunes:summary>
       <itunes:author>David Kriesel</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-hd/31c3-6558-de-en-Traue_keinem_Scan_den_du_nicht_selbst_gefaelscht_hast_hd.mp4"
@@ -581,7 +581,7 @@ We know that mobile networks can — and do — attack us on many fronts. As thi
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 We know that mobile networks can — and do — attack us on many fronts. As this talk will show, even 3G is attackable. It&#39;s high time that we upgrade from complaining to self-defense. about this event: http://events.ccc.de/congress/2014/Fahrplan/events/6122.html</itunes:summary>
       <itunes:author>Karsten Nohl</itunes:author>
-      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png"/>
+      <itunes:image href="https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="http://cdn.media.ccc.de/congress/2014/h264-sd/31c3-6122-en-de-Mobile_self-defense_sd.mp4"

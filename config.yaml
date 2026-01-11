@@ -2,27 +2,27 @@ global:
   contact:
     email: media-feed@spam.schrimpf.ch
     name: Maintainer
-  image_url: https://github.com/mxmo0rhuhn/media_feed/raw/master/media_feed.png
+  image_url: https://github.com/mxmo0rhuhn/media_feed/raw/main/media_feed.png
   author: mxmo0rhuhn
   link: https://github.com/mxmo0rhuhn/media_feed
   language: en
   category_mapping:
     Technology:
-    - Security
-    - Hardware & Making
+      - Security
+      - Hardware & Making
     Science:
-    - Science
-    - Resilience & Sustainability
+      - Science
+      - Resilience & Sustainability
     Society & Culture:
-    - Ethics, Society & Politics
-    - CCC
-    - CCC & Community
+      - Ethics, Society & Politics
+      - CCC
+      - CCC & Community
     Arts:
-    - Art & Culture
+      - Art & Culture
     Leisure:
-    - Entertainment
+      - Entertainment
     _default:
-    - Technology
+      - Technology
 events:
   31c3:
     year: 2014
