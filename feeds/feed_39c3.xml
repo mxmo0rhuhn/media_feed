@@ -7,8 +7,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Sun, 11 Jan 2026 23:26:45 GMT</pubDate>
-    <lastBuildDate>Sun, 11 Jan 2026 23:26:45 GMT</lastBuildDate>
+    <pubDate>Sun, 11 Jan 2026 23:35:19 GMT</pubDate>
+    <lastBuildDate>Sun, 11 Jan 2026 23:35:19 GMT</lastBuildDate>
     <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
     <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
     <itunes:owner>
@@ -145,7 +145,7 @@ about this event: https://events.ccc.de/congress/2025/hub/event/detail/gegenmach
                  type="video/mp4"/>
     </item>
     <item>
-      <title>To sign or not to sign: Practical vulnerabilities in GPG & friends</title>
+      <title>To sign or not to sign: Practical vulnerabilities in GPG &amp; friends</title>
       <description>Might contain zerodays. https://gpg.fail/
 
 From secure communications to software updates: PGP implementations such as *GnuPG* ubiquitously relied on to provide cryptographic assurances. Many applications from secure communications to software updates fundamentally rely on these utilities.
@@ -163,7 +163,7 @@ about this event: https://events.ccc.de/congress/2025/hub/event/detail/to-sign-o
       <link>https://events.ccc.de/congress/2025/hub/event/detail/to-sign-or-not-to-sign-practical-vulnerabilities-i</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2025/hub/event/detail/to-sign-or-not-to-sign-practical-vulnerabilities-i</guid>
       <pubDate>Sat, 27 Dec 2025 17:15:00 +0100</pubDate>
-      <itunes:title>To sign or not to sign: Practical vulnerabilities in GPG & friends</itunes:title>
+      <itunes:title>To sign or not to sign: Practical vulnerabilities in GPG &amp; friends</itunes:title>
       <itunes:summary>Might contain zerodays. https://gpg.fail/
 
 From secure communications to software updates: PGP implementations such as *GnuPG* ubiquitously relied on to provide cryptographic assurances. Many applications from secure communications to software updates fundamentally rely on these utilities.

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>{{ data.meta.title }}</title>
-    <description>{{ data.meta.description }}</description>
+    <title>{{ data.meta.title|e }}</title>
+    <description>{{ data.meta.description|e }}</description>
     <link>{{ global_config.link }}</link>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>{{ global_config.language }}</language>
@@ -17,13 +17,13 @@
     </itunes:owner>
     <image>
       <url>{{ data.meta.image_url|default(global_config.image_url) }}</url>
-      <title>{{ data.meta.title }}</title>
+      <title>{{ data.meta.title|e }}</title>
       <link>{{ global_config.link }}</link>
-      <description>{{ data.meta.description }}</description>
+      <description>{{ data.meta.description|e }}</description>
       <width>144</width>
       <height>144</height>
     </image>
-    <itunes:summary>{{ data.meta.description }}</itunes:summary>
+    <itunes:summary>{{ data.meta.description|e }}</itunes:summary>
     <itunes:author>{{ global_config.author }}</itunes:author>
     <itunes:image href="{{ data.meta.image_url|default(global_config.image_url) }}"/>
     <itunes:explicit>yes</itunes:explicit>
@@ -37,19 +37,19 @@
       {%- endfor %}
     {%- endfor %}
     {%- for category in all_categories[:3] %}
-    <itunes:category text="{{ category }}"/>
+    <itunes:category text="{{ category|e }}"/>
     {%- endfor %}
     {%- for item in data.feed %}
     {%- if item.published %}
     <item>
-      <title>{{ item.title }}</title>
+      <title>{{ item.title|e }}</title>
       <description>{{ format_item_description(item)|e }}</description>
       <link>{{ item.web_url }}</link>
       <guid isPermaLink="true">{{ item.web_url }}</guid>
       <pubDate>{{ item.published }}</pubDate>
-      <itunes:title>{{ item.title }}</itunes:title>
+      <itunes:title>{{ item.title|e }}</itunes:title>
       <itunes:summary>{{ format_item_description(item)|e }}</itunes:summary>
-      <itunes:author>{{ item.speakers }}</itunes:author>
+      <itunes:author>{{ item.speakers|e }}</itunes:author>
       <itunes:image href="{{ data.meta.image_url|default(global_config.image_url) }}"/>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>

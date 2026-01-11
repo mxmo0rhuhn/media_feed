@@ -7,8 +7,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Sun, 11 Jan 2026 23:26:45 GMT</pubDate>
-    <lastBuildDate>Sun, 11 Jan 2026 23:26:45 GMT</lastBuildDate>
+    <pubDate>Sun, 11 Jan 2026 23:35:18 GMT</pubDate>
+    <lastBuildDate>Sun, 11 Jan 2026 23:35:18 GMT</lastBuildDate>
     <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
     <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
     <itunes:owner>
@@ -113,7 +113,7 @@ In early 2015, the Federal Bureau of Investigation hacked computers in Austria, 
                  type="video/mp4"/>
     </item>
     <item>
-      <title>What's It Doing Now?</title>
+      <title>What&#39;s It Doing Now?</title>
       <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 RATINGS (Average: 3.0/5 from 1 rating)
 
@@ -124,7 +124,7 @@ Legend has it that most airline pilots will at one time have uttered the sentenc
       <link>https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8033.html</link>
       <guid isPermaLink="true">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8033.html</guid>
       <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
-      <itunes:title>What's It Doing Now?</itunes:title>
+      <itunes:title>What&#39;s It Doing Now?</itunes:title>
       <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 RATINGS (Average: 3.0/5 from 1 rating)
 

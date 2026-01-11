@@ -7,8 +7,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media-feed Python CLI</generator>
-    <pubDate>Sun, 11 Jan 2026 23:26:45 GMT</pubDate>
-    <lastBuildDate>Sun, 11 Jan 2026 23:26:45 GMT</lastBuildDate>
+    <pubDate>Sun, 11 Jan 2026 23:35:19 GMT</pubDate>
+    <lastBuildDate>Sun, 11 Jan 2026 23:35:19 GMT</lastBuildDate>
     <managingEditor>media-feed@spam.schrimpf.ch (Maintainer)</managingEditor>
     <webMaster>media-feed@spam.schrimpf.ch (Maintainer)</webMaster>
     <itunes:owner>
@@ -347,7 +347,7 @@ In der politischen Rede sind immer wieder Floskeln zu beobachten, zum Teil gibt 
                  type="video/mp4"/>
     </item>
     <item>
-      <title>Graphs, Drones & Phones</title>
+      <title>Graphs, Drones &amp; Phones</title>
       <description>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 RATINGS (Average: 5.0/5 from 1 rating)
 
@@ -359,7 +359,7 @@ This talk tries to shift the focus towards the enabling dimensions of Drone warf
       <link>https://events.ccc.de/congress/2015/Fahrplan/events/7259.html</link>
       <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7259.html</guid>
       <pubDate>Tue, 29 Dec 2015 12:45:00 +0100</pubDate>
-      <itunes:title>Graphs, Drones & Phones</itunes:title>
+      <itunes:title>Graphs, Drones &amp; Phones</itunes:title>
       <itunes:summary>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 📊 RATINGS (Average: 5.0/5 from 1 rating)
 
